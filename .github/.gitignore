@@ -55,6 +55,13 @@ twitch_export-win.exe
 server.properties
 whitelist.json
 ops.json
+server-start.bat
+server-start.sh
+settings.cfg
+ModpackUploader.ps1
+ModpackUploader.bat
+Development/settings.ps1
+.build.json
 
 # Instance Sync
 **/*.jar
