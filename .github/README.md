@@ -8,7 +8,7 @@ Join the [NillerMedDild Modpack Discord](https://discord.gg/xPPwaFx), and ask fo
 
 * Fork the Enigmatica 4 repository.
 * Clone the fork to your PC, I recommend using [Sourcetree](https://www.sourcetreeapp.com/)
-* Run the `SetupInstanceSync` script to download the mods. Use either .bat or .sh, depending on your OS.
+* Run the `setup` script to download the mods, it's in the Development folder. Use either .bat or .sh, depending on your OS.
 
 You're done!
 
