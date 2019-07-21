@@ -8,7 +8,8 @@ Follow these steps to setup your workspace:
 
 * Fork the Enigmatica 4 repository.
 * Clone the fork to your PC, I recommend using [Sourcetree](https://www.sourcetreeapp.com/)
-* Run the `Development/setup` script to download the mods. Use either .bat or .sh, depending on your OS.
+* Double click the `Development/setup` script to setup InstanceSync. Use either .bat or .sh, depending on your OS.
+* Pull.
 
 You're done!
 
