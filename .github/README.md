@@ -16,6 +16,6 @@ To update, simply pull from master.
 
 <h2>Links</h2>
 
-* [Curseforge NYI](https://minecraft.curseforge.com/projects/enigmatica2)
+* [Curseforge](https://minecraft.curseforge.com/projects/enigmatica4)
 
 * [Discord](https://discord.gg/HnWNd7X)
