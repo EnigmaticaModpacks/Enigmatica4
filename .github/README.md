@@ -28,13 +28,15 @@ To update, simply pull.
 ##### Repository Setup
 * Fork the Enigmatica 4 repository
 * Open the MultiMC Instance Folder, and go into the .minecraft folder - Open a Terminal and use the following commands:
-* `git init` (Initialize git in folder)
-* `git remote add origin URLToYourEnigmatica4Fork` (Set remote origin to your Enigmatica 4 fork)
-* `git remote -v` (Verify remote)
-* `git fetch`
-* `git pull`
+```
+git init # Initialize git in folder
+git remote add origin URLToYourEnigmatica4Fork # et remote origin to your Enigmatica 4 fork
+git remote -v # erify remote
+git fetch
+git pull
+```
 * Now double click the script `Development/setup.sh` to setup InstanceSync.
-* `git pull`
+* One more `git pull`
 
 You're done!
 
