@@ -15,8 +15,6 @@ Follow these steps to setup your workspace:
 
 You're done!
 
-To update, simply pull.
-
 ### Linux
 ##### Setup MultiMC Instance
 * Download [MultiMC](https://multimc.org/#Download) if you haven't already.
@@ -39,8 +37,6 @@ git pull
 * One more `git pull`
 
 You're done!
-
-To update, simply pull.
 
 #### Alternatives
 It is possible to setup a development instance for Enigmatica 4 in other ways, if you don't like the above approaches.
