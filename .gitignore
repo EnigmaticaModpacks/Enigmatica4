@@ -28,12 +28,10 @@ config/MouseTweaks.cfg
 config/jei/worldSettings.cfg
 config/jei/lookupHistory.zip
 config/jei/bookmarks.ini
-zs_export.json
 .curseclient
 .ReAuth.cfg
 usernamecache.json
 usercache.json
-minecraftinstance.json
 knownkeys.txt
 servers.dat
 realms_persistence.json
