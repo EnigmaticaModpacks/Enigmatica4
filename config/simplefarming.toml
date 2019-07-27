@@ -1,0 +1,23 @@
+#Indicates whether seeds should drop from grass blocks
+"Drop seeds from grass" = false
+#(This feature is disabled by default because seeds drop from grass) Indicates whether wild crops should generate.
+"Generate wild crops" = true
+#Chance of fruit trees generating in the overworld. Higher numbers indicate a lower probability (Default: 500)
+#Range: 1 ~ 1000000000
+"Probability of fruit trees generating" = 500
+#Indicates whether fruit trees should generate
+"Generate fruit trees" = true
+#Indicates whether opuntias (cactus crops) should generate
+"Generate opuntias" = true
+#Indicates whether berry bushes should generate
+"Generate berry bushes" = true
+#Chance of wild crops generating in the overworld. Higher numbers indicate a lower probability (Default: 100)
+#Range: 1 ~ 1000000000
+"Probability of wild crops generating" = 100
+#Chance of opuntias generating in deserts. Higher numbers indicate a lower probability (Default: 150)
+#Range: 1 ~ 1000000000
+"Probability of opuntias generating" = 150
+#Chance of berry bushes generating in the overworld. Higher numbers indicate a lower probability (Default: 180)
+#Range: 1 ~ 1000000000
+"Probability of berry bushes generating" = 180
+

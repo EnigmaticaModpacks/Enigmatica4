@@ -1,0 +1,6 @@
+
+#Client only settings, mostly things related to rendering
+[client]
+	#Set to true to enable rendering curios
+	renderCurios = true
+

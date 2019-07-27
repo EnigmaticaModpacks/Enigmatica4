@@ -1,0 +1,9 @@
+
+[General]
+	#Should elevators have the same color in order to teleport ?
+	sameColor = false
+	#Realign players to the center of elevator ?
+	precisionTarget = true
+	#Can mobs spawn on elevators ?
+	mobSpawn = false
+
