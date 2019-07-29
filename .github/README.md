@@ -11,12 +11,12 @@ Follow these steps to setup your workspace:
 * Fork and clone the Enigmatica 4 repository to the Instances folder of the Twitch App, the default path is `C:\Users\User\Documents\Twitch\Minecraft\Instances`
 * Double click the script `Development/setup.bat` to setup InstanceSync.
 * Pull.
-* Open the Twitch App, go to Mods > Minecraft, and you should see Enigmatica 4.
+* Open the Twitch App, go to Mods > Minecraft, and you should see Enigmatica 4. If you already had Twitch App open, restart it.
 
 You're done!
 
 ### Linux
-##### Setup MultiMC Instance
+##### Setup MultiMC Instance (Currently not possible 29-07-2019)
 * Download [MultiMC](https://multimc.org/#Download) if you haven't already.
 * Open MultiMC.
 * Click Add Instance, choose Minecraft 1.14.4, click Ok.
