@@ -1,0 +1,43 @@
+
+[General]
+	#List of entities to be excluded from catching
+	#Example:
+	#excluded_entities = ["minecraft:wither", "minecraft:ender_dragon"]
+	excluded_entities = ["minecraft:wither", "minecraft:ender_dragon"]
+
+	[General.animal_net_big]
+		#Range: 0 ~ 1000
+		maxUses = 2
+		#Range: 0.0 ~ 1000.0
+		maxSize = 10.0
+
+	[General.npc_net]
+		#Range: 0 ~ 1000
+		maxUses = 1
+		#Range: 0.0 ~ 1000.0
+		maxSize = 10.0
+
+	[General.mob_net_small]
+		#Range: 0 ~ 1000
+		maxUses = 1
+		#Range: 0.0 ~ 1000.0
+		maxSize = 1.3
+
+	[General.animal_net_medium]
+		#Range: 0 ~ 1000
+		maxUses = 1
+		#Range: 0.0 ~ 1000.0
+		maxSize = 1.2
+
+	[General.animal_net_small]
+		#Range: 0 ~ 1000
+		maxUses = 1
+		#Range: 0.0 ~ 1000.0
+		maxSize = 0.5
+
+	[General.mob_net_big]
+		#Range: 0 ~ 1000
+		maxUses = 2
+		#Range: 0.0 ~ 1000.0
+		maxSize = 10.0
+

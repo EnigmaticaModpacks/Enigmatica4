@@ -1,0 +1,6 @@
+
+#Client only settings, mostly things related to rendering
+[client]
+	#Set to true to enable an icon that appears on the HUD when elytra flight is disabled
+	toggleIcon = true
+

@@ -1,0 +1,6 @@
+
+#Server-related options. Please ignore this file if you are not running a server.
+[biomes]
+	#Use the Biomes O' Plenty world type on a dedicated server.
+	use_world_type = true
+

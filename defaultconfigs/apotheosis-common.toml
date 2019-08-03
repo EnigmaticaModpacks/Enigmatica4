@@ -1,0 +1,6 @@
+
+#Server configuration
+[server]
+	#If the death chest is enabled.
+	death_chest = false
+

@@ -1,0 +1,17 @@
+#Range of the Brazier anti-witch effect
+#Set to 0 to disable
+#Range: 0 ~ 512
+brazier_range = 64
+#Percent of normal speed Fertile Soil should work at
+#Set to 0 to disable
+#Range: 0.0 ~ 100.0
+fertile_rate = 100.0
+#Range of signals through Circuit Wire
+#Range: 1 ~ 128
+redstone_range = 16
+#Item ids for wrench items. Should be in format 'modid:itemregistryname', ex. minecraft:apple or essentials:wrench
+wrench_types = ["essentials:wrench", "crossroads:liech_wrench", "actuallyadditions:itemlaserwrench", "appliedenergistics2:certus_quartz_wrench", "appliedenergistics2:nether_quartz_wrench", "base:wrench", "enderio:itemyetawrench", "extrautils2:wrench", "bigreactors:wrench", "forestry:wrench", "progressiveautomation:wrench", "thermalfoundation:wrench", "redstonearsenal:tool.wrench_flux", "rftools:smartwrench", "immersiveengineering:tool"]
+#Maximum Transport Chutes in a line
+#Range: 0 ~ 128
+chute_limit = 16
+
