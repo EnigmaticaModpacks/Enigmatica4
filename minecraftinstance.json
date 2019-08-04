@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-08-03T17:27:17.4358986Z",
+  "lastPlayed": "2019-08-04T07:09:49.7144875Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -815,7 +815,7 @@
       "dateInstalled": "2019-07-24T19:04:11.5218244Z",
       "dateUpdated": "2019-08-03T07:01:21.1385447Z",
       "dateLastUpdateAttempted": "2019-08-03T07:01:21.1385447Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -955,7 +955,7 @@
       "dateInstalled": "2019-08-03T07:10:02.0788896Z",
       "dateUpdated": "2019-08-03T07:10:02.0828602Z",
       "dateLastUpdateAttempted": "2019-08-03T07:10:02.0828602Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1135,16 +1135,16 @@
       "addonID": 220318,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2753815,
-        "displayName": "Biomes O' Plenty 1.14.4-9.0.0.197",
-        "fileName": "BiomesOPlenty-1.14.4-9.0.0.197-universal.jar",
-        "fileDate": "2019-08-03T06:47:24.437Z",
-        "fileLength": 3101495,
+        "id": 2754565,
+        "displayName": "Biomes O' Plenty 1.14.4-9.0.0.201",
+        "fileName": "BiomesOPlenty-1.14.4-9.0.0.201-universal.jar",
+        "fileDate": "2019-08-04T12:55:46.52Z",
+        "fileLength": 3136694,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2753/815/BiomesOPlenty-1.14.4-9.0.0.197-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2754/565/BiomesOPlenty-1.14.4-9.0.0.201-universal.jar",
         "isAlternate": false,
-        "alternateFileId": 2753816,
+        "alternateFileId": 2754566,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
@@ -1155,7 +1155,7 @@
           },
           {
             "foldername": "biomesoplenty",
-            "fingerprint": 2548488238,
+            "fingerprint": 679803077,
             "type": 0
           },
           {
@@ -1165,7 +1165,7 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 2043940791,
+            "fingerprint": 2502230030,
             "type": 0
           },
           {
@@ -1179,7 +1179,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 916969005,
+        "packageFingerprint": 717029339,
         "gameVersion": [
           "1.14.4"
         ],
@@ -1191,11 +1191,11 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "BiomesOPlenty-1.14.4-9.0.0.197-universal.jar"
+        "FileNameOnDisk": "BiomesOPlenty-1.14.4-9.0.0.201-universal.jar"
       },
       "dateInstalled": "2019-07-28T08:07:11.5429186Z",
-      "dateUpdated": "2019-08-03T07:01:07.2796293Z",
-      "dateLastUpdateAttempted": "2019-08-03T07:01:07.2796293Z",
+      "dateUpdated": "2019-08-04T17:45:58.1869975Z",
+      "dateLastUpdateAttempted": "2019-08-04T17:45:58.1869975Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -1267,7 +1267,7 @@
       "dateInstalled": "2019-08-03T17:26:17.3373329Z",
       "dateUpdated": "2019-08-03T17:26:17.3403288Z",
       "dateLastUpdateAttempted": "2019-08-03T17:26:17.3403288Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1276,7 +1276,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 293752,
@@ -1472,7 +1472,7 @@
       "dateInstalled": "2019-07-29T16:59:50.4160496Z",
       "dateUpdated": "2019-08-03T07:01:17.1169649Z",
       "dateLastUpdateAttempted": "2019-08-03T07:01:17.1169649Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1487,27 +1487,27 @@
       "addonID": 309927,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2747452,
-        "displayName": "curios-FORGE-1.14.4-0.18.jar",
-        "fileName": "curios-FORGE-1.14.4-0.18.jar",
-        "fileDate": "2019-07-24T08:25:31.703Z",
-        "fileLength": 144866,
+        "id": 2754191,
+        "displayName": "curios-FORGE-1.14.4-0.20.jar",
+        "fileName": "curios-FORGE-1.14.4-0.20.jar",
+        "fileDate": "2019-08-03T20:45:59.61Z",
+        "fileLength": 150774,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2747/452/curios-FORGE-1.14.4-0.18.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2754/191/curios-FORGE-1.14.4-0.20.jar",
         "isAlternate": false,
-        "alternateFileId": 2747453,
+        "alternateFileId": 2754192,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1778254569,
+            "fingerprint": 2266453386,
             "type": 0
           },
           {
             "foldername": "top",
-            "fingerprint": 2480764535,
+            "fingerprint": 1699772314,
             "type": 0
           },
           {
@@ -1517,7 +1517,7 @@
           },
           {
             "foldername": "CHANGELOG.md",
-            "fingerprint": 2236061713,
+            "fingerprint": 349736025,
             "type": 0
           },
           {
@@ -1546,7 +1546,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4102654428,
+        "packageFingerprint": 3483679034,
         "gameVersion": [
           "1.14.4"
         ],
@@ -1558,12 +1558,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "curios-FORGE-1.14.4-0.18.jar"
+        "FileNameOnDisk": "curios-FORGE-1.14.4-0.20.jar"
       },
       "dateInstalled": "2019-07-24T19:03:10.8038384Z",
-      "dateUpdated": "2019-07-24T19:03:10.8068146Z",
-      "dateLastUpdateAttempted": "2019-07-24T19:03:10.8068146Z",
-      "status": 3,
+      "dateUpdated": "2019-08-04T07:09:30.3124514Z",
+      "dateLastUpdateAttempted": "2019-08-04T07:09:30.3124514Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2062,7 +2062,7 @@
       "dateInstalled": "2019-07-24T18:57:07.8698009Z",
       "dateUpdated": "2019-08-03T07:01:32.2730688Z",
       "dateLastUpdateAttempted": "2019-08-03T07:01:32.2730688Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2145,6 +2145,72 @@
       "installedTargets": null
     },
     {
+      "addonID": 240633,
+      "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
+      "installedFile": {
+        "id": 2747217,
+        "displayName": "inventorysorter-1.14.4-15.2.0.jar",
+        "fileName": "inventorysorter-1.14.4-15.2.0.jar",
+        "fileDate": "2019-07-24T00:47:33.35Z",
+        "fileLength": 36959,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2747/217/inventorysorter-1.14.4-15.2.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 238554292,
+            "type": 0
+          },
+          {
+            "foldername": "cpw",
+            "fingerprint": 3398815965,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2207555489,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3223818920,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1737072334,
+        "gameVersion": [
+          "1.14.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "inventorysorter-1.14.4-15.2.0.jar"
+      },
+      "dateInstalled": "2019-07-24T18:57:32.4752934Z",
+      "dateUpdated": "2019-07-24T18:57:32.4782957Z",
+      "dateLastUpdateAttempted": "2019-07-24T18:57:32.4782957Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 322970,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
@@ -2205,7 +2271,7 @@
       "dateInstalled": "2019-08-03T17:26:03.1312984Z",
       "dateUpdated": "2019-08-03T17:26:03.1393133Z",
       "dateLastUpdateAttempted": "2019-08-03T17:26:03.1393133Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2214,20 +2280,20 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
-      "addonID": 240633,
+      "addonID": 277625,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2747217,
-        "displayName": "inventorysorter-1.14.4-15.2.0.jar",
-        "fileName": "inventorysorter-1.14.4-15.2.0.jar",
-        "fileDate": "2019-07-24T00:47:33.35Z",
-        "fileLength": 36959,
-        "releaseType": 2,
+        "id": 2754401,
+        "displayName": "QuickHomes v1.14.4-1.2.3",
+        "fileName": "quickhomes-1.14.4-1.2.3.jar",
+        "fileDate": "2019-08-04T05:09:07.153Z",
+        "fileLength": 10372,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2747/217/inventorysorter-1.14.4-15.2.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2754/401/quickhomes-1.14.4-1.2.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -2235,28 +2301,29 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 238554292,
+            "fingerprint": 435711781,
             "type": 0
           },
           {
-            "foldername": "cpw",
-            "fingerprint": 3398815965,
+            "foldername": "its_meow",
+            "fingerprint": 1154294111,
             "type": 0
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 2207555489,
+            "fingerprint": 3719139497,
             "type": 0
           },
           {
-            "foldername": "assets",
-            "fingerprint": 3223818920,
+            "foldername": "quickhomes.png",
+            "fingerprint": 4013624136,
             "type": 0
           }
         ],
-        "packageFingerprint": 1737072334,
+        "packageFingerprint": 1097849842,
         "gameVersion": [
-          "1.14.4"
+          "1.14.4",
+          "Forge"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
@@ -2266,12 +2333,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "inventorysorter-1.14.4-15.2.0.jar"
+        "FileNameOnDisk": "quickhomes-1.14.4-1.2.3.jar"
       },
-      "dateInstalled": "2019-07-24T18:57:32.4752934Z",
-      "dateUpdated": "2019-07-24T18:57:32.4782957Z",
-      "dateLastUpdateAttempted": "2019-07-24T18:57:32.4782957Z",
-      "status": 5,
+      "dateInstalled": "2019-08-04T07:08:54.2701866Z",
+      "dateUpdated": "2019-08-04T07:08:54.2932107Z",
+      "dateLastUpdateAttempted": "2019-08-04T07:08:54.2932107Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2411,7 +2478,7 @@
       "dateInstalled": "2019-08-03T07:06:59.9377101Z",
       "dateUpdated": "2019-08-03T07:06:59.9397094Z",
       "dateLastUpdateAttempted": "2019-08-03T07:06:59.9397094Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2625,7 +2692,7 @@
       "dateInstalled": "2019-08-03T07:10:17.4326067Z",
       "dateUpdated": "2019-08-03T07:10:17.4343779Z",
       "dateLastUpdateAttempted": "2019-08-03T07:10:17.4343779Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2795,14 +2862,14 @@
       "addonID": 317780,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2745486,
-        "displayName": "v1.4.5 for Minecraft 1.14.4",
-        "fileName": "XaerosWorldMap_1.4.5_Forge_1.14.4.jar",
-        "fileDate": "2019-07-21T16:07:19.153Z",
-        "fileLength": 241132,
+        "id": 2753920,
+        "displayName": "v1.4.6 for Minecraft 1.14.4",
+        "fileName": "XaerosWorldMap_1.4.6_Forge_1.14.4.jar",
+        "fileDate": "2019-08-03T12:23:14.987Z",
+        "fileLength": 241197,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2745/486/XaerosWorldMap_1.4.5_Forge_1.14.4.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2753/920/XaerosWorldMap_1.4.6_Forge_1.14.4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -2810,12 +2877,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1417047885,
+            "fingerprint": 1513762399,
             "type": 0
           },
           {
             "foldername": "xaero",
-            "fingerprint": 2833764885,
+            "fingerprint": 4035583715,
             "type": 0
           },
           {
@@ -2829,7 +2896,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 700657117,
+        "packageFingerprint": 483615137,
         "gameVersion": [
           "1.14.4"
         ],
@@ -2841,12 +2908,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "XaerosWorldMap_1.4.5_Forge_1.14.4.jar"
+        "FileNameOnDisk": "XaerosWorldMap_1.4.6_Forge_1.14.4.jar"
       },
       "dateInstalled": "2019-07-24T18:58:23.8150711Z",
-      "dateUpdated": "2019-07-24T18:58:23.817103Z",
-      "dateLastUpdateAttempted": "2019-07-24T18:58:23.817103Z",
-      "status": 3,
+      "dateUpdated": "2019-08-04T07:09:37.7209312Z",
+      "dateLastUpdateAttempted": "2019-08-04T07:09:37.7209312Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2913,7 +2980,7 @@
       "dateInstalled": "2019-08-03T17:26:25.3167055Z",
       "dateUpdated": "2019-08-03T17:26:25.362684Z",
       "dateLastUpdateAttempted": "2019-08-03T17:26:25.362684Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2922,7 +2989,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 323126,
@@ -3432,7 +3499,7 @@
       "dateInstalled": "2019-08-03T07:09:52.0565127Z",
       "dateUpdated": "2019-08-03T07:09:52.1905297Z",
       "dateLastUpdateAttempted": "2019-08-03T07:09:52.1905297Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3575,7 +3642,7 @@
       "dateInstalled": "2019-08-03T07:06:26.0306361Z",
       "dateUpdated": "2019-08-03T07:06:26.0336017Z",
       "dateLastUpdateAttempted": "2019-08-03T07:06:26.0336017Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3731,14 +3798,14 @@
       "addonID": 293973,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2748462,
-        "displayName": "EquipmentTooltips-1.14.4-1.3.1+9.jar",
-        "fileName": "EquipmentTooltips-1.14.4-1.3.1+9.jar",
-        "fileDate": "2019-07-25T22:56:04.5Z",
-        "fileLength": 65446,
+        "id": 2754674,
+        "displayName": "EquipmentTooltips-1.14.4-1.3.2+10.jar",
+        "fileName": "EquipmentTooltips-1.14.4-1.3.2+10.jar",
+        "fileDate": "2019-08-04T16:33:14.467Z",
+        "fileLength": 65683,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2748/462/EquipmentTooltips-1.14.4-1.3.1+9.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2754/674/EquipmentTooltips-1.14.4-1.3.2+10.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -3746,12 +3813,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3402990058,
+            "fingerprint": 1591092119,
             "type": 0
           },
           {
             "foldername": "net",
-            "fingerprint": 207571824,
+            "fingerprint": 4215796884,
             "type": 0
           },
           {
@@ -3770,7 +3837,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 391364746,
+        "packageFingerprint": 3255383924,
         "gameVersion": [
           "1.14.4",
           "1.14.3"
@@ -3783,12 +3850,12 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "EquipmentTooltips-1.14.4-1.3.1+9.jar"
+        "FileNameOnDisk": "EquipmentTooltips-1.14.4-1.3.2+10.jar"
       },
       "dateInstalled": "2019-07-26T16:48:49.189838Z",
-      "dateUpdated": "2019-07-26T16:48:49.1918187Z",
-      "dateLastUpdateAttempted": "2019-07-26T16:48:49.1918187Z",
-      "status": 5,
+      "dateUpdated": "2019-08-04T17:46:01.1581612Z",
+      "dateLastUpdateAttempted": "2019-08-04T17:46:01.1581612Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4048,14 +4115,14 @@
       "addonID": 233019,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2753477,
-        "displayName": "AI-Improvements-1.14.4-0.2.2.jar",
-        "fileName": "AI-Improvements-1.14.4-0.2.2.jar",
-        "fileDate": "2019-08-02T19:32:16.263Z",
-        "fileLength": 8530,
+        "id": 2754291,
+        "displayName": "AI-Improvements-1.14.4-0.3.0.jar",
+        "fileName": "AI-Improvements-1.14.4-0.3.0.jar",
+        "fileDate": "2019-08-03T23:36:43.903Z",
+        "fileLength": 21818,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2753/477/AI-Improvements-1.14.4-0.2.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2754/291/AI-Improvements-1.14.4-0.3.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -4063,12 +4130,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 25142127,
+            "fingerprint": 2707936195,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 3911666328,
+            "fingerprint": 3593948214,
             "type": 0
           },
           {
@@ -4077,7 +4144,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3791846729,
+        "packageFingerprint": 2959766188,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -4090,11 +4157,11 @@
         "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
-        "FileNameOnDisk": "AI-Improvements-1.14.4-0.2.2.jar"
+        "FileNameOnDisk": "AI-Improvements-1.14.4-0.3.0.jar"
       },
       "dateInstalled": "2019-08-03T07:05:19.7894791Z",
-      "dateUpdated": "2019-08-03T07:05:19.7924914Z",
-      "dateLastUpdateAttempted": "2019-08-03T07:05:19.7924914Z",
+      "dateUpdated": "2019-08-04T07:09:19.6676121Z",
+      "dateLastUpdateAttempted": "2019-08-04T07:09:19.6676121Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -4161,7 +4228,7 @@
       "dateInstalled": "2019-07-24T18:57:46.949729Z",
       "dateUpdated": "2019-08-03T07:01:23.4787022Z",
       "dateLastUpdateAttempted": "2019-08-03T07:01:23.4787022Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4377,7 +4444,7 @@
       "dateInstalled": "2019-07-25T17:52:01.2916565Z",
       "dateUpdated": "2019-08-03T07:01:35.9678644Z",
       "dateLastUpdateAttempted": "2019-08-03T07:01:35.9678644Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4544,6 +4611,72 @@
       "dateUpdated": "2019-07-24T19:04:07.3241345Z",
       "dateLastUpdateAttempted": "2019-07-24T19:04:07.3241345Z",
       "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 238372,
+      "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
+      "installedFile": {
+        "id": 2754354,
+        "displayName": "Neat 1.5-18.jar",
+        "fileName": "Neat 1.5-18.jar",
+        "fileDate": "2019-08-04T02:50:41.787Z",
+        "fileLength": 18034,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2754/354/Neat 1.5-18.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2403705812,
+            "type": 0
+          },
+          {
+            "foldername": "vazkii",
+            "fingerprint": 87989991,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1764976535,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1353712245,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 781788732,
+        "gameVersion": [
+          "1.14.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "Neat 1.5-18.jar"
+      },
+      "dateInstalled": "2019-08-04T07:08:42.0707347Z",
+      "dateUpdated": "2019-08-04T07:08:42.0807374Z",
+      "dateLastUpdateAttempted": "2019-08-04T07:08:42.0807374Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
