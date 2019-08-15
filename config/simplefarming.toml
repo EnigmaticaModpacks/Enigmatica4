@@ -1,30 +1,30 @@
-#Indicates whether seeds should drop from grass blocks
-"Drop seeds from grass" = false
-#Enable this feature to avoid conflicts with other mods that addgrass drops (And disable grass drops).
-"Generate wild crops" = true
-#Chance of fruit trees generating in the overworld. Higher numbers indicate a lower probability (Default: 600)
-#Range: 1 ~ 1000000000
-"Probability of fruit trees generating" = 500
-#Indicates whether fruit trees should generate
-"Generate fruit trees" = true
-#Indicates whether opuntias (cactus crops) should generate
-"Generate opuntias" = true
-#Indicates whether wild plants, such as quinoa and cumin, should generate
-"Generate wild plants" = true
-#Indicates whether berry bushes should generate
-"Generate berry bushes" = true
-#Indicates whether calamari should drop from squids
-"Drop calamari from squids" = true
-#Chance of wild crops generating in the overworld. Higher numbers indicate a lower probability (Default: 100)
-#Range: 1 ~ 1000000000
-"Probability of wild crops generating" = 100
-#Chance of opuntias generating in deserts. Higher numbers indicate a lower probability (Default: 150)
-#Range: 1 ~ 1000000000
-"Probability of opuntias generating" = 150
-#Chance of wild plants generating in the overworld. Higher numbers indicate a lower probability (Default: 800)
-#Range: 1 ~ 1000000000
-"Probability of wild plants generating" = 800
-#Chance of berry bushes generating in the overworld. Higher numbers indicate a lower probability (Default: 180)
-#Range: 1 ~ 1000000000
-"Probability of berry bushes generating" = 180
+
+["Tweak World Generation Chances"]
+	#Chance of fruit trees generating in the overworld. Higher numbers indicate a lower probability (Default: 600)
+	#Range: 1 ~ 1000000000
+	"Probability of fruit trees generating" = 600
+	#Chance of opuntias generating in deserts. Higher numbers indicate a lower probability (Default: 150)
+	#Range: 1 ~ 1000000000
+	"Probability of opuntias generating" = 150
+	#Chance of wild crops generating in the overworld. Higher numbers indicate a lower probability (Default: 100)
+	#Range: 1 ~ 1000000000
+	"Probability of wild crops generating" = 100
+	#Chance of wild plants generating in the overworld. Higher numbers indicate a lower probability (Default: 800)
+	#Range: 1 ~ 1000000000
+	"Probability of wild plants generating" = 800
+	#Chance of berry bushes generating in the overworld. Higher numbers indicate a lower probability (Default: 180)
+	#Range: 1 ~ 1000000000
+	"Probability of berry bushes generating" = 180
+
+["Enable/Disable World Generation Features"]
+	#Enable this feature to avoid conflicts with other mods that addgrass drops (And disable grass drops).
+	"Generate wild crops" = false
+	#Indicates whether opuntias (cactus crops) should generate
+	"Generate opuntias" = true
+	#Indicates whether fruit trees should generate
+	"Generate fruit trees" = true
+	#Indicates whether wild plants, such as quinoa and cumin, should generate
+	"Generate wild plants" = true
+	#Indicates whether berry bushes should generate
+	"Generate berry bushes" = true
 
