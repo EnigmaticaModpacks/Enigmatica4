@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-08-16T18:02:45.6625338Z",
+  "lastPlayed": "2019-08-16T18:22:31.0843128Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1483,7 +1483,7 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "CosmeticArmorReworked-1.14.4-v1a.jar"
+        "FileNameOnDisk": "CosmeticArmorReworked-1.14.4-v1a.jar.disabled"
       },
       "dateInstalled": "2019-08-03T17:26:17.3373329Z",
       "dateUpdated": "2019-08-06T17:24:33.808496Z",
@@ -2472,14 +2472,14 @@
       "addonID": 304881,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2761180,
-        "displayName": "themidnight-0.4.1.jar",
-        "fileName": "themidnight-0.4.1.jar",
-        "fileDate": "2019-08-13T17:22:31.14Z",
-        "fileLength": 16173043,
+        "id": 2761242,
+        "displayName": "themidnight-0.4.2.jar",
+        "fileName": "themidnight-0.4.2.jar",
+        "fileDate": "2019-08-13T18:41:28.937Z",
+        "fileLength": 16173067,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2761/180/themidnight-0.4.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2761/242/themidnight-0.4.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -2487,12 +2487,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3516189110,
+            "fingerprint": 2500168717,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 3363777106,
+            "fingerprint": 4289556612,
             "type": 0
           },
           {
@@ -2526,7 +2526,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2052626985,
+        "packageFingerprint": 1247955662,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -2540,12 +2540,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "themidnight-0.4.1.jar.disabled"
+        "FileNameOnDisk": "themidnight-0.4.2.jar.disabled"
       },
       "dateInstalled": "2019-08-13T17:24:24.8156646Z",
-      "dateUpdated": "2019-08-15T17:22:17.8101964Z",
-      "dateLastUpdateAttempted": "2019-08-15T17:22:17.8101964Z",
-      "status": 3,
+      "dateUpdated": "2019-08-16T18:27:29.0257547Z",
+      "dateLastUpdateAttempted": "2019-08-16T18:27:29.0257547Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2560,14 +2560,14 @@
       "addonID": 299540,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2761466,
-        "displayName": "FastFurnace-1.14.4-2.1.0.jar",
-        "fileName": "FastFurnace-1.14.4-2.1.0.jar",
-        "fileDate": "2019-08-14T00:37:07.717Z",
-        "fileLength": 17898,
+        "id": 2762908,
+        "displayName": "FastFurnace-1.14.4-2.1.1.jar",
+        "fileName": "FastFurnace-1.14.4-2.1.1.jar",
+        "fileDate": "2019-08-16T00:56:22.773Z",
+        "fileLength": 17200,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2761/466/FastFurnace-1.14.4-2.1.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2762/908/FastFurnace-1.14.4-2.1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -2582,12 +2582,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2056127124,
+            "fingerprint": 2699371792,
             "type": 0
           },
           {
             "foldername": "shadows",
-            "fingerprint": 680554064,
+            "fingerprint": 3358070657,
             "type": 0
           },
           {
@@ -2596,7 +2596,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 301339571,
+        "packageFingerprint": 2659801078,
         "gameVersion": [
           "1.14.4"
         ],
@@ -2609,12 +2609,12 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "FastFurnace-1.14.4-2.1.0.jar"
+        "FileNameOnDisk": "FastFurnace-1.14.4-2.1.1.jar"
       },
       "dateInstalled": "2019-08-09T12:51:40.3231449Z",
-      "dateUpdated": "2019-08-14T18:25:05.145005Z",
-      "dateLastUpdateAttempted": "2019-08-14T18:25:05.145005Z",
-      "status": 3,
+      "dateUpdated": "2019-08-16T18:27:44.5513582Z",
+      "dateLastUpdateAttempted": "2019-08-16T18:27:44.5513582Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3774,20 +3774,20 @@
       "addonID": 313970,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2762599,
-        "displayName": "Apotheosis-1.14.4-2.1.5.jar",
-        "fileName": "Apotheosis-1.14.4-2.1.5.jar",
-        "fileDate": "2019-08-15T16:55:11.59Z",
-        "fileLength": 443199,
+        "id": 2763006,
+        "displayName": "Apotheosis-1.14.4-2.1.6.jar",
+        "fileName": "Apotheosis-1.14.4-2.1.6.jar",
+        "fileDate": "2019-08-16T06:05:57.203Z",
+        "fileLength": 443394,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2762/599/Apotheosis-1.14.4-2.1.5.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2763/6/Apotheosis-1.14.4-2.1.6.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 253449,
+            "addonId": 250419,
             "type": 2,
             "fileId": 0
           },
@@ -3799,7 +3799,13 @@
           },
           {
             "id": 0,
-            "addonId": 250419,
+            "addonId": 331921,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 253449,
             "type": 2,
             "fileId": 0
           },
@@ -3808,19 +3814,13 @@
             "addonId": 238222,
             "type": 2,
             "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 331921,
-            "type": 2,
-            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2263000037,
+            "fingerprint": 3758700383,
             "type": 0
           },
           {
@@ -3830,7 +3830,7 @@
           },
           {
             "foldername": "shadows",
-            "fingerprint": 3042752487,
+            "fingerprint": 496045364,
             "type": 0
           },
           {
@@ -3854,7 +3854,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4279685900,
+        "packageFingerprint": 1073519054,
         "gameVersion": [
           "1.14.4"
         ],
@@ -3867,12 +3867,12 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Apotheosis-1.14.4-2.1.5.jar"
+        "FileNameOnDisk": "Apotheosis-1.14.4-2.1.6.jar"
       },
       "dateInstalled": "2019-08-15T17:18:14.7683437Z",
-      "dateUpdated": "2019-08-15T17:18:14.7713464Z",
-      "dateLastUpdateAttempted": "2019-08-15T17:18:14.7713464Z",
-      "status": 3,
+      "dateUpdated": "2019-08-16T18:28:33.4267308Z",
+      "dateLastUpdateAttempted": "2019-08-16T18:28:33.4267308Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4244,17 +4244,23 @@
       "addonID": 245211,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2758506,
-        "displayName": "The One Probe (Forge) 1.14-1.4.33-alpha",
-        "fileName": "theoneprobe-1.14-1.4.33-alpha.jar",
-        "fileDate": "2019-08-10T04:27:25.963Z",
-        "fileLength": 296298,
+        "id": 2762279,
+        "displayName": "The One Probe (Forge) 1.14-1.4.34-alpha",
+        "fileName": "theoneprobe-1.14-1.4.34-alpha.jar",
+        "fileDate": "2019-08-15T04:56:19.147Z",
+        "fileLength": 296371,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2758/506/theoneprobe-1.14-1.4.33-alpha.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2762/279/theoneprobe-1.14-1.4.34-alpha.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
+          {
+            "id": 0,
+            "addonId": 270789,
+            "type": 2,
+            "fileId": 0
+          },
           {
             "id": 0,
             "addonId": 244651,
@@ -4264,12 +4270,6 @@
           {
             "id": 0,
             "addonId": 227083,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 270789,
             "type": 2,
             "fileId": 0
           }
@@ -4283,7 +4283,7 @@
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 2980206753,
+            "fingerprint": 647130928,
             "type": 0
           },
           {
@@ -4302,9 +4302,10 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4225489219,
+        "packageFingerprint": 1837999630,
         "gameVersion": [
-          "1.14.4"
+          "1.14.4",
+          "Forge"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
@@ -4315,12 +4316,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "theoneprobe-1.14-1.4.33-alpha.jar"
+        "FileNameOnDisk": "theoneprobe-1.14-1.4.34-alpha.jar"
       },
       "dateInstalled": "2019-07-24T18:57:16.0287313Z",
-      "dateUpdated": "2019-08-10T17:05:08.0014558Z",
-      "dateLastUpdateAttempted": "2019-08-10T17:05:08.0014558Z",
-      "status": 3,
+      "dateUpdated": "2019-08-16T18:27:15.8476615Z",
+      "dateLastUpdateAttempted": "2019-08-16T18:27:15.8476615Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
