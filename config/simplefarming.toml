@@ -1,4 +1,22 @@
 
+["Enable/Disable World Generation Features"]
+	#Enable this feature to avoid conflicts with other mods that addgrass drops (And disable grass drops).
+	"Generate wild crops" = false
+	#Indicates whether opuntias (cactus crops) should generate
+	"Generate opuntias" = true
+	#Indicates whether fruit trees should generate
+	"Generate fruit trees" = true
+	#Indicates whether wild plants, such as quinoa and cumin, should generate
+	"Generate wild plants" = true
+	#Indicates whether berry bushes should generate
+	"Generate berry bushes" = true
+
+["Enable/Disable Miscellaneous Features"]
+	#Indicates whether vanilla seeds (beetroot, melon, & pumpkin) should drop from grass
+	"Drop vanilla seeds" = true
+	#Indicates whether right-click harvesting on blocks should be enabled
+	"Enable right-click harvesting" = true
+
 ["Tweak World Generation Chances"]
 	#Chance of fruit trees generating in the overworld. Higher numbers indicate a lower probability (Default: 600)
 	#Range: 1 ~ 1000000000
@@ -15,16 +33,4 @@
 	#Chance of berry bushes generating in the overworld. Higher numbers indicate a lower probability (Default: 180)
 	#Range: 1 ~ 1000000000
 	"Probability of berry bushes generating" = 180
-
-["Enable/Disable World Generation Features"]
-	#Enable this feature to avoid conflicts with other mods that addgrass drops (And disable grass drops).
-	"Generate wild crops" = false
-	#Indicates whether opuntias (cactus crops) should generate
-	"Generate opuntias" = true
-	#Indicates whether fruit trees should generate
-	"Generate fruit trees" = true
-	#Indicates whether wild plants, such as quinoa and cumin, should generate
-	"Generate wild plants" = true
-	#Indicates whether berry bushes should generate
-	"Generate berry bushes" = true
 

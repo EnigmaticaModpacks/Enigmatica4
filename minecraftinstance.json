@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-08-18T17:19:38.0966417Z",
+  "lastPlayed": "2019-08-18T17:26:07.066465Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -2391,7 +2391,7 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "DefaultOptions_1.14.4-10.2.4.jar"
+        "FileNameOnDisk": "DefaultOptions_1.14.4-10.2.4.jar.disabled"
       },
       "dateInstalled": "2019-08-17T08:21:57.7937846Z",
       "dateUpdated": "2019-08-17T08:21:57.7957918Z",
