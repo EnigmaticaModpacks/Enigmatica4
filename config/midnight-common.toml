@@ -1,0 +1,3 @@
+#All the options that can only be set on the server.
+general = {}
+
