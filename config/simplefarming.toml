@@ -14,8 +14,6 @@
 ["Enable/Disable Miscellaneous Features"]
 	#Indicates whether vanilla seeds (beetroot, melon, & pumpkin) should drop from grass
 	"Drop vanilla seeds" = true
-	#Indicates whether right-click harvesting on blocks should be enabled
-	"Enable right-click harvesting" = true
 
 ["Tweak World Generation Chances"]
 	#Chance of fruit trees generating in the overworld. Higher numbers indicate a lower probability (Default: 600)
