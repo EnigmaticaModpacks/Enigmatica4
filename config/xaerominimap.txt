@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:201
+ignoreUpdate:206
 updateNotification:true
 settingsButton:false
 allowWrongWorldTeleportation:false
@@ -65,6 +65,9 @@ openSlimeSettings:true
 alwaysShowDistance:false
 playerNames:true
 showLightLevel:false
+renderLayerIndex:1
+crossDimensionalTp:true
+mpCrossDimensionalTp:false
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

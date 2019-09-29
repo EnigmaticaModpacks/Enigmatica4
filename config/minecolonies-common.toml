@@ -1,0 +1,269 @@
+
+#minecolonies.config.gameplay.comment
+[gameplay]
+	#minecolonies.config.updaterate.comment
+	#Range: 0 ~ 100
+	updaterate = 1
+	#minecolonies.config.fixorphanedchunks.comment
+	fixorphanedchunks = false
+	#minecolonies.config.maxcitizenpercolony.comment
+	#Range: 4 ~ 500
+	maxcitizenpercolony = 50
+	#minecolonies.config.maxblockscheckedbybuilder.comment
+	#Range: 1000 ~ 100000
+	maxblockscheckedbybuilder = 1000
+	#minecolonies.config.enableindevelopmentfeatures.comment
+	enableindevelopmentfeatures = false
+	#minecolonies.config.builderplaceconstructiontape.comment
+	builderplaceconstructiontape = true
+	#minecolonies.config.builderinfiniteresources.comment
+	builderinfiniteresources = false
+	#minecolonies.config.allowinfinitecolonies.comment
+	allowinfinitecolonies = false
+	#minecolonies.config.growthmodifier.comment
+	#Range: 1.0 ~ 100.0
+	growthmodifier = 1.0
+	#minecolonies.config.alwaysrendernametag.comment
+	alwaysrendernametag = true
+	#minecolonies.config.allowinfinitesupplychests.comment
+	allowinfinitesupplychests = false
+	#minecolonies.config.citizenrespawninterval.comment
+	#Range: 10 ~ 600
+	citizenrespawninterval = 60
+	#minecolonies.config.allowotherdimcolonies.comment
+	allowotherdimcolonies = false
+	#minecolonies.config.workersalwaysworkinrain.comment
+	workersalwaysworkinrain = false
+	#minecolonies.config.allowplayerschematics.comment
+	allowplayerschematics = false
+	#minecolonies.config.dirtfromcompost.comment
+	#Range: 0 ~ 100
+	dirtfromcompost = 1
+	#minecolonies.config.chatfrequency.comment
+	#Range: 1 ~ 100
+	chatfrequency = 30
+	#minecolonies.config.foodmodifier.comment
+	#Range: 0.0 ~ 100.0
+	foodmodifier = 1.0
+	#minecolonies.config.blockminingdelaymodifier.comment
+	#Range: 1 ~ 10000
+	blockminingdelaymodifier = 500
+	#minecolonies.config.fisherspongechance.comment
+	#Range: 0.0 ~ 100.0
+	fisherspongechance = 0.1
+	#minecolonies.config.sendenteringleavingmessages.comment
+	sendenteringleavingmessages = true
+	#minecolonies.config.allowglobalnamechanges.comment
+	#Range: -1 ~ 1
+	allowglobalnamechanges = 1
+	#minecolonies.config.builderbuildblockdelay.comment
+	#Range: 1 ~ 500
+	builderbuildblockdelay = 15
+	#minecolonies.config.initialcitizenamount.comment
+	#Range: 1 ~ 10
+	initialcitizenamount = 4
+	#minecolonies.config.restrictbuilderunderground.comment
+	restrictbuilderunderground = true
+	#minecolonies.config.limittoonewarehousepercolony.comment
+	limittoonewarehousepercolony = true
+	#minecolonies.config.playergetsguidebookonfirstjoin.comment
+	playergetsguidebookonfirstjoin = true
+	#minecolonies.config.luckyblockchance.comment
+	#Range: 0 ~ 100
+	luckyblockchance = 1
+	#minecolonies.config.suggestbuildtoolplacement.comment
+	suggestbuildtoolplacement = true
+	#minecolonies.config.holidayfeatures.comment
+	holidayfeatures = true
+	#minecolonies.config.minthleveltoteleport.comment
+	#Range: 0 ~ 5
+	minthleveltoteleport = 3
+	#minecolonies.config.disablecitizenvoices.comment
+	disablecitizenvoices = false
+
+#minecolonies.config.commands.comment
+[commands]
+	#minecolonies.config.canplayerusecolonytpcommand.comment
+	canplayerusecolonytpcommand = false
+	#minecolonies.config.oplevelforserver.comment
+	#Range: 0 ~ 3
+	oplevelforserver = 3
+	#minecolonies.config.canplayerusebackupcommand.comment
+	canplayerusebackupcommand = false
+	#minecolonies.config.autodestroycolonyblocks.comment
+	autodestroycolonyblocks = true
+	#minecolonies.config.canplayerusecitizeninfocommand.comment
+	canplayerusecitizeninfocommand = true
+	#minecolonies.config.canplayerusertpcommand.comment
+	canplayerusertpcommand = true
+	#minecolonies.config.numberofattemptsforsafetp.comment
+	#Range: 1 ~ 10
+	numberofattemptsforsafetp = 4
+	#minecolonies.config.canplayerusedeletecolonycommand.comment
+	canplayerusedeletecolonycommand = true
+	#minecolonies.config.autodeletecoloniesinhours.comment
+	#Range: 168 ~ 10000
+	autodeletecoloniesinhours = 168
+	#minecolonies.config.canplayeruseshowcolonyinfocommand.comment
+	canplayeruseshowcolonyinfocommand = true
+	#minecolonies.config.canplayeruseaddofficercommand.comment
+	canplayeruseaddofficercommand = true
+	#minecolonies.config.canplayeruserefreshcolonycommand.comment
+	canplayeruserefreshcolonycommand = false
+	#minecolonies.config.teleportbuffer.comment
+	#Range: 30 ~ 99999
+	teleportbuffer = 120
+	#minecolonies.config.canplayerusehometpcommand.comment
+	canplayerusehometpcommand = true
+	#minecolonies.config.canplayerusekillcitizenscommand.comment
+	canplayerusekillcitizenscommand = true
+	#minecolonies.config.canplayerrespawncitizenscommand.comment
+	canplayerrespawncitizenscommand = true
+	#minecolonies.config.canplayeruselistcitizenscommand.comment
+	canplayeruselistcitizenscommand = true
+
+#minecolonies.config.claims.comment
+[claims]
+	#minecolonies.config.mintownhallpadding.comment
+	#Range: 1 ~ 200
+	mintownhallpadding = 3
+	#minecolonies.config.restrictcolonyplacement.comment
+	restrictcolonyplacement = false
+	#minecolonies.config.maxdistancefromworldspawn.comment
+	#Range: 1000 ~ 100000
+	maxdistancefromworldspawn = 8000
+	#minecolonies.config.townhallpadding.comment
+	#Range: 1 ~ 20000
+	townhallpadding = 20
+	#minecolonies.config.enabledynamiccolonysizes.comment
+	enabledynamiccolonysizes = false
+	#minecolonies.config.workingrangetownhallchunks.comment
+	#Range: 1 ~ 50
+	workingrangetownhallchunks = 8
+	#minecolonies.config.townhallpaddingchunk.comment
+	#Range: 1 ~ 200
+	townhallpaddingchunk = 1
+	#minecolonies.config.protectvillages.comment
+	protectvillages = false
+	#minecolonies.config.mindistancefromworldspawn.comment
+	#Range: 1 ~ 1000
+	mindistancefromworldspawn = 512
+
+#minecolonies.config.combat.comment
+[combat]
+	#minecolonies.config.minimumnumberofnightsbetweenraids.comment
+	#Range: 1 ~ 30
+	minimumnumberofnightsbetweenraids = 1
+	#minecolonies.config.daysuntilpirateshipsdespawn.comment
+	#Range: 1 ~ 10
+	daysuntilpirateshipsdespawn = 3
+	#minecolonies.config.citizencallforhelp.comment
+	citizencallforhelp = true
+	#minecolonies.config.dobarbariansbreakthroughwalls.comment
+	dobarbariansbreakthroughwalls = true
+	#minecolonies.config.mobattackcitizens.comment
+	mobattackcitizens = false
+	#minecolonies.config.maxbarbariansize.comment
+	#Range: 6 ~ 40
+	maxBarbarianSize = 20
+	#minecolonies.config.guardhealthmult.comment
+	#Range: 0.1 ~ 5.0
+	guardhealthmult = 1.0
+	#minecolonies.config.barbarianhordedifficulty.comment
+	#Range: 0 ~ 10
+	barbarianhordedifficulty = 5
+	#minecolonies.config.averagenumberofnightsbetweenraids.comment
+	#Range: 1 ~ 10
+	averagenumberofnightsbetweenraids = 3
+	#minecolonies.config.knightdamagemult.comment
+	#Range: 0.1 ~ 5.0
+	knightdamagemult = 1.0
+	#minecolonies.config.pvp_mode.comment
+	pvp_mode = false
+	#minecolonies.config.maxyforbarbarians.comment
+	#Range: 1 ~ 500
+	maxyforbarbarians = 200
+	#minecolonies.config.dobarbariansspawn.comment
+	dobarbariansspawn = true
+	#minecolonies.config.rangerdamagemult.comment
+	#Range: 0.1 ~ 5.0
+	rangerdamagemult = 1.0
+	#minecolonies.config.spawnbarbariansize.comment
+	#Range: 1 ~ 10
+	spawnbarbariansize = 5
+	#minecolonies.config.rangerenchants.comment
+	rangerenchants = true
+
+#minecolonies.config.permissions.comment
+[permissions]
+	#minecolonies.config.freetointeractblocks.comment
+	freetointeractblocks = ["dirt", "0 0 0"]
+	#minecolonies.config.enablecolonyprotection.comment
+	enablecolonyprotection = true
+	#minecolonies.config.turnoffexplosionsincolonies.comment
+	turnoffexplosionsincolonies = true
+	#minecolonies.config.secondsbetweenpermissionmessages.comment
+	#Range: 1 ~ 1000
+	secondsBetweenPermissionMessages = 30
+	#minecolonies.config.specialpermgroup.comment
+	specialpermgroup = ["_Raycoms_"]
+
+#minecolonies.config.compatibility.comment
+[compatibility]
+	#minecolonies.config.extraores.comment
+	extraOres = ["minestuck:ore_cruxite", "minestuck:ore_uranium"]
+	#minecolonies.config.crusherproduction.comment
+	crusherproduction = ["minecraft:cobblestone!minecraft:gravel", "minecraft:gravel!minecraft:sand", "minecraft:sand!minecraft:clay"]
+	#minecolonies.config.guardresourcelocations.comment
+	guardresourcelocations = ["minecraft:slime", "tconstruct:blueslime"]
+	#minecolonies.config.siftableblocks.comment
+	siftableblocks = ["minecraft:dirt", "minecraft:sand", "minecraft:gravel", "minecraft:soul_sand"]
+	#minecolonies.config.configliststudyitems.comment
+	configliststudyitems = ["minecraft:paper;400;100"]
+	#minecolonies.config.dynamictreeharvestsize.comment
+	#Range: 1 ~ 5
+	dynamictreeharvestsize = 5
+	#minecolonies.config.luckyblocks.comment
+	luckyblocks = ["minecraft:coal_ore!64", "minecraft:iron_ore!32", "minecraft:gold_ore!16", "minecraft:redstone_ore!8", "minecraft:lapis_ore!4", "minecraft:diamond_ore!2", "minecraft:emerald_ore!1"]
+	#minecolonies.config.siftermeshes.comment
+	siftermeshes = ["minecraft:string,0", "minecraft:flint,0.1", "minecraft:iron_ingot,0.1", "minecraft:diamond,0.1"]
+	#minecolonies.config.listofcompostableitems.comment
+	listOfCompostableItems = ["minecraft:rotten_flesh", "minecraft:tallgrass", "minecraft:brown_mushroom", "minecraft:red_mushroom", "minecraft:rose_bush", "minecraft:feather", "saplings", "small_flowers"]
+	#minecolonies.config.sifterdrops.comment
+	sifterdrops = ["0,0,minecraft:wheat_seeds,25", "0,0,minecraft:oak_sapling,1", "0,0,minecraft:birch_sapling,1", "0,0,minecraft:spruce_sapling,1", "0,0,minecraft:jungle_sapling,1", "0,1,minecraft:wheat_seeds,50", "0,1,minecraft:oak_sapling,5", "0,1,minecraft:birch_sapling,5", "0,1,minecraft:spruce_sapling,5", "0,1,minecraft:jungle_sapling,5", "0,1,minecraft:carrot:0,1", "0,1,minecraft:potato:0,1", "0,2,minecraft:wheat_seeds,50", "0,2,minecraft:oak_sapling,10", "0,2,minecraft:birch_sapling,10", "0,2,minecraft:spruce_sapling,10", "0,2,minecraft:jungle_sapling,10", "0,2,minecraft:pumpkin_seeds:0,1", "0,2,minecraft:melon_seeds:0,1", "0,2,minecraft:beetroot_seeds:0,1", "0,2,minecraft:carrot,1", "0,2,minecraft:potato,1", "0,2,minecraft:dark_oak_sapling,1", "0,2,minecraft:acacia_sapling,1", "0,3,minecraft:wheat_seeds,25", "0,3,minecraft:oak_sapling,10", "0,3,minecraft:birch_sapling,10", "0,3,minecraft:spruce_sapling,10", "0,3,minecraft:jungle_sapling,10", "0,3,minecraft:pumpkin_seeds:0,5", "0,3,minecraft:melon_seeds:0,5", "0,3,minecraft:beetroot_seeds:0,5", "0,3,minecraft:carrot:0,5", "0,3,minecraft:potato:0,5", "0,3,minecraft:dark_oak_sapling,5", "0,3,minecraft:acacia_sapling,5", "1,0,minecraft:cactus,2.5", "1,0,minecraft:sugar_cane,2.5", "1,1,minecraft:cactus,5", "1,1,minecraft:sugar_cane,5", "1,1,minecraft:gold_nugget,5", "1,2,minecraft:cactus,10", "1,2,minecraft:sugar_cane,10", "1,2,minecraft:cocoa_beans,10", "1,2,minecraft:gold_nugget,10", "1,3,minecraft:cactus,15", "1,3,minecraft:sugar_cane,15", "1,3,minecraft:cocoa_beans,15", "1,3,minecraft:gold_nugget,15", "2,0,minecraft:iron_nugget,5", "2,0,minecraft:flint,5", "2,0,minecraft:coal,5", "2,1,minecraft:redstone,10", "2,1,minecraft:iron_nugget,10", "2,1,minecraft:flint,10", "2,1,minecraft:coal,10", "2,2,minecraft:redstone,15", "2,2,minecraft:iron_nugget,15", "2,2,minecraft:coal,15", "2,2,minecraft:lapis_lazuli,5", "2,2,minecraft:iron_ingot,1", "2,2,minecraft:gold_ingot,1", "2,2,minecraft:emerald,1", "2,2,minecraft:diamond,1", "2,3,minecraft:redstone,20", "2,3,minecraft:coal,20", "2,3,minecraft:lapis_lazuli,10", "2,3,minecraft:iron_ingot,2.5", "2,3,minecraft:gold_ingot,2.5", "2,3,minecraft:emerald,2.5", "2,3,minecraft:diamond,2.5", "3,0,minecraft:nether_wart,5", "3,0,minecraft:quartz,5", "3,1,minecraft:nether_wart,10", "3,1,minecraft:quartz,10", "3,1,minecraft:glowstone_dust,5", "3,2,minecraft:nether_wart,10", "3,2,minecraft:quartz,10", "3,2,minecraft:glowstone_dust,10", "3,2,minecraft:blaze_powder,1", "3,2,minecraft:magma_cream,1", "3,3,minecraft:nether_wart,15", "3,3,minecraft:quartz,15", "3,3,minecraft:glowstone_dust,15", "3,3,minecraft:blaze_powder,5", "3,3,minecraft:magma_cream,5", "3,3,minecraft:player_head,5"]
+
+#minecolonies.config.pathfinding.comment
+[pathfinding]
+	#minecolonies.config.pathfindingmaxthreadcount.comment
+	#Range: 1 ~ 10
+	pathfindingmaxthreadcount = 2
+	#minecolonies.config.pathfindingdebugdraw.comment
+	pathfindingdebugdraw = false
+	#minecolonies.config.pathfindingdebugverbosity.comment
+	#Range: 0 ~ 10
+	pathfindingdebugverbosity = 0
+	#minecolonies.config.pathfindingmaxnodes.comment
+	#Range: 1 ~ 10000
+	pathfindingmaxnodes = 5000
+
+#minecolonies.config.requestsystem.comment
+[requestSystem]
+	#minecolonies.config.maximalretries.comment
+	#Range: 1 ~ 10
+	maximalretries = 3
+	#minecolonies.config.creativeresolve.comment
+	creativeresolve = false
+	#minecolonies.config.canplayeruseresetcommand.comment
+	canplayeruseresetcommand = false
+	#minecolonies.config.delaybetweenretries.comment
+	#Range: 30 ~ 10000
+	delaybetweenretries = 1200
+	#minecolonies.config.maximalbuildingstogather.comment
+	#Range: 1 ~ 50
+	maximalbuildingstogather = 6
+	#minecolonies.config.enabledebuglogging.comment
+	enabledebuglogging = false
+	#minecolonies.config.minimalbuildingstogather.comment
+	#Range: 1 ~ 50
+	minimalbuildingstogather = 3
+
