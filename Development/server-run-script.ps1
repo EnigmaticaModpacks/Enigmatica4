@@ -4,29 +4,43 @@ The server needs to be hooked up to the E4 github repository, and use the ATM se
 This script should be placed in the root of the modpack instance.
 
 Clientside mods should be placed inside the $ClientMods array below, if any get added.
-This script is screaming DIY ^^'
 #>
-
 param(
     [PSObject]
-    $ClientMods = @("AppleSkin", "BetterAdvancements", "CraftingTweaks", "DefaultOptions", "EnchantmentDescriptions", "EquipmentTooltips", "FpsReducer", "LLOverlayReloaded", "MouseTweaks", "Neat", "overloadedarmorbar", "swingthroughgrass", "ToastControl", "toughnessbar", "Xaeros_Minimap", "XaerosWorldMap")
+    $ClientMods = @(
+	"AppleSkin", 
+	"BetterAdvancements", 
+	"CraftingTweaks", 
+	"DefaultOptions", 
+	"EnchantmentDescriptions", 
+	"EquipmentTooltips", 
+	"FpsReducer", 
+	"LLOverlayReloaded", 
+	"MouseTweaks", 
+	"Neat", 
+	"overloadedarmorbar", 
+	"swingthroughgrass", 
+	"ToastControl", 
+	"toughnessbar", 
+	"Xaeros_Minimap", 
+	"XaerosWorldMap")
 )
 
+$ModFolder = "$PSScriptRoot/mods"
+$ClientMods = $ClientMods.toLower()
+
+Remove-Item $Modfolder -Recurse -ErrorAction SilentlyContinue
+
+git stash
 git pull
 
-$ModFolder = "$PSScriptRoot\mods"
-$AllTheMods = Get-ChildItem $ModFolder -Name -Filter  "*.jar"
-$clientMods = $clientMods.toLower()
-
-
-foreach ($mod in $AllTheMods) {
-    $mod = $mod.toLower()
-    foreach ($clientMod in $ClientMods) {
-        if ($mod.StartsWith($clientMod)) {
-            Remove-Item "$modfolder\$mod" -Force
+Get-ChildItem $ModFolder -Name -Filter  "*.jar" | ForEach-Object {
+	$Mod = $_.toLower()
+    foreach ($ClientMod in $ClientMods) {
+        if ($Mod.StartsWith($ClientMod)) {
+            Remove-Item "$modfolder/$mod" -Force
         }
     }
 }
-
-     
+pause
 Start-Process server-start.bat

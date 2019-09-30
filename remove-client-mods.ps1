@@ -26,7 +26,7 @@ param(
 	"XaerosWorldMap")
 )
 
-$ModFolder = "$PSScriptRoot\mods"
+$ModFolder = "$PSScriptRoot/mods"
 $AllTheMods = Get-ChildItem $ModFolder -Name -Filter  "*.jar"
 $ClientMods = $ClientMods.toLower()
 
@@ -34,7 +34,7 @@ foreach ($Mod in $AllTheMods) {
     $Mod = $Mod.toLower()
     foreach ($ClientMod in $ClientMods) {
         if ($Mod.StartsWith($ClientMod)) {
-            Remove-Item "$modfolder\$mod" -Force
+            Remove-Item "$modfolder/$mod" -Force
         }
     }
 }
