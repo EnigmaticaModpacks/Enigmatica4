@@ -44,5 +44,5 @@ Get-ChildItem $ModFolder -Name -Filter  "*.jar" | ForEach-Object {
         }
     }
 }
-Pause
+
 Start-Process server-start.bat
