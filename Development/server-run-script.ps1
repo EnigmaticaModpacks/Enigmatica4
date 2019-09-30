@@ -9,7 +9,8 @@ param(
     [PSObject]
     $ClientMods = @(
 	"AppleSkin", 
-	"BetterAdvancements", 
+	"BetterAdvancements",
+	"CosmeticArmorReworked",
 	"CraftingTweaks", 
 	"DefaultOptions", 
 	"EnchantmentDescriptions", 
@@ -31,6 +32,7 @@ $ModFolder = "$PSScriptRoot/mods"
 $ClientMods = $ClientMods.toLower()
 
 git stash
+git reset
 git pull
 git stash pop
 

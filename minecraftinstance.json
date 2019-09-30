@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-09-30T18:26:48.7897041Z",
+  "lastPlayed": "2019-09-30T19:03:01.1129977Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1276,6 +1276,24 @@
   "preferenceShowAddOnInfo": true,
   "installDate": "2019-07-23T18:12:14.308505Z",
   "installedAddons": [
+    {
+      "addonID": 306058,
+      "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
+      "installedFile": null,
+      "dateInstalled": "2019-09-30T18:59:55.5910161Z",
+      "dateUpdated": "2019-09-30T18:59:55.5970172Z",
+      "dateLastUpdateAttempted": "2019-09-30T18:59:55.5970172Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
     {
       "addonID": 316881,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
