@@ -1,5 +1,9 @@
 # Enigmatica 4
 
+* [Curseforge](https://minecraft.curseforge.com/projects/enigmatica4)
+
+* [Discord](https://discord.gg/HnWNd7X)
+
 This is the official repository and issue-tracker for the modpack Enigmatica 4, for Minecraft 1.14.4
 
 ## Contributing
@@ -44,9 +48,3 @@ It is possible to setup a development instance for Enigmatica 4 in other ways, i
 ## Optional Dependencies
 * [Twitch App](https://www.twitch.tv/downloads) (Windows/Mac)
 * [MultiMC](https://multimc.org/#Download) (Linux)
-
-## Links
-
-* [Curseforge](https://minecraft.curseforge.com/projects/enigmatica4)
-
-* [Discord](https://discord.gg/HnWNd7X)
