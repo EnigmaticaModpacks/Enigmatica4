@@ -1,10 +1,10 @@
 # Enigmatica 4
 
+This is the official repository and issue-tracker for the modpack Enigmatica 4, for Minecraft 1.14.4
+
 * [Curseforge](https://minecraft.curseforge.com/projects/enigmatica4)
 
 * [Discord](https://discord.gg/HnWNd7X)
-
-This is the official repository and issue-tracker for the modpack Enigmatica 4, for Minecraft 1.14.4
 
 ## Contributing
 
