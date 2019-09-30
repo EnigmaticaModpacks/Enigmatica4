@@ -16,7 +16,8 @@ param(
 	"EquipmentTooltips", 
 	"FpsReducer", 
 	"LLOverlayReloaded", 
-	"MouseTweaks", 
+	"MouseTweaks",
+	"na_1.14-3.2", 
 	"Neat", 
 	"overloadedarmorbar", 
 	"swingthroughgrass", 
@@ -29,10 +30,9 @@ param(
 $ModFolder = "$PSScriptRoot/mods"
 $ClientMods = $ClientMods.toLower()
 
-Remove-Item $Modfolder -Recurse -ErrorAction SilentlyContinue
-
 git stash
 git pull
+git stash pop
 
 Get-ChildItem $ModFolder -Name -Filter  "*.jar" | ForEach-Object {
 	$Mod = $_.toLower()
@@ -42,5 +42,5 @@ Get-ChildItem $ModFolder -Name -Filter  "*.jar" | ForEach-Object {
         }
     }
 }
-pause
+Pause
 Start-Process server-start.bat
