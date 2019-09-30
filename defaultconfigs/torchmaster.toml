@@ -1,0 +1,7 @@
+
+[General]
+	#The radius of the mega torch in each direction (cube) with the torch at its center
+	megaTorchRadius = 64
+	#By default, mega torches only block natural spawns (i.e. from low light levels). Setting this to false will also block spawns from spawners
+	blockOnlyNaturalSpawns = true
+

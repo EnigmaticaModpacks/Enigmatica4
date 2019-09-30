@@ -1,0 +1,7 @@
+
+#Client-only settings - If you're looking for server/common settings, look inside your worlds serverconfig folder!
+[client]
+	#
+	#Show item descriptions on Shift and controls on Ctrl.
+	enableTooltips = true
+

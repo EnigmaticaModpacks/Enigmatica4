@@ -14,7 +14,7 @@ tankbarAlternateFilledColor = "ff000043"
 #Range: 0 ~ 2
 showTank = 1
 #If true there will be a readme note for first-time players
-spawnNote = true
+spawnNote = false
 #A list of blocks for which we don't show chest contents automatically except if sneaking
 dontShowContentsUnlessSneaking = []
 #Format for displaying RF
@@ -45,7 +45,7 @@ rfbarAlternateFilledColor = "ff430000"
 showItemDetailThresshold = 4
 #Is the probe needed to show the tooltip? 0 = no, 1 = yes, 2 = yes and clients cannot override, 3 = probe needed for extended info only
 #Range: 0 ~ 3
-needsProbe = 3
+needsProbe = 0
 #Color for the tank bar
 tankbarFilledColor = "ff0000dd"
 #A list of blocks for which we don't send NBT over the network. This is mostly useful for blocks that have HUGE NBT in their pickblock (itemstack)

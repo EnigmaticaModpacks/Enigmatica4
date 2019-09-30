@@ -1,0 +1,103 @@
+
+["world gen"]
+	#Tungsten Max Y
+	maxTungstenY = 10
+	#Vein Count Tungsten
+	veinCountTungsten = 2
+	#Vein Count Zinc
+	veinCountZinc = 6
+	#Generate Ruby
+	generateRuby = true
+	#Amethyst Min Y
+	minAmethystY = 0
+	#Vein Size Zinc
+	veinSizeZinc = 6
+	#Generate Teslatite
+	generateTeslatite = true
+	#Teslatite Min Y
+	minTeslatiteY = 1
+	#Teslatite Max Y
+	maxTeslatiteY = 20
+	#Generate Amethyst
+	generateAmethyst = true
+	#Generate Zinc
+	generateZinc = true
+	#Vein Size Teslatite
+	veinSizeTeslatite = 8
+	#Generate Copper
+	generateCopper = true
+	#Copper Min Y
+	minCopperY = 35
+	#Volcano Spawn Chance
+	volcanoSpawnChance = 0.005
+	#Vein Count Ruby
+	veinCountRuby = 2
+	#Vein Size Silver
+	veinSizeSilver = 6
+	#Silver Max Y
+	maxSilverY = 20
+	#Copper Max Y
+	maxCopperY = 90
+	#Vein Size Ruby
+	veinSizeRuby = 5
+	#Generate Sapphire
+	generateSapphire = true
+	#Vein Size Copper
+	veinSizeCopper = 7
+	#veinSizeMarble
+	veinSizeMarble = 2048
+	#Amethyst Max Y
+	maxAmethystY = 48
+	#Sapphire Min Y
+	minSapphireY = 0
+	#Vein Count Amethyst
+	veinCountAmethyst = 2
+	#Generate Tungsten
+	generateTungsten = true
+	#Vein Count Teslatite
+	veinCountTeslatite = 4
+	#Ruby Max Y
+	maxRubyY = 48
+	#Vein Count Silver
+	veinCountSilver = 3
+	#Silver Min Y
+	minSilverY = 1
+	#Zinc Min Y
+	minZincY = 15
+	#Volcano Active To Inactive Ratio
+	volcanoActiveToInactiveRatio = 0.5
+	#Sapphire Max Y
+	maxSapphireY = 48
+	#Vein Size Tungsten
+	veinSizeTungsten = 3
+	#Ruby Min Y
+	minRubyY = 0
+	#Zinc Max Y
+	maxZincY = 40
+	#Generate Silver
+	generateSilver = true
+	#Vein Size Sapphire
+	veinSizeSapphire = 5
+	#Vein Count Sapphire
+	veinCountSapphire = 2
+	#Vein Size Amethyst
+	veinSizeAmethyst = 5
+	#Tungsten Min Y
+	minTungstenY = 1
+	#Vein Count Copper
+	veinCountCopper = 8
+	#Indigo Flower Spawn Chance
+	flowerSpawnChance = 1
+
+	["world gen"."recipe enabling"]
+		#Enable Gate Ticking Sounds
+		tickingSounds = true
+		#Any item name (minecraft:bucket,minecraft:minecart) added here will be blacklisted from being able to melt down into its raw materials.
+		alloyFurnaceBlacklist = "minecraft:iron_nugget,minecraft:gold_nugget,minecraft:gold_ingot,minecraft:iron_ingot"
+		#Server Template Saving by Ops only
+		ServerTemplateOpsonly = false
+		#Generate Json Datapack for Alloy Furnace (Only used to generate recycling recipes)
+		alloyFurnaceDatapackGenerator = true
+		#Albedo Support Lamp Brightness
+		albedoBrightness = 0.01
+

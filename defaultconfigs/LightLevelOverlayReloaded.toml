@@ -1,0 +1,26 @@
+
+# User interaction announcement.
+[announceWhen]
+	toggleOverlay = true
+	switchDisplayMode = true
+
+# The rendering radius. (default: 3)
+[renderingRadius]
+	#Range: 0 ~ 15
+	chunks = 3
+
+# The polling interval. Light level overlays will be updated for every N client ticks.
+# Distant chunks will be updated less frequently. (default: 3)
+[pollingInterval]
+	#Range: 1 ~ 100
+	clientTicksPerUpdate = 3
+
+# The current display mode. The default avaliable modes are:
+# - standard mode. Displays green and red numbers representing safe and spawnable areas in night.
+# - minimal mode. Only displays red numbers on spawnable blocks.
+# - advanced mode. With extra orange numbers for blocks which are safe in day time but spawnable in night.
+# - x mode. Displays X on blocks instead of numbers.
+# Custom display mode can be added or overridden using resource pack.
+[displayMode]
+	name = "standard"
+

@@ -9,7 +9,7 @@ This script is screaming DIY ^^'
 
 param(
     [PSObject]
-    $ClientMods = @("BetterAdvancements", "EnchantmentDescriptions", "EquipmentTooltips", "FpsReducer", "LLOverlayReloaded", "Neat", "overloadedarmorbar", "swingthroughgrass", "ToastControl", "toughnessbar", "Xaeros_Minimap", "XaerosWorldMap")
+    $ClientMods = @("AppleSkin", "BetterAdvancements", "CraftingTweaks", "DefaultOptions", "EnchantmentDescriptions", "EquipmentTooltips", "FpsReducer", "LLOverlayReloaded", "MouseTweaks", "Neat", "overloadedarmorbar", "swingthroughgrass", "ToastControl", "toughnessbar", "Xaeros_Minimap", "XaerosWorldMap")
 )
 
 git pull

@@ -1,4 +1,4 @@
-#priority 55555
+#priority 1000
 /*
 import crafttweaker.item.IIngredient;
 
