@@ -38,7 +38,6 @@ realms_persistence.json
 WailaErrorOutput.txt
 ItemDump.txt
 BotaniaVars.dat
-options.txt
 settings.cfg
 ServerStartLinux.sh
 ServerStart.bat
@@ -75,7 +74,6 @@ server-guide.txt
 /downloads
 /resourcepacks
 .curseclient
-options.txt
 settings.ps1
 server-start-readme.md
 server-start-license.md
@@ -84,3 +82,4 @@ eula.txt
 scb_resources/
 XaeroWaypoints/
 XaeroWorldMap/
+options.txt
