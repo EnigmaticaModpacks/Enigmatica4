@@ -9,19 +9,11 @@ Enigmatica 4
 * Overall balance
 * Tons to do
 
-<BisectLink>
-<Discord link>
-
-## Requirements
-
-
-
-
 <h2 style="text-align: left;"><span style="font-size: 36px; color: #000000;">Enigmatica 4</span></h2>
 <p style="text-align: left;"><span style="font-size: 18px;"><span style="color: #000000;"><em>All-purpose modpack for Minecraft 1.14.x</em></span></span></p>
 <hr /><hr />
 <h2><span style="color: #000000;"><span style="font-size: 24px;">About</span> </span></h2>
-<p>Enigmatica 4 is currently highly unstable. Mods will be added and removed. Use with caution.</p>
+<p>Enigmatica 4 is currently unstable, as it is still being built. Use with caution.</p>
 <p><a href="https://discord.gg/HnWNd7X"><img title="source: imgur.com" src="https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png" width="250" /></a></p>
 <h2><span style="font-size: 24px;">Need a server?</span></h2>
 <p><a href="https://www.bisecthosting.com/niller" target="_blank" rel="noopener noreferrer"><strong><img src="https://www.bisecthosting.com/images/logos/BH_full.png" width="450" height="113" /></strong></a></p>
@@ -34,3 +26,6 @@ Enigmatica 4
 </ul>
 </ul>
 <p>&nbsp;</p>
+
+## System Requirements
+* 8GB RAM

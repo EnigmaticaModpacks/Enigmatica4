@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-09-30T19:33:15.9149101Z",
+  "lastPlayed": "2019-10-01T17:32:45.6757517Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -541,21 +541,6 @@
       "fileSize": 407037
     },
     {
-      "folderName": "curiouselytra-FORGE-1.14.4-1.0.jar",
-      "fingerprint": 983622763,
-      "fileDateHash": 571670749,
-      "sectionID": 8,
-      "individualFingerprints": [
-        983622763
-      ],
-      "status": 1,
-      "timestamp": "2019-09-21T09:35:55.5665174Z",
-      "lastWriteTimeUtc": "2019-09-19T17:33:57.3429736Z",
-      "queryTimestamp": "2019-09-30T17:48:18.7832158Z",
-      "fileCount": 1,
-      "fileSize": 27102
-    },
-    {
       "folderName": "OreExcavation-1.6.141.jar",
       "fingerprint": 1306622751,
       "fileDateHash": 572015095,
@@ -569,6 +554,21 @@
       "queryTimestamp": "2019-09-30T17:48:18.7832158Z",
       "fileCount": 1,
       "fileSize": 183937
+    },
+    {
+      "folderName": "curiouselytra-FORGE-1.14.4-1.0.jar",
+      "fingerprint": 983622763,
+      "fileDateHash": 571670749,
+      "sectionID": 8,
+      "individualFingerprints": [
+        983622763
+      ],
+      "status": 1,
+      "timestamp": "2019-09-21T09:35:55.5665174Z",
+      "lastWriteTimeUtc": "2019-09-19T17:33:57.3429736Z",
+      "queryTimestamp": "2019-09-30T17:48:18.7832158Z",
+      "fileCount": 1,
+      "fileSize": 27102
     },
     {
       "folderName": "Controlling-5.0.4.jar",
@@ -661,21 +661,6 @@
       "fileSize": 648960
     },
     {
-      "folderName": "na_1.14-3.2.jar",
-      "fingerprint": 1951300697,
-      "fileDateHash": 713089498,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1951300697
-      ],
-      "status": 1,
-      "timestamp": "2019-09-30T17:48:16.6932161Z",
-      "lastWriteTimeUtc": "2019-09-29T09:36:22.0729013Z",
-      "queryTimestamp": "2019-09-30T17:48:18.7852181Z",
-      "fileCount": 1,
-      "fileSize": 20629
-    },
-    {
       "folderName": "EnchantmentDescriptions-1.14.4-1.3.6.jar",
       "fingerprint": 490052512,
       "fileDateHash": 3889269675,
@@ -689,6 +674,21 @@
       "queryTimestamp": "2019-09-30T17:48:18.7852181Z",
       "fileCount": 1,
       "fileSize": 17829
+    },
+    {
+      "folderName": "na_1.14-3.2.jar",
+      "fingerprint": 1951300697,
+      "fileDateHash": 713089498,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1951300697
+      ],
+      "status": 1,
+      "timestamp": "2019-09-30T17:48:16.6932161Z",
+      "lastWriteTimeUtc": "2019-09-29T09:36:22.0729013Z",
+      "queryTimestamp": "2019-09-30T17:48:18.7852181Z",
+      "fileCount": 1,
+      "fileSize": 20629
     },
     {
       "folderName": "buildinggadgets-3.0.5.jar",
@@ -706,21 +706,6 @@
       "fileSize": 927662
     },
     {
-      "folderName": "FastFurnace-1.14.4-2.2.4.jar",
-      "fingerprint": 2398961010,
-      "fileDateHash": 799844672,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2398961010
-      ],
-      "status": 1,
-      "timestamp": "2019-09-30T17:48:16.432217Z",
-      "lastWriteTimeUtc": "2019-09-26T17:33:14.7377086Z",
-      "queryTimestamp": "2019-09-30T17:48:18.7852181Z",
-      "fileCount": 1,
-      "fileSize": 15770
-    },
-    {
       "folderName": "simplefarming-1.14.4-1.1.6.jar",
       "fingerprint": 1262884942,
       "fileDateHash": 3171030828,
@@ -734,6 +719,21 @@
       "queryTimestamp": "2019-09-30T17:48:18.7852181Z",
       "fileCount": 1,
       "fileSize": 680442
+    },
+    {
+      "folderName": "FastFurnace-1.14.4-2.2.4.jar",
+      "fingerprint": 2398961010,
+      "fileDateHash": 799844672,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2398961010
+      ],
+      "status": 1,
+      "timestamp": "2019-09-30T17:48:16.432217Z",
+      "lastWriteTimeUtc": "2019-09-26T17:33:14.7377086Z",
+      "queryTimestamp": "2019-09-30T17:48:18.7852181Z",
+      "fileCount": 1,
+      "fileSize": 15770
     },
     {
       "folderName": "rftoolsbase-1.14-0.0.4-alpha.jar",
@@ -901,21 +901,6 @@
       "fileSize": 44479
     },
     {
-      "folderName": "AppleSkin-mc1.14.4-forge-1.0.12.jar",
-      "fingerprint": 2997159498,
-      "fileDateHash": 1732915022,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2997159498
-      ],
-      "status": 1,
-      "timestamp": "2019-09-21T09:35:55.4475194Z",
-      "lastWriteTimeUtc": "2019-09-21T09:31:44.2692964Z",
-      "queryTimestamp": "2019-09-30T17:48:18.7882176Z",
-      "fileCount": 1,
-      "fileSize": 27076
-    },
-    {
       "folderName": "curios-FORGE-1.14.4-1.0.0.3.jar",
       "fingerprint": 246766458,
       "fileDateHash": 2480677508,
@@ -929,6 +914,21 @@
       "queryTimestamp": "2019-09-30T17:48:18.7882176Z",
       "fileCount": 1,
       "fileSize": 155913
+    },
+    {
+      "folderName": "AppleSkin-mc1.14.4-forge-1.0.12.jar",
+      "fingerprint": 2997159498,
+      "fileDateHash": 1732915022,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2997159498
+      ],
+      "status": 1,
+      "timestamp": "2019-09-21T09:35:55.4475194Z",
+      "lastWriteTimeUtc": "2019-09-21T09:31:44.2692964Z",
+      "queryTimestamp": "2019-09-30T17:48:18.7882176Z",
+      "fileCount": 1,
+      "fileSize": 27076
     },
     {
       "folderName": "portality-1.14.4-2.0.0-5f9c6a1.jar",
@@ -976,19 +976,19 @@
       "fileSize": 57382
     },
     {
-      "folderName": "SimpleStorageNetwork-1.14.4-0.0.13.jar",
-      "fingerprint": 1913038286,
-      "fileDateHash": 167215066,
+      "folderName": "draw_bridge-1.14.4-1.2.2.10.jar",
+      "fingerprint": 3236989099,
+      "fileDateHash": 1795368584,
       "sectionID": 8,
       "individualFingerprints": [
-        1913038286
+        3236989099
       ],
       "status": 1,
-      "timestamp": "2019-09-21T09:35:55.9241537Z",
-      "lastWriteTimeUtc": "2019-09-21T09:12:29.2229237Z",
-      "queryTimestamp": "2019-09-30T17:48:18.7892176Z",
+      "timestamp": "2019-09-30T19:24:09.5591756Z",
+      "lastWriteTimeUtc": "2019-09-30T19:19:17.0659337Z",
+      "queryTimestamp": "2019-09-30T19:24:10.5216612Z",
       "fileCount": 1,
-      "fileSize": 317489
+      "fileSize": 603865
     },
     {
       "folderName": "ironchest-1.14.4-9.1.5.jar",
@@ -1006,19 +1006,19 @@
       "fileSize": 174813
     },
     {
-      "folderName": "draw_bridge-1.14.4-1.2.2.10.jar",
-      "fingerprint": 3236989099,
-      "fileDateHash": 1795368584,
+      "folderName": "SimpleStorageNetwork-1.14.4-0.0.13.jar",
+      "fingerprint": 1913038286,
+      "fileDateHash": 167215066,
       "sectionID": 8,
       "individualFingerprints": [
-        3236989099
+        1913038286
       ],
       "status": 1,
-      "timestamp": "2019-09-30T19:24:09.5591756Z",
-      "lastWriteTimeUtc": "2019-09-30T19:19:17.0659337Z",
-      "queryTimestamp": "2019-09-30T19:24:10.5216612Z",
+      "timestamp": "2019-09-21T09:35:55.9241537Z",
+      "lastWriteTimeUtc": "2019-09-21T09:12:29.2229237Z",
+      "queryTimestamp": "2019-09-30T17:48:18.7892176Z",
       "fileCount": 1,
-      "fileSize": 603865
+      "fileSize": 317489
     },
     {
       "folderName": "structurize-0.10.174-ALPHA.jar",
@@ -1051,21 +1051,6 @@
       "fileSize": 59644
     },
     {
-      "folderName": "creatureslovebeacons-FORGE-1.14.4-2.0.jar",
-      "fingerprint": 1497695169,
-      "fileDateHash": 2949083502,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1497695169
-      ],
-      "status": 1,
-      "timestamp": "2019-09-21T09:35:55.5615302Z",
-      "lastWriteTimeUtc": "2019-09-19T17:33:02.4648057Z",
-      "queryTimestamp": "2019-09-30T17:48:18.7902159Z",
-      "fileCount": 1,
-      "fileSize": 29066
-    },
-    {
       "folderName": "SilentMechanisms-1.14.4-0.6.1+32.jar",
       "fingerprint": 325352693,
       "fileDateHash": 1128327757,
@@ -1081,19 +1066,19 @@
       "fileSize": 897833
     },
     {
-      "folderName": "randompatches-1.14.4-1.18.2.1.jar",
-      "fingerprint": 2214410366,
-      "fileDateHash": 2633977934,
+      "folderName": "creatureslovebeacons-FORGE-1.14.4-2.0.jar",
+      "fingerprint": 1497695169,
+      "fileDateHash": 2949083502,
       "sectionID": 8,
       "individualFingerprints": [
-        2214410366
+        1497695169
       ],
       "status": 1,
-      "timestamp": "2019-09-21T09:35:55.8981523Z",
-      "lastWriteTimeUtc": "2019-09-19T17:34:21.2379733Z",
-      "queryTimestamp": "2019-09-30T17:48:18.7932178Z",
+      "timestamp": "2019-09-21T09:35:55.5615302Z",
+      "lastWriteTimeUtc": "2019-09-19T17:33:02.4648057Z",
+      "queryTimestamp": "2019-09-30T17:48:18.7902159Z",
       "fileCount": 1,
-      "fileSize": 200319
+      "fileSize": 29066
     },
     {
       "folderName": "rftoolspower-1.14-1.2.4-alpha.jar",
@@ -1109,6 +1094,21 @@
       "queryTimestamp": "2019-09-30T17:48:18.7902159Z",
       "fileCount": 1,
       "fileSize": 181817
+    },
+    {
+      "folderName": "randompatches-1.14.4-1.18.2.1.jar",
+      "fingerprint": 2214410366,
+      "fileDateHash": 2633977934,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2214410366
+      ],
+      "status": 1,
+      "timestamp": "2019-09-21T09:35:55.8981523Z",
+      "lastWriteTimeUtc": "2019-09-19T17:34:21.2379733Z",
+      "queryTimestamp": "2019-09-30T17:48:18.7932178Z",
+      "fileCount": 1,
+      "fileSize": 200319
     }
   ],
   "isValid": true,
@@ -1399,7 +1399,7 @@
       "dateInstalled": "2019-09-21T09:43:22.8011771Z",
       "dateUpdated": "2019-09-30T17:30:23.2394284Z",
       "dateLastUpdateAttempted": "2019-09-30T17:30:23.2394284Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2091,7 +2091,7 @@
       "dateInstalled": "2019-09-25T17:24:02.5480906Z",
       "dateUpdated": "2019-09-30T17:30:25.5340946Z",
       "dateLastUpdateAttempted": "2019-09-30T17:30:25.5340946Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3512,7 +3512,7 @@
       "dateInstalled": "2019-09-21T09:07:11.6072983Z",
       "dateUpdated": "2019-09-30T17:29:35.6896237Z",
       "dateLastUpdateAttempted": "2019-09-30T17:29:35.6896237Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4300,22 +4300,22 @@
       "addonID": 298744,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2798510,
-        "displayName": "structurize-0.10.174-ALPHA.jar",
-        "fileName": "structurize-0.10.174-ALPHA.jar",
-        "fileDate": "2019-09-29T20:21:45.31Z",
-        "fileLength": 4585234,
+        "id": 2799017,
+        "displayName": "structurize-0.10.175-ALPHA.jar",
+        "fileName": "structurize-0.10.175-ALPHA.jar",
+        "fileDate": "2019-09-30T16:32:02.913Z",
+        "fileLength": 4585235,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2798/510/structurize-0.10.174-ALPHA.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2799/17/structurize-0.10.175-ALPHA.jar",
         "isAlternate": false,
-        "alternateFileId": 2798511,
+        "alternateFileId": 2799018,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 186964419,
+            "fingerprint": 1285628074,
             "type": 0
           },
           {
@@ -4339,7 +4339,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1452119439,
+        "packageFingerprint": 3851520186,
         "gameVersion": [
           "1.14.4"
         ],
@@ -4352,11 +4352,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "structurize-0.10.174-ALPHA.jar"
+        "FileNameOnDisk": "structurize-0.10.175-ALPHA.jar"
       },
       "dateInstalled": "2019-09-09T17:24:14.3684871Z",
-      "dateUpdated": "2019-09-30T17:30:59.6188797Z",
-      "dateLastUpdateAttempted": "2019-09-30T17:30:59.6188797Z",
+      "dateUpdated": "2019-10-01T17:38:19.3479859Z",
+      "dateLastUpdateAttempted": "2019-10-01T17:38:19.3479859Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -4809,92 +4809,52 @@
       "installedTargets": null
     },
     {
-      "addonID": 313970,
+      "addonID": 337396,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2796328,
-        "displayName": "Apotheosis-1.14.4-2.4.0.jar",
-        "fileName": "Apotheosis-1.14.4-2.4.0.jar",
-        "fileDate": "2019-09-27T03:21:45.447Z",
-        "fileLength": 512862,
+        "id": 2799645,
+        "displayName": "Version 1.1.1 for Minecraft 1.14.4",
+        "fileName": "extraboats-1.1.1-1.14.4.jar",
+        "fileDate": "2019-10-01T10:57:09.937Z",
+        "fileLength": 220826,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2796/328/Apotheosis-1.14.4-2.4.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2799/645/extraboats-1.1.1-1.14.4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 283644,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 250419,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 253449,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 331921,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
+        "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2675001316,
+            "fingerprint": 4048354740,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1733758917,
-            "type": 0
-          },
-          {
-            "foldername": "shadows",
-            "fingerprint": 2851589960,
+            "fingerprint": 4064277632,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 4069572825,
+            "fingerprint": 2031179733,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 334512459,
-            "type": 0
-          },
-          {
-            "foldername": "javascript",
-            "fingerprint": 3814715733,
+            "fingerprint": 2385287921,
             "type": 0
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 3850463208,
+            "fingerprint": 2214322775,
             "type": 0
           }
         ],
-        "packageFingerprint": 2147288178,
+        "packageFingerprint": 1091929763,
         "gameVersion": [
-          "1.14.4"
+          "1.14.4",
+          "Forge"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
@@ -4905,11 +4865,11 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Apotheosis-1.14.4-2.4.0.jar"
+        "FileNameOnDisk": "extraboats-1.1.1-1.14.4.jar"
       },
-      "dateInstalled": "2019-08-15T17:18:14.7683437Z",
-      "dateUpdated": "2019-09-30T17:29:31.7624602Z",
-      "dateLastUpdateAttempted": "2019-09-30T17:29:31.7624602Z",
+      "dateInstalled": "2019-10-01T17:32:17.2495127Z",
+      "dateUpdated": "2019-10-01T17:32:17.2645131Z",
+      "dateLastUpdateAttempted": "2019-10-01T17:32:17.2645131Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -4919,7 +4879,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": null
+      "installedTargets": []
     },
     {
       "addonID": 342466,
@@ -5081,6 +5041,119 @@
       "installedTargets": null
     },
     {
+      "addonID": 313970,
+      "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
+      "installedFile": {
+        "id": 2796328,
+        "displayName": "Apotheosis-1.14.4-2.4.0.jar",
+        "fileName": "Apotheosis-1.14.4-2.4.0.jar",
+        "fileDate": "2019-09-27T03:21:45.447Z",
+        "fileLength": 512862,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2796/328/Apotheosis-1.14.4-2.4.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 283644,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 250419,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 253449,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 331921,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2675001316,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1733758917,
+            "type": 0
+          },
+          {
+            "foldername": "shadows",
+            "fingerprint": 2851589960,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4069572825,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 334512459,
+            "type": 0
+          },
+          {
+            "foldername": "javascript",
+            "fingerprint": 3814715733,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3850463208,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2147288178,
+        "gameVersion": [
+          "1.14.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Apotheosis-1.14.4-2.4.0.jar"
+      },
+      "dateInstalled": "2019-08-15T17:18:14.7683437Z",
+      "dateUpdated": "2019-09-30T17:29:31.7624602Z",
+      "dateLastUpdateAttempted": "2019-09-30T17:29:31.7624602Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 285612,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
@@ -5159,6 +5232,73 @@
       "installedTargets": null
     },
     {
+      "addonID": 263420,
+      "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
+      "installedFile": {
+        "id": 2795108,
+        "displayName": "v1.18.2 for Minecraft 1.14.4",
+        "fileName": "Xaeros_Minimap_1.18.2_Forge_1.14.4.jar",
+        "fileDate": "2019-09-25T19:24:45.283Z",
+        "fileLength": 410653,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2795/108/Xaeros_Minimap_1.18.2_Forge_1.14.4.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 315668484,
+            "type": 0
+          },
+          {
+            "foldername": "xaero",
+            "fingerprint": 3169585208,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 240336314,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3054422756,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 361582214,
+        "gameVersion": [
+          "1.14.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Xaeros_Minimap_1.18.2_Forge_1.14.4.jar"
+      },
+      "dateInstalled": "2019-08-17T08:21:43.3379052Z",
+      "dateUpdated": "2019-09-26T17:33:33.4865776Z",
+      "dateLastUpdateAttempted": "2019-09-26T17:33:33.4865776Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 254652,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
@@ -5216,73 +5356,6 @@
       "dateUpdated": "2019-09-30T18:27:30.5734739Z",
       "dateLastUpdateAttempted": "2019-09-30T18:27:30.5734739Z",
       "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 263420,
-      "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
-      "installedFile": {
-        "id": 2795108,
-        "displayName": "v1.18.2 for Minecraft 1.14.4",
-        "fileName": "Xaeros_Minimap_1.18.2_Forge_1.14.4.jar",
-        "fileDate": "2019-09-25T19:24:45.283Z",
-        "fileLength": 410653,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2795/108/Xaeros_Minimap_1.18.2_Forge_1.14.4.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 315668484,
-            "type": 0
-          },
-          {
-            "foldername": "xaero",
-            "fingerprint": 3169585208,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 240336314,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3054422756,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 361582214,
-        "gameVersion": [
-          "1.14.4"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "Xaeros_Minimap_1.18.2_Forge_1.14.4.jar"
-      },
-      "dateInstalled": "2019-08-17T08:21:43.3379052Z",
-      "dateUpdated": "2019-09-26T17:33:33.4865776Z",
-      "dateLastUpdateAttempted": "2019-09-26T17:33:33.4865776Z",
-      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5513,17 +5586,17 @@
       "installedTargets": null
     },
     {
-      "addonID": 238222,
+      "addonID": 272335,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2788632,
-        "displayName": "jei-1.14.4-6.0.0.13.jar",
-        "fileName": "jei-1.14.4-6.0.0.13.jar",
-        "fileDate": "2019-09-18T05:07:55.54Z",
-        "fileLength": 699572,
-        "releaseType": 3,
+        "id": 2774998,
+        "displayName": "Cucumber-1.14.4-2.0.3.jar",
+        "fileName": "Cucumber-1.14.4-2.0.3.jar",
+        "fileDate": "2019-08-31T04:57:54.663Z",
+        "fileLength": 108634,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2788/632/jei-1.14.4-6.0.0.13.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2774/998/Cucumber-1.14.4-2.0.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -5531,26 +5604,26 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1939542793,
+            "fingerprint": 1519739755,
             "type": 0
           },
           {
-            "foldername": "mezz",
-            "fingerprint": 3784086639,
+            "foldername": "com",
+            "fingerprint": 1167667860,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1935988488,
+            "fingerprint": 2835195783,
             "type": 0
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 3652707984,
+            "fingerprint": 3205790006,
             "type": 0
           }
         ],
-        "packageFingerprint": 3168639820,
+        "packageFingerprint": 746762097,
         "gameVersion": [
           "1.14.4"
         ],
@@ -5560,14 +5633,14 @@
         "restrictProjectFileAccess": 0,
         "projectStatus": 0,
         "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "jei-1.14.4-6.0.0.13.jar"
+        "FileNameOnDisk": "Cucumber-1.14.4-2.0.3.jar"
       },
-      "dateInstalled": "2019-08-11T20:34:46.6868084Z",
-      "dateUpdated": "2019-09-19T17:34:08.9997208Z",
-      "dateLastUpdateAttempted": "2019-09-19T17:34:08.9997208Z",
+      "dateInstalled": "2019-08-26T17:27:22.7161788Z",
+      "dateUpdated": "2019-09-08T08:29:43.2596709Z",
+      "dateLastUpdateAttempted": "2019-09-08T08:29:43.2596709Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -5644,17 +5717,17 @@
       "installedTargets": null
     },
     {
-      "addonID": 272335,
+      "addonID": 238222,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2774998,
-        "displayName": "Cucumber-1.14.4-2.0.3.jar",
-        "fileName": "Cucumber-1.14.4-2.0.3.jar",
-        "fileDate": "2019-08-31T04:57:54.663Z",
-        "fileLength": 108634,
-        "releaseType": 1,
+        "id": 2788632,
+        "displayName": "jei-1.14.4-6.0.0.13.jar",
+        "fileName": "jei-1.14.4-6.0.0.13.jar",
+        "fileDate": "2019-09-18T05:07:55.54Z",
+        "fileLength": 699572,
+        "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2774/998/Cucumber-1.14.4-2.0.3.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2788/632/jei-1.14.4-6.0.0.13.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -5662,26 +5735,26 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1519739755,
+            "fingerprint": 1939542793,
             "type": 0
           },
           {
-            "foldername": "com",
-            "fingerprint": 1167667860,
+            "foldername": "mezz",
+            "fingerprint": 3784086639,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2835195783,
+            "fingerprint": 1935988488,
             "type": 0
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 3205790006,
+            "fingerprint": 3652707984,
             "type": 0
           }
         ],
-        "packageFingerprint": 746762097,
+        "packageFingerprint": 3168639820,
         "gameVersion": [
           "1.14.4"
         ],
@@ -5691,14 +5764,14 @@
         "restrictProjectFileAccess": 0,
         "projectStatus": 0,
         "projectId": 0,
-        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Cucumber-1.14.4-2.0.3.jar"
+        "FileNameOnDisk": "jei-1.14.4-6.0.0.13.jar"
       },
-      "dateInstalled": "2019-08-26T17:27:22.7161788Z",
-      "dateUpdated": "2019-09-08T08:29:43.2596709Z",
-      "dateLastUpdateAttempted": "2019-09-08T08:29:43.2596709Z",
+      "dateInstalled": "2019-08-11T20:34:46.6868084Z",
+      "dateUpdated": "2019-09-19T17:34:08.9997208Z",
+      "dateLastUpdateAttempted": "2019-09-19T17:34:08.9997208Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -5794,6 +5867,92 @@
       "installedTargets": null
     },
     {
+      "addonID": 326041,
+      "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
+      "installedFile": {
+        "id": 2790540,
+        "displayName": "rftoolsbase-1.14-0.0.4-alpha.jar",
+        "fileName": "rftoolsbase-1.14-0.0.4-alpha.jar",
+        "fileDate": "2019-09-21T06:16:00.623Z",
+        "fileLength": 93412,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2790/540/rftoolsbase-1.14-0.0.4-alpha.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 233105,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 245211,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2783534804,
+            "type": 0
+          },
+          {
+            "foldername": "mcjty",
+            "fingerprint": 985837342,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2731174908,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 334750689,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1983468742,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3628667103,
+        "gameVersion": [
+          "1.14.4",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "rftoolsbase-1.14-0.0.4-alpha.jar"
+      },
+      "dateInstalled": "2019-09-21T09:12:13.6319112Z",
+      "dateUpdated": "2019-09-21T09:12:13.6359028Z",
+      "dateLastUpdateAttempted": "2019-09-21T09:12:13.6359028Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 245211,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
@@ -5874,92 +6033,6 @@
       "dateInstalled": "2019-07-24T18:57:16.0287313Z",
       "dateUpdated": "2019-09-29T09:38:41.4795685Z",
       "dateLastUpdateAttempted": "2019-09-29T09:38:41.4795685Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 326041,
-      "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
-      "installedFile": {
-        "id": 2790540,
-        "displayName": "rftoolsbase-1.14-0.0.4-alpha.jar",
-        "fileName": "rftoolsbase-1.14-0.0.4-alpha.jar",
-        "fileDate": "2019-09-21T06:16:00.623Z",
-        "fileLength": 93412,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2790/540/rftoolsbase-1.14-0.0.4-alpha.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 233105,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 245211,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2783534804,
-            "type": 0
-          },
-          {
-            "foldername": "mcjty",
-            "fingerprint": 985837342,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2731174908,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 334750689,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 1983468742,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3628667103,
-        "gameVersion": [
-          "1.14.4",
-          "Forge"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "rftoolsbase-1.14-0.0.4-alpha.jar"
-      },
-      "dateInstalled": "2019-09-21T09:12:13.6319112Z",
-      "dateUpdated": "2019-09-21T09:12:13.6359028Z",
-      "dateLastUpdateAttempted": "2019-09-21T09:12:13.6359028Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -6190,69 +6263,44 @@
       "installedTargets": null
     },
     {
-      "addonID": 308653,
+      "addonID": 238372,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2787939,
-        "displayName": "cosmeticbeds-FORGE-1.14.4-2.0.jar",
-        "fileName": "cosmeticbeds-FORGE-1.14.4-2.0.jar",
-        "fileDate": "2019-09-17T02:47:09.803Z",
-        "fileLength": 67611,
+        "id": 2755569,
+        "displayName": "Neat 1.5-19.jar",
+        "fileName": "Neat 1.5-19.jar",
+        "fileDate": "2019-08-05T22:45:33.05Z",
+        "fileLength": 17970,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2787/939/cosmeticbeds-FORGE-1.14.4-2.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2755/569/Neat 1.5-19.jar",
         "isAlternate": false,
-        "alternateFileId": 2787940,
+        "alternateFileId": 0,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1145420214,
+            "fingerprint": 1553736930,
             "type": 0
           },
           {
-            "foldername": "top",
-            "fingerprint": 3202931783,
+            "foldername": "vazkii",
+            "fingerprint": 355472363,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2070595094,
-            "type": 0
-          },
-          {
-            "foldername": "CHANGELOG.md",
-            "fingerprint": 3428613577,
-            "type": 0
-          },
-          {
-            "foldername": "cosmeticbeds_icon.png",
-            "fingerprint": 3707508473,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 1658367421,
-            "type": 0
-          },
-          {
-            "foldername": "licenses",
-            "fingerprint": 255867319,
+            "fingerprint": 1764976535,
             "type": 0
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 3273911401,
-            "type": 0
-          },
-          {
-            "foldername": "README.md",
-            "fingerprint": 2097946643,
+            "fingerprint": 1353712245,
             "type": 0
           }
         ],
-        "packageFingerprint": 2612787479,
+        "packageFingerprint": 1814293416,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -6266,11 +6314,84 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "cosmeticbeds-FORGE-1.14.4-2.0.jar"
+        "FileNameOnDisk": "Neat 1.5-19.jar"
       },
-      "dateInstalled": "2019-09-19T17:32:08.5959331Z",
-      "dateUpdated": "2019-09-19T17:32:08.5989135Z",
-      "dateLastUpdateAttempted": "2019-09-19T17:32:08.5989135Z",
+      "dateInstalled": "2019-08-04T07:08:42.0707347Z",
+      "dateUpdated": "2019-08-06T17:24:47.2554795Z",
+      "dateLastUpdateAttempted": "2019-08-06T17:24:47.2554795Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 280294,
+      "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
+      "installedFile": {
+        "id": 2769632,
+        "displayName": "FpsReducer-mc1.14.4-1.13.jar",
+        "fileName": "FpsReducer-mc1.14.4-1.13.jar",
+        "fileDate": "2019-08-25T14:12:46.203Z",
+        "fileLength": 62927,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2769/632/FpsReducer-mc1.14.4-1.13.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1853792688,
+            "type": 0
+          },
+          {
+            "foldername": "bre2el",
+            "fingerprint": 521239788,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 218585870,
+            "type": 0
+          },
+          {
+            "foldername": "fpsreducer_logo.png",
+            "fingerprint": 2600135182,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 386259831,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1160772040,
+        "gameVersion": [
+          "1.14.4",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "FpsReducer-mc1.14.4-1.13.jar"
+      },
+      "dateInstalled": "2019-07-25T17:51:39.0198277Z",
+      "dateUpdated": "2019-08-26T17:21:52.7015757Z",
+      "dateLastUpdateAttempted": "2019-08-26T17:21:52.7015757Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -6378,117 +6499,69 @@
       "installedTargets": null
     },
     {
-      "addonID": 280294,
+      "addonID": 308653,
       "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
       "installedFile": {
-        "id": 2769632,
-        "displayName": "FpsReducer-mc1.14.4-1.13.jar",
-        "fileName": "FpsReducer-mc1.14.4-1.13.jar",
-        "fileDate": "2019-08-25T14:12:46.203Z",
-        "fileLength": 62927,
+        "id": 2787939,
+        "displayName": "cosmeticbeds-FORGE-1.14.4-2.0.jar",
+        "fileName": "cosmeticbeds-FORGE-1.14.4-2.0.jar",
+        "fileDate": "2019-09-17T02:47:09.803Z",
+        "fileLength": 67611,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2769/632/FpsReducer-mc1.14.4-1.13.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2787/939/cosmeticbeds-FORGE-1.14.4-2.0.jar",
         "isAlternate": false,
-        "alternateFileId": 0,
+        "alternateFileId": 2787940,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1853792688,
+            "fingerprint": 1145420214,
             "type": 0
           },
           {
-            "foldername": "bre2el",
-            "fingerprint": 521239788,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 218585870,
-            "type": 0
-          },
-          {
-            "foldername": "fpsreducer_logo.png",
-            "fingerprint": 2600135182,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 386259831,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1160772040,
-        "gameVersion": [
-          "1.14.4",
-          "Forge"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "FpsReducer-mc1.14.4-1.13.jar"
-      },
-      "dateInstalled": "2019-07-25T17:51:39.0198277Z",
-      "dateUpdated": "2019-08-26T17:21:52.7015757Z",
-      "dateLastUpdateAttempted": "2019-08-26T17:21:52.7015757Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 238372,
-      "gameInstanceID": "d7ca122d-581b-4177-8a89-461a16cb1b4c",
-      "installedFile": {
-        "id": 2755569,
-        "displayName": "Neat 1.5-19.jar",
-        "fileName": "Neat 1.5-19.jar",
-        "fileDate": "2019-08-05T22:45:33.05Z",
-        "fileLength": 17970,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2755/569/Neat 1.5-19.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1553736930,
-            "type": 0
-          },
-          {
-            "foldername": "vazkii",
-            "fingerprint": 355472363,
+            "foldername": "top",
+            "fingerprint": 3202931783,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1764976535,
+            "fingerprint": 2070595094,
+            "type": 0
+          },
+          {
+            "foldername": "CHANGELOG.md",
+            "fingerprint": 3428613577,
+            "type": 0
+          },
+          {
+            "foldername": "cosmeticbeds_icon.png",
+            "fingerprint": 3707508473,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1658367421,
+            "type": 0
+          },
+          {
+            "foldername": "licenses",
+            "fingerprint": 255867319,
             "type": 0
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 1353712245,
+            "fingerprint": 3273911401,
+            "type": 0
+          },
+          {
+            "foldername": "README.md",
+            "fingerprint": 2097946643,
             "type": 0
           }
         ],
-        "packageFingerprint": 1814293416,
+        "packageFingerprint": 2612787479,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -6502,11 +6575,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Neat 1.5-19.jar"
+        "FileNameOnDisk": "cosmeticbeds-FORGE-1.14.4-2.0.jar"
       },
-      "dateInstalled": "2019-08-04T07:08:42.0707347Z",
-      "dateUpdated": "2019-08-06T17:24:47.2554795Z",
-      "dateLastUpdateAttempted": "2019-08-06T17:24:47.2554795Z",
+      "dateInstalled": "2019-09-19T17:32:08.5959331Z",
+      "dateUpdated": "2019-09-19T17:32:08.5989135Z",
+      "dateLastUpdateAttempted": "2019-09-19T17:32:08.5989135Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
