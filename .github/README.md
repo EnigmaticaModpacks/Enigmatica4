@@ -6,6 +6,17 @@ This is the official repository and issue-tracker for the modpack Enigmatica 4, 
 
 * [Discord](https://discord.gg/HnWNd7X)
 
+## Testing
+If you would like to help test Enigmatica 4, please give me a shout on Discord.
+
+There are a few things I would like testers to consider/look for:
+
+* Bugs
+* Things you find boring/tedious
+* Things that need small optimizations, such as advancement text and textures.
+
+I would also appreciate if you let me know what you think of the gameplay and why, especially if you didn't like it :)
+
 ## Contributing
 
 Follow these steps to setup your workspace:
