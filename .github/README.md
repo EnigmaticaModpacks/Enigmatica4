@@ -17,9 +17,9 @@ There are a few things I would like testers to consider/look for:
 
 I would also appreciate if you let me know what you think of the gameplay and why, especially if you didn't like it :)
 
-## Setup
-
-Follow these steps to setup your workspace:
+## Setup 
+#### For Contributors and Server Admins
+Follow these steps to setup your workspace/server:
 
 ### Windows / Mac
 1) Download the [Twitch App](https://www.twitch.tv/downloads) if you haven't already.
