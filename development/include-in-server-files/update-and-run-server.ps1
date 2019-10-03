@@ -1,9 +1,12 @@
 <#
-The purpose of this script is to update and run Enigmatica 4 servers. 
-The server needs to be hooked up to the E4 github repository, and use the ATM server start script.
-This script should be placed in the root of the modpack instance.
 
-Clientside mods should be placed inside the $ClientMods array below, if any get added.
+The purpose of this script is to automate updating and launching of Enigmatica 4 servers. 
+It's a bit advanced, I recommend going with the server-start script if you'd rather do things manually.
+
+Requirements:
+	* Established InstanceSync connection with Enigmatica 4 github repo. (See https://github.com/NillerMedDild/Enigmatica4 for details)
+	* The server-start script is used, so the settings.cfg must be filled out.
+	* This script has to be in the root of the modpack folder
 #>
 param(
     [PSObject]
@@ -18,7 +21,7 @@ param(
 	"FpsReducer", 
 	"LLOverlayReloaded", 
 	"MouseTweaks",
-	"na_1.14-3.2", 
+	"nmdar_", 
 	"Neat", 
 	"overloadedarmorbar", 
 	"swingthroughgrass", 
