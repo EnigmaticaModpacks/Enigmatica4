@@ -1,9 +1,0 @@
-#The Speed at which Leaves Decay, Higher -> Slower
-#Range: > 0
-decaySpeed = 7
-#How random will the leaf decay be? Higher -> More Random
-#Range: > 0
-decayFuzz = 7
-#If set to true only trees broken by players will quickly decay.
-playerDecay = true
-

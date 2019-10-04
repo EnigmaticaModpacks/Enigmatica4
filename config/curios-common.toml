@@ -1,7 +1,0 @@
-
-[common]
-	#List of curio types to create
-	createCurios = []
-	#List of curio types to disable by default
-	disabledCurios = []
-

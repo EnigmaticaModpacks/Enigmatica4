@@ -1,8 +1,0 @@
-
-#All the options that can be modified by players on server.
-[client]
-	#Hides the vignette effect in the darker areas of Midnight. Default=false
-	hide_vignette_effect = false
-	#If true, rifts will be rendered with custom shaders for standard effects. If false, a simpler (motionless) texture will be rendered. Default=true
-	rift_shaders = true
-
