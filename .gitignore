@@ -12,7 +12,7 @@
 screenshots/
 /mods/
 /world/
-/config/
+/defaultconfig/
 
 # Utilities
 .github_changelog_generator

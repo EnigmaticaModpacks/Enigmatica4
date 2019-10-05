@@ -1,17 +1,23 @@
 
 ["Miscellaneous Features"]
-	#Smart harvesting allows right-click harvested items to be placed directly in the player's inventory. Enabling this option will automatically disable normal right-click harvesting. Indicates whether smart-harvesting on block should be enabled
-	"Enable smart harvest" = false
-	#Indicates whether right-click harvesting on blocks should be enabled
-	"Enable right-click harvesting" = true
+	#Indicates whether right-click harvesting crops should be enabled
+	"Enable right-click harvesting for crops" = true
+	#Smart harvesting allows right-click harvested items to be placed directly in the player's inventory. Enabling this option will automatically disable normal right-click harvesting. Indicates whether smart-harvesting on crops should be enabled
+	"Enable smart harvest for crops" = false
 	#Chance of seeds dropping from breaking grass (Default: 6.25 (6.25%))
 	#Range: 0.0 ~ 100.0
-	"Probability of seeds dropping" = 6.25
+	"Percent chance of seeds dropping" = 6.25
 
-["Tweak World Generation Chances"]
+["Dimensions Settings"]
+	#Enter a dimension id to whitelist feature generation
+	white_dim = [0]
+	#Enter a dimension id to blacklist feature generation
+	black_dim = [-1, 1]
+
+["Tweak World Generation Rates"]
 	#Chance of fruit trees generating in the overworld. Higher numbers indicate a lower probability (Default: 600)
 	#Range: 1 ~ 1000000000
-	"Probability of fruit trees generating" = 600
+	"Probability of fruit trees generating" = 1000
 	#Chance of opuntias generating in deserts. Higher numbers indicate a lower probability (Default: 150)
 	#Range: 1 ~ 1000000000
 	"Probability of opuntias generating" = 150
@@ -21,12 +27,12 @@
 	#Chance of wild plants generating in the overworld. Higher numbers indicate a lower probability (Default: 800)
 	#Range: 1 ~ 1000000000
 	"Probability of wild plants generating" = 800
-	#Chance of berry bushes generating in the overworld. Higher numbers indicate a lower probability (Default: 180)
+	#Chance of berry bushes generating in the overworld. Higher numbers indicate a lower probability (Default: 200)
 	#Range: 1 ~ 1000000000
-	"Probability of berry bushes generating" = 180
+	"Probability of berry bushes generating" = 200
 
 ["Enable/Disable World Generation"]
-	#Enable this feature to avoid conflicts with other mods that addgrass drops (And disable grass drops).
+	#Enable this feature to avoid conflicts with other mods that add grass drops (And disable grass drops).
 	"Generate wild crops" = false
 	#Indicates whether opuntias (cactus crops) should generate
 	"Generate opuntias" = true
