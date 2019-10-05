@@ -20,8 +20,6 @@ github_changelog_generator.gemspec
 twitch_export-win.exe
 ChangelogGenerator.bat
 .build.json
-modpack_upload_settings.cfg
-ModpackUploadTool.bat
 
 # Client Configs
 config/InvTweaks.cfg
@@ -40,27 +38,17 @@ WailaErrorOutput.txt
 ItemDump.txt
 BotaniaVars.dat
 settings.cfg
-ServerStartLinux.sh
-ServerStart.bat
-README.md
-LICENSE_SERVER.md
 crafttweaker.log
 github_changelog_generator.gemspec
 ChangelogGenerator.bat
 twitch_export-win.exe
 *.zip
 *.dll
-server.properties
 whitelist.json
 ops.json
-server-start.bat
-server-start.sh
-settings.cfg
 ModpackUploader.ps1
 ModpackUploader.bat
-Development/settings.ps1
 .build.json
-server-guide.txt
 
 # Instance Sync
 **/*.jar
@@ -76,8 +64,6 @@ server-guide.txt
 /resourcepacks
 .curseclient
 settings.ps1
-server-start-readme.md
-server-start-license.md
 config/XaeroWorldMap/
 eula.txt
 scb_resources/

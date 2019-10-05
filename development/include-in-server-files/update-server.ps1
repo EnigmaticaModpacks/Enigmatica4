@@ -40,23 +40,27 @@ $CommitsBehind = git rev-list --left-only --count origin/master...master
 if ($CommitsBehind -gt 0) {
 	New-Item -ItemType Directory -Path $BackupFolder -ErrorAction SilentlyContinue
 	if (Test-Path $ModFolder) {
-		Compress-Archive -Path $ModFolder "$BackupFolder/mods-$(Get-Date -Format "MM.dd.yyyy-HH.mm")"
-		Remove-Item -Path $ModFolder -Recurse -ErrorAction SilentlyContinue
+		if ((Get-ChildItem -Path $BackupFolder | Measure-Object).Count -gt 0) {
+			Compress-Archive -Path $ModFolder "$BackupFolder/mods-$(Get-Date -Format "MM.dd.yyyy-HH.mm").zip"
+			Remove-Item -Path $ModFolder -Recurse -ErrorAction SilentlyContinue
+		}
 	} 
 	else {
 		New-Item -ItemType Directory -Path $ModFolder -ErrorAction SilentlyContinue
 	}
-
-	# TODO: Test
-	Get-ChildItem -Path $BackupFolder | 
-		Sort-Object -Descending | 
+	
+	$BackupFiles = Get-ChildItem -Path $BackupFolder 
+	if (($BackupFiles | Measure-Object ).Count -gt $BackupsToKeep) {
+		$BackupFiles | 
+		Sort-Object -Property CreationTime -Descending | 
 		Select-Object -Last ($_.count - $BackupsToKeep) | 
 		Foreach-Object { Remove-Item $_ }
+	}
 }
 
 git stash
+git reset --hard
 git pull
-git stash pop
 
 Get-ChildItem $ModFolder -Name -Filter  "*.jar" | ForEach-Object {
 	$Mod = $_.toLower()
