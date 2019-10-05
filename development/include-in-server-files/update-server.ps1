@@ -40,7 +40,7 @@ $CommitsBehind = git rev-list --left-only --count origin/master...master
 if ($CommitsBehind -gt 0) {
 	New-Item -ItemType Directory -Path $BackupFolder -ErrorAction SilentlyContinue
 	if (Test-Path $ModFolder) {
-		if ((Get-ChildItem -Path $BackupFolder | Measure-Object).Count -gt 0) {
+		if ((Get-ChildItem -Path $ModFolder | Measure-Object).Count -gt 0) {
 			Compress-Archive -Path $ModFolder "$BackupFolder/mods-$(Get-Date -Format "MM.dd.yyyy-HH.mm").zip"
 			Remove-Item -Path $ModFolder -Recurse -ErrorAction SilentlyContinue
 		}
