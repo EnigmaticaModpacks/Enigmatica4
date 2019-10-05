@@ -56,6 +56,7 @@ git pull
 You're done!
 
 ### Server Automation
+*Note: You only have to do this setup once, afterwards you simply need to do step 8.*
 1) Clone the Enigmatica 4 repository to an empty folder.
 2) Double click the script `setup.bat` to setup InstanceSync. It is found in the `development` folder.
 3) Open a command line, and navigate to the folder.
@@ -63,12 +64,12 @@ You're done!
 5) Navigate to the folder `development/include-in-server-files`
 6) Open the file `settings.cfg` and change `MAX_RAM=4G` to the amount you wish to allocate.
 7) Copy all files from the folder `development/include-in-server-files` into the root.
-8) Double clicking `update-and-run-server.bat` will now update the modpack and launch the server.
+8) Double clicking `update-server.bat` will now update the modpack.
 
-Note: You only have to do all that setup once, afterwards you simply need to do step 8.
+Using the `update-server` script will reset changes you've made to all files tracked by the repository. You can however edit the mods and config folders freely.
 
 #### Alternatives
-It is possible to setup a development instance for Enigmatica 4 in other ways, if you don't like the above approaches.
+It is possible to setup a development instance for Enigmatica 4 in other ways, for example running it through the .Minecraft folder.
 
 ## Optional Dependencies
 * [Twitch App](https://www.twitch.tv/downloads) (Windows/Mac)
