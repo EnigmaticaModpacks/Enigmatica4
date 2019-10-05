@@ -37,7 +37,6 @@ realms_persistence.json
 WailaErrorOutput.txt
 ItemDump.txt
 BotaniaVars.dat
-settings.cfg
 crafttweaker.log
 github_changelog_generator.gemspec
 ChangelogGenerator.bat
