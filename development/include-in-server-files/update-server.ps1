@@ -13,7 +13,6 @@ param(
 	$ClientMods = @(
 		"AppleSkin", 
 		"BetterAdvancements",
-		"CosmeticArmorReworked",
 		"CraftingTweaks", 
 		"DefaultOptions", 
 		"EnchantmentDescriptions", 
