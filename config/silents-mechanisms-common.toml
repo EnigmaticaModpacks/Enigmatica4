@@ -1,4 +1,8 @@
 
+[general]
+	#Shows a message in chat warning the player that the mod is early in development
+	showBetaWelcomeMessage = true
+
 #All world generation settings require you to restart Minecraft!
 [world]
 	#Set to 'false' to completely disable ore generation from this mod, ignoring all other settings.
@@ -54,6 +58,16 @@
 			veinCount = 8
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 80
+			#Size of veins
+			veinSize = 8
+
+		[world.gen.PLATINUM]
+			#Minimum Y-coordinate (base height) of veins
+			minHeight = 5
+			#Number of veins per chunk
+			veinCount = 1
+			#Maximum Y-coordinate (highest level) of veins
+			maxHeight = 20
 			#Size of veins
 			veinSize = 8
 
