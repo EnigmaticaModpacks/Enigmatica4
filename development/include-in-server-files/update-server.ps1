@@ -54,7 +54,7 @@ if ($CommitsBehind -gt 0) {
 		$BackupFiles | 
 		Sort-Object -Property CreationTime -Descending | 
 		Select-Object -Last ($BackupFileCount - $BackupsToKeep) | 
-		Foreach-Object { Remove-Item $_ }
+		Foreach-Object { Remove-Item "$BackupFolder/$_" }
 	}
 }
 
