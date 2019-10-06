@@ -66,7 +66,7 @@ You're done!
 7) Copy all files from the folder `development/include-in-server-files` into the root.
 8) Double clicking `update-server.bat` will now update the modpack.
 
-Using the `update-server` script will reset changes you've made to all files tracked by the repository. You can however edit the mods and config folders freely.
+Using the `update-server` script will reset changes you've made to all files tracked by the repository.
 
 ### Alternatives
 It is possible to setup a development instance for Enigmatica 4 in other ways, for example running it through the .Minecraft folder.
