@@ -49,10 +49,10 @@ if ($CommitsBehind -gt 0) {
 	}
 	
 	$BackupFiles = Get-ChildItem -Path $BackupFolder 
-	if (($BackupFiles | Measure-Object ).Count -gt $BackupsToKeep) {
+	if ($BackupFileCount = ($BackupFiles | Measure-Object ).Count -gt $BackupsToKeep) {
 		$BackupFiles | 
 		Sort-Object -Property CreationTime -Descending | 
-		Select-Object -Last ($_.count - $BackupsToKeep) | 
+		Select-Object -Last ($BackupFileCount - $BackupsToKeep) | 
 		Foreach-Object { Remove-Item $_ }
 	}
 }
