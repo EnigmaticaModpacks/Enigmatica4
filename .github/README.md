@@ -19,11 +19,11 @@ I would also appreciate if you let me know what you think of the gameplay and wh
 
 Note: You do not have to use the below setup method, you can use the available files from CurseForge or Discord, however those are not updated as frequently as this repository.
 
-## Setup 
-#### For Contributors, Testers and Server Admins
+# Setup 
+### For Contributors, Testers and Server Admins
 Follow these steps to setup your workspace/server:
 
-### Windows / Mac
+## Windows / Mac
 1) Download the [Twitch App](https://www.twitch.tv/downloads) if you haven't already.
 2) Fork and clone the Enigmatica 4 repository to the Instances folder of the Twitch App, the default path is `C:\Users\User\Documents\Twitch\Minecraft\Instances`
 3) Double click the script `setup.bat` to setup InstanceSync. It is found in the `development` folder.
@@ -32,15 +32,15 @@ Follow these steps to setup your workspace/server:
 
 You're done!
 
-### Linux
-##### Setup MultiMC Instance (Currently not possible 03-10-2019)
+## Linux
+#### Setup MultiMC Instance (Currently not possible 03-10-2019)
 1) Download [MultiMC](https://multimc.org/#Download) if you haven't already.
 2) Open MultiMC.
 3) Click Add Instance, choose Minecraft 1.14.4, click Ok.
 4) Click Edit Instance (right hand side)
 5) Click Install Forge, pick the latest version.
 
-##### Repository Setup
+#### Repository Setup
 6) Fork and clone the Enigmatica 4 repository
 7) Open the folder of the MultiMC Instance you made (step 1-5), and go into the .minecraft folder - Open a Terminal and use the following commands:
 ```
@@ -55,7 +55,7 @@ git pull
 
 You're done!
 
-### Server Automation
+## Server Automation
 *Note: You only have to do this setup once, afterwards you simply need to do step 8.*
 1) Clone the Enigmatica 4 repository to an empty folder.
 2) Double click the script `setup.bat` to setup InstanceSync. It is found in the `development` folder.
@@ -68,9 +68,5 @@ You're done!
 
 Using the `update-server` script will reset changes you've made to all files tracked by the repository. You can however edit the mods and config folders freely.
 
-#### Alternatives
+### Alternatives
 It is possible to setup a development instance for Enigmatica 4 in other ways, for example running it through the .Minecraft folder.
-
-## Optional Dependencies
-* [Twitch App](https://www.twitch.tv/downloads) (Windows/Mac)
-* [MultiMC](https://multimc.org/#Download) (Linux)
