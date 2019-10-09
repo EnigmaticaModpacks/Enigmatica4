@@ -55,14 +55,12 @@ ModpackUploader.bat
 **/*.jar.disabled
 **/*.jar.meta
 
-# Optional: Generic Modpack Ignores
 **/*.log
 /.mixin.out
 /saves
 /downloads
 /resourcepacks
 .curseclient
-settings.ps1
 config/XaeroWorldMap/
 eula.txt
 scb_resources/
@@ -72,3 +70,4 @@ options.txt
 TwitchExportBuilder.exe
 post-file-to-discord.ps1
 post-file-to-discord.bat
+secrets.ps1
