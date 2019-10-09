@@ -49,7 +49,7 @@ $FORGE_VERSION=28.1.39
 $CLIENT_FILENAME = "Enigmatica4"
 
 # Default: "$CLIENT_FILENAME $MODPACK_VERSION"
-$CLIENT_FILE_DISPLAY_NAME = "$Enigmatica 4 $MODPACK_VERSION"
+$CLIENT_FILE_DISPLAY_NAME = "Enigmatica 4 `- $MODPACK_VERSION"
 
 # An array of compatible game versions of Minecraft.
 # See GameVersions.json for possible versions.
@@ -75,7 +75,7 @@ $CLIENT_RELEASE_TYPE = "beta"
 $SERVER_FILENAME = "$CLIENT_FILENAME`Server-$MODPACK_VERSION"
 
 # Default: $SERVER_FILENAME
-$SERVER_FILE_DISPLAY_NAME = "Enigmatica 4 Server $MODPACK_VERSION"
+$SERVER_FILE_DISPLAY_NAME = "Enigmatica 4 Server `- $MODPACK_VERSION"
 
 # A continuous line of the folders and files (with extensions) to zip into Server Files.
 # Default: @("mods", "config")
