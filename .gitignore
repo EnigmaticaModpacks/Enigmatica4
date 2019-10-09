@@ -55,14 +55,12 @@ ModpackUploader.bat
 **/*.jar.disabled
 **/*.jar.meta
 
-# Optional: Generic Modpack Ignores
 **/*.log
 /.mixin.out
 /saves
 /downloads
 /resourcepacks
 .curseclient
-settings.ps1
 config/XaeroWorldMap/
 eula.txt
 scb_resources/
