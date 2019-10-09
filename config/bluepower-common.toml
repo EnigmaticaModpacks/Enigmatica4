@@ -21,11 +21,11 @@
 	#Generate Amethyst
 	generateAmethyst = true
 	#Generate Zinc
-	generateZinc = true
+	generateZinc = false
 	#Vein Size Teslatite
 	veinSizeTeslatite = 8
 	#Generate Copper
-	generateCopper = true
+	generateCopper = false
 	#Copper Min Y
 	minCopperY = 35
 	#Volcano Spawn Chance
@@ -75,7 +75,7 @@
 	#Zinc Max Y
 	maxZincY = 40
 	#Generate Silver
-	generateSilver = true
+	generateSilver = false
 	#Vein Size Sapphire
 	veinSizeSapphire = 5
 	#Vein Count Sapphire
