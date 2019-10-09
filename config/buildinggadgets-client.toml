@@ -8,5 +8,5 @@
 #Charging station settings
 [charging_station]
 	#Whether or not to render the Charging Sphere. Disabling rendering of the Charging Sphere will increase renderingPerformance, as it is the main throttle on the Charging Station render. Note that we are already doing what we can to make it as fast as possible but a colour changing Sphere just needs to update relativingly often...
-	"Render Sphere" = true
+	"Render Sphere" = false
 

@@ -1,0 +1,25 @@
+
+#Client config options
+[client]
+	#Range: > -2147483648
+	TBBorderColor = -7566196
+	#How long one move wheel movement for scrolling lists
+	#Range: 1 ~ 256
+	ScrollSpeed = 20
+	#Default value for InspectionBoxHighlighting (modifiable in-game via command /sfm settings, but does not persist)
+	EnableInspections = false
+	#Enable to use vanilla background instead of a plain rectangle
+	UseBackgroundOnFullscreen = false
+	#Range: > -2147483648
+	TBBackgroundColor = -7566196
+	#Determines how fast arrow keys moving is (for editor panel)
+	#Range: > 0
+	DefaultEditorMoveSpeed = 2
+	#Range: > -2147483648
+	TBBackgroundColorHovered = -9211021
+	#Determines how fast arrow keys moving is, while Shift is pressed
+	#Range: > 0
+	AcceleratedEditorMoveSpeed = 20
+	#Range: > -2147483648
+	TBBorderColorHovered = -3552823
+

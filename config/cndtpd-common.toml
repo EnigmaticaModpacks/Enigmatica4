@@ -1,0 +1,6 @@
+
+[General]
+	#The euclidian distance range around the drowned where a check for a player with the conduit effect is done. A value of 200 prevents the spawning of all drowned around.
+	#Range: 0 ~ 200
+	preventDrownedInRange = 100
+

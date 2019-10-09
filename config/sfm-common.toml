@@ -1,0 +1,18 @@
+
+#Factory manager config options
+[factoryManager]
+	#Maximum depth that the Factory Manager DFS algorithm should go
+	#Range: > 0
+	MaxSearchDepth = 64
+	#Number of ticks for the Factory Manager to rescan the network. Set to -1 to make it never rescan passively
+	#Range: > -1
+	RescanInterval = 100
+
+#Procedures config options
+[procedures]
+	EnableItemImport = true
+	EnableItemExport = true
+	EnableIntervalTrigger = true
+	EnableItemTransfer = true
+	EnableCrafting = true
+

@@ -1,0 +1,10 @@
+{
+  "name": "sfm:item_io",
+  "translation_key": "component_groups.sfm.ItemIO",
+  "icon": "sfm:textures/gui/component_icon/item_transfer.png",
+  "members": [
+    "sfm:item_transfer",
+    "sfm:item_import",
+    "sfm:item_export"
+  ]
+}
