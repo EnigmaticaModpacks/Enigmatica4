@@ -69,3 +69,6 @@ scb_resources/
 XaeroWaypoints/
 XaeroWorldMap/
 options.txt
+TwitchExportBuilder.exe
+post-file-to-discord.ps1
+post-file-to-discord.bat
