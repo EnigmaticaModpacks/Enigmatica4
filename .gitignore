@@ -45,8 +45,6 @@ twitch_export-win.exe
 *.dll
 whitelist.json
 ops.json
-ModpackUploader.ps1
-ModpackUploader.bat
 .build.json
 
 # Instance Sync
