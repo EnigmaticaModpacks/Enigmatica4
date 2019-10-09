@@ -10,22 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-# - task: PowerShell@2
-#   inputs:
-#     filePath: 'post-file-to-discord.ps1'
-
-- task: InvokeRESTAPI@1
-  inputs:
-    connectionType: 'connectedServiceName'
-    method: 'POST'
-    headers: |
-      {
-      "Content-Type":"multipart/form-data"
-      }
-    body: |
-      {
-      "content":"Enigmatica4-0.1.1.zip"
-      }
-    urlSuffix: 'https://discordapp.com/api/webhooks/$(WEBHOOK_ID)/$(WEBHOOK_TOKEN)'
-    waitForCompletion: 'false'
-   pool: server
+ - task: PowerShell@2
+   inputs:
+     filePath: 'post-file-to-discord.ps1'
