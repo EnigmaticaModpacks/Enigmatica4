@@ -40,11 +40,14 @@ BotaniaVars.dat
 crafttweaker.log
 github_changelog_generator.gemspec
 ChangelogGenerator.bat
+GithubChangelogGenerator.bat
 twitch_export-win.exe
 *.zip
 *.dll
 whitelist.json
 ops.json
+ModpackUploader.bat
+post-file-to-discord.bat
 .build.json
 
 # Instance Sync
