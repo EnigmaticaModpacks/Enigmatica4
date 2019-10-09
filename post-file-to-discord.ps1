@@ -7,5 +7,5 @@ if (Test-Path $secretPath) {
 } 
 else 
 {
-	curl --url "https://discordapp.com/api/webhooks/$env:WEBHOOK_ID/$env:WEBHOOK_TOKEN" -F ContentType="multipart/form-data" -F content=@"Enigmatica4-0.1.1.zip" --progress-bar
+	curl.exe --url "https://discordapp.com/api/webhooks/$env:WEBHOOK_ID/$env:WEBHOOK_TOKEN" -F ContentType="multipart/form-data" -F content=@"Enigmatica4-0.1.1.zip" --progress-bar
 }
