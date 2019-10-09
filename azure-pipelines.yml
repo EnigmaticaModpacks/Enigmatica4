@@ -7,7 +7,7 @@ trigger:
 - develop
 
 pool:
-  vmImage: 'server'
+  vmImage: 'ubuntu-latest'
 
 steps:
 # - task: PowerShell@2
@@ -28,3 +28,4 @@ steps:
       }
     urlSuffix: 'https://discordapp.com/api/webhooks/$(WEBHOOK_ID)/$(WEBHOOK_TOKEN)'
     waitForCompletion: 'false'
+   pool: server
