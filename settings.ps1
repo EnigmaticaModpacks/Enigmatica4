@@ -146,4 +146,4 @@ $ENABLE_EXTRA_LOGGING = $false
 # See below link for info:
 # https://github.com/github-changelog-generator/github-changelog-generator
 # Default: $false
-$ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE = $false
+$ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE = $true
