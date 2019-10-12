@@ -1,0 +1,10 @@
+
+[General]
+	#If enabled, burns skeleton horses when daylight shines upon them.
+	shouldBurnSkeletonHorsesInDaylight = true
+	#The chance a skeleton that has spawned on the surface is riding a horse.
+	#Range: 0.0 ~ 1.0
+	chanceSurfaceSkeletonHasHorse = 0.05
+	#If enabled, a skeleton horse with rider will only spawn on the surface.
+	onlySpawnSkeletonHorsesOnSurface = true
+

@@ -1,0 +1,6 @@
+
+[General]
+	#The chance a new zombie spawn from a spawner is of the villager variant.
+	#Range: 0.0 ~ 1.0
+	isZombieVillagerChance = 0.1
+

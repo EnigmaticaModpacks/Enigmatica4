@@ -1,0 +1,12 @@
+#Show block drops of any block
+allBlocks = false
+#Amount of calculation iterations. The higher the more precise the calculation results
+#Range: 500 ~ 20000
+iterations = 4000
+#Mod IDs of mods that won't be scanned
+blacklistedMods = ["flatcoloredblocks", "chisel", "xtones", "wallpapercraft", "sonarcore", "microblockcbe"]
+#Only one blockstate of a block is used to calculate the drops
+#Should ordinarily not affect the calculation
+#(enable this if you miss some drops)
+allStates = false
+

@@ -1,0 +1,7 @@
+#Base time between Krill forages (can be up to 2x that amount in game)
+#Range: 1 ~ 1073741823
+krillForageTime = 1800
+#Base time between Aphrodite Essence drops (can be up to 2x that amount in game)
+#Range: 1 ~ 1073741823
+cicapteraLovelyEssenceTime = 12000
+

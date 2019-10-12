@@ -29,8 +29,6 @@ $CLIENT_MODS = @(
 
 $CURSEFORGE_USER = "NillerMedDild"
 
-
-
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
 $CURSEFORGE_PROJECT_ID = 330372
 

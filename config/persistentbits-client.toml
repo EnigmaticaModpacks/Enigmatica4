@@ -1,0 +1,7 @@
+
+#Client-Side Settings
+[client]
+	#The maximum Y-level to show the loaded chunks indicator
+	#Range: 0 ~ 255
+	maxIndicatorHeight = 255
+
