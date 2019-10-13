@@ -116,3 +116,9 @@
 	#Whether the crafter should exist
 	enabled = true
 
+#Settings for the tank
+[tank]
+	#Maximum tank capacity (in mb)
+	#Range: > 0
+	maxCapacity = 32000
+

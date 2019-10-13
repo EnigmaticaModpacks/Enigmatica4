@@ -3,6 +3,7 @@ ignoreUpdate:209
 updateNotification:false
 settingsButton:false
 allowWrongWorldTeleportation:false
+differentiateByServerAddress:true
 #INGAME SETTINGS (DO NOT EDIT!)
 minimap:true
 caveMaps:1
@@ -10,8 +11,8 @@ caveZoom:2
 showPlayers:true
 showHostile:true
 showMobs:true
-showItems:true
-showOther:true
+showItems:false
+showOther:false
 showOtherTeam:true
 showWaypoints:true
 showIngameWaypoints:true
@@ -21,15 +22,15 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:true
-zoom:2
+zoom:1
 mapSize:-1
-entityAmount:1
+entityAmount:2
 chunkGrid:-5
 slimeChunks:false
-playersColor:15
-mobsColor:14
-hostileColor:14
-itemsColor:12
+playersColor:2
+mobsColor:15
+hostileColor:4
+itemsColor:6
 otherColor:5
 otherTeamColor:-1
 mapSafeMode:false
@@ -38,9 +39,9 @@ waypointsScale:1.0
 antiAliasing:true
 blockColours:0
 lighting:true
-dotsScale:1.0
+dotsScale:1.5
 compassOverWaypoints:false
-showBiome:false
+showBiome:true
 showEntityHeight:true
 showFlowers:true
 keepWaypointNames:false
@@ -56,7 +57,7 @@ worldMap:true
 terrainDepth:true
 terrainSlopes:true
 terrainSlopesExperiment:false
-alwaysArrow:false
+alwaysArrow:true
 blockTransparency:true
 waypointOpacityIngame:80
 waypointOpacityMap:90
