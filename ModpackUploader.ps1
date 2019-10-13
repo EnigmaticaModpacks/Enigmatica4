@@ -127,10 +127,10 @@ if ($ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host ""
     Write-Host "Uploading client files..." -ForegroundColor Green
     Write-Host ""
-
+pause
     $Response = curl.exe --url "https://minecraft.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file" --user "$CURSEFORGE_USER`:$CURSEFORGE_TOKEN" -H "Accept: application/json" -H X-Api-Token:$CURSEFORGE_TOKEN -F metadata=$CLIENT_METADATA -F file=@$CLIENT_FILENAME --progress-bar | ConvertFrom-Json
     $ResponseId = $Response.id
-
+pause
     Write-Host ""
     Write-Host "######################################" -ForegroundColor Cyan
     Write-Host ""
