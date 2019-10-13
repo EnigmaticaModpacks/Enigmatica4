@@ -1,5 +1,7 @@
 . "$PSScriptRoot\settings.ps1"
 . "$PSScriptRoot\secrets.ps1"
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
 
 function Download-GithubRelease {
     param(
@@ -98,10 +100,9 @@ if ($ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE) {
     Write-Host "Making GitHub Release..." -ForegroundColor Green
     Write-Host ""
 
-    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     Invoke-RestMethod -Headers $Headers -Uri $Uri -Body $Body -Method Post
 
-	Start-Process Powershell.exe -Argument "-NoProfile -Command github_changelog_generator --since-tag $CHANGELOG_FROM_VERSION"
+	Start-Process Powershell.exe -Argument "-NoProfile -Command github_changelog_generator --since-tag $CHANGES_SINCE_VERSION"
 }
 
 if ($ENABLE_MODPACK_UPLOADER_MODULE) {
@@ -120,6 +121,7 @@ if ($ENABLE_MODPACK_UPLOADER_MODULE) {
     if ($ENABLE_EXTRA_LOGGING) {
         Write-Host "Client Metadata:"
         Write-Host $CLIENT_METADATA 
+		Write-Host $CLIENT_FILENAME
     }
 
     Write-Host ""
