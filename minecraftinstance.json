@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-10-13T17:41:34.4016527Z",
+  "lastPlayed": "2019-10-13T09:26:50.3407945Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -286,6 +286,21 @@
       "fileSize": 90819
     },
     {
+      "folderName": "blockdrops-1.14.4-1.0.2.jar",
+      "fingerprint": 3989450240,
+      "fileDateHash": 3198326149,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3989450240
+      ],
+      "status": 1,
+      "timestamp": "2019-10-13T09:23:47.9767398Z",
+      "lastWriteTimeUtc": "2019-10-11T19:45:56.6654651Z",
+      "queryTimestamp": "2019-10-13T09:26:41.3458002Z",
+      "fileCount": 1,
+      "fileSize": 28062
+    },
+    {
       "folderName": "EquipmentTooltips-1.14.4-1.3.2+10.jar",
       "fingerprint": 3255383924,
       "fileDateHash": 3337936969,
@@ -464,6 +479,21 @@
       "queryTimestamp": "2019-10-13T09:26:41.3352958Z",
       "fileCount": 1,
       "fileSize": 28423
+    },
+    {
+      "folderName": "IronJetpacks-1.14.4-2.0.2.jar",
+      "fingerprint": 4236316774,
+      "fileDateHash": 2044905835,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4236316774
+      ],
+      "status": 1,
+      "timestamp": "2019-09-21T09:35:55.5805188Z",
+      "lastWriteTimeUtc": "2019-08-12T17:34:43.2327706Z",
+      "queryTimestamp": "2019-10-13T09:26:41.3517936Z",
+      "fileCount": 1,
+      "fileSize": 117182
     },
     {
       "folderName": "ClickMachine-1.14.4-2.1.2.jar",
@@ -2587,6 +2617,85 @@
       "dateInstalled": "2019-10-13T09:26:42.6022929Z",
       "dateUpdated": "2018-10-13T09:26:42.6022929Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 284497,
+      "gameInstanceID": "a64a382e-af07-4c8b-945e-37890dd3a12b",
+      "installedFile": {
+        "id": 2760195,
+        "displayName": "IronJetpacks-1.14.4-2.0.2.jar",
+        "fileName": "IronJetpacks-1.14.4-2.0.2.jar",
+        "fileDate": "2019-08-12T03:20:40.027Z",
+        "fileLength": 117182,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2760/195/IronJetpacks-1.14.4-2.0.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 272335,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1984114908,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3295285373,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3278207694,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 4016076390,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1336895480,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 4236316774,
+        "gameVersion": [
+          "1.14.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "IronJetpacks-1.14.4-2.0.2.jar"
+      },
+      "dateInstalled": "2019-08-09T12:51:38.1196369Z",
+      "dateUpdated": "2019-08-12T17:34:43.2387585Z",
+      "dateLastUpdateAttempted": "2019-08-12T17:34:43.2387585Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -5152,7 +5261,7 @@
       "dateInstalled": "2019-10-13T09:26:42.5937918Z",
       "dateUpdated": "2018-10-13T09:26:42.5937918Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6122,6 +6231,87 @@
       "installedTargets": null
     },
     {
+      "addonID": 244181,
+      "gameInstanceID": "a64a382e-af07-4c8b-945e-37890dd3a12b",
+      "installedFile": {
+        "id": 2807201,
+        "displayName": "blockdrops-1.14.4-1.0.2.jar",
+        "fileName": "blockdrops-1.14.4-1.0.2.jar",
+        "fileDate": "2019-10-11T18:14:03.82Z",
+        "fileLength": 28062,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2807/201/blockdrops-1.14.4-1.0.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 31885349,
+            "addonId": 238222,
+            "type": 3,
+            "fileId": 2807201
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2079159408,
+            "type": 3
+          },
+          {
+            "foldername": "kdp",
+            "fingerprint": 383278310,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2516933185,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3989450240,
+        "gameVersion": [
+          "1.14.4"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000014.0000000004",
+            "gameVersion": "1.14.4",
+            "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
+            "gameVersionName": "1.14.4"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1678499,
+        "projectId": 244181,
+        "packageFingerprintId": 366060804,
+        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
+        "gameVersionMappingId": 1967561,
+        "gameVersionId": 7469,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "blockdrops-1.14.4-1.0.2.jar"
+      },
+      "dateInstalled": "2019-10-13T09:26:42.6013051Z",
+      "dateUpdated": "2018-10-13T09:26:42.6013051Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 69118,
       "gameInstanceID": "a64a382e-af07-4c8b-945e-37890dd3a12b",
       "installedFile": {
@@ -7074,6 +7264,87 @@
       "installedTargets": null
     },
     {
+      "addonID": 345614,
+      "gameInstanceID": "a64a382e-af07-4c8b-945e-37890dd3a12b",
+      "installedFile": {
+        "id": 2802077,
+        "displayName": "snp_1.14-1.0.jar",
+        "fileName": "snp_1.14-1.0.jar",
+        "fileDate": "2019-10-05T08:48:51.993Z",
+        "fileLength": 10782,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2802/77/snp_1.14-1.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3086915621,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 767720615,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 237812536,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3476193793,
+        "gameVersion": [
+          "1.14.4",
+          "Forge"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000014.0000000004",
+            "gameVersion": "1.14.4",
+            "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
+            "gameVersionName": "1.14.4"
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1672484,
+        "projectId": 345614,
+        "packageFingerprintId": 363796146,
+        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
+        "gameVersionMappingId": 1959838,
+        "gameVersionId": 7469,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "snp_1.14-1.0.jar"
+      },
+      "dateInstalled": "2019-10-09T08:14:03.9303505Z",
+      "dateUpdated": "2018-10-09T08:14:03.9303505Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 237307,
       "gameInstanceID": "a64a382e-af07-4c8b-945e-37890dd3a12b",
       "installedFile": {
@@ -7145,87 +7416,6 @@
       },
       "dateInstalled": "2019-10-09T08:14:03.9218497Z",
       "dateUpdated": "2018-10-09T08:14:03.9218497Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 345614,
-      "gameInstanceID": "a64a382e-af07-4c8b-945e-37890dd3a12b",
-      "installedFile": {
-        "id": 2802077,
-        "displayName": "snp_1.14-1.0.jar",
-        "fileName": "snp_1.14-1.0.jar",
-        "fileDate": "2019-10-05T08:48:51.993Z",
-        "fileLength": 10782,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2802/77/snp_1.14-1.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3086915621,
-            "type": 3
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 767720615,
-            "type": 3
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 237812536,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 3476193793,
-        "gameVersion": [
-          "1.14.4",
-          "Forge"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000014.0000000004",
-            "gameVersion": "1.14.4",
-            "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
-            "gameVersionName": "1.14.4"
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1672484,
-        "projectId": 345614,
-        "packageFingerprintId": 363796146,
-        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
-        "gameVersionMappingId": 1959838,
-        "gameVersionId": 7469,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "snp_1.14-1.0.jar"
-      },
-      "dateInstalled": "2019-10-09T08:14:03.9303505Z",
-      "dateUpdated": "2018-10-09T08:14:03.9303505Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -7318,7 +7508,7 @@
       "dateInstalled": "2019-10-13T09:26:42.6037953Z",
       "dateUpdated": "2018-10-13T09:26:42.6037953Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
