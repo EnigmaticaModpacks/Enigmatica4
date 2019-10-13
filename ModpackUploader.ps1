@@ -198,4 +198,9 @@ Write-Host "The Modpack Uploader has completed." -ForegroundColor Green
 Write-Host ""
 Write-Host "######################################" -ForegroundColor Cyan
 
+$CurlUrl = "https://discordapp.com/api/webhooks/$WEBHOOK_ID/$WEBHOOK_TOKEN"
+$FilePath = "$CLIENT_FILENAME-$MODPACK_VERSION.zip"
+
+curl.exe --url $CurlUrl -F ContentType="multipart/form-data" -F content=@$FilePath --progress-bar
+
 Start-Sleep -Seconds 10

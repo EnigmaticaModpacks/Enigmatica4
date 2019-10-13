@@ -21,8 +21,7 @@ $CLIENT_MODS = @(
 	"toughnessbar", 
 	"Xaeros_Minimap", 
     "XaerosWorldMap")
-
-
+	
 # =====================================================================//
 #  CURSEFORGE SETTINGS
 # =====================================================================//
@@ -37,22 +36,22 @@ $CURSEFORGE_PROJECT_ID = 330372
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.1.3"
+$MODPACK_VERSION = "0.1.4"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.1.2"
+$LAST_MODPACK_VERSION = "0.1.3"
 
 $FORGE_VERSION=28.1.39
 
 $CLIENT_FILENAME = "Enigmatica4"
 
 # Default: "$CLIENT_FILENAME $MODPACK_VERSION"
-$CLIENT_FILE_DISPLAY_NAME = "Enigmatica 4 `- $MODPACK_VERSION"
+$CLIENT_FILE_DISPLAY_NAME = "Enigmatica 4 - $MODPACK_VERSION"
 
 # An array of compatible game versions of Minecraft.
 # See GameVersions.json for possible versions.
 # Default: @(6756) - which is Minecraft 1.12.2
-$GAME_VERSIONS = @(64806)
+$GAME_VERSIONS = @(7469)
 
 # Can be "markdown", "text" or "html"
 $CLIENT_CHANGELOG_TYPE = "html"
@@ -74,7 +73,7 @@ $CLIENT_RELEASE_TYPE = "beta"
 $SERVER_FILENAME = "$CLIENT_FILENAME`Server-$MODPACK_VERSION"
 
 # Default: $SERVER_FILENAME
-$SERVER_FILE_DISPLAY_NAME = "Enigmatica 4 Server `- $MODPACK_VERSION"
+$SERVER_FILE_DISPLAY_NAME = "Enigmatica 4 Server - $MODPACK_VERSION"
 
 # A continuous line of the folders and files (with extensions) to zip into Server Files.
 # Default: @("mods", "config")
@@ -84,13 +83,13 @@ $CONTENTS_TO_ZIP = @("mods",
 "development/include-in-server-files/update-server.ps1",
 "development/include-in-server-files/update-and-start-server.bat",
 "development/include-in-server-files/update-and-start-server.ps1",
-"development/include-in-server-files/server-start-license.md", 
-"development/include-in-server-files/server-start-readme.md", 
-"development/include-in-server-files/server-start.bat", 
-"development/include-in-server-files/server-start.sh", 
-"development/include-in-server-files/settings.cfg", 
-"development/include-in-server-files/server.properties", 
-"development/include-in-server-files/server-guide.txt")
+"server-start-license.md", 
+"server-start-readme.md", 
+"server-start.bat", 
+"server-start.sh", 
+"settings.cfg", 
+"server.properties", 
+"server-guide.txt")
 
 # Can be "markdown", "text" or "html"
 # Default: $CLIENT_CHANGELOG_TYPE
@@ -125,7 +124,7 @@ $ENABLE_SERVER_FILE_MODULE = $true
 # This module requires an older modpack manifest zip to be present, 
 # $LAST_MODPACK_VERSION must be set, and the manifest naming must be consistent.
 # Default: $false
-$ENABLE_CHANGELOG_GENERATOR_MODULE = $true
+$ENABLE_CHANGELOG_GENERATOR_MODULE = $false
 
 # Toggle removal and re-download of jars on/off.
 # Setting this to true will ensure that you always have the latest 
@@ -145,4 +144,4 @@ $ENABLE_EXTRA_LOGGING = $false
 # See below link for info:
 # https://github.com/github-changelog-generator/github-changelog-generator
 # Default: $false
-$ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE = $true
+$ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE = $true	
