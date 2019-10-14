@@ -20,12 +20,11 @@
 
 - random crashes while exploring [\#33](https://github.com/NillerMedDild/Enigmatica4/issues/33)
 - Server files are missing all top-level server-only files [\#29](https://github.com/NillerMedDild/Enigmatica4/issues/29)
-- Remove JEI Block Drops [\#27](https://github.com/NillerMedDild/Enigmatica4/issues/27) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 
 **Closed issues:**
 
 - Temporarily removed the Midnight [\#38](https://github.com/NillerMedDild/Enigmatica4/issues/38)
-- Skeleton Horse Spawn - Exception in Server Tick Loop [\#34](https://github.com/NillerMedDild/Enigmatica4/issues/34)
+- Remove JEI Block Drops [\#27](https://github.com/NillerMedDild/Enigmatica4/issues/27) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 
 ## [0.1.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.4) (2019-10-13)
 ## [0.1.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.3) (2019-10-13)
