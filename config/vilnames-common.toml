@@ -1,0 +1,7 @@
+
+[General]
+	#Use the list of female names when naming villagers.
+	_useFemaleNames = true
+	#Use the list of male names when naming villagers.
+	_useMaleNames = true
+

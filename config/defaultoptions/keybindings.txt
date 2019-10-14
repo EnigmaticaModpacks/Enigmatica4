@@ -34,6 +34,7 @@ key_key.hotbar.9:key.keyboard.9:NONE
 key_key.llor.hotkey:key.keyboard.f7:NONE
 key_key.dismount:key.keyboard.left.shift:NONE
 key_key.narrator:key.keyboard.b:CONTROL
+key_key.findme.search:key.keyboard.h
 key_key.toggleLiquids:key.keyboard.unknown:NONE
 key_key.toggleVisible:key.keyboard.unknown:NONE
 key_key.curiousshulkerboxes.open.desc:key.keyboard.x:NONE

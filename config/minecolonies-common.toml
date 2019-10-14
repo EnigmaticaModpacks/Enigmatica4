@@ -88,8 +88,6 @@
 	#Which level counts as op level on the server. [Default: 3]
 	#Range: 0 ~ 3
 	oplevelforserver = 3
-	#Should the player be allowed to use the '/mc backup' command? [Default: false]
-	canplayerusebackupcommand = false
 	#Sets weither or not Colony structures are destroyed automatically. [Default: true]
 	autodestroycolonyblocks = true
 	#Should the player be allowed to use the '/mc citizens info' command? [Default: true]
@@ -108,8 +106,6 @@
 	canplayeruseshowcolonyinfocommand = true
 	#Should the player be allowed to use the '/mc colony addOfficer' command? [Default: true]
 	canplayeruseaddofficercommand = true
-	#Should the player be allowed to use the '/mc colony refresh' command? [Default: false]
-	canplayeruserefreshcolonycommand = false
 	#Time until a next teleport can be executed (in seconds). [Default: 120]
 	#Range: 30 ~ 99999
 	teleportbuffer = 120
@@ -117,8 +113,8 @@
 	canplayerusehometpcommand = true
 	#Should the player be allowed to use the '/mc citizens kill' command? [Default: true]
 	canplayerusekillcitizenscommand = true
-	#Should the player be allowed to use the '/mc citizens respawn' command? [Default: true]
-	canplayerrespawncitizenscommand = true
+	#Can Player Teleport to allied colonies? [Default:true]
+	canplayeruseallytownhallteleport = true
 	#Should the player be allowed to use the '/mc citizens list' command? [Default: true]
 	canplayeruselistcitizenscommand = true
 

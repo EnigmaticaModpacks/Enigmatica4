@@ -1,0 +1,23 @@
+
+[general]
+	#minimum time between spawns in ticks
+	#Range: > 1
+	"min tick time" = 50
+	#maximum time between spawns in ticks
+	#Range: > 1
+	"max tick time" = 250
+	#max number of mobs before cursed earth stops spawning
+	#Range: > 1
+	"mob cap" = 25
+	#Force spawns to occur regardless of conditions such as light level and elevation
+	"force spawns" = false
+	#does cursed earth die in sunlight
+	"die in sunlight" = true
+	#does cursed earth naturally spread
+	"naturally spread" = true
+	#does the wither rose make cursed earth
+	"wither rose" = true
+	#minimum distance cursed earth has to be away from players before it spawns mobs
+	#Range: > 1
+	"spawn radius" = 1
+

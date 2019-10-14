@@ -1,0 +1,17 @@
+
+[server]
+	#Sets whether the permission list is a blacklist or whitelist
+	#Allowed Values: BLACKLIST, WHITELIST
+	permissionMode = "BLACKLIST"
+	#List of items by registry name to be blacklisted/whitelisted based on Permission Mode
+	permissionList = []
+	#Sets how the elytra chestplates will behave
+	#NORMAL: Elytras will exist separately from the chestplate, able to be separated later
+	#UNISON: Elytras will fuse completely with the chestplate, unable to be separated
+	#PERFECT: Elytras will fuse completely with the chestplate and flying will not use durability
+	#Allowed Values: NORMAL, UNISON, PERFECT
+	colytraMode = "NORMAL"
+	#How much energy per second elytra flight uses if Unison mode is active and the chestplate uses energy
+	#Range: > 0
+	energyUsage = 1000
+

@@ -28,7 +28,7 @@
 	#Allow players to use shape mining
 	"Allow Shapes" = true
 	#Allow excavation with an open hand
-	"Open Hand" = true
+	"Open Hand" = false
 	#The default game stage required to unlock excavations (requires gamestages to be installed)
 	"Game Stage" = ""
 	#Tools blacklisted from excavating
@@ -37,7 +37,7 @@
 	"Block Blacklist" = []
 	#The maximum number of blocks that can be excavated at once
 	#Range: > 1
-	Limit = 128
+	Limit = 512
 	#How many excavations should be kept in undo history (may lead to exploits or instability)
 	#Range: > 0
 	"Max Undos" = 3
