@@ -31,12 +31,14 @@ param(
 )
 
 $ModFolder = "$PSScriptRoot/mods"
+$WorldFolder = "$PSScriptRoot/world"
 $BackupFolder = "$PSScriptRoot/backups"
-$BackupsToKeep = 3
+$BackupsToKeep = 10
 
 git fetch
 $CommitsBehind = git rev-list --left-only --count origin/master...master
 if ($CommitsBehind -gt 0) {
+	# Make a backup of the mods folder
 	New-Item -ItemType Directory -Path $BackupFolder -ErrorAction SilentlyContinue
 	if (Test-Path $ModFolder) {
 		if ((Get-ChildItem -Path $ModFolder | Measure-Object).Count -gt 0) {
@@ -46,6 +48,26 @@ if ($CommitsBehind -gt 0) {
 	} 
 	else {
 		New-Item -ItemType Directory -Path $ModFolder -ErrorAction SilentlyContinue
+	}
+	
+	$BackupFiles = Get-ChildItem -Path $BackupFolder 
+	$BackupFileCount = ($BackupFiles | Measure-Object ).Count
+	if ($BackupFileCount -gt $BackupsToKeep) {
+		$BackupFiles | 
+		Sort-Object -Property CreationTime -Descending | 
+		Select-Object -Last ($BackupFileCount - $BackupsToKeep) | 
+		Foreach-Object { Remove-Item "$BackupFolder/$_" }
+	}
+	
+	# Make a backup of the world folder
+	New-Item -ItemType Directory -Path $BackupFolder -ErrorAction SilentlyContinue
+	if (Test-Path $WorldFolder) {
+		if ((Get-ChildItem -Path $WorldFolder | Measure-Object).Count -gt 0) {
+			Compress-Archive -Path $WorldFolder "$BackupFolder/world-$(Get-Date -Format "MM.dd.yyyy-HH.mm").zip"
+		}
+	} 
+	else {
+		New-Item -ItemType Directory -Path $WorldFolder -ErrorAction SilentlyContinue
 	}
 	
 	$BackupFiles = Get-ChildItem -Path $BackupFolder 
@@ -66,7 +88,7 @@ Get-ChildItem $ModFolder -Name -Filter  "*.jar" | ForEach-Object {
 	$Mod = $_.toLower()
 	foreach ($ClientMod in $ClientMods) {
 		if ($Mod.StartsWith($ClientMod.toLower())) {
-			Remove-Item "$modfolder/$mod" -Force
+			Remove-Item "$Modfolder/$mod" -Force
 		}
 	}
 }
