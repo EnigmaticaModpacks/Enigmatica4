@@ -5,10 +5,10 @@
 
 function Download-GithubRelease {
     param(
-        [parameter(Mandatory=$true)]
+        [parameter(Mandatory = $true)]
         [string]
         $repo,
-        [parameter(Mandatory=$true)]
+        [parameter(Mandatory = $true)]
         [string]
         $file
     )
@@ -35,15 +35,15 @@ function Clear-SleepHost {
     Clear-Host
 }
 
-if (-not (test-path "$env:ProgramFiles\7-Zip\7z.exe")) {throw "$env:ProgramFiles\7-Zip\7z.exe needed to use the ModpackUploader."} 
-    Set-Alias sz "$env:ProgramFiles\7-Zip\7z.exe"
+if (-not (test-path "$env:ProgramFiles\7-Zip\7z.exe")) { throw "$env:ProgramFiles\7-Zip\7z.exe needed to use the ModpackUploader." } 
+Set-Alias sz "$env:ProgramFiles\7-Zip\7z.exe"
 
 if ($ENABLE_MANIFEST_BUILDER_MODULE) {
     $TwitchExportBuilder = "TwitchExportBuilder.exe"
     if (!(Test-Path $TwitchExportBuilder) -or $ENABLE_ALWAYS_UPDATE_JARS) {
         Remove-Item $TwitchExportBuilder -Recurse -Force -ErrorAction SilentlyContinue
         Download-GithubRelease -repo "Gaz492/twitch-export-builder" -file "twitch-export-builder_windows_amd64.exe"
-		Rename-Item -Path "twitch-export-builder_windows_amd64.exe" -NewName $TwitchExportBuilder -ErrorAction SilentlyContinue
+        Rename-Item -Path "twitch-export-builder_windows_amd64.exe" -NewName $TwitchExportBuilder -ErrorAction SilentlyContinue
     }
     .\TwitchExportBuilder.exe -n "$CLIENT_FILENAME" -p "$MODPACK_VERSION"
     Clear-SleepHost
@@ -80,12 +80,12 @@ if ($ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE) {
     };
 
     $Body = @{
-        tag_name = $MODPACK_VERSION;
+        tag_name         = $MODPACK_VERSION;
         target_commitish = 'master';
-        name = $MODPACK_VERSION;
-        body = $CLIENT_CHANGELOG;
-        draft = $false;
-        prerelease = $false;
+        name             = $MODPACK_VERSION;
+        body             = $CLIENT_CHANGELOG;
+        draft            = $false;
+        prerelease       = $false;
     } | ConvertTo-Json;
 
     Clear-SleepHost
@@ -102,7 +102,7 @@ if ($ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE) {
 
     Invoke-RestMethod -Headers $Headers -Uri $Uri -Body $Body -Method Post
 
-	Start-Process Powershell.exe -Argument "-NoProfile -Command github_changelog_generator --since-tag $CHANGES_SINCE_VERSION"
+    Start-Process Powershell.exe -Argument "-NoProfile -Command github_changelog_generator --since-tag $CHANGES_SINCE_VERSION"
 }
 
 if ($ENABLE_MODPACK_UPLOADER_MODULE) {
@@ -121,7 +121,7 @@ if ($ENABLE_MODPACK_UPLOADER_MODULE) {
     if ($ENABLE_EXTRA_LOGGING) {
         Write-Host "Client Metadata:"
         Write-Host $CLIENT_METADATA 
-		Write-Host $CLIENT_FILENAME
+        Write-Host $CLIENT_FILENAME
     }
 
     Write-Host ""
@@ -154,10 +154,19 @@ if ($ENABLE_SERVER_FILE_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host "######################################" -ForegroundColor Cyan
     Write-Host ""
 
+    $CONTENTS_TO_MOVE | ForEach-Object {
+        $FilePath = "$PSScriptRoot/development/include-in-server-files/$_"
+        Copy-Item -Path $FilePath -Destination $PSScriptRoot
+    }
+
     $SERVER_FILENAME = "$SERVER_FILENAME.zip"
     sz a -tzip $SERVER_FILENAME $CONTENTS_TO_ZIP
 
-    # Custom
+    $CONTENTS_TO_MOVE | ForEach-Object {
+        $FilePath = "$PSScriptRoot/$_"
+        Remove-Item -Path $FilePath -Force
+    }
+
     Write-Host "Removing Client Mods from Server Files" -ForegroundColor Cyan
     foreach ($clientMod in $CLIENT_MODS) {
         Write-Host "Removing Client Mod $clientMod"
