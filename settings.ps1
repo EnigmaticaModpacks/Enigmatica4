@@ -62,7 +62,7 @@ $CLIENT_CHANGELOG = "<p>Using Forge-1.14.4-28.1.56 <br />" +
 #<a href=`"https://github.com/NillerMedDild/Enigmatica4/blob/master/MOD_CHANGELOGS.txt`">Mod Changelogs (link)</a></p>
 
 # Can be "alpha", "beta" or "release"
-$CLIENT_RELEASE_TYPE = "beta"
+$CLIENT_RELEASE_TYPE = "alpha"
 
 #=====================================================================//
 #  SERVER FILE SETTINGS
