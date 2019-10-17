@@ -1,9 +1,22 @@
 # Enigmatica 4 Changelog
 
-## [Unreleased](https://github.com/NillerMedDild/Enigmatica4/tree/HEAD)
+## [0.1.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.5) (2019-10-17)
 
 **Implemented enhancements:**
 
+- Add Comforts [\#54](https://github.com/NillerMedDild/Enigmatica4/issues/54) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Hidden Levers [\#53](https://github.com/NillerMedDild/Enigmatica4/issues/53) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Re-add The Midnight [\#52](https://github.com/NillerMedDild/Enigmatica4/issues/52) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+
+**Closed issues:**
+
+- Server Backup in update script [\#47](https://github.com/NillerMedDild/Enigmatica4/issues/47)
+- Move server only files before/after modpack publish [\#46](https://github.com/NillerMedDild/Enigmatica4/issues/46)
+
+## [0.1.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.5) (2019-10-16)
+**Implemented enhancements:**
+
+- Add Friendly Fire [\#51](https://github.com/NillerMedDild/Enigmatica4/issues/51) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Increased amount of hearts you can gain from eating different foods. [\#45](https://github.com/NillerMedDild/Enigmatica4/issues/45) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
 - Decreased percentage of players who need to sleep to skip the night to 25% [\#44](https://github.com/NillerMedDild/Enigmatica4/issues/44) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
 - GraveStones can now only be broken by OPs and the owner of the grave [\#43](https://github.com/NillerMedDild/Enigmatica4/issues/43) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
@@ -23,10 +36,10 @@
 
 **Closed issues:**
 
-- Temporarily removed the Midnight [\#38](https://github.com/NillerMedDild/Enigmatica4/issues/38)
-- Remove JEI Block Drops [\#27](https://github.com/NillerMedDild/Enigmatica4/issues/27) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Clumps Mod [\#50](https://github.com/NillerMedDild/Enigmatica4/issues/50) [[Removed](https://github.com/NillerMedDild/Enigmatica4/labels/Removed)]
+- Temporarily removed the Midnight [\#38](https://github.com/NillerMedDild/Enigmatica4/issues/38) [[Removed](https://github.com/NillerMedDild/Enigmatica4/labels/Removed)]
+- Remove JEI Block Drops [\#27](https://github.com/NillerMedDild/Enigmatica4/issues/27) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)] [[Removed](https://github.com/NillerMedDild/Enigmatica4/labels/Removed)]
 
-## [0.1.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.4) (2019-10-13)
 ## [0.1.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.3) (2019-10-13)
 ## [0.1.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.2) (2019-10-13)
 ## [0.1.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.1) (2019-10-13)
