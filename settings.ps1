@@ -36,10 +36,10 @@ $CURSEFORGE_PROJECT_ID = 330372
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.1.6"
+$MODPACK_VERSION = "0.1.7"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.1.5"
+$LAST_MODPACK_VERSION = "0.1.6"
 
 $FORGE_VERSION=28.1.56
 
@@ -62,7 +62,7 @@ $CLIENT_CHANGELOG = "<p>Using Forge-1.14.4-28.1.56 <br />" +
 #<a href=`"https://github.com/NillerMedDild/Enigmatica4/blob/master/MOD_CHANGELOGS.txt`">Mod Changelogs (link)</a></p>
 
 # Can be "alpha", "beta" or "release"
-$CLIENT_RELEASE_TYPE = "alpha"
+$CLIENT_RELEASE_TYPE = "beta"
 
 #=====================================================================//
 #  SERVER FILE SETTINGS
