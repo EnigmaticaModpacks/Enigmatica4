@@ -1,19 +1,22 @@
 # Enigmatica 4 Changelog
 
-## [0.1.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.5) (2019-10-17)
-
+## [0.1.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.6) (2019-10-18)
 **Implemented enhancements:**
 
 - Add Comforts [\#54](https://github.com/NillerMedDild/Enigmatica4/issues/54) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Hidden Levers [\#53](https://github.com/NillerMedDild/Enigmatica4/issues/53) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Re-add The Midnight [\#52](https://github.com/NillerMedDild/Enigmatica4/issues/52) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 
+**Fixed bugs:**
+
+- The Midnight dimension crash on enter [\#37](https://github.com/NillerMedDild/Enigmatica4/issues/37)
+
 **Closed issues:**
 
 - Server Backup in update script [\#47](https://github.com/NillerMedDild/Enigmatica4/issues/47)
 - Move server only files before/after modpack publish [\#46](https://github.com/NillerMedDild/Enigmatica4/issues/46)
 
-## [0.1.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.5) (2019-10-16)
+## [0.1.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.5) (2019-10-16)
 **Implemented enhancements:**
 
 - Add Friendly Fire [\#51](https://github.com/NillerMedDild/Enigmatica4/issues/51) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
@@ -40,6 +43,7 @@
 - Temporarily removed the Midnight [\#38](https://github.com/NillerMedDild/Enigmatica4/issues/38) [[Removed](https://github.com/NillerMedDild/Enigmatica4/labels/Removed)]
 - Remove JEI Block Drops [\#27](https://github.com/NillerMedDild/Enigmatica4/issues/27) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)] [[Removed](https://github.com/NillerMedDild/Enigmatica4/labels/Removed)]
 
+## [0.1.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.4) (2019-10-13)
 ## [0.1.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.3) (2019-10-13)
 ## [0.1.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.2) (2019-10-13)
 ## [0.1.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.1) (2019-10-13)
