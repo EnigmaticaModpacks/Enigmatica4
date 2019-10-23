@@ -1,5 +1,44 @@
 # Enigmatica 4 Changelog
 
+## [Unreleased](https://github.com/NillerMedDild/Enigmatica4/tree/HEAD)
+
+**Implemented enhancements:**
+
+- Add Angel Ring [\#82](https://github.com/NillerMedDild/Enigmatica4/issues/82) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Ring of Attraction & Growth [\#81](https://github.com/NillerMedDild/Enigmatica4/issues/81) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Just Enough Resources \(JER\) [\#80](https://github.com/NillerMedDild/Enigmatica4/issues/80) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add DRP - Global Data Pack [\#77](https://github.com/NillerMedDild/Enigmatica4/issues/77) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Double Doors [\#76](https://github.com/NillerMedDild/Enigmatica4/issues/76) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Fishing Real [\#75](https://github.com/NillerMedDild/Enigmatica4/issues/75) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Easy Breeding [\#74](https://github.com/NillerMedDild/Enigmatica4/issues/74) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Auto Sprint [\#72](https://github.com/NillerMedDild/Enigmatica4/issues/72) [[Keybinding](https://github.com/NillerMedDild/Enigmatica4/labels/Keybinding)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add ModNameTooltip [\#71](https://github.com/NillerMedDild/Enigmatica4/issues/71) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Demagnetize [\#69](https://github.com/NillerMedDild/Enigmatica4/issues/69) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Crafting Station [\#68](https://github.com/NillerMedDild/Enigmatica4/issues/68) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add AttributeFix [\#66](https://github.com/NillerMedDild/Enigmatica4/issues/66) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Dirt2Path [\#65](https://github.com/NillerMedDild/Enigmatica4/issues/65) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Practical Tools [\#61](https://github.com/NillerMedDild/Enigmatica4/issues/61) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add FTB Backups [\#60](https://github.com/NillerMedDild/Enigmatica4/issues/60) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Chunk Claim [\#59](https://github.com/NillerMedDild/Enigmatica4/issues/59) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Traverse Legacy Continued [\#58](https://github.com/NillerMedDild/Enigmatica4/issues/58) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Some mod suggestions [\#23](https://github.com/NillerMedDild/Enigmatica4/issues/23) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+
+**Fixed bugs:**
+
+- Change Find Me Keybinding [\#67](https://github.com/NillerMedDild/Enigmatica4/issues/67) [[Keybinding](https://github.com/NillerMedDild/Enigmatica4/labels/Keybinding)]
+- Disable Grave Ghost [\#62](https://github.com/NillerMedDild/Enigmatica4/issues/62)
+- Mouse middle-click sort doesn't work unless another inventory is open [\#48](https://github.com/NillerMedDild/Enigmatica4/issues/48)
+- BetterAdvancement Config [\#1](https://github.com/NillerMedDild/Enigmatica4/issues/1)
+
+**Closed issues:**
+
+- The Endergetic Expansion [\#57](https://github.com/NillerMedDild/Enigmatica4/issues/57)
+
+## [0.1.7](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.7) (2019-10-18)
+**Implemented enhancements:**
+
+- Add Large Fluid Tanks [\#56](https://github.com/NillerMedDild/Enigmatica4/issues/56) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+
 ## [0.1.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.6) (2019-10-18)
 **Implemented enhancements:**
 
@@ -36,12 +75,6 @@
 
 - random crashes while exploring [\#33](https://github.com/NillerMedDild/Enigmatica4/issues/33)
 - Server files are missing all top-level server-only files [\#29](https://github.com/NillerMedDild/Enigmatica4/issues/29)
-
-**Closed issues:**
-
-- Clumps Mod [\#50](https://github.com/NillerMedDild/Enigmatica4/issues/50) [[Removed](https://github.com/NillerMedDild/Enigmatica4/labels/Removed)]
-- Temporarily removed the Midnight [\#38](https://github.com/NillerMedDild/Enigmatica4/issues/38) [[Removed](https://github.com/NillerMedDild/Enigmatica4/labels/Removed)]
-- Remove JEI Block Drops [\#27](https://github.com/NillerMedDild/Enigmatica4/issues/27) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)] [[Removed](https://github.com/NillerMedDild/Enigmatica4/labels/Removed)]
 
 ## [0.1.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.4) (2019-10-13)
 ## [0.1.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.3) (2019-10-13)

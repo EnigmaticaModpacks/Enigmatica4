@@ -1,0 +1,11 @@
+
+# Practical Tools config 
+# These multipliers affect the amount of damage tools take per use.
+[common]
+	#Range: > 1
+	HammerDuraLossMulti = 2
+	#Range: > 1
+	ExcavatorDuraLossMulti = 2
+	#Range: > 1
+	GreataxeDuraLossMulti = 3
+

@@ -9,7 +9,7 @@ remove_death_note = true
 #If this is set to true only the player that owns the gravestone and the admins can break the gravestone
 only_owners_can_break = true
 #If this is set to true a ghost of the dead player will be spawned when the gravestone is broken
-spawn_ghost = true
+spawn_ghost = false
 #If this is set to true the ghost of the dead player will defend him
 friendly_ghost = true
 

@@ -18,6 +18,7 @@ param(
 		"EnchantmentDescriptions", 
 		"EquipmentTooltips", 
 		"FpsReducer", 
+		"JustEnoughResources",
 		"LLOverlayReloaded", 
 		"MouseTweaks",
 		"nmdar_", 

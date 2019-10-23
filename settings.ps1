@@ -3,7 +3,8 @@
 
 # Custom
 
-$CLIENT_MODS = @(
+
+$ClientMods = @(
 	"AppleSkin", 
 	"BetterAdvancements",
 	"CraftingTweaks", 
@@ -11,6 +12,7 @@ $CLIENT_MODS = @(
 	"EnchantmentDescriptions", 
 	"EquipmentTooltips", 
 	"FpsReducer", 
+	"JustEnoughResources",
 	"LLOverlayReloaded", 
 	"MouseTweaks",
 	"nmdar_", 
@@ -20,7 +22,8 @@ $CLIENT_MODS = @(
 	"ToastControl", 
 	"toughnessbar", 
 	"Xaeros_Minimap", 
-    "XaerosWorldMap")
+	"XaerosWorldMap")
+
 	
 # =====================================================================//
 #  CURSEFORGE SETTINGS
@@ -36,10 +39,10 @@ $CURSEFORGE_PROJECT_ID = 330372
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.1.6"
+$MODPACK_VERSION = "0.1.7"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.1.5"
+$LAST_MODPACK_VERSION = "0.1.6"
 
 $FORGE_VERSION=28.1.56
 

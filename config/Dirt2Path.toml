@@ -1,0 +1,31 @@
+
+[Shovels]
+	#By default, all items with the Shovel tool class work with Dirt2Path
+	#Add the registry name of a Shovel here to blacklist it from working with Dirt2Path.
+	#Only 1 Entry per Line, no Commas
+	"Blacklisted Shovels" = []
+
+[Options]
+	#Turn Farmland blocks back into Dirt
+	#Synced from Server
+	"Farmland to Dirt" = true
+	#Turn Path blocks back into Dirt
+	#Synced from Server
+	"Path to Dirt" = true
+	#Turning Path blocks to Dirt requries Sneaking
+	"Sneak to Remove Paths" = true
+
+[Blocks]
+	#Podzol can be turned into a Path
+	#Synced from Server
+	"Flatten Podzol" = true
+	#Dirt can be turned into a Path
+	#Synced from Server
+	"Flatten Dirt" = true
+	#Coarse Dirt can be turned into a Path
+	#Synced from Server
+	"Flatten Coarse Dirt" = true
+	#Mycelium can be turned into a Path.
+	#Synced from Server
+	"Flatten Mycelium" = true
+

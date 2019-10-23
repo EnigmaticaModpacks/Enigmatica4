@@ -116,6 +116,72 @@
 	#Whether the crafter should exist
 	enabled = true
 
+#Settings for the screen system
+[screen]
+	#RF per tick/per block for the energy module
+	#Range: > 0
+	energyRFPerTick = 4
+	#RF per tick/per block for the itemstack module
+	#Range: > 0
+	itemstackRFPerTick = 4
+	#RF per tick/per block for the computer module
+	#Range: > 0
+	computerRFPerTick = 4
+	#RF per tick that the the screen controller can receive
+	#Range: > 0
+	screenControllerRFPerTick = 1000
+	#RF per tick/per block for the dump module
+	#Range: > 0
+	dumpRFPerTick = 0
+	#RF per tick/per block for the dimension module
+	#Range: > 0
+	dimensionRFPerTick = 6
+	#RF per tick/per block for the machine information module
+	#Range: > 0
+	machineInfoRFPerTick = 4
+	#RF per tick/per block for the counter module
+	#Range: > 0
+	counterRFPerTick = 4
+	#RF per tick/per block for the text module
+	#Range: > 0
+	textRFPerTick = 0
+	#Maximum RF storage that the screen controller can hold
+	#Range: > 0
+	screenControllerMaxRF = 60000
+	#RF per tick/per block for the clock module
+	#Range: > 0
+	clockRFPerTick = 1
+	#RF per tick/per block for the elevator button module
+	#Range: > 0
+	elevatorButtonRFPerTick = 0
+	#RF per tick/per block for the fluid plus module
+	#Range: > 0
+	fluidPlusRFPerTick = 30
+	#RF per tick/per block for the redstone module
+	#Range: > 0
+	redstoneRFPerTick = 4
+	#RF per tick/per block for the fluid module
+	#Range: > 0
+	fluidRFPerTick = 4
+	#RF per tick/per block for the itemstack plus module
+	#Range: > 0
+	itemstackPlusRFPerTick = 30
+	#RF per tick/per block for the energy plus module
+	#Range: > 0
+	energyPlusRFPerTick = 30
+	#RF per tick/per block for the storage control module
+	#Range: > 0
+	storageControlRFPerTick = 0
+	#RF per tick/per block for the counter plus module
+	#Range: > 0
+	counterPlusRFPerTick = 30
+	#RF per tick/per block for the button module
+	#Range: > 0
+	buttonRFPerTick = 9
+	#How many times the screen will update. Higher numbers make the screens less accurate but better for network bandwidth
+	#Range: > 0
+	screenRefreshTiming = 500
+
 #Settings for the tank
 [tank]
 	#Maximum tank capacity (in mb)

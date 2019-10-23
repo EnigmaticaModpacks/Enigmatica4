@@ -9,6 +9,7 @@
 	RescanInterval = 100
 
 #Procedures config options
+#Run '/sfm reload componentGroups' after updating config
 [procedures]
 	EnableItemImport = true
 	EnableItemExport = true

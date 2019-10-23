@@ -26,7 +26,7 @@
 	#Range: > 0
 	Experience = 0
 	#Allow players to use shape mining
-	"Allow Shapes" = true
+	"Allow Shapes" = false
 	#Allow excavation with an open hand
 	"Open Hand" = false
 	#The default game stage required to unlock excavations (requires gamestages to be installed)

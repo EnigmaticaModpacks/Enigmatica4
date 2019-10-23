@@ -1,0 +1,21 @@
+#Disallow non-player blocks/devices to place and/or interact with any blocks, doors, levers, buttons, etc. inside claimed chunk.
+disable_fake_block_interaction = true
+#Disallow non-owner and non-guests to interact with any blocks, doors, levers, buttons, etc. inside claimed chunk.
+disable_block_interaction = true
+#Disable all and any explosion damage to blocks inside claimed chunk.
+disable_explosions = true
+#Disallow non-owner and non-guests to use (right-click) any items they hold inside claimed chunk.
+disable_item_activation = true
+#Disable mob spawns inside claimed chunk.
+disable_entity_spawning = false
+#Disallow non-owner and non-guests to attack any living thing that is inside claimed chunk.
+disable_attacking_entities = false
+#Disallow non-owner and non-guests to interact with any entities, such as cows, armour stands, etc. inside claimed chunk.
+disable_entity_interaction = true
+#Disallow non-owner and non-guests to place any blocks inside claimed chunk.
+disable_block_placing = true
+#Disallow non-owner and non-guests to break any blocks inside claimed chunk.
+disable_block_breaking = true
+#Disable all and any explosion damage to blocks inside claimed chunk.
+max_claimed_chunks = 250
+
