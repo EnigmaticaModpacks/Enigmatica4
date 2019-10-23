@@ -1,6 +1,6 @@
 # Enigmatica 4 Changelog
 
-## [Unreleased](https://github.com/NillerMedDild/Enigmatica4/tree/HEAD)
+## 0.1.7
 
 **Implemented enhancements:**
 
@@ -30,18 +30,10 @@
 - Mouse middle-click sort doesn't work unless another inventory is open [\#48](https://github.com/NillerMedDild/Enigmatica4/issues/48)
 - BetterAdvancement Config [\#1](https://github.com/NillerMedDild/Enigmatica4/issues/1)
 
-**Closed issues:**
-
-- The Endergetic Expansion [\#57](https://github.com/NillerMedDild/Enigmatica4/issues/57)
-
-## [0.1.7](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.7) (2019-10-18)
-**Implemented enhancements:**
-
-- Add Large Fluid Tanks [\#56](https://github.com/NillerMedDild/Enigmatica4/issues/56) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
-
 ## [0.1.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.6) (2019-10-18)
 **Implemented enhancements:**
 
+- Add Large Fluid Tanks [\#56](https://github.com/NillerMedDild/Enigmatica4/issues/56) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Comforts [\#54](https://github.com/NillerMedDild/Enigmatica4/issues/54) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Hidden Levers [\#53](https://github.com/NillerMedDild/Enigmatica4/issues/53) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Re-add The Midnight [\#52](https://github.com/NillerMedDild/Enigmatica4/issues/52) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
