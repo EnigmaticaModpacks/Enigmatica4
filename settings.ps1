@@ -57,10 +57,11 @@ $CLIENT_FILE_DISPLAY_NAME = "Enigmatica 4 - $MODPACK_VERSION"
 $GAME_VERSIONS = @(7469)
 
 # Can be "markdown", "text" or "html"
-$CLIENT_CHANGELOG_TYPE = "html"
+$CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Must be a single string. Use Powershell escaping for new lines etc. New line is `n and indent is `t
-$CLIENT_CHANGELOG = "<p>Using Forge-1.14.4-28.1.69 <br />" +
+$CLIENT_CHANGELOG = "<h2>Enigmatica 4 v$MODPACK_VERSION</h2>" +
+					"<p>Using Forge-1.14.4-28.1.69 <br />" +
 					"<a href=`"https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG.md`">Changelog (link)</a> <br />"
 #<a href=`"https://github.com/NillerMedDild/Enigmatica4/blob/master/MOD_CHANGELOGS.txt`">Mod Changelogs (link)</a></p>
 
