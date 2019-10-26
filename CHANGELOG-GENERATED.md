@@ -1,7 +1,6 @@
 # Enigmatica 4 Changelog
 
-## [Unreleased](https://github.com/NillerMedDild/Enigmatica4/tree/HEAD)
-
+## [0.1.9](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.9) (2019-10-26)
 **Implemented enhancements:**
 
 - Creeper Fix [\#89](https://github.com/NillerMedDild/Enigmatica4/issues/89) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
