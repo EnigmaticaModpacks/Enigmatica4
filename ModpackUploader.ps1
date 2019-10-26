@@ -168,7 +168,7 @@ if ($ENABLE_SERVER_FILE_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     }
 
     Write-Host "Removing Client Mods from Server Files" -ForegroundColor Cyan
-    foreach ($clientMod in $CLIENT_MODS) {
+    foreach ($clientMod in $ClientMods) {
         Write-Host "Removing Client Mod $clientMod"
         sz d $SERVER_FILENAME "mods/$clientMod*" | Out-Null
     }

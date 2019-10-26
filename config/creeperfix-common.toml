@@ -1,0 +1,13 @@
+
+[General]
+	#protect hostile mobs
+	protectMobs = false
+	#protect ground items
+	protectItems = true
+	#protect blocks
+	protectPlayers = false
+	#protect blocks
+	protectBlocks = true
+	#protect animals
+	protectAnimals = true
+

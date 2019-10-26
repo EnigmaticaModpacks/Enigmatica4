@@ -1,0 +1,8 @@
+#globalxp.config.spinspeed.tooltip
+#Range: 0.0 ~ 1.7976931348623157E308
+spinSpeed = 1.0
+#globalxp.config.bobspeed.tooltip
+#Range: 0.0 ~ 1.7976931348623157E308
+bobSpeed = 1.0
+renderNameplate = true
+

@@ -1,26 +1,24 @@
-## Enigmatica 4 v0.1.8 - Forge-1.14.4-28.1.69
+# Enigmatica 4 Changelog
 
-**Implemented enhancements**
+## [Unreleased](https://github.com/NillerMedDild/Enigmatica4/tree/HEAD)
 
-- Nether portals now only convert blocks in a 4 block radius around them.
-- Lowered chance for Nether portals to generate quartz
+**Implemented enhancements:**
+
 - Creeper Fix [\#89](https://github.com/NillerMedDild/Enigmatica4/issues/89) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Global XP or similar to store player XP [\#87](https://github.com/NillerMedDild/Enigmatica4/issues/87) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add World Stripper [\#85](https://github.com/NillerMedDild/Enigmatica4/issues/85) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add BountifulBaubles [\#83](https://github.com/NillerMedDild/Enigmatica4/issues/83) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 
-
-**Fixed bugs**
+**Fixed bugs:**
 
 - Save & Quit Crash [\#84](https://github.com/NillerMedDild/Enigmatica4/issues/84)
 
-**Removals**
+**Closed issues:**
 
-- Removed GraveStone mod [\#91](https://github.com/NillerMedDild/Enigmatica4/issues/91) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)][[Removed](https://github.com/NillerMedDild/Enigmatica4/labels/Removed)]
+- Investigate DataPack Advancements [\#63](https://github.com/NillerMedDild/Enigmatica4/issues/63)
 
-## 0.1.7
-
-**Implemented enhancements**
+## [0.1.8](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.8) (2019-10-23)
+**Implemented enhancements:**
 
 - Add Angel Ring [\#82](https://github.com/NillerMedDild/Enigmatica4/issues/82) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Ring of Attraction & Growth [\#81](https://github.com/NillerMedDild/Enigmatica4/issues/81) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
@@ -41,31 +39,40 @@
 - Add Traverse Legacy Continued [\#58](https://github.com/NillerMedDild/Enigmatica4/issues/58) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Some mod suggestions [\#23](https://github.com/NillerMedDild/Enigmatica4/issues/23) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 
-**Fixed bugs**
+**Fixed bugs:**
 
 - Change Find Me Keybinding [\#67](https://github.com/NillerMedDild/Enigmatica4/issues/67) [[Keybinding](https://github.com/NillerMedDild/Enigmatica4/labels/Keybinding)]
 - Disable Grave Ghost [\#62](https://github.com/NillerMedDild/Enigmatica4/issues/62)
 - Mouse middle-click sort doesn't work unless another inventory is open [\#48](https://github.com/NillerMedDild/Enigmatica4/issues/48)
 - BetterAdvancement Config [\#1](https://github.com/NillerMedDild/Enigmatica4/issues/1)
 
-## [0.1.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.6) (2019-10-18)
+**Closed issues:**
 
-**Implemented enhancements**
+- The Endergetic Expansion [\#57](https://github.com/NillerMedDild/Enigmatica4/issues/57)
+
+## [0.1.7](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.7) (2019-10-18)
+**Implemented enhancements:**
 
 - Add Large Fluid Tanks [\#56](https://github.com/NillerMedDild/Enigmatica4/issues/56) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+
+## [0.1.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.6) (2019-10-18)
+**Implemented enhancements:**
+
 - Add Comforts [\#54](https://github.com/NillerMedDild/Enigmatica4/issues/54) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Hidden Levers [\#53](https://github.com/NillerMedDild/Enigmatica4/issues/53) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Re-add The Midnight [\#52](https://github.com/NillerMedDild/Enigmatica4/issues/52) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
-- Server Backup in update script [\#47](https://github.com/NillerMedDild/Enigmatica4/issues/47)
-- Move server only files before/after modpack publish [\#46](https://github.com/NillerMedDild/Enigmatica4/issues/46)
 
-**Fixed bugs**
+**Fixed bugs:**
 
 - The Midnight dimension crash on enter [\#37](https://github.com/NillerMedDild/Enigmatica4/issues/37)
 
-## [0.1.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.5) (2019-10-16)
+**Closed issues:**
 
-**Implemented enhancements**
+- Server Backup in update script [\#47](https://github.com/NillerMedDild/Enigmatica4/issues/47)
+- Move server only files before/after modpack publish [\#46](https://github.com/NillerMedDild/Enigmatica4/issues/46)
+
+## [0.1.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.5) (2019-10-16)
+**Implemented enhancements:**
 
 - Add Friendly Fire [\#51](https://github.com/NillerMedDild/Enigmatica4/issues/51) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Increased amount of hearts you can gain from eating different foods. [\#45](https://github.com/NillerMedDild/Enigmatica4/issues/45) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
@@ -80,7 +87,7 @@
 - Add Find Me [\#32](https://github.com/NillerMedDild/Enigmatica4/issues/32) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Cursed Earth [\#26](https://github.com/NillerMedDild/Enigmatica4/issues/26) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 
-**Fixed bugs**
+**Fixed bugs:**
 
 - random crashes while exploring [\#33](https://github.com/NillerMedDild/Enigmatica4/issues/33)
 - Server files are missing all top-level server-only files [\#29](https://github.com/NillerMedDild/Enigmatica4/issues/29)
@@ -89,8 +96,7 @@
 ## [0.1.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.3) (2019-10-13)
 ## [0.1.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.2) (2019-10-13)
 ## [0.1.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.1) (2019-10-13)
-
-**Implemented enhancements**
+**Implemented enhancements:**
 
 - Let Sleeping Dogs Lie [\#24](https://github.com/NillerMedDild/Enigmatica4/issues/24) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Mystical Wildlife [\#22](https://github.com/NillerMedDild/Enigmatica4/issues/22) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
@@ -105,3 +111,7 @@
 - Add Cycle Paintings [\#9](https://github.com/NillerMedDild/Enigmatica4/issues/9) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Conduit Prevents Drowned [\#8](https://github.com/NillerMedDild/Enigmatica4/issues/8) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Villager Names [\#7](https://github.com/NillerMedDild/Enigmatica4/issues/7) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+
+
+
+\* *This Change Log was automatically generated by [github_changelog_generator](https://github.com/skywinder/Github-Changelog-Generator)*
