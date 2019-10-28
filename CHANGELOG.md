@@ -1,3 +1,18 @@
+## [Enigmatica 4 v0.2.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.0) (2019-10-26)
+
+**Changes**
+
+* Disabled about 75% of Corail's Tombstone - I've kept the enchants, the graves, player inventory backups and decorative features.
+* Add Common Capabilities [\#98](https://github.com/NillerMedDild/Enigmatica4/issues/98) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+* Add Flopper [\#97](https://github.com/NillerMedDild/Enigmatica4/issues/97) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+* Add The Mighty Architect [\#96](https://github.com/NillerMedDild/Enigmatica4/issues/96) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+* Add Everlasting Abilities [\#95](https://github.com/NillerMedDild/Enigmatica4/issues/95) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+* Add Corail Tombstone [\#92](https://github.com/NillerMedDild/Enigmatica4/issues/92) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+
+**Fixed bugs**
+
+* Game Crash - Squid & Armor issues [\#93](https://github.com/NillerMedDild/Enigmatica4/issues/93)
+
 ## [Enigmatica 4 v0.1.9](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.9) (2019-10-26)
 *Forge-1.14.4-28.1.69*
 

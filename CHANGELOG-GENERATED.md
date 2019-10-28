@@ -1,5 +1,25 @@
 # Enigmatica 4 Changelog
 
+## [Unreleased](https://github.com/NillerMedDild/Enigmatica4/tree/HEAD)
+
+**Implemented enhancements:**
+
+- Add Common Capabilities [\#98](https://github.com/NillerMedDild/Enigmatica4/issues/98) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Flopper [\#97](https://github.com/NillerMedDild/Enigmatica4/issues/97) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add The Mighty Architect [\#96](https://github.com/NillerMedDild/Enigmatica4/issues/96) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Everlasting Abilities [\#95](https://github.com/NillerMedDild/Enigmatica4/issues/95) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Corail Tombstone [\#92](https://github.com/NillerMedDild/Enigmatica4/issues/92) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+
+**Fixed bugs:**
+
+- Game Crash - Epic Squid [\#93](https://github.com/NillerMedDild/Enigmatica4/issues/93)
+
+**Closed issues:**
+
+- Mending Issues [\#100](https://github.com/NillerMedDild/Enigmatica4/issues/100)
+- Investigate Structurize Custom Structures [\#64](https://github.com/NillerMedDild/Enigmatica4/issues/64)
+
+## [0.2.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.0) (2019-10-26)
 ## [0.1.9](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.9) (2019-10-26)
 **Implemented enhancements:**
 

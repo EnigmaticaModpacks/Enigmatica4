@@ -1,210 +1,210 @@
 
 #Miscellaneous options
 [general]
-	#The radius in which items should be collected when a grave is spawned [1..10|default:5]
-	#Range: 1 ~ 10
-	sniffer_range = 5
-	#Whether to handle player death [false/true|default:true]
-	handle_player_death = true
-	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
-	#Range: -1 ~ 100
-	chance_enchanted_graveKey = 0
 	#Whether to log the positions of players' graves [false/true|default:true]
 	log_player_grave = true
-	#Whether to require a Grave's Key to access graves [false/true|default:true]
-	player_grave_access = true
-	#Whether to always give players a Grave's Key on death [false/true|default:true]
-	grave_key_on_death = true
-	#The time in minutes before a Grave's Key isn't required to open a grave (-1 = disabled) [-1..MAX|default:-1]
-	#Range: > -1
-	decay_time = -1
-	#The chance that some items are lost on death [0..100|default:0]
-	#Range: 0 ~ 100
-	chance_loss_on_death = 0
-	#The percentage of items that are lost on death [0..100|default:0]
-	#Range: 0 ~ 100
-	percent_loss_on_death = 0
-	#The duration of the Ghostly Shape effect in seconds [0..MAX|default:120]
-	#Range: > 0
-	ghostly_shape_duration = 120
-	#Whether to restore beneficial effects after a player dies [false/true|default:true]
-	restore_effects_on_death = true
-	#Allows teleportation to other dimensions [false/true|default:true]
-	teleport_dim = true
-	#Whether to handle player experience [false/true|default:true]
-	handle_player_xp = true
-	#Experience loss on death (%) [0..100|default:0]
-	#Range: 0 ~ 100
-	xp_loss = 0
-	#Knowledge of Death loss why dying [0..500|default:0]
-	#Range: 0 ~ 500
-	knowledge_loss = 0
-	#Whether to cancel the Ghostly Shape effect on breaking a block or opening a chest [false/true|default:false]
-	nerf_ghostly_shape = false
 	#Prevents death outside of world borders [false/true|default:false]
 	prevent_death_outside_world = false
-	#Enables PvP mode, which allows players to open graves of players they kill [false/true|default:false]
-	pvp_mode = false
-	#Whether graves should be allowed to bypass anti-griefing rules [false/true|default:true]
-	graves_bypass_griefing_rules = true
-	#Effects that are never preserved on death
-	black_list_effects = ["tombstone:ghostly_shape", "tombstone:preservation", "tombstone:exorcism", "minecraft:bad_omen", "minecraft:glowing"]
-	#Graveless Areas
-	no_grave_location = ["0, 0, 0, -10000, 20"]
+	#Allows player's graves to appear in water [false/true|default:true]
+	allow_grave_in_water = true
 	#The chance that creatures appear after the contents of a grave are retrieved [0..100|default:0]
 	#Range: 0 ~ 100
 	chance_mob_on_grave_recovery = 0
+	#The chance that some items are lost on death [0..100|default:0]
+	#Range: 0 ~ 100
+	chance_loss_on_death = 0
+	#Whether to handle player experience [false/true|default:true]
+	handle_player_xp = true
+	#The Halloween features also happen outside the dates of the event [false/true|default:false]
+	persistant_halloween = false
+	#Whether to require a Grave's Key to access graves [false/true|default:true]
+	player_grave_access = true
+	#Whether to cancel the Ghostly Shape effect on breaking a block or opening a chest [false/true|default:false]
+	nerf_ghostly_shape = false
+	#Graveless Areas
+	no_grave_location = ["0, 0, 0, -10000, 20"]
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
-	knowledge_reduce_phantom_spawn = true
+	knowledge_reduce_phantom_spawn = false
+	#Allows teleportation to other dimensions [false/true|default:true]
+	teleport_dim = true
+	#The duration of the Ghostly Shape effect in seconds [0..MAX|default:120]
+	#Range: > 0
+	ghostly_shape_duration = 120
+	#Effects that are never preserved on death
+	black_list_effects = ["tombstone:ghostly_shape", "tombstone:preservation", "tombstone:exorcism", "minecraft:bad_omen", "minecraft:glowing"]
+	#The time in minutes before a Grave's Key isn't required to open a grave (-1 = disabled) [-1..MAX|default:-1]
+	#Range: > -1
+	decay_time = -1
+	#Whether to restore beneficial effects after a player dies [false/true|default:true]
+	restore_effects_on_death = true
+	#The radius in which items should be collected when a grave is spawned [1..10|default:5]
+	#Range: 1 ~ 10
+	sniffer_range = 5
+	#Knowledge of Death loss why dying [0..500|default:0]
+	#Range: 0 ~ 500
+	knowledge_loss = 0
 	#Minimum time without sleeping for phantom to spawn around players [1200..MAX|default:72000]
 	#Range: > 1200
 	time_for_phantom_spawn = 72000
-	#The Halloween features also happen outside the dates of the event [false/true|default:false]
-	persistant_halloween = false
-	#Allows player's graves to appear in water [false/true|default:true]
-	allow_grave_in_water = true
 	#Allows players to be hurt by special damages related to some items [false/true|default:true]
 	allow_beyond_the_grave_damage = true
+	#The percentage of items that are lost on death [0..100|default:0]
+	#Range: 0 ~ 100
+	percent_loss_on_death = 0
+	#Experience loss on death (%) [0..100|default:0]
+	#Range: 0 ~ 100
+	xp_loss = 25
+	#Whether graves should be allowed to bypass anti-griefing rules [false/true|default:true]
+	graves_bypass_griefing_rules = true
+	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
+	#Range: -1 ~ 100
+	chance_enchanted_graveKey = 0
+	#Enables PvP mode, which allows players to open graves of players they kill [false/true|default:false]
+	pvp_mode = false
+	#Whether to handle player death [false/true|default:true]
+	handle_player_death = true
+	#Whether to always give players a Grave's Key on death [false/true|default:true]
+	grave_key_on_death = true
 
 #Allows to define the conditions for a village siege to begin
 [village_siege]
-	#Allows to handle village sieges [false/true|default:true]
-	handle_village_siege = true
-	#Logs the different states of a village siege while searching for an adequate place [false/true|default:false]
-	log_siege_state = false
-	#The creatures of the siege have a glowing effect (only uses this for test purposes) [false/true|default:false]
-	glowing_creature_test = false
-	#Allows to use the positions of creative players to define the siege location [false/true|default:true]
-	allow_creative_players_for_siege = true
-	#Chance for a siege to occur [0..100|default:10]
-	#Range: 0 ~ 100
-	siege_chance = 10
-	#Maximum of creatures appearing in a siege [0..100|default:20]
-	#Range: 0 ~ 100
-	siege_max_creature = 20
 	#Undeads always wear a helm when sieging [false/true|default:false]
 	undead_wear_helm_in_siege = false
+	#Shuffles the list of players before testing the siege location [false/true|default:true]
+	shuffle_players_for_siege = true
+	#Logs the different states of a village siege while searching for an adequate place [false/true|default:false]
+	log_siege_state = false
+	#Allows to use the positions of creative players to define the siege location [false/true|default:true]
+	allow_creative_players_for_siege = true
 	#Delay in seconds for a second test of siege when the first failed [0..2400|default:600]
 	#Range: 0 ~ 2400
 	delay_siege_test = 600
+	#The creatures of the siege have a glowing effect (only uses this for test purposes) [false/true|default:false]
+	glowing_creature_test = false
+	#Allows to handle village sieges [false/true|default:true]
+	handle_village_siege = false
+	#Maximum of creatures appearing in a siege [0..100|default:20]
+	#Range: 0 ~ 100
+	siege_max_creature = 20
+	#Chance for a siege to occur [0..100|default:10]
+	#Range: 0 ~ 100
+	siege_chance = 0
 	#Mobs in siege are persistent [false/true|default:false]
 	persistent_mob_in_siege = false
-	#Shuffles the list of players before testing the siege location [false/true|default:true]
-	shuffle_players_for_siege = true
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
-	#Time in minutes to check if a soul appears on a grave [10..10000|default:30]
-	#Range: 10 ~ 10000
-	time_soul = 30
-	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_soul = 100
+	#The creatures that can't be captured in receptacle
+	black_list_capturable_souls = []
 	#Maximum uses of a tablet [1..20|default:10]
 	#Range: 1 ~ 20
 	tablet_max_use = 10
-	#Sets the decorative graves unbreakable [false/true|default:false]
-	unbreakable_decorative_grave = false
+	#The cooldown in minutes to reset the perks with the Ã‚nkh of Pray [0..60|default:20]
+	#Range: 0 ~ 60
+	cooldown_reset_perk = 20
+	#Allows the purification effect to clear neutral effects [false/true|default:true]
+	purification_affect_neutral_effects = true
 	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
 	#Range: 0 ~ 100
 	chance_pray_reward = 40
 	#Allows lost tablets to find locations outside the current world [false/true|default:true]
 	allow_tablet_search_outside_world = true
-	#The cooldown in minutes to reset the perks with the Ã‚nkh of Pray [0..60|default:20]
-	#Range: 0 ~ 60
-	cooldown_reset_perk = 20
+	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
+	#Range: 0 ~ 1000
+	chance_soul = 0
 	#The cooldown in hours to pray with the Ã‚nkh [1..10|default:3]
 	#Range: 1 ~ 10
 	cooldown_to_pray = 3
-	#The creatures that can't be captured in receptacle
-	black_list_capturable_souls = []
-	#Allows the purification effect to clear neutral effects [false/true|default:true]
-	purification_affect_neutral_effects = true
+	#Time in minutes to check if a soul appears on a grave [10..10000|default:30]
+	#Range: 10 ~ 10000
+	time_soul = 30
+	#Sets the decorative graves unbreakable [false/true|default:false]
+	unbreakable_decorative_grave = false
 
 #Allows to customize or disable the enchantments
 [enchantments]
-	#Restricts the effect of Shadow Step to players [false/true|default:true]
-	restrict_shadow_step_to_player = true
-	#Shadow Step is only active while sneaking [false/true|default:false]
-	nerf_shadow_step = false
 	#Enables the enchantment Shadow Step [false/true|default:true]
 	enable_enchantment_shadow_step = true
 	#Enables the enchantment Soulbound [false/true|default:true]
 	enable_enchantment_soulbound = true
+	#Shadow Step is only active while sneaking [false/true|default:false]
+	nerf_shadow_step = false
 	#Enables the enchantment Magic Siphon [false/true|default:true]
 	enable_enchantment_magic_siphon = true
+	#Restricts the effect of Shadow Step to players [false/true|default:true]
+	restrict_shadow_step_to_player = true
 
 #Options related to the command recovery and auto-save of players
 [recovery]
 	#Enables to backup automatically players [false/true|default:true]
 	recovery_player_enable = true
+	#Enables to backup automatically dead familiars [false/true|default:true]
+	recovery_familiar_enable = true
 	#Time in minutes between players' backups [10..1000|default:40]
 	#Range: 10 ~ 1000
-	recovery_player_timer = 40
+	recovery_player_timer = 30
 	#Maximum number of backups per player [5..100|default:15]
 	#Range: 5 ~ 100
 	recovery_player_max_saves = 15
-	#Enables to backup automatically dead familiars [false/true|default:true]
-	recovery_familiar_enable = true
 
 #Allows to disable some magic items
 [allowedMagicItems]
 	#Allow Book of Disenchantment [false/true|default:true]
-	allow_book_of_disenchantment = true
+	allow_book_of_disenchantment = false
+	#Allow Scroll of Feather Fall [false/true|default:true]
+	allow_scroll_of_feather_fall = false
 	#Allow Voodoo Poppet [false/true|default:true]
-	allow_voodoo_poppet = true
+	allow_voodoo_poppet = false
+	#Allow Scroll of Unstable Intangibleness [false/true|default:true]
+	allow_scroll_of_unstable_intangibleness = false
+	#Allow Scroll of Purification [false/true|default:true]
+	allow_scroll_of_purification = false
+	#Allow Scroll of Reach [false/true|default:true]
+	allow_scroll_of_reach = false
+	#Allow Scroll of Preservation [false/true|default:true]
+	allow_scroll_of_preservation = false
+	#Allow Tablet of Recall [false/true|default:true]
+	allow_tablet_of_recall = false
+	#Allow Scroll of Knowledge [false/true|default:true]
+	allow_scroll_of_knowledge = false
+	#Allow Tablet of Assistance [false/true|default:true]
+	allow_tablet_of_assistance = false
 	#Allow Grave's Key [false/true|default:true]
 	allow_grave_key = true
-	#Allow Scroll of Knowledge [false/true|default:true]
-	allow_scroll_of_knowledge = true
-	#Allow Tablet of Recall [false/true|default:true]
-	allow_tablet_of_recall = true
-	#Allow Tablet of Assistance [false/true|default:true]
-	allow_tablet_of_assistance = true
-	#Allow Scroll of Preservation [false/true|default:true]
-	allow_scroll_of_preservation = true
-	#Allow Scroll of Unstable Intangibleness [false/true|default:true]
-	allow_scroll_of_unstable_intangibleness = true
-	#Allow Scroll of Feather Fall [false/true|default:true]
-	allow_scroll_of_feather_fall = true
-	#Allow Scroll of Purification [false/true|default:true]
-	allow_scroll_of_purification = true
 	#Allow Scroll of True Sight [false/true|default:true]
-	allow_scroll_of_true_sight = true
+	allow_scroll_of_true_sight = false
 	#Allow Lost Tablet [false/true|default:true]
-	allow_lost_tablet = true
-	#Allow Scroll of Reach [false/true|default:true]
-	allow_scroll_of_reach = true
+	allow_lost_tablet = false
 
 #Allows to change the chance to drop some items
 [loot]
-	#Chance to loot a Lost Tablet by fishing [0..100|default:10]
-	#Range: 0 ~ 100
-	chance_loot_lost_tablet = 10
-	#Chance on 1000 to receive a decorative grave on undead boss [0..1000|default:50]
-	#Range: 0 ~ 1000
-	chance_decorative_grave_on_boss = 30
-	#Chance on 1000 to receive a random poppet on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_random_poppet_on_boss = 100
-	#Chance on 1000 to receive a random scroll on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_random_scroll_on_boss = 100
 	#Allows the undeads to have a low chance to drop their skull [false/true|default:true]
 	undead_can_drop_skull = true
-	#Chance on 1000 to receive a Soul Receptacle on undead boss [0..1000|default:50]
+	#Chance on 1000 to receive a random scroll on undead boss [0..1000|default:100]
 	#Range: 0 ~ 1000
-	chance_soul_receptacle_on_boss = 50
+	chance_random_scroll_on_boss = 0
+	#Chance to loot a Lost Tablet by fishing [0..100|default:10]
+	#Range: 0 ~ 100
+	chance_loot_lost_tablet = 0
+	#Chance on 1000 to receive a random poppet on undead boss [0..1000|default:100]
+	#Range: 0 ~ 1000
+	chance_random_poppet_on_boss = 0
 	#Chance on 1000 for undead mobs to drop Grave's Dust [0..1000|default:100]
 	#Range: 0 ~ 1000
-	chance_grave_dust = 100
+	chance_grave_dust = 0
+	#Chance on 1000 to receive a decorative grave on undead boss [0..1000|default:50]
+	#Range: 0 ~ 1000
+	chance_decorative_grave_on_boss = 0
+	#Chance on 1000 to receive a Soul Receptacle on undead boss [0..1000|default:50]
+	#Range: 0 ~ 1000
+	chance_soul_receptacle_on_boss = 0
 	#Defines the allowed loottables having a chance to contain a magic item from Tombstone
-	treasure_loot_table = ["minecraft:chests/end_city_treasure", "minecraft:chests/abandoned_mineshaft", "minecraft:chests/nether_bridge", "minecraft:chests/stronghold_library", "minecraft:chests/desert_pyramid", "minecraft:chests/jungle_temple", "minecraft:chests/igloo_chest", "minecraft:chests/woodland_mansion"]
+	treasure_loot_table = []
 
 #Allows to enable some features related to others mods
 [compatibility]
+	#Keeps the cosmetic armor when you die [false/true|default:true]
+	keep_cosmetic_armor = false
 	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
 	allow_curio_auto_equip = true
-	#Keeps the cosmetic armor when you die [false/true|default:true]
-	keep_cosmetic_armor = true
 
