@@ -15,6 +15,7 @@ screenshots/
 /defaultconfig/
 /data/
 /ct_dumps/
+/classes/
 
 # Utilities
 .github_changelog_generator

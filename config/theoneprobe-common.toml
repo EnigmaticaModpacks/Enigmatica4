@@ -28,7 +28,7 @@ tankbarBorderColor = "ff555555"
 #Color for the RF bar border
 rfbarBorderColor = "ff555555"
 #A list of blocks for which we automatically show chest contents even if not sneaking
-showContentsWithoutSneaking = ["storagedrawers:*", "storagedrawersextra:extra_drawers"]
+showContentsWithoutSneaking = ["storagedrawers:basicdrawers", "storagedrawersextra:extra_drawers"]
 #If true show debug info with creative probe
 showDebugInfo = true
 #Format for displaying tank contents

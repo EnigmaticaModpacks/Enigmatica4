@@ -1,0 +1,9 @@
+
+#Settings not loaded on servers.
+[client]
+
+	#Opt-out settings
+	[client.optout]
+		#Disable CTRL-SHIFT item tooltip display.
+		without_tooltips = false
+

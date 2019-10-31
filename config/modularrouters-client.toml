@@ -1,0 +1,7 @@
+
+[Misc]
+	#Should module tooltips always show module settings (without needing to hold Shift)?
+	alwaysShowSettings = true
+	#Should module GUI's be tinted according to the module item colour?
+	moduleGuiBackgroundTint = true
+
