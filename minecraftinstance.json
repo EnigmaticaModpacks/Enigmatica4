@@ -151,21 +151,6 @@
       "fileSize": 5251
     },
     {
-      "folderName": "u_team_core-1.14.4-2.7.5.135-SNAPSHOT.jar",
-      "fingerprint": 2292266798,
-      "fileDateHash": 2965544653,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2292266798
-      ],
-      "status": 1,
-      "timestamp": "2019-10-31T19:17:18.1264645Z",
-      "lastWriteTimeUtc": "2019-10-31T19:17:15.1255627Z",
-      "queryTimestamp": "2019-10-31T19:17:18.53482Z",
-      "fileCount": 1,
-      "fileSize": 401728
-    },
-    {
       "folderName": "Fence Jumper-1.14.4-1.0.8.jar",
       "fingerprint": 3436898146,
       "fileDateHash": 1447984486,
@@ -256,21 +241,6 @@
       "fileSize": 15279
     },
     {
-      "folderName": "mysticalworld-1.14.4-1.6.2.jar",
-      "fingerprint": 2416561542,
-      "fileDateHash": 118359936,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2416561542
-      ],
-      "status": 1,
-      "timestamp": "2019-10-31T19:17:18.0984637Z",
-      "lastWriteTimeUtc": "2019-10-31T19:17:17.8292339Z",
-      "queryTimestamp": "2019-10-31T19:17:18.5368199Z",
-      "fileCount": 1,
-      "fileSize": 2037203
-    },
-    {
       "folderName": "cosmeticbeds-FORGE-1.14.4-2.0.jar",
       "fingerprint": 2612787479,
       "fileDateHash": 988888941,
@@ -331,6 +301,21 @@
       "fileSize": 65683
     },
     {
+      "folderName": "u_team_core-1.14.4-2.7.6.136.jar",
+      "fingerprint": 2781045912,
+      "fileDateHash": 1533389284,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2781045912
+      ],
+      "status": 1,
+      "timestamp": "2019-10-31T20:43:13.0613628Z",
+      "lastWriteTimeUtc": "2019-10-31T20:42:38.956362Z",
+      "queryTimestamp": "2019-10-31T20:43:13.5663633Z",
+      "fileCount": 1,
+      "fileSize": 405546
+    },
+    {
       "folderName": "MouseTweaks-2.12-mc1.14.4.jar",
       "fingerprint": 2274660801,
       "fileDateHash": 3622421493,
@@ -344,21 +329,6 @@
       "queryTimestamp": "2019-10-31T19:16:37.4811824Z",
       "fileCount": 1,
       "fileSize": 57538
-    },
-    {
-      "folderName": "minecolonies-0.10.483-BETA-universal.jar",
-      "fingerprint": 3785562125,
-      "fileDateHash": 3291050292,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3785562125
-      ],
-      "status": 1,
-      "timestamp": "2019-10-31T20:40:37.7693714Z",
-      "lastWriteTimeUtc": "2019-10-31T19:17:31.5101419Z",
-      "queryTimestamp": "2019-10-31T20:40:38.6247019Z",
-      "fileCount": 1,
-      "fileSize": 33415145
     },
     {
       "folderName": "globalxp-1.14.4-v1.4.10.jar",
@@ -481,19 +451,19 @@
       "fileSize": 753030
     },
     {
-      "folderName": "structurize-0.10.194-ALPHA.jar",
-      "fingerprint": 2246426972,
-      "fileDateHash": 2655932546,
+      "folderName": "minecolonies-0.10.497-ALPHA-universal.jar",
+      "fingerprint": 3363646411,
+      "fileDateHash": 2850083087,
       "sectionID": 8,
       "individualFingerprints": [
-        2246426972
+        3363646411
       ],
       "status": 1,
-      "timestamp": "2019-10-31T20:40:38.0113686Z",
-      "lastWriteTimeUtc": "2019-10-31T19:17:18.8697928Z",
-      "queryTimestamp": "2019-10-31T20:40:38.6267038Z",
+      "timestamp": "2019-10-31T20:43:12.7893632Z",
+      "lastWriteTimeUtc": "2019-10-31T20:41:42.6908667Z",
+      "queryTimestamp": "2019-10-31T20:43:13.568363Z",
       "fileCount": 1,
-      "fileSize": 4586267
+      "fileSize": 33415296
     },
     {
       "folderName": "Neat 1.5-19.jar",
@@ -541,21 +511,6 @@
       "fileSize": 14156
     },
     {
-      "folderName": "Bookshelf-1.14.4-4.2.56.jar",
-      "fingerprint": 4075895929,
-      "fileDateHash": 1655613611,
-      "sectionID": 8,
-      "individualFingerprints": [
-        4075895929
-      ],
-      "status": 1,
-      "timestamp": "2019-10-31T19:17:15.0565612Z",
-      "lastWriteTimeUtc": "2019-10-31T19:17:14.6202067Z",
-      "queryTimestamp": "2019-10-31T19:17:15.6636979Z",
-      "fileCount": 1,
-      "fileSize": 115930
-    },
-    {
       "folderName": "Morpheus-1.14.4-4.2.43.jar",
       "fingerprint": 814700318,
       "fileDateHash": 1375127130,
@@ -569,21 +524,6 @@
       "queryTimestamp": "2019-10-31T19:16:37.4831815Z",
       "fileCount": 1,
       "fileSize": 24393
-    },
-    {
-      "folderName": "StevesFactoryManager-1.14.4-3.0.0-alpha17.jar",
-      "fingerprint": 611830374,
-      "fileDateHash": 3815804609,
-      "sectionID": 8,
-      "individualFingerprints": [
-        611830374
-      ],
-      "status": 1,
-      "timestamp": "2019-10-31T19:17:15.1585618Z",
-      "lastWriteTimeUtc": "2019-10-31T19:17:14.2040309Z",
-      "queryTimestamp": "2019-10-31T19:17:15.6647306Z",
-      "fileCount": 1,
-      "fileSize": 505483
     },
     {
       "folderName": "EnchantmentDescriptions-1.14.4-1.3.8.jar",
@@ -719,6 +659,21 @@
       "queryTimestamp": "2019-10-31T19:16:37.4931826Z",
       "fileCount": 1,
       "fileSize": 123632
+    },
+    {
+      "folderName": "structurize-0.10.195-ALPHA.jar",
+      "fingerprint": 2402612503,
+      "fileDateHash": 1601669142,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2402612503
+      ],
+      "status": 1,
+      "timestamp": "2019-10-31T20:43:13.0313703Z",
+      "lastWriteTimeUtc": "2019-10-31T20:42:36.3683674Z",
+      "queryTimestamp": "2019-10-31T20:43:13.572362Z",
+      "fileCount": 1,
+      "fileSize": 4586267
     },
     {
       "folderName": "FastFurnace-1.14.4-2.2.4.jar",
@@ -1122,21 +1077,6 @@
       "queryTimestamp": "2019-10-31T19:16:37.4672185Z",
       "fileCount": 1,
       "fileSize": 41469
-    },
-    {
-      "folderName": "curios-FORGE-1.14.4-1.0.5.jar",
-      "fingerprint": 3408338202,
-      "fileDateHash": 1102354473,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3408338202
-      ],
-      "status": 1,
-      "timestamp": "2019-10-31T19:17:18.0884901Z",
-      "lastWriteTimeUtc": "2019-10-31T19:17:15.5437279Z",
-      "queryTimestamp": "2019-10-31T19:17:18.547785Z",
-      "fileCount": 1,
-      "fileSize": 167401
     },
     {
       "folderName": "Dirt2Path-1.0.0.jar",
@@ -2135,6 +2075,21 @@
       "fileSize": 8120
     },
     {
+      "folderName": "StevesFactoryManager-1.14.4-3.0.0-alpha19.jar",
+      "fingerprint": 3458408079,
+      "fileDateHash": 3448434099,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3458408079
+      ],
+      "status": 1,
+      "timestamp": "2019-10-31T20:43:13.0263638Z",
+      "lastWriteTimeUtc": "2019-10-31T20:42:32.1052881Z",
+      "queryTimestamp": "2019-10-31T20:43:13.5893615Z",
+      "fileCount": 1,
+      "fileSize": 559764
+    },
+    {
       "folderName": "inventorysorter-1.14.4-16.2.0.jar",
       "fingerprint": 359811405,
       "fileDateHash": 641897938,
@@ -2193,6 +2148,51 @@
       "queryTimestamp": "2019-10-31T19:16:37.4652171Z",
       "fileCount": 1,
       "fileSize": 22261
+    },
+    {
+      "folderName": "curios-FORGE-1.14.4-1.0.5.1.jar",
+      "fingerprint": 2053166673,
+      "fileDateHash": 3001049810,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2053166673
+      ],
+      "status": 1,
+      "timestamp": "2019-10-31T20:43:12.7883631Z",
+      "lastWriteTimeUtc": "2019-10-31T20:41:29.1574159Z",
+      "queryTimestamp": "2019-10-31T20:43:13.5903625Z",
+      "fileCount": 1,
+      "fileSize": 172400
+    },
+    {
+      "folderName": "mysticalworld-1.14.4-1.6.5.jar",
+      "fingerprint": 1818480945,
+      "fileDateHash": 473307299,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1818480945
+      ],
+      "status": 1,
+      "timestamp": "2019-10-31T20:43:13.0133993Z",
+      "lastWriteTimeUtc": "2019-10-31T20:41:45.9733892Z",
+      "queryTimestamp": "2019-10-31T20:43:13.5913614Z",
+      "fileCount": 1,
+      "fileSize": 2039965
+    },
+    {
+      "folderName": "Bookshelf-1.14.4-4.2.57.jar",
+      "fingerprint": 3276273621,
+      "fileDateHash": 4209055193,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3276273621
+      ],
+      "status": 1,
+      "timestamp": "2019-10-31T20:43:12.7863627Z",
+      "lastWriteTimeUtc": "2019-10-31T20:41:27.1998995Z",
+      "queryTimestamp": "2019-10-31T20:43:13.5913614Z",
+      "fileCount": 1,
+      "fileSize": 125184
     },
     {
       "folderName": "titanium-1.14.4-2.2.5.jar",
