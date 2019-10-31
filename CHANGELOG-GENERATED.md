@@ -1,9 +1,10 @@
 # Enigmatica 4 Changelog
 
-## [Unreleased](https://github.com/NillerMedDild/Enigmatica4/tree/HEAD)
-
+## [0.2.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.1) (2019-10-31)
 **Implemented enhancements:**
 
+- Add Engineer's Decor [\#103](https://github.com/NillerMedDild/Enigmatica4/issues/103) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Modular Routers [\#101](https://github.com/NillerMedDild/Enigmatica4/issues/101) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Common Capabilities [\#98](https://github.com/NillerMedDild/Enigmatica4/issues/98) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Flopper [\#97](https://github.com/NillerMedDild/Enigmatica4/issues/97) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add The Mighty Architect [\#96](https://github.com/NillerMedDild/Enigmatica4/issues/96) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
@@ -17,6 +18,7 @@
 **Closed issues:**
 
 - Mending Issues [\#100](https://github.com/NillerMedDild/Enigmatica4/issues/100)
+- Unable to install on Twitch Launcher [\#99](https://github.com/NillerMedDild/Enigmatica4/issues/99)
 - Investigate Structurize Custom Structures [\#64](https://github.com/NillerMedDild/Enigmatica4/issues/64)
 
 ## [0.2.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.0) (2019-10-26)

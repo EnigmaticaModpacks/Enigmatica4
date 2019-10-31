@@ -1,13 +1,23 @@
-## [Enigmatica 4 v0.2.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.0) (2019-10-26)
+## [Enigmatica 4 v0.2.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.1) (2019-10-31)
 
 **Changes**
 
-* Disabled about 75% of Corail's Tombstone - I've kept the enchants, the graves, player inventory backups and decorative features.
+* Add Engineer's Decor [\#103](https://github.com/NillerMedDild/Enigmatica4/issues/103) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+* Add Modular Routers [\#101](https://github.com/NillerMedDild/Enigmatica4/issues/101) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+
+**Fixed bugs**
+
+* Server crash caused by mobrenderer
+
+## [Enigmatica 4 v0.2.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.0) (2019-10-26)
+
+**Changes**
+* Add Corail Tombstone [\#92](https://github.com/NillerMedDild/Enigmatica4/issues/92) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 * Add Common Capabilities [\#98](https://github.com/NillerMedDild/Enigmatica4/issues/98) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 * Add Flopper [\#97](https://github.com/NillerMedDild/Enigmatica4/issues/97) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 * Add The Mighty Architect [\#96](https://github.com/NillerMedDild/Enigmatica4/issues/96) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 * Add Everlasting Abilities [\#95](https://github.com/NillerMedDild/Enigmatica4/issues/95) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
-* Add Corail Tombstone [\#92](https://github.com/NillerMedDild/Enigmatica4/issues/92) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+* Disabled about 75% of Corail's Tombstone - I've kept the enchants, the graves, player inventory backups and decorative features.
 
 **Fixed bugs**
 
