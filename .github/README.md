@@ -2,9 +2,13 @@
 
 This is the official repository and issue-tracker for the modpack Enigmatica 4, for Minecraft 1.14.4
 
-* [Curseforge](https://minecraft.curseforge.com/projects/enigmatica4)
-
-* [Discord](https://discord.gg/HnWNd7X)
+### Table of Contents
+* [Testing](#testing)
+* [Setup](#setup)
+  * [Windows / Mac](#windows-/-mac)
+  * [Linux](#linux)
+  * [Server Automation](#server-automation)
+* [Links](#links)
 
 ## Testing
 If you would like to help test Enigmatica 4, please give me a shout on Discord.
@@ -64,9 +68,16 @@ You're done!
 5) Navigate to the folder `development/include-in-server-files`
 6) Open the file `settings.cfg` and change `MAX_RAM=4G` to the amount you wish to allocate.
 7) Copy all files from the folder `development/include-in-server-files` into the root.
-8) Double clicking `update-server.bat` will now update the modpack.
+8) Run `remove-client-mods` to ensure that no client-side mods are on the server.
+9) Double clicking `update-server.bat` will now update the modpack.
 
 Using the `update-server` script will reset changes you've made to all files tracked by the repository.
 
 ### Alternatives
 It is possible to setup a development instance for Enigmatica 4 in other ways, for example running it through the .Minecraft folder.
+
+## Links
+
+* [CurseForge](https://minecraft.curseforge.com/projects/enigmatica4)
+
+* [Discord](https://discord.gg/HnWNd7X)
