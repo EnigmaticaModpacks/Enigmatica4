@@ -175,6 +175,8 @@
 	allow_scroll_of_true_sight = false
 	#Allow Lost Tablet [false/true|default:true]
 	allow_lost_tablet = false
+	#Allow Tablet of Home [false/true|default:true]
+	allow_tablet_of_home = true
 
 #Allows to change the chance to drop some items
 [loot]

@@ -1,4 +1,4 @@
-import crafttweaker.api.item.IIngredient;
+/* import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.data.StringData;
 
@@ -60,4 +60,4 @@ var data1  = new StringData("one");
 var data2  = new StringData("two");
 //println(data1 + data2);
 
-
+ */

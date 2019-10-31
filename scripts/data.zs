@@ -1,4 +1,4 @@
-import crafttweaker.api.data.StringData;
+/* import crafttweaker.api.data.StringData;
 import crafttweaker.api.data.ShortData;
 import crafttweaker.api.data.MapData;
 import crafttweaker.api.data.ListData;
@@ -18,4 +18,4 @@ println(tag.getString());
 var pick = <item:minecraft:diamond_pickaxe>.withTag(tag);
 
 recipes.addShapeless("tag_test", <item:minecraft:diamond_pickaxe>, [<item:minecraft:grindstone>, pick]);
-furnace.addRecipe("nbt_test", <item:minecraft:iron_pickaxe>, pick, 20,20);
+furnace.addRecipe("nbt_test", <item:minecraft:iron_pickaxe>, pick, 20,20); */

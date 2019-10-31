@@ -8,6 +8,8 @@
 	show_enhanced_tooltips = true
 	#Shows shadow step particles [false/true|default:true]
 	hide_shadow_step = true
+	#Shows the magic circles when using some items [false/true|default:true]
+	show_magic_circle = true
 	#Equips elytra in priority when recovering your lost items [false/true|default:false]
 	equip_elytra_in_priority = false
 	#Shows the use of the Tombstone's enchantments in tooltip [false/true|default:true]

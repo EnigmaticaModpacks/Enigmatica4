@@ -1,5 +1,6 @@
-#priority 1000
 /*
+#priority 1000
+
 import crafttweaker.item.IIngredient;
 
 global materials as IIngredient[string][string] = {
@@ -469,3 +470,4 @@ global materials as IIngredient[string][string] = {
 		rod: null
 	}
 };
+*/
