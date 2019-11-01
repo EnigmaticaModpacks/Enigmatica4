@@ -12,8 +12,17 @@
 #Run '/sfm reload componentGroups' after updating config
 [procedures]
 	EnableItemImport = true
+	EnableRedstoneTrigger = true
 	EnableItemExport = true
+	EnableRedstoneEmitter = true
 	EnableIntervalTrigger = true
 	EnableItemTransfer = true
 	EnableCrafting = true
+
+#Block property config options
+[blocks]
+	#Whether the redstone emitter block is considered a cable
+	IsRedstoneEmitterBlockCables = false
+	#Whether the redstone input block is considered a cable
+	IsRedstoneInputBlockCables = false
 
