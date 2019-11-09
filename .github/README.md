@@ -78,6 +78,6 @@ It is possible to setup a development instance for Enigmatica 4 in other ways, f
 
 ## Links
 
-* [CurseForge](https://minecraft.curseforge.com/projects/enigmatica4)
+* [CurseForge](https://minecraft.curseforge.com/modpacks/enigmatica4)
 
 * [Discord](https://discord.gg/HnWNd7X)
