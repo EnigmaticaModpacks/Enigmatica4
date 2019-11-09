@@ -1,0 +1,16 @@
+
+#Bamboo Blocks Settings
+[bambooblocks]
+	#Set length of Bamboo Button pulse in seconds
+	#Range: > 0
+	ticks = 2
+	#Toggle Reed Thatch
+	reed_thatch = true
+	#Set Sensitivity of Bamboo Pressure Plates
+	#Allowed Values: ALL, MOBS, PLAYER
+	sensitivity = "ALL"
+	#Toggle Bamboo Torches
+	bamboo_torches = true
+	#Toggle Bamboo Torches
+	bamboo_planks = true
+

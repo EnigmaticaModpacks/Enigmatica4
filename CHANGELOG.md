@@ -1,4 +1,18 @@
+## [Enigmatica 4 v0.2.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.2) (2019-11-05)
+
+**Changes**
+
+* Disabled the Soulbound enchant from Corail's Tombstone, as Ensorcellation now provides one.
+* Everlasting Abilities no longer drop on PvP-death
+* Players now get one ability totem when they join a world for the first time.
+* Readded FTB Backups - We need backups, and I should've reported bugs instead of being lazy and just removing the mod, woops ^^'
+
+**Fixed bugs**
+
+* Swing through grass not working on servers (I removed it from the server files, d'oh)
+
 ## [Enigmatica 4 v0.2.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.1) (2019-10-31)
+*Forge-1.14.4-28.1.74*
 
 **Changes**
 
@@ -10,6 +24,7 @@
 * Server crash caused by mobrenderer
 
 ## [Enigmatica 4 v0.2.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.0) (2019-10-26)
+*Forge-1.14.4-28.1.69*
 
 **Changes**
 * Add Corail Tombstone [\#92](https://github.com/NillerMedDild/Enigmatica4/issues/92) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]

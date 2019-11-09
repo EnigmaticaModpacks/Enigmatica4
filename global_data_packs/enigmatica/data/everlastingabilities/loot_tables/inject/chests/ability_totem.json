@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "everlastingabilities:ability_totem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "everlastingabilities:set_random_ability"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.4
+        }
+      ]
+    }
+  ]
+}

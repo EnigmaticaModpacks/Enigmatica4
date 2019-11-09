@@ -1,0 +1,316 @@
+
+[Ranks]
+
+	[Ranks.Default]
+		prefix = "&8[&7Player&8]"
+		perms = ["serverutils.back", "serverutils.delhome", "serverutils.home", "serverutils.maxhome_1", "serverutils.homes", "serverutils.rtp", "serverutils.rtpnear", "serverutils.rtpfar", "serverutils.sethome", "serverutils.spawn", "serverutils.tpa", "serverutils.tpa.here", "serverutils.tpa.deny", "serverutils.tpa.accept", "serverutils.warp", "serverutils.warps"]
+
+[Commands]
+
+	[Commands.rtpnear]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.rtpnear"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["rtpnear"]
+
+	[Commands.delhome]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.delhome"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["delhome"]
+
+	[Commands.repair]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.repair"
+		enable = true
+		#Range: > 0
+		cooldown = 5
+		alases = ["repair"]
+		"repair all perm" = "serverutils.repair.all"
+
+	[Commands.tpaAccept]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.tpa.accept"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["tpaccept"]
+
+	[Commands.smite]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.simte"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["smite"]
+
+	[Commands.back]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.back"
+		enable = true
+		#Range: > 0
+		cooldown = 30
+		enable-on-death = true
+		alases = ["back", "return"]
+
+	[Commands.endchest]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.endchest"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["endchest", "ec"]
+
+	[Commands.setwarp]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.setwarp"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["setwarp"]
+
+	[Commands.bomb]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.bomb"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["bomb", "boom"]
+
+	[Commands.nick]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.nick"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		other-perm = "serverutils.ck.other"
+		alases = ["nickname", "nick"]
+
+	[Commands.warps]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.warps"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["warps"]
+
+	[Commands.heal]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.heal"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		other-perm = "serverutils.heal.other"
+		alases = ["heal"]
+
+	[Commands.sethome]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.sethome"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["sethome"]
+
+	[Commands.homes]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.homes"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["homes"]
+
+	[Commands.rank]
+		modify-perm = "serverutils.rank.modify"
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.rank"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["rank"]
+
+	[Commands.tpaHere]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.tpa.here"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["tpahere"]
+
+	[Commands.delwarp]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.delwarp"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["delwarp"]
+
+	[Commands.tpa]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.tpa"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		#Range: > 0
+		"tp time" = 5
+		alases = ["call"]
+
+	[Commands.permission]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.permission"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["permission", "perms", "p"]
+
+	[Commands.flood]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.flood"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["drown"]
+
+	[Commands.setspawn]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.setspawn"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["setspawn"]
+
+	[Commands.home]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.home"
+		home-max-perm = "serverutils.maxhome_"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["home"]
+
+	[Commands.rtp]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.rtp"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["rtp"]
+
+	[Commands.feed]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.feed"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		other-perm = "serverutils.feed.other"
+		alases = ["feed"]
+
+	[Commands.fly]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.fly"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		other-perm = "serverutils.fly.other"
+		alases = ["fly"]
+
+	[Commands.spawn]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.spawn"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["spawn"]
+
+	[Commands.rtpfar]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.rtpfar"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["rtpfar"]
+
+	[Commands.tpaDeny]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.tpa.deny"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["tpdeny"]
+
+	[Commands.god]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.god"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		other-perm = "serverutils.god.other"
+		alases = ["god", "tgm"]
+
+	[Commands.warp]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.warp"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		alases = ["warp"]
+
+[Features]
+
+	[Features."Color Chat"]
+		perm = "serverutils.colorchat"
+		enabled = false
+
+		[Features."Color Chat"."Color Codes"]
+			#This will enable the &h color code, which will change text based on the month it is.
+			"holiday enabled" = false
+			#This will enable the &g color code, which will change text to rainbow.
+			"rainbow enabled" = false
+
+			[Features."Color Chat"."Color Codes"."Holiday Colors"]
+				June = ["GRAY", "WHITE", "RED"]
+				October = ["DARK_GRAY", "GOLD", "WHITE"]
+				December = ["GREEN", "WHITE", "RED"]
+				May = ["GREEN", "YELLOW", "AQUA", "BLUE"]
+				September = ["DARK_GRAY", "RED", "YELLOW"]
+				March = ["DARK_GREEN", "GREEN", "WHITE", "GOLD"]
+				July = ["RED", "WHITE", "BLUE"]
+				January = ["DARK_GRAY", "GRAY", "GOLD", "WHITE"]
+				April = ["AQUA", "GREEN", "BLUE", "WHITE"]
+				Febuary = ["WHITE", "LIGHT_PURPLE", "DARK_PURPLE", "RED"]
+				August = ["GOLD", "RED", "GREEN"]
+				November = ["RED", "GOLD", "YELLOW"]
+

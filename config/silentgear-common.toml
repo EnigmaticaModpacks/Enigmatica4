@@ -1,0 +1,128 @@
+
+#Settings for the salvager
+[salvager]
+
+	[salvager.partLossRate]
+		#Minimum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
+		#Rate depends on remaining durability.
+		min = 0.0
+		#Maximum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
+		#Rate depends on remaining durability.
+		max = 0.5
+
+[item]
+
+	#Blueprint and template settings
+	[item.blueprint]
+		#Allowed blueprint types. Valid values are: BOTH, BLUEPRINT, and TEMPLATE
+		typesAllowed = "BOTH"
+		#When joining a new world, should players be given a blueprint package?
+		#The blueprint package gives some blueprints when used (right-click).
+		#To change what is given, override the starter_blueprints loot table.
+		spawnWithStarterBlueprints = true
+
+	#Settings for nerfed items.
+	#You can give items reduced durability to encourage use of Silent Gear tools.
+	#Changes require a restart!
+	[item.nerfedItems]
+		#Multiplies harvest speed by this value.
+		harvestSpeedMultiplier = 0.5
+		#Multiplies max durability by this value. If the result would be zero, a value of 1 is assigned.
+		durabilityMultiplier = 0.05
+		#These items will have reduced durability
+		items = ["diamond_axe", "iron_axe", "golden_axe", "stone_axe", "wooden_axe", "diamond_hoe", "iron_hoe", "golden_hoe", "stone_hoe", "wooden_hoe", "diamond_pickaxe", "iron_pickaxe", "golden_pickaxe", "stone_pickaxe", "wooden_pickaxe", "diamond_shovel", "iron_shovel", "golden_shovel", "stone_shovel", "wooden_shovel", "diamond_sword", "iron_sword", "golden_sword", "stone_sword", "wooden_sword"]
+		#Enable this feature. If false, the other settings in this category are ignored.
+		enabled = false
+
+	[item.grading]
+
+		#Settings for random grading of ungraded materials. This affects gear items crafted with ungraded parts, not parts graded in the part analyzer.
+		#Grading follows a normal distribution, which means that values closer to the mean (average) are more common.
+		[item.grading.random]
+			#Apply the same grade to all parts on the tool. This makes stats more random.
+			sameOnAllParts = true
+			#The maximum grade that ungraded parts can receive.
+			max = "S"
+			#The mean (average) grade assigned to ungraded parts.
+			mean = "C"
+			#The standard deviation (how 'spread out' the curve is) for random grading. Must be non-negative.
+			#Setting to zero would disable all randomness and grade all parts at the mean.
+			standardDeviation = 1.5
+
+	#Silent Gear allows some items to be used to place blocks.
+	#You can change which items place blocks and what other items they can activate.
+	[item.blockPlacers]
+		#These items are able to place blocks. The player must be sneaking.
+		placerTools = ["silentgear:axe", "silentgear:pickaxe", "silentgear:shovel"]
+		#These items can be used by placer tools. The player must be sneaking.
+		#Note that some items may not work with this feature.
+		placeableItems = ["danknull:dank_null", "torchbandolier:torch_bandolier", "xreliquary:sojourner_staff"]
+
+	#Settings for sinew drops
+	[item.sinew]
+		#These entities can drop sinew when killed.
+		dropsFrom = ["minecraft:cow", "minecraft:pig", "minecraft:sheep"]
+		#Drop rate of sinew (chance out of 1)
+		dropRate = 0.2
+
+	#Settings for gear (tools, weapons, and armor)
+	[item.gear]
+		#If true, gear breaks permanently, like vanilla tools and armor
+		breaksPermanently = false
+
+		[item.gear.repairs]
+			#Effectiveness of quick gear repairs (crafting grid). Set to 0 to disable quick repairs.
+			quickEffectiveness = 0.35
+			#Effectiveness of gear repairs done in an anvil. Set to 0 to disable anvil repairs.
+			anvilEffectiveness = 0.5
+
+		#Settings for AOE tools (hammer, excavator)
+		#Match modes determine what blocks are considered similar enough to be mined together.
+		#LOOSE: Break anything (you probably do not want this)
+		#MODERATE: Break anything with the same harvest level
+		#STRICT: Break only the exact same block
+		[item.gear.aoeTools]
+
+			[item.gear.aoeTools.matchMode]
+				#Match mode for most blocks
+				standard = "MODERATE"
+				#Match mode for ore blocks (anything in the forge:ores block tag)
+				ores = "STRICT"
+
+		#Multipliers for stats on all gear. This allows the stats on all items to be increased or decreased
+		#without overriding every single file.
+		[item.gear.statMultipliers]
+			repair_efficiency = 1.0
+			reach_distance = 1.0
+			magic_armor = 1.0
+			durability = 1.0
+			armor_durability = 1.0
+			harvest_speed = 1.0
+			attack_speed = 1.0
+			ranged_damage = 1.0
+			ranged_speed = 1.0
+			armor_toughness = 1.0
+			enchantability = 1.0
+			armor = 1.0
+			melee_damage = 1.0
+			harvest_level = 1.0
+			magic_damage = 1.0
+			rarity = 1.0
+
+		[item.gear.upgrades]
+			#If true, upgrade parts may only be applied in an anvil.
+			applyInAnvilOnly = false
+
+[debug]
+
+	[debug.logging]
+		#Log additional information related to loading and synchronizing gear parts and traits.
+		#This might help track down more obscure issues.
+		extraPartAndTraitInfo = false
+
+[compat]
+
+	[compat.mineAndSlash]
+		#Enable compatibility with the Mine and Slash mod, if installed
+		enabled = true
+

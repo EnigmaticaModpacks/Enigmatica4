@@ -13,7 +13,7 @@
 		#How many abilities should be dropped on player death.
 		dropAbilitiesOnPlayerDeath = 0
 		#The maximum rarity of totems to spawn when a player first logs in. [0-3], -1 disables totem spawning.
-		totemMaximumSpawnRarity = 2
+		totemMaximumSpawnRarity = 3
 		#If on-player entities should have particle effects for the abilities they carry.
 		showEntityParticles = true
 		#The amount of exhaustion that should by applied to the player per active ability per second.

@@ -14,7 +14,6 @@ param(
 		"nmdar_", 
 		"Neat", 
 		"overloadedarmorbar", 
-		"swingthroughgrass", 
 		"ToastControl", 
 		"toughnessbar", 
 		"Xaeros_Minimap", 

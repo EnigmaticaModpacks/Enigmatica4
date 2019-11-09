@@ -18,7 +18,6 @@ $CLIENT_MODS = @(
 	"nmdar_", 
 	"Neat", 
 	"overloadedarmorbar", 
-	"swingthroughgrass", 
 	"ToastControl", 
 	"toughnessbar", 
 	"Xaeros_Minimap", 
@@ -39,12 +38,12 @@ $CURSEFORGE_PROJECT_ID = 330372
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.2.1"
+$MODPACK_VERSION = "0.2.2"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.2.0"
+$LAST_MODPACK_VERSION = "0.2.1"
 
-$FORGE_VERSION=28.1.74
+$FORGE_VERSION=28.1.87
 
 $CLIENT_FILENAME = "Enigmatica4"
 
@@ -82,6 +81,7 @@ $SERVER_FILE_DISPLAY_NAME = "Enigmatica 4 Server - $MODPACK_VERSION"
 # Default: @("mods", "config")
 $CONTENTS_TO_ZIP = @("mods", 
 "config", "resources", 
+"global_data_packs",
 "server-start-license.md", 
 "server-start-readme.md", 
 "server-start.bat", 

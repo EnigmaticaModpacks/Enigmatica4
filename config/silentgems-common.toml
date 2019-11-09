@@ -1,0 +1,159 @@
+
+[gearSoul]
+	#If true, gear souls can gain XP when being used by fake players (certain machines)
+	fakePlayersGetXp = false
+
+[general]
+	#The burn time (in ticks) of chaos coal (normal coal is 1600)
+	chaosCoalBurnTime = 6400
+
+[mob]
+
+	[mob.wisp]
+		#Fire and lightning wisps can light blocks on fire
+		canCauseFire = true
+
+[world]
+
+	#World generation settings (ores, etc.) Most of these REQUIRE A RESTART!
+	[world.generation]
+		#Seed used when setting up ore generation. This affects what biomes gems can spawn in.
+		#If left empty, your PC username is hashed to create the seed.
+		baseBiomeSeedOverride = ""
+
+		[world.generation.nether]
+
+			[world.generation.nether.gems]
+				#The region size for gems in the Nether.
+				#Each 'size x size' chunk area is a 'region', which contains a couple types of gems.
+				#Larger regions will make finding many types of gems more difficult.
+				regionSize = 8
+
+		[world.generation.other]
+
+			[world.generation.other.gems]
+				#The region size for gems in non-vanilla dimensions.
+				#Each 'size x size' chunk area is a 'region', which contains a couple types of gems.
+				#Larger regions will make finding many types of gems more difficult.
+				regionSize = 4
+
+		[world.generation.ores]
+
+			[world.generation.ores.silver]
+				#Number of veins of silver ore per chunk. Set 0 to disable.
+				#Default: 0 if Silent's Mechanisms is installed when config is created, 2 otherwise
+				veinCount = 0
+
+		[world.generation.plants]
+			#Generate wild fluffy puff plants. If disabled, you will need to add some other way to obtain fluffy puff seeds.
+			wildFluffyPuffs = true
+
+		[world.generation.end]
+
+			[world.generation.end.gems]
+				#The region size for gems in The End.
+				#Each 'size x size' chunk area is a 'region', which contains a couple types of gems.
+				#Larger regions will make finding many types of gems more difficult.
+				regionSize = 6
+
+[chaos]
+	#The most chaos the any source (player or world) can accumulate
+	maxValue = 10000000
+
+	#Allows individual events to be disabled.
+	#Note that disabling events will likely increase the frequency of other events.
+	[chaos.events]
+		#Spawn a group of corrupted slimes
+		"silentgems:corrupted_slimes" = true
+		#Spawn a regular lightning bolt (can cause fire)
+		"silentgems:lightning" = true
+		#Changes the weather to a thunderstorm
+		"silentgems:thunderstorm" = true
+		#Create a patch of corrupted blocks
+		"silentgems:corrupt_blocks" = true
+		#Applies negative potion effects to the player
+		"silentgems:chaos_sickness" = true
+		#Spawn several lightning bolts that do not cause fire
+		"silentgems:chaos_lightning" = true
+		#Spawn a group of wisps (random element)
+		"silentgems:spawn_wisps" = true
+
+[debug]
+	#Display text on-screen with various information, such as player/world chaos
+	showOverlay = true
+	#Add additional tooltip information to some items
+	extraTooltipInfo = true
+	#Must be true for any other debug settings to take effect
+	masterSwitch = false
+
+[teleporter]
+	#Only allow teleporters to be linked to teleporters made with the same gem
+	sameGemOnly = false
+	#Allow teleporters to link to teleporter anchors
+	allowAnchors = true
+
+	[teleporter.chaos]
+		#The chaos produced per block traveled (ignores Y-axis)
+		# Does not apply when teleporting to another dimension
+		perBlock = 50
+		#The chaos produced when traveling between dimensions using a teleport
+		crossDimension = 50000
+		#When teleporting this distance or less, no chaos is produced (ignores Y-axis)
+		freeRange = 64
+
+	[teleporter.redstone]
+		#All entities within this distance of a redstone teleporter will teleport when activated with redstone.
+		#Default is 2 blocks, restricted to [1,16]
+		searchRadius = 2
+
+[soulGem]
+
+	#Drop rate of soul gems is randomly selected based on the world seed.
+	#There is an average and a deviation, which makes a normal distribution.
+	#The numbers will tend to be close to average, but could occasionally be plus/minus a couple deviations.
+	[soulGem.dropRate]
+		#Average drop rate of soul gems (1 = 100%) [0 ~ 1]
+		average = 0.025
+		#The drop rate for boss creatures (overrides normal calculation) [0 ~ 1]
+		boss = 1.0
+		#Standard deviation of drop rate (should be no more than a quarter of the average, preferably less) [0 ~ 1]
+		deviation = 0.002
+
+[returnHomeCharm]
+	#Durability of return home charms. 0 means unlimited. Charms with durability will still generate chaos when used.
+	maxUses = 0
+	#Only allow return home charms to be bound to teleporters made with the same gem
+	sameGemOnly = false
+	#Allow return home charms to be bound to teleporter anchors
+	allowAnchors = true
+	#The time (in ticks) the player must use a return home charm to activate it
+	useTime = 16
+
+[glowrose]
+	#The light level of free-standing glowroses [0 ~ 15]
+	#Requires a Minecraft restart
+	normalLight = 10
+	#The light level of glowroses planted in vanilla flower pots [0 ~ 15]
+	#Requires a Minecraft restart
+	pottedLight = 15
+
+	[glowrose.world]
+		#The number of placement attempts when generating new chunks (higher numbers = bigger patches)
+		#Note this is the number of 'attempts', not the actual number you will likely see in any given patch
+		placeTryCount = 40
+		#The most glowroses that can be in a single patch
+		maxPerPatch = 16
+
+[entity]
+
+	[entity.enderSlime]
+
+		#Ender slime spawn properties (REQUIRES RESTART)
+		[entity.enderSlime.spawn]
+			#Smallest possible group size
+			minGroupSize = 1
+			#Spawn weight of ender slimes in The End. Set to zero to disable spawns.
+			weight = 3
+			#Largest possible group size
+			maxGroupSize = 2
+

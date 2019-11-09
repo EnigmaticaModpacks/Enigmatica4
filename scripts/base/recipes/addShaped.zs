@@ -1,13 +1,13 @@
 #priority 50
 
-craftingTable.addShaped("placeholder", 
+craftingTable.addShaped(formatRecipeName(<item:minecraft:stick>), 
 <item:minecraft:stick> * 16, 
 [
     [<tag:minecraft:logs>], 
     [<tag:minecraft:logs>]
 ]);
 
-craftingTable.addShaped("placeholder", 
+craftingTable.addShaped(formatRecipeName(<item:minecraft:chest>), 
 <item:minecraft:chest> * 4, 
 [
     [<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>], 
@@ -15,7 +15,7 @@ craftingTable.addShaped("placeholder",
     [<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>]
 ]);
 
-craftingTable.addShaped("placeholder", 
+craftingTable.addShaped(formatRecipeName(<item:minecraft:hopper>), 
 <item:minecraft:hopper>, 
 [
     [<tag:forge:ingots/iron>, <tag:minecraft:logs>, <tag:forge:ingots/iron>], 
