@@ -60,7 +60,7 @@ $CLIENT_CHANGELOG_TYPE = "html"
 
 # Must be a single string. Use Powershell escaping for new lines etc. New line is `n and indent is `t
 $CLIENT_CHANGELOG = "<h3>Enigmatica 4 v$MODPACK_VERSION</h3>" +
-					"<p>Using Forge-1.14.4-28.1.74 </p><br />" +
+					"<p>Using Forge-1.14.4-28.1.87 </p><br />" +
 					"<a href=`"https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG.md`">Changelog (link)</a> <br />"
 #<a href=`"https://github.com/NillerMedDild/Enigmatica4/blob/master/MOD_CHANGELOGS.txt`">Mod Changelogs (link)</a></p>
 

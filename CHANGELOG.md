@@ -1,11 +1,19 @@
-## [Enigmatica 4 v0.2.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.2) (2019-11-05)
+## [Enigmatica 4 v0.2.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.2) (2019-11-10)
 
 **Changes**
 
-* Disabled the Soulbound enchant from Corail's Tombstone, as Ensorcellation now provides one.
-* Everlasting Abilities no longer drop on PvP-death
-* Players now get one ability totem when they join a world for the first time.
-* Readded FTB Backups - We need backups, and I should've reported bugs instead of being lazy and just removing the mod, woops ^^'
+- Disabled the Soulbound enchant from Corail's Tombstone, as Ensorcellation now provides one.
+- Everlasting Abilities no longer drop on PvP-death
+- Players now get one ability totem when they join a world for the first time.
+- Readded FTB Backups - We need backups, and I should've reported bugs instead of being lazy and just removing the mod, woops ^^'
+- Neat Changes [\#132](https://github.com/NillerMedDild/Enigmatica4/issues/132) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
+- Add Dude! Where's my Horse? [\#131](https://github.com/NillerMedDild/Enigmatica4/issues/131) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Investigate Cooking For Blockheads [\#130](https://github.com/NillerMedDild/Enigmatica4/issues/130) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add RFTools Storage [\#121](https://github.com/NillerMedDild/Enigmatica4/issues/121) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Packing Tape [\#119](https://github.com/NillerMedDild/Enigmatica4/issues/119) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Quark [\#115](https://github.com/NillerMedDild/Enigmatica4/issues/115) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Gravel to Flint Recipe [\#106](https://github.com/NillerMedDild/Enigmatica4/issues/106) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- QoL Recipes [\#102](https://github.com/NillerMedDild/Enigmatica4/issues/102) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 
 **Fixed bugs**
 
