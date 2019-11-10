@@ -5,7 +5,7 @@
 	"Display on Players" = true
 	"Plate Size (Boss)" = 50
 	"Show Max HP" = true
-	"Max Distance" = 24
+	"Max Distance" = 16
 	"Show Attributes" = true
 	"Show Current HP" = true
 	"Show Debug Info with F3" = true
@@ -13,7 +13,7 @@
 	"HP Text Height" = 14
 	"Only show the health bar for the entity looked at" = false
 	"Draw Background" = true
-	"Plate Size" = 25
+	"Plate Size" = 15
 	"Display on Bosses" = true
 	"Background Height" = 6
 	"Show Armor" = true
