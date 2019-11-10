@@ -3,7 +3,7 @@
 
 	[Features."Color Chat"]
 		perm = "serverutils.colorchat"
-		enabled = true
+		enabled = false
 
 		[Features."Color Chat"."Color Codes"]
 			#This will enable the &h color code, which will change text based on the month it is.
