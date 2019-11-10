@@ -14,6 +14,7 @@
 - Add Quark [\#115](https://github.com/NillerMedDild/Enigmatica4/issues/115) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Gravel to Flint Recipe [\#106](https://github.com/NillerMedDild/Enigmatica4/issues/106) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 - QoL Recipes [\#102](https://github.com/NillerMedDild/Enigmatica4/issues/102) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- Added Refined Storage
 
 **Fixed bugs**
 
