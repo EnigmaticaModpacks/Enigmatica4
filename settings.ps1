@@ -18,7 +18,6 @@ $CLIENT_MODS = @(
 	"nmdar_", 
 	"Neat", 
 	"overloadedarmorbar", 
-	"swingthroughgrass", 
 	"ToastControl", 
 	"toughnessbar", 
 	"Xaeros_Minimap", 
@@ -39,12 +38,12 @@ $CURSEFORGE_PROJECT_ID = 330372
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.2.1"
+$MODPACK_VERSION = "0.2.2"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.2.0"
+$LAST_MODPACK_VERSION = "0.2.1"
 
-$FORGE_VERSION=28.1.74
+$FORGE_VERSION=28.1.87
 
 $CLIENT_FILENAME = "Enigmatica4"
 
@@ -61,7 +60,7 @@ $CLIENT_CHANGELOG_TYPE = "html"
 
 # Must be a single string. Use Powershell escaping for new lines etc. New line is `n and indent is `t
 $CLIENT_CHANGELOG = "<h3>Enigmatica 4 v$MODPACK_VERSION</h3>" +
-					"<p>Using Forge-1.14.4-28.1.74 </p><br />" +
+					"<p>Using Forge-1.14.4-28.1.87 </p><br />" +
 					"<a href=`"https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG.md`">Changelog (link)</a> <br />"
 #<a href=`"https://github.com/NillerMedDild/Enigmatica4/blob/master/MOD_CHANGELOGS.txt`">Mod Changelogs (link)</a></p>
 
@@ -82,6 +81,7 @@ $SERVER_FILE_DISPLAY_NAME = "Enigmatica 4 Server - $MODPACK_VERSION"
 # Default: @("mods", "config")
 $CONTENTS_TO_ZIP = @("mods", 
 "config", "resources", 
+"global_data_packs",
 "server-start-license.md", 
 "server-start-readme.md", 
 "server-start.bat", 

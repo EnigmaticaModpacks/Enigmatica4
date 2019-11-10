@@ -126,7 +126,7 @@
 	#Enables the enchantment Shadow Step [false/true|default:true]
 	enable_enchantment_shadow_step = true
 	#Enables the enchantment Soulbound [false/true|default:true]
-	enable_enchantment_soulbound = true
+	enable_enchantment_soulbound = false
 	#Shadow Step is only active while sneaking [false/true|default:false]
 	nerf_shadow_step = false
 	#Enables the enchantment Magic Siphon [false/true|default:true]

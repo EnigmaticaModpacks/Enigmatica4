@@ -45,7 +45,7 @@
 	#Vein Size Copper
 	veinSizeCopper = 7
 	#veinSizeMarble
-	veinSizeMarble = 2048
+	veinSizeMarble = 0
 	#Amethyst Max Y
 	maxAmethystY = 48
 	#Sapphire Min Y

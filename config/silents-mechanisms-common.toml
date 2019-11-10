@@ -111,3 +111,9 @@
 			#Size of veins
 			veinSize = 8
 
+	[world.oilLake]
+		#Chance of oil lakes spawning (1 in chance). Higher numbers = less common. Set 0 to disable.
+		#Water is 4, lava is 80. Oil lakes will spawn underground about 90% of the time.
+		#Note that disabling oil will make some items uncraftable unless recipes are changed
+		chance = 6
+
