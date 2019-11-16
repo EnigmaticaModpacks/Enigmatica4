@@ -1,18 +1,26 @@
 #priority 50
 
-craftingTable.addShaped("sticksfromlogs", //formatRecipeName(<item:minecraft:stick>)
+craftingTable.addShaped(formatRecipeName(<item:minecraft:stick>),
 <item:minecraft:stick> * 16, 
 [
     [<tag:minecraft:logs>], 
     [<tag:minecraft:logs>]
 ]);
 
-craftingTable.addShaped("chestsfromlogs",  //formatRecipeName(<item:minecraft:chest>)
+craftingTable.addShaped(formatRecipeName(<item:minecraft:chest>),
 <item:minecraft:chest> * 4, 
 [
     [<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>], 
     [<tag:minecraft:logs>, <item:minecraft:air>, <tag:minecraft:logs>],
     [<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>]
+]);
+
+craftingTable.addShaped(formatRecipeName(<item:minecraft:chest>),
+<item:minecraft:chest>, 
+[
+    [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>], 
+    [<tag:minecraft:planks>, <item:minecraft:air>, <tag:minecraft:planks>],
+    [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>]
 ]);
 
 craftingTable.addShaped(formatRecipeName(<item:minecraft:hopper>), 
