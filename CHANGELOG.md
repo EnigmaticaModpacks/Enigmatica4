@@ -1,3 +1,13 @@
+## [Enigmatica 4 v0.2.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.3) (2019-11-10)
+
+**Changes**
+
+- Increased range of Ore Excavation from 16 to 24 blocks
+
+**Fixed bugs**
+
+-
+
 ## [Enigmatica 4 v0.2.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.2) (2019-11-10)
 
 **Changes**
@@ -18,7 +28,7 @@
 
 **Fixed bugs**
 
-* Swing through grass not working on servers (I removed it from the server files, d'oh)
+- Swing through grass not working on servers (I removed it from the server files, d'oh)
 
 ## [Enigmatica 4 v0.2.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.1) (2019-10-31)
 *Forge-1.14.4-28.1.74*

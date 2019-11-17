@@ -113,8 +113,6 @@
 	#How many operations to do at once in fast mode
 	#Range: > 0
 	speedOperations = 5
-	#Whether the crafter should exist
-	enabled = true
 
 #Settings for the screen system
 [screen]

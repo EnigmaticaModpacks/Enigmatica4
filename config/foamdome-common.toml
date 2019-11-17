@@ -1,0 +1,15 @@
+
+["Obsidian Dome Size"]
+	#This Controls the size of the Acid version of FoamDomes Dome Creators. Changing this may affect the shape of the sphere! Perfect Sphere is 5
+	#Range: 3 ~ 15
+	AcidDomeSize = 5
+	#This Controls the size of the Glass version of FoamDomes Dome Creators. Changing this may affect the shape of the sphere! Perfect Sphere is 5
+	#Range: 3 ~ 15
+	GlassDomeSize = 5
+	#This Controls the size of the Obsidian version of FoamDomes Dome Creators. Changing this may affect the shape of the sphere! Perfect Sphere is 5
+	#Range: 3 ~ 15
+	DomeSize = 5
+	#This Controls the size of the Gravity version of FoamDomes Dome Creators. Changing this may affect the shape of the sphere! Perfect Sphere is 5
+	#Range: 3 ~ 15
+	GravityDomeSize = 5
+

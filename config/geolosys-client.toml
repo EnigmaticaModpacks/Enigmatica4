@@ -1,0 +1,15 @@
+
+#Client-Side Settings
+[client]
+	#The Y-position of the Prospector's Pickaxe Depth HUD
+	#Range: > 0
+	propickHUDY = 2
+	#Enable Minecraft object tag tooltip with Advanced Tooltips on (F3+"H")
+	enableTagDebug = true
+	#The X-position of the Prospector's Pickaxe Depth HUD
+	#Range: > 0
+	propickHUDX = 2
+	#Defines the scale factor of the font for the Field Manual
+	#Range: 0.1 ~ 3.0
+	manualFontScale = 0.75
+

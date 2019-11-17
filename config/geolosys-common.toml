@@ -1,0 +1,55 @@
+
+#Prospecting Options
+[prospecting]
+	#The diameter of the prospector's pick prospecting cycle
+	#Range: > 1
+	proPickDiameter = 5
+	#Enable the prospector's pickaxe
+	enableProPick = true
+	#What Surface Prospecting Results display; SAMPLES means it's based off of samples in the chunk - OREBLOCKS means it's based on the actual ores in the ground
+	#Allowed Values: SAMPLES, OREBLOCKS
+	surfaceProspectingResults = "OREBLOCKS"
+	#Allow the prospector's pick to get damaged
+	enableProPickDmg = false
+	#Max durability of a prospector's pick if damage is enabled
+	#Range: > 1
+	proPickDurability = 1024
+	#A list of <modid:block> that samples may not be placed on
+	samplePlacementBlacklist = ["minecraft:ice", "minecraft:packed_ice"]
+	#The range (depth) of the prospector's pick prospecting cycle
+	#Range: > 1
+	proPickRange = 5
+	#A list of blocks which the prospector's pick should also detect.
+	#Format: Comma-delimited set of <modid:block> (see default for example)
+	proPickExtras = []
+	#Give players a Field Manual if they haven't gotten one
+	giveManual = false
+	#Maximum samples that can generate with each pluton within a chunk
+	#Range: 1 ~ 256
+	maxSamplesPerChunk = 10
+
+#Feature Control
+["feature control"]
+	#Enable Coal Variants
+	enableCoals = false
+	#Enable Geolosys's Ingots
+	enableIngots = false
+	#Output info into the logs when generating Geolosys deposits
+	debugWorldgen = false
+	#The fallback materials which a Deposit can replace if they're not specified by the deposit itself
+	#Format: Comma-delimited set of <modid:block> (see default for example)
+	defaultReplacementMaterials = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack", "minecraft:sandstone"]
+	#Disable generation of Vanilla ores
+	disableVanillaOreGen = false
+
+#Mod-Compat Settings
+[compat]
+	#This will make it so that Platinum will drop Platinum AND Osmium
+	enableOsmium = false
+	#This will make it so that Platinum will ONLY drop Osmium
+	enableOsmiumExclusively = false
+	#This will make it so that Autunite will drop Uranium AND Yellorium
+	enableYellorium = false
+	#This will make is so that Coal has a rare chance of dropping sulfur
+	enableSulfur = false
+

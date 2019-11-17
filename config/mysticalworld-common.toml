@@ -95,6 +95,34 @@
 #Mob Spawn Configuration
 [mob_spawns]
 
+	#Owl spawn config.
+	[mob_spawns.Owl_spawn]
+		#Min to spawn in a group.
+		#Range: 0 ~ 256
+		min = 1
+		#Max to spawn in a group.
+		#Range: 0 ~ 256
+		max = 3
+		#List of biome types to spawn.
+		biomes = "CONIFEROUS,SPOOKY,MAGICAL,FOREST,MOUNTAIN,SNOWY,"
+		#Chance to spawn (set to 0 to disable).
+		#Range: 0 ~ 256
+		spawnChance = 9
+
+	#Endermini spawn config.
+	[mob_spawns.Endermini_spawn]
+		#Min to spawn in a group.
+		#Range: 0 ~ 256
+		min = 1
+		#Max to spawn in a group.
+		#Range: 0 ~ 256
+		max = 2
+		#List of biome types to spawn.
+		biomes = "END,"
+		#Chance to spawn (set to 0 to disable).
+		#Range: 0 ~ 256
+		spawnChance = 1
+
 	#Frog spawn config.
 	[mob_spawns.Frog_spawn]
 		#Min to spawn in a group.
@@ -108,6 +136,20 @@
 		#Chance to spawn (set to 0 to disable).
 		#Range: 0 ~ 256
 		spawnChance = 3
+
+	#Lava Cat spawn config.
+	[mob_spawns."Lava Cat_spawn"]
+		#Min to spawn in a group.
+		#Range: 0 ~ 256
+		min = 1
+		#Max to spawn in a group.
+		#Range: 0 ~ 256
+		max = 1
+		#List of biome types to spawn.
+		biomes = "NETHER,"
+		#Chance to spawn (set to 0 to disable).
+		#Range: 0 ~ 256
+		spawnChance = 1
 
 	#Beetle spawn config.
 	[mob_spawns.Beetle_spawn]
@@ -150,6 +192,17 @@
 		#Chance to spawn (set to 0 to disable).
 		#Range: 0 ~ 256
 		spawnChance = 4
+
+	#Silkworm spawn config.
+	[mob_spawns.silkworm_spawn]
+		#Whether or not silkworm eggs drop from leaves
+		leafDrops = true
+		#Chance to spawn whenever a leaf is broken (1 in X)
+		leafDropChance = 40
+		#Chance for silkworm eggs to spawn a silkworm (1 in X, 1 is guaranteed)
+		successChance = 1
+		#Chance per tick for silkworms to grown (1 in X)
+		growthChance = 85
 
 	#Deer spawn config.
 	[mob_spawns.Deer_spawn]

@@ -1,7 +1,7 @@
 {
   "overrides": [
     {
-      "itemID": "examplemod:nerfed_pickaxe:0",
+      "itemID": "examplemod:nerfed_pickaxe",
       "speed": 1,
       "limit": 0,
       "range": 0,

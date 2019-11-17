@@ -912,10 +912,12 @@
 		"Enable Main Hand" = true
 
 	[client.variant_animal_textures]
+		"Enable Shiny Llama" = true
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 1024
 		"Enable Pig" = true
 		"Enable Chicken" = true
+		"Enable Shiny Rabbit" = true
 		"Enable Cow" = true
 
 	[client.improved_tooltips]
