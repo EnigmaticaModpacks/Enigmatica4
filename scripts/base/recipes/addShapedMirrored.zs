@@ -40,6 +40,14 @@ for output, input in recipes {
     addShapedMirrored(output, input, false);
 }
 
+/*
+// ===================================================================================================== //
+//
+//    This section adds tag-recipes for storage drawers, to allow all wood types to be used.
+//
+// ===================================================================================================== //
+*/
+
 var vanillaPlanks as IItemStack[] = [
     <item:minecraft:oak_planks>,
     <item:minecraft:spruce_planks>,
