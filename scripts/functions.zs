@@ -2,16 +2,37 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
+
 public function formatRecipeName(item as IItemStack) as string {
-	return "placeholder";
-	/* return item.registryName.replaceAll(':','_'); */
+	return item.translationKey + "_" + item.amount;
 }
 
-/* public function metals() as IIngredient[string][string] {
-	var materials as IIngredient[string][string] = {
-	"copper": {
-		"nugget": <item:minecraft:iron_nugget>
+public function addShaped(output as IItemStack, input as IIngredient[][], removeRecipe as bool) as void {
+	var recipeName = formatRecipeName(output);
+
+	if (removeRecipe) {
+		craftingTable.removeRecipe(output);
 	}
-};
-	return materials;
-} */
+
+	craftingTable.addShaped(recipeName, output, input);
+}
+
+public function addShapedMirrored(output as IItemStack, input as IIngredient[][], removeRecipe as bool) as void {
+	var recipeName = formatRecipeName(output);
+
+	if (removeRecipe) {
+		craftingTable.removeRecipe(output);
+	}
+
+	craftingTable.addShapedMirrored(recipeName, output, input);
+}
+
+public function addShapeless(output as IItemStack, input as IIngredient[], removeRecipe as bool) as void {
+	var recipeName = formatRecipeName(output);
+
+	if (removeRecipe) {
+		craftingTable.removeRecipe(output);
+	}
+
+	craftingTable.addShapeless(recipeName, output, input);
+}
