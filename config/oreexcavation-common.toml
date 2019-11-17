@@ -11,12 +11,12 @@
 	#Skips spawning drops in world adding them directly to your inventory
 	"Auto Pickup" = false
 	#Inverts the block blacklist to function as a whitelist
-	"Invert Block Blacklist" = false
+	"Invert Block Blacklist" = true
 	#Inverts the tool blacklist to function as a whitelist
 	"Invert Tool Blacklist" = false
 	#How far from the origin an excavation can travel
 	#Range: > 1
-	Range = 16
+	Range = 24
 	#Amount of exaustion per block excavated
 	#Range: 0.0 ~ 1.7976931348623157E308
 	Exaustion = 0.1
@@ -34,7 +34,7 @@
 	#Tools blacklisted from excavating
 	"Tool Blacklist" = []
 	#Blocks blacklisted from being excavated
-	"Block Blacklist" = []
+	"Block Blacklist" = [ "tag:forge:ores", "minecraft:clay" ]
 	#The maximum number of blocks that can be excavated at once
 	#Range: > 1
 	Limit = 512
