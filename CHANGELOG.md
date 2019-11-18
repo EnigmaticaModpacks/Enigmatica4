@@ -1,14 +1,26 @@
-## [Enigmatica 4 v0.2.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.3) (2019-11-10)
+## [Enigmatica 4 v0.2.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.3) (18-11-2019)
 
 **Changes**
 
+- Re-add Apple Skin [\#148](https://github.com/NillerMedDild/Enigmatica4/issues/148) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Storage Drawers Tag recipes [\#144](https://github.com/NillerMedDild/Enigmatica4/issues/144) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- Chest recipes with tags [\#143](https://github.com/NillerMedDild/Enigmatica4/issues/143) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- Shapeless Cornbread Recipe [\#142](https://github.com/NillerMedDild/Enigmatica4/issues/142) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- Sign Tag Recipes [\#141](https://github.com/NillerMedDild/Enigmatica4/issues/141) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- Add Inventory Spam [\#138](https://github.com/NillerMedDild/Enigmatica4/issues/138) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Dangerous Stone Cutter [\#135](https://github.com/NillerMedDild/Enigmatica4/issues/135) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add CobbleForDays [\#134](https://github.com/NillerMedDild/Enigmatica4/issues/134) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Foam Dome [\#133](https://github.com/NillerMedDild/Enigmatica4/issues/133) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Seals [\#129](https://github.com/NillerMedDild/Enigmatica4/issues/129) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- OreExcavation only whitelist ores [\#79](https://github.com/NillerMedDild/Enigmatica4/issues/79) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
 - Increased range of Ore Excavation from 16 to 24 blocks
 
 **Fixed bugs**
 
--
+- Fixed Log -\> Sticks/Chests recipes [\#140](https://github.com/NillerMedDild/Enigmatica4/issues/140) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- mysticallib crash [\#117](https://github.com/NillerMedDild/Enigmatica4/issues/117)
 
-## [Enigmatica 4 v0.2.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.2) (2019-11-10)
+## [Enigmatica 4 v0.2.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.2) (10-11-2019)
 
 **Changes**
 
@@ -30,7 +42,7 @@
 
 - Swing through grass not working on servers (I removed it from the server files, d'oh)
 
-## [Enigmatica 4 v0.2.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.1) (2019-10-31)
+## [Enigmatica 4 v0.2.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.1) (31-10-2019)
 *Forge-1.14.4-28.1.74*
 
 **Changes**
@@ -42,7 +54,7 @@
 
 * Server crash caused by mobrenderer
 
-## [Enigmatica 4 v0.2.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.0) (2019-10-26)
+## [Enigmatica 4 v0.2.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.0) (26-10-2019)
 *Forge-1.14.4-28.1.69*
 
 **Changes**
@@ -57,7 +69,7 @@
 
 * Game Crash - Squid & Armor issues [\#93](https://github.com/NillerMedDild/Enigmatica4/issues/93)
 
-## [Enigmatica 4 v0.1.9](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.9) (2019-10-26)
+## [Enigmatica 4 v0.1.9](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.9) (26-10-2019)
 *Forge-1.14.4-28.1.69*
 
 **Fixed bugs**
