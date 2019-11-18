@@ -2,6 +2,7 @@
 
 **Changes**
 
+- Added Mining Gadgets
 - Re-add Apple Skin [\#148](https://github.com/NillerMedDild/Enigmatica4/issues/148) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Storage Drawers Tag recipes [\#144](https://github.com/NillerMedDild/Enigmatica4/issues/144) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 - Chest recipes with tags [\#143](https://github.com/NillerMedDild/Enigmatica4/issues/143) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
