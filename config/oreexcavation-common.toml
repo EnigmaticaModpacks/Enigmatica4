@@ -34,7 +34,7 @@
 	#Tools blacklisted from excavating
 	"Tool Blacklist" = []
 	#Blocks blacklisted from being excavated
-	"Block Blacklist" = [ "tag:forge:ores", "minecraft:clay" ]
+	"Block Blacklist" = ["tag:forge:ores", "minecraft:clay"]
 	#The maximum number of blocks that can be excavated at once
 	#Range: > 1
 	Limit = 512
