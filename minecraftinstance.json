@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-11-17T21:28:08.435935Z",
+  "lastPlayed": "2019-11-18T20:15:38.8628208Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -376,21 +376,6 @@
       "fileSize": 46864
     },
     {
-      "folderName": "Geolosys-1.14.4-4.0.9.jar",
-      "fingerprint": 4199905374,
-      "fileDateHash": 1493732648,
-      "sectionID": 8,
-      "individualFingerprints": [
-        4199905374
-      ],
-      "status": 1,
-      "timestamp": "2019-11-17T18:34:13.9160275Z",
-      "lastWriteTimeUtc": "2019-11-17T10:22:36.7257079Z",
-      "queryTimestamp": "2019-11-17T18:34:14.8391793Z",
-      "fileCount": 1,
-      "fileSize": 367738
-    },
-    {
       "folderName": "StorageDrawers-1.14.4-6.0.5.jar",
       "fingerprint": 2181904118,
       "fileDateHash": 3885162595,
@@ -404,6 +389,21 @@
       "queryTimestamp": "2019-11-17T09:36:39.0886699Z",
       "fileCount": 1,
       "fileSize": 487819
+    },
+    {
+      "folderName": "Geolosys-1.14.4-4.0.9.jar",
+      "fingerprint": 4199905374,
+      "fileDateHash": 1493732648,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4199905374
+      ],
+      "status": 1,
+      "timestamp": "2019-11-17T18:34:13.9160275Z",
+      "lastWriteTimeUtc": "2019-11-17T10:22:36.7257079Z",
+      "queryTimestamp": "2019-11-17T18:34:14.8391793Z",
+      "fileCount": 1,
+      "fileSize": 367738
     },
     {
       "folderName": "angelring-1.14.4-1.0.1.jar",
@@ -631,21 +631,6 @@
       "fileSize": 5120
     },
     {
-      "folderName": "LargeFluidTank-14.8.4.jar",
-      "fingerprint": 2717429610,
-      "fileDateHash": 1057182557,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2717429610
-      ],
-      "status": 1,
-      "timestamp": "2019-10-26T17:17:40.025989Z",
-      "lastWriteTimeUtc": "2019-10-21T17:27:06.8883177Z",
-      "queryTimestamp": "2019-11-17T09:36:39.0926704Z",
-      "fileCount": 1,
-      "fileSize": 407853
-    },
-    {
       "folderName": "create-mc1.14.4_v0.1.1a.jar",
       "fingerprint": 3666728845,
       "fileDateHash": 1857945905,
@@ -689,21 +674,6 @@
       "queryTimestamp": "2019-11-17T09:36:39.0936724Z",
       "fileCount": 1,
       "fileSize": 15770
-    },
-    {
-      "folderName": "minecolonies-0.10.548-ALPHA-universal.jar",
-      "fingerprint": 152934113,
-      "fileDateHash": 1939048310,
-      "sectionID": 8,
-      "individualFingerprints": [
-        152934113
-      ],
-      "status": 1,
-      "timestamp": "2019-11-17T09:36:37.9421503Z",
-      "lastWriteTimeUtc": "2019-11-16T10:04:10.8855547Z",
-      "queryTimestamp": "2019-11-17T09:36:39.0936724Z",
-      "fileCount": 1,
-      "fileSize": 33751336
     },
     {
       "folderName": "portality-1.14.4-2.0.4-b0b3467.jar",
@@ -1267,6 +1237,21 @@
       "fileSize": 188130
     },
     {
+      "folderName": "minecolonies-0.10.555-ALPHA-universal.jar",
+      "fingerprint": 2099791458,
+      "fileDateHash": 4255559301,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2099791458
+      ],
+      "status": 1,
+      "timestamp": "2019-11-17T21:50:43.4309669Z",
+      "lastWriteTimeUtc": "2019-11-17T21:27:47.6412605Z",
+      "queryTimestamp": "2019-11-17T21:50:44.5894927Z",
+      "fileCount": 1,
+      "fileSize": 33751465
+    },
+    {
       "folderName": "refinedstorage-1.7.jar",
       "fingerprint": 1335117988,
       "fileDateHash": 3308585256,
@@ -1400,21 +1385,6 @@
       "queryTimestamp": "2019-11-17T09:36:39.1006698Z",
       "fileCount": 1,
       "fileSize": 174813
-    },
-    {
-      "folderName": "CookingForBlockheads_1.14.4-7.4.0.jar",
-      "fingerprint": 337362700,
-      "fileDateHash": 3175538778,
-      "sectionID": 8,
-      "individualFingerprints": [
-        337362700
-      ],
-      "status": 1,
-      "timestamp": "2019-11-13T19:14:51.6974978Z",
-      "lastWriteTimeUtc": "2019-11-10T18:24:44.8080016Z",
-      "queryTimestamp": "2019-11-17T09:36:39.1006698Z",
-      "fileCount": 1,
-      "fileSize": 573182
     },
     {
       "folderName": "traverse-1.14.4-2.0.1.jar",
@@ -1580,6 +1550,21 @@
       "queryTimestamp": "2019-11-17T09:36:39.1036698Z",
       "fileCount": 1,
       "fileSize": 701072
+    },
+    {
+      "folderName": "LargeFluidTank-14.8.5.jar",
+      "fingerprint": 56451712,
+      "fileDateHash": 3678677771,
+      "sectionID": 8,
+      "individualFingerprints": [
+        56451712
+      ],
+      "status": 1,
+      "timestamp": "2019-11-17T21:50:43.4259685Z",
+      "lastWriteTimeUtc": "2019-11-17T21:27:32.8169219Z",
+      "queryTimestamp": "2019-11-17T21:50:44.5954915Z",
+      "fileCount": 1,
+      "fileSize": 407686
     },
     {
       "folderName": "nps_1.14-2.1.jar",
@@ -2107,6 +2092,21 @@
       "fileSize": 38264
     },
     {
+      "folderName": "CookingForBlockheads_1.14.4-7.4.1.jar",
+      "fingerprint": 3693415021,
+      "fileDateHash": 2922985688,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3693415021
+      ],
+      "status": 1,
+      "timestamp": "2019-11-17T21:50:43.4189682Z",
+      "lastWriteTimeUtc": "2019-11-17T21:27:28.4460655Z",
+      "queryTimestamp": "2019-11-17T21:50:44.6074553Z",
+      "fileCount": 1,
+      "fileSize": 572618
+    },
+    {
       "folderName": "DangerousStoneCutter-1.14.4-1.2.0.jar",
       "fingerprint": 2246040523,
       "fileDateHash": 74735374,
@@ -2303,8 +2303,8 @@
     },
     {
       "folderName": "New World (1)",
-      "fingerprint": 1935738280,
-      "fileDateHash": 3234793032,
+      "fingerprint": 1614775399,
+      "fileDateHash": 2878497823,
       "sectionID": 10,
       "individualFingerprints": [
         18403145,
@@ -2315,9 +2315,10 @@
         61433555,
         62889865,
         111493481,
-        113673339,
+        125384615,
         152020343,
         165867751,
+        181793488,
         197890365,
         214943194,
         242172158,
@@ -2335,12 +2336,10 @@
         443063314,
         449846270,
         484915355,
-        500092120,
         524637631,
         555243763,
         566951490,
         574536089,
-        594380356,
         597584472,
         607486413,
         619284709,
@@ -2351,13 +2350,13 @@
         698814472,
         726415094,
         750159554,
-        766507961,
         777628148,
         791590658,
         804866216,
         818135140,
         862043715,
         875682094,
+        919482617,
         942513407,
         952040480,
         966178189,
@@ -2368,10 +2367,12 @@
         1108995772,
         1113071463,
         1118189028,
+        1133029383,
         1136151338,
         1139524373,
         1155996283,
         1162173431,
+        1174329733,
         1182018194,
         1182227037,
         1182779510,
@@ -2383,7 +2384,6 @@
         1296111564,
         1298659556,
         1310293588,
-        1313031419,
         1319483855,
         1330266059,
         1336438414,
@@ -2391,7 +2391,6 @@
         1375089338,
         1375234171,
         1382156633,
-        1382848940,
         1395198490,
         1415543630,
         1465703453,
@@ -2403,7 +2402,7 @@
         1540447798,
         1540447798,
         1547410526,
-        1569985547,
+        1585731502,
         1640332442,
         1645962111,
         1681670418,
@@ -2411,12 +2410,13 @@
         1688831370,
         1690409601,
         1707670672,
+        1709741879,
         1752175049,
-        1764721521,
         1774825739,
         1783675463,
         1825204883,
         1826844589,
+        1841974655,
         1849027341,
         1853096597,
         1865088471,
@@ -2427,9 +2427,9 @@
         1904397225,
         1936288246,
         1939461946,
+        1946261329,
         1963333704,
         1976517355,
-        2002844455,
         2005445212,
         2021133744,
         2042380319,
@@ -2456,11 +2456,12 @@
         2308710753,
         2310379489,
         2314246070,
-        2317171155,
         2338494993,
         2354108349,
         2375435050,
+        2397051732,
         2406175595,
+        2407990594,
         2426286374,
         2437744980,
         2440985997,
@@ -2483,9 +2484,9 @@
         2626449036,
         2634765696,
         2653844868,
-        2697855922,
         2705141416,
         2749964868,
+        2749988747,
         2762395697,
         2762948614,
         2763672818,
@@ -2514,7 +2515,10 @@
         3104575957,
         3110637692,
         3113674335,
+        3115719426,
+        3116127440,
         3124881752,
+        3125629984,
         3128064084,
         3132799978,
         3135300887,
@@ -2528,21 +2532,20 @@
         3174937935,
         3185162013,
         3209328839,
-        3217471991,
         3230598683,
         3264620416,
         3294882692,
         3310251508,
         3328406090,
         3331201195,
+        3333348925,
         3347746331,
-        3415460439,
         3421601622,
         3423175787,
         3435395275,
-        3458615341,
         3463857721,
         3472336113,
+        3499701103,
         3502362098,
         3503373901,
         3522057484,
@@ -2554,7 +2557,6 @@
         3579278602,
         3584366605,
         3611958682,
-        3657784964,
         3665613008,
         3698335841,
         3712662945,
@@ -2566,12 +2568,10 @@
         3771282984,
         3771282984,
         3771282984,
-        3771282984,
         3776625548,
         3782790164,
         3793102788,
         3795125097,
-        3804883086,
         3812294636,
         3815938081,
         3818153519,
@@ -2580,17 +2580,18 @@
         3862205226,
         3875195892,
         3877080247,
-        3890024603,
         3897945371,
         3911703551,
         3914309881,
         3920120077,
+        3931680368,
         3967643555,
         3983694990,
         4001877680,
         4025946928,
         4033715380,
         4037020397,
+        4048090220,
         4055148024,
         4120643079,
         4146622259,
@@ -2598,18 +2599,20 @@
         4166732428,
         4202044555,
         4211319981,
+        4219246175,
         4254541074,
         4273590207,
         4273718682,
+        4273802663,
         4274432982,
         4275280226,
         4283907430
       ],
       "status": 1,
-      "timestamp": "2019-11-17T21:26:56.3215303Z",
-      "lastWriteTimeUtc": "2019-11-17T21:26:55.7388787Z",
-      "queryTimestamp": "2019-11-17T21:26:57.2089543Z",
-      "fileCount": 14,
+      "timestamp": "2019-11-17T21:50:43.7271413Z",
+      "lastWriteTimeUtc": "2019-11-17T21:50:42.8279684Z",
+      "queryTimestamp": "2019-11-17T21:50:44.6114561Z",
+      "fileCount": 15,
       "fileSize": 0
     },
     {
@@ -2719,7 +2722,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2019-11-17T21:20:06.8723531Z",
+  "lastPreviousMatchUpdate": "2019-11-17T21:50:45.7753778Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.14.4",
@@ -3587,14 +3590,14 @@
       "addonID": 313866,
       "gameInstanceID": "d8b724cb-1bdc-40da-b1e7-ff47dff5c0f3",
       "installedFile": {
-        "id": 2826855,
-        "displayName": "engineersdecor-1.14.4-1.0.16-b3.jar",
-        "fileName": "engineersdecor-1.14.4-1.0.16-b3.jar",
-        "fileDate": "2019-11-13T17:53:19.42Z",
-        "fileLength": 983468,
+        "id": 2828830,
+        "displayName": "engineersdecor-1.14.4-1.0.16-b4.jar",
+        "fileName": "engineersdecor-1.14.4-1.0.16-b4.jar",
+        "fileDate": "2019-11-17T21:39:51.14Z",
+        "fileLength": 1012309,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2826/855/engineersdecor-1.14.4-1.0.16-b3.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2828/830/engineersdecor-1.14.4-1.0.16-b4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -3609,7 +3612,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1042351881,
+            "fingerprint": 2974799719,
             "type": 0
           },
           {
@@ -3619,22 +3622,22 @@
           },
           {
             "foldername": "wile",
-            "fingerprint": 1644552489,
+            "fingerprint": 3081381197,
             "type": 0
           },
           {
             "foldername": ".gitversion",
-            "fingerprint": 3854103868,
+            "fingerprint": 978022475,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 485984434,
+            "fingerprint": 1686269110,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 2201608845,
+            "fingerprint": 1191079133,
             "type": 0
           },
           {
@@ -3648,7 +3651,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1626929179,
+        "packageFingerprint": 1897639934,
         "gameVersion": [
           "1.14.4"
         ],
@@ -3661,12 +3664,12 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "engineersdecor-1.14.4-1.0.16-b3.jar"
+        "FileNameOnDisk": "engineersdecor-1.14.4-1.0.16-b4.jar"
       },
       "dateInstalled": "2019-10-31T19:19:53.9715992Z",
-      "dateUpdated": "2019-11-13T19:15:14.694079Z",
-      "dateLastUpdateAttempted": "2019-11-13T19:15:14.694079Z",
-      "status": 5,
+      "dateUpdated": "2019-11-18T20:15:11.7886725Z",
+      "dateLastUpdateAttempted": "2019-11-18T20:15:11.7886725Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4113,6 +4116,74 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 248787,
+      "gameInstanceID": "d8b724cb-1bdc-40da-b1e7-ff47dff5c0f3",
+      "installedFile": {
+        "id": 2755633,
+        "displayName": "AppleSkin-mc1.14.4-forge-1.0.12.jar",
+        "fileName": "AppleSkin-mc1.14.4-forge-1.0.12.jar",
+        "fileDate": "2019-08-06T01:37:29.827Z",
+        "fileLength": 27076,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2755/633/AppleSkin-mc1.14.4-forge-1.0.12.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2363582596,
+            "type": 0
+          },
+          {
+            "foldername": "squeek",
+            "fingerprint": 3808055897,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3447702788,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3821869378,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2997159498,
+        "gameVersion": [
+          "1.14.4",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "AppleSkin-mc1.14.4-forge-1.0.12.jar"
+      },
+      "dateInstalled": "2019-11-18T20:14:52.7860593Z",
+      "dateUpdated": "2019-11-18T20:14:52.880025Z",
+      "dateLastUpdateAttempted": "2019-11-18T20:14:52.880025Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 272335,
@@ -4664,7 +4735,7 @@
       "dateInstalled": "2019-10-31T19:17:19.3368118Z",
       "dateUpdated": "2019-11-17T08:56:20.3330752Z",
       "dateLastUpdateAttempted": "2019-11-17T08:56:20.3330752Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6334,8 +6405,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "rftoolsutility-1.14-1.2.9-alpha.jar"
       },
-      "dateInstalled": "2019-11-17T21:26:58.3410685Z",
-      "dateUpdated": "2018-11-17T21:26:58.3410685Z",
+      "dateInstalled": "2019-11-17T21:50:45.7723765Z",
+      "dateUpdated": "2018-11-17T21:50:45.7723765Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -6346,7 +6417,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 264353,
@@ -7048,7 +7119,7 @@
       "dateInstalled": "2019-11-17T10:22:36.7437055Z",
       "dateUpdated": "2019-11-17T10:22:36.7477375Z",
       "dateLastUpdateAttempted": "2019-11-17T10:22:36.7477375Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7133,7 +7204,7 @@
       "dateInstalled": "2019-10-31T20:40:39.4346452Z",
       "dateUpdated": "2019-11-17T08:56:15.9475347Z",
       "dateLastUpdateAttempted": "2019-11-17T08:56:15.9475347Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8137,7 +8208,7 @@
       "dateInstalled": "2019-11-17T10:22:31.1280004Z",
       "dateUpdated": "2019-11-17T10:22:31.1420015Z",
       "dateLastUpdateAttempted": "2019-11-17T10:22:31.1420015Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8329,8 +8400,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "mcjtylib-1.14-3.5.12-alpha.jar"
       },
-      "dateInstalled": "2019-11-17T21:26:58.3410685Z",
-      "dateUpdated": "2018-11-17T21:26:58.3410685Z",
+      "dateInstalled": "2019-11-17T21:50:45.7723765Z",
+      "dateUpdated": "2018-11-17T21:50:45.7723765Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -8341,7 +8412,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 349447,
@@ -8699,16 +8770,16 @@
       "addonID": 291006,
       "gameInstanceID": "d8b724cb-1bdc-40da-b1e7-ff47dff5c0f3",
       "installedFile": {
-        "id": 2828558,
-        "displayName": "LargeFluidTank-14.8.5.jar",
-        "fileName": "LargeFluidTank-14.8.5.jar",
-        "fileDate": "2019-11-17T12:11:47.413Z",
-        "fileLength": 407686,
+        "id": 2829125,
+        "displayName": "LargeFluidTank-14.8.6.jar",
+        "fileName": "LargeFluidTank-14.8.6.jar",
+        "fileDate": "2019-11-18T17:00:03.287Z",
+        "fileLength": 407598,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2828/558/LargeFluidTank-14.8.5.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2829/125/LargeFluidTank-14.8.6.jar",
         "isAlternate": false,
-        "alternateFileId": 2828559,
+        "alternateFileId": 2829126,
         "dependencies": [
           {
             "id": 0,
@@ -8721,12 +8792,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2925064234,
+            "fingerprint": 422812067,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 982854896,
+            "fingerprint": 3951864836,
             "type": 0
           },
           {
@@ -8745,7 +8816,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 56451712,
+        "packageFingerprint": 1204870704,
         "gameVersion": [
           "1.14.4"
         ],
@@ -8758,11 +8829,11 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "LargeFluidTank-14.8.5.jar"
+        "FileNameOnDisk": "LargeFluidTank-14.8.6.jar"
       },
       "dateInstalled": "2019-10-26T17:17:44.6093419Z",
-      "dateUpdated": "2019-11-17T21:27:32.832942Z",
-      "dateLastUpdateAttempted": "2019-11-17T21:27:32.832942Z",
+      "dateUpdated": "2019-11-18T20:15:18.3486842Z",
+      "dateLastUpdateAttempted": "2019-11-18T20:15:18.3486842Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -9954,8 +10025,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "rftoolspower-1.14-1.2.9-alpha.jar"
       },
-      "dateInstalled": "2019-11-17T21:26:58.342067Z",
-      "dateUpdated": "2018-11-17T21:26:58.342067Z",
+      "dateInstalled": "2019-11-17T21:50:45.7723765Z",
+      "dateUpdated": "2018-11-17T21:50:45.7723765Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -9966,7 +10037,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243121,
@@ -11498,14 +11569,14 @@
       "addonID": 351748,
       "gameInstanceID": "d8b724cb-1bdc-40da-b1e7-ff47dff5c0f3",
       "installedFile": {
-        "id": 2828368,
-        "displayName": "MiningGadgets-1.2.0",
-        "fileName": "mininggadgets-1.2.0.jar",
-        "fileDate": "2019-11-17T00:33:18.837Z",
-        "fileLength": 323233,
-        "releaseType": 3,
+        "id": 2828896,
+        "displayName": "MiningGadgets-1.2.1",
+        "fileName": "mininggadgets-1.2.1.jar",
+        "fileDate": "2019-11-18T00:14:18.077Z",
+        "fileLength": 324584,
+        "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2828/368/mininggadgets-1.2.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2828/896/mininggadgets-1.2.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -11513,78 +11584,59 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1781999326,
-            "type": 3
+            "fingerprint": 3721721333,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 42426248,
-            "type": 3
+            "fingerprint": 869123072,
+            "type": 0
           },
           {
             "foldername": ".cache",
-            "fingerprint": 2954471264,
-            "type": 3
+            "fingerprint": 3096933173,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1080567639,
-            "type": 3
+            "fingerprint": 4196399921,
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 702070709,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "mininggadgets-logo.png",
             "fingerprint": 2185273276,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4253522632,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 11792831,
+        "packageFingerprint": 3460363299,
         "gameVersion": [
-          "1.14.4",
-          "Forge"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000014.0000000004",
-            "gameVersion": "1.14.4",
-            "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
-            "gameVersionName": "1.14.4"
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          }
+          "1.14.4"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1703887,
-        "projectId": 351748,
-        "packageFingerprintId": 378976587,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
-        "gameVersionMappingId": 2003654,
-        "gameVersionId": 7469,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "mininggadgets-1.2.0.jar"
+        "FileNameOnDisk": "mininggadgets-1.2.1.jar"
       },
       "dateInstalled": "2019-11-17T10:02:52.8331018Z",
-      "dateUpdated": "2018-11-17T10:02:52.8331018Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateUpdated": "2019-11-18T20:15:20.948474Z",
+      "dateLastUpdateAttempted": "2019-11-18T20:15:20.948474Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
