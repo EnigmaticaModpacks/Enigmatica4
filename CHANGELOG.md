@@ -1,3 +1,25 @@
+## [Enigmatica 4 v0.3.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.0) (01-12-2019)
+
+**Changes**
+
+- Add Industrial Foregoing [\#170](https://github.com/NillerMedDild/Enigmatica4/issues/170) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add XNet [\#168](https://github.com/NillerMedDild/Enigmatica4/issues/168) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Farming for Blockheads [\#165](https://github.com/NillerMedDild/Enigmatica4/issues/165) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Just Enough Beacons [\#164](https://github.com/NillerMedDild/Enigmatica4/issues/164) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Dimensional Dungeons [\#163](https://github.com/NillerMedDild/Enigmatica4/issues/163) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Capability Proxy [\#159](https://github.com/NillerMedDild/Enigmatica4/issues/159) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Macaw's Bridges [\#158](https://github.com/NillerMedDild/Enigmatica4/issues/158) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Dark Utilities [\#157](https://github.com/NillerMedDild/Enigmatica4/issues/157) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Screenshot to Clipboard [\#155](https://github.com/NillerMedDild/Enigmatica4/issues/155) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Refined Storage Addons [\#153](https://github.com/NillerMedDild/Enigmatica4/issues/153) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Watercan [\#152](https://github.com/NillerMedDild/Enigmatica4/issues/152) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Gardening Tools [\#151](https://github.com/NillerMedDild/Enigmatica4/issues/151) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Tetra [\#150](https://github.com/NillerMedDild/Enigmatica4/issues/150) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+
+**Fixed bugs**
+
+- Additional Tags on Ores [\#149](https://github.com/NillerMedDild/Enigmatica4/issues/149)
+
 ## [Enigmatica 4 v0.2.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.3) (18-11-2019)
 
 **Changes**
