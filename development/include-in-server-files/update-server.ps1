@@ -12,6 +12,7 @@ Requirements:
 $ModFolder = "$PSScriptRoot/mods"
 $WorldFolder = "$PSScriptRoot/world"
 $BackupFolder = "$PSScriptRoot/backups"
+$OverridesFolder = "$PSScriptRoot/overrides"
 $BackupsToKeep = 10
 
 git fetch
@@ -63,4 +64,10 @@ git stash
 git reset --hard
 git pull
 
-. "./remove-client-mods.bat"
+. "./remove-client-mods.ps1"
+
+Get-ChildItem -Path $OverridesFolder -Recurse | ForEach-Object {
+    $CopyFrom = $_.FullName
+    $CopyTo = $_.FullName.Replace("\overrides", "")
+    Copy-Item -Path $CopyFrom -Destination $CopyTo -Force
+}
