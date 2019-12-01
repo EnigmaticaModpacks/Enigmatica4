@@ -4,6 +4,8 @@
 	largeFont = false
 	#Whether the Grid should display a detailed tooltip when hovering over an item or fluid
 	detailedTooltip = true
+	#Whether the Grid should prevent sorting while the shift key is held down
+	preventSortingWhileShiftIsDown = true
 	#The maximum amount of rows that the Grid can show when stretched
 	#Range: > 3
 	maxRowsStretch = 2147483647

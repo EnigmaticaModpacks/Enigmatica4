@@ -50,5 +50,20 @@
   "nickname nick player": "serverutils.ck.other",
   "repair all": "serverutils.repair.all",
   "god": "serverutils.god",
-  "return": "serverutils.back"
+  "return": "serverutils.back",
+  "gamemode": "serverutils.gamemode",
+  "gm": "serverutils.gamemode",
+  "kit": "serverutils.kit",
+  "kit info": "serverutils.kit",
+  "kit create": "serverutils.kit.modify",
+  "kit delete": "serverutils.kit.modify",
+  "kit add": "serverutils.kit.modify",
+  "kit remove": "serverutils.kit.modify",
+  "kit perm": "serverutils.kit.modify",
+  "kit cooldown": "serverutils.kit.modify",
+  "message": "serverutils.msg",
+  "pm": "serverutils.msg",
+  "msgtoggle": "serverutils.msg.toggle",
+  "mute": "serverutils.mute",
+  "r": "serverutils.respond"
 }

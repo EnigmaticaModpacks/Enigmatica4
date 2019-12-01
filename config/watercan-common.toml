@@ -1,0 +1,256 @@
+
+[wooden_watercan]
+	#Set to false to prevent the watercan from growing crops / growables.
+	#Default: true
+	growCrops = true
+	#Defines the range of the watercan.
+	#This is the radius that the water will spread out from the targeted block.
+	#For example, a radius of one will water a 3x3 area and a radius of two will water a 5x5 area.
+	#Default: 0
+	#Range: 0 ~ 8
+	range = 0
+	#Defines the range of the watercan.
+	#This is the radius that the water will spread out from the targeted block.
+	#For example, a radius of one will water a 3x3 area and a radius of two will water a 5x5 area.
+	#Default: 0
+	#Range: 0 ~ 100
+	flowerChance = 0
+	#Use the delay modifier to speed up or slow down growth.
+	#Smaller is faster.
+	#Default: 5
+	#Range: 1 ~ 40
+	delayModifier = 5
+	#Set to false to prevent the watercan from moisturizing farmland.
+	#Default: true
+	moisturizeFarmland = true
+	#Set to false to prevent the watercan from spawning flowers on grass.
+	#Default: true
+	spawnFlowers = true
+	#Set to false to prevent the watercan from spreading mycelium.
+	#Default: true
+	spreadMycelium = true
+	#If true, the watercan can be used in a dispenser.
+	#Default: true
+	isDispensable = true
+	#Defines the capacity of the watercan in millibuckets.
+	#Set to zero to make the can never run out of water.
+	#Default: 1000
+	#Range: 0 ~ 32767
+	capacity = 1000
+	#Set to false to prevent the watercan from spreading grass.
+	#Default: true
+	spreadGrass = true
+	#Set to false to prevent the watercan from growing saplings.
+	#Default: true
+	growSaplings = true
+	#Set to true to consume the water source block when filling the watercan.
+	#Default: false
+	consumeWaterSource = false
+	#Set to false to prevent the watercan from extinguishing fire.
+	#Default: true
+	extinguishFire = true
+
+[stone_watercan]
+	#Set to false to prevent the watercan from growing crops / growables.
+	#Default: true
+	growCrops = true
+	#Defines the range of the watercan.
+	#This is the radius that the water will spread out from the targeted block.
+	#For example, a radius of one will water a 3x3 area and a radius of two will water a 5x5 area.
+	#Default: 1
+	#Range: 0 ~ 8
+	range = 1
+	#Defines the range of the watercan.
+	#This is the radius that the water will spread out from the targeted block.
+	#For example, a radius of one will water a 3x3 area and a radius of two will water a 5x5 area.
+	#Default: 1
+	#Range: 0 ~ 100
+	flowerChance = 1
+	#Use the delay modifier to speed up or slow down growth.
+	#Smaller is faster.
+	#Default: 15
+	#Range: 1 ~ 40
+	delayModifier = 15
+	#Set to false to prevent the watercan from moisturizing farmland.
+	#Default: true
+	moisturizeFarmland = true
+	#Set to false to prevent the watercan from spawning flowers on grass.
+	#Default: true
+	spawnFlowers = true
+	#Set to false to prevent the watercan from spreading mycelium.
+	#Default: true
+	spreadMycelium = true
+	#If true, the watercan can be used in a dispenser.
+	#Default: true
+	isDispensable = true
+	#Defines the capacity of the watercan in millibuckets.
+	#Set to zero to make the can never run out of water.
+	#Default: 2000
+	#Range: 0 ~ 32767
+	capacity = 2000
+	#Set to false to prevent the watercan from spreading grass.
+	#Default: true
+	spreadGrass = true
+	#Set to false to prevent the watercan from growing saplings.
+	#Default: true
+	growSaplings = true
+	#Set to true to consume the water source block when filling the watercan.
+	#Default: false
+	consumeWaterSource = false
+	#Set to false to prevent the watercan from extinguishing fire.
+	#Default: true
+	extinguishFire = true
+
+[iron_watercan]
+	#Set to false to prevent the watercan from growing crops / growables.
+	#Default: true
+	growCrops = true
+	#Defines the range of the watercan.
+	#This is the radius that the water will spread out from the targeted block.
+	#For example, a radius of one will water a 3x3 area and a radius of two will water a 5x5 area.
+	#Default: 1
+	#Range: 0 ~ 8
+	range = 1
+	#Defines the range of the watercan.
+	#This is the radius that the water will spread out from the targeted block.
+	#For example, a radius of one will water a 3x3 area and a radius of two will water a 5x5 area.
+	#Default: 1
+	#Range: 0 ~ 100
+	flowerChance = 1
+	#Use the delay modifier to speed up or slow down growth.
+	#Smaller is faster.
+	#Default: 10
+	#Range: 1 ~ 40
+	delayModifier = 10
+	#Set to false to prevent the watercan from moisturizing farmland.
+	#Default: true
+	moisturizeFarmland = true
+	#Set to false to prevent the watercan from spawning flowers on grass.
+	#Default: true
+	spawnFlowers = true
+	#Set to false to prevent the watercan from spreading mycelium.
+	#Default: true
+	spreadMycelium = true
+	#If true, the watercan can be used in a dispenser.
+	#Default: true
+	isDispensable = true
+	#Defines the capacity of the watercan in millibuckets.
+	#Set to zero to make the can never run out of water.
+	#Default: 4000
+	#Range: 0 ~ 32767
+	capacity = 4000
+	#Set to false to prevent the watercan from spreading grass.
+	#Default: true
+	spreadGrass = true
+	#Set to false to prevent the watercan from growing saplings.
+	#Default: true
+	growSaplings = true
+	#Set to true to consume the water source block when filling the watercan.
+	#Default: false
+	consumeWaterSource = false
+	#Set to false to prevent the watercan from extinguishing fire.
+	#Default: true
+	extinguishFire = true
+
+[gold_watercan]
+	#Set to false to prevent the watercan from growing crops / growables.
+	#Default: true
+	growCrops = true
+	#Defines the range of the watercan.
+	#This is the radius that the water will spread out from the targeted block.
+	#For example, a radius of one will water a 3x3 area and a radius of two will water a 5x5 area.
+	#Default: 1
+	#Range: 0 ~ 8
+	range = 1
+	#Defines the range of the watercan.
+	#This is the radius that the water will spread out from the targeted block.
+	#For example, a radius of one will water a 3x3 area and a radius of two will water a 5x5 area.
+	#Default: 50
+	#Range: 0 ~ 100
+	flowerChance = 50
+	#Use the delay modifier to speed up or slow down growth.
+	#Smaller is faster.
+	#Default: 40
+	#Range: 1 ~ 40
+	delayModifier = 40
+	#Set to false to prevent the watercan from moisturizing farmland.
+	#Default: true
+	moisturizeFarmland = true
+	#Set to false to prevent the watercan from spawning flowers on grass.
+	#Default: true
+	spawnFlowers = true
+	#Set to false to prevent the watercan from spreading mycelium.
+	#Default: true
+	spreadMycelium = true
+	#If true, the watercan can be used in a dispenser.
+	#Default: true
+	isDispensable = true
+	#Defines the capacity of the watercan in millibuckets.
+	#Set to zero to make the can never run out of water.
+	#Default: 4000
+	#Range: 0 ~ 32767
+	capacity = 4000
+	#Set to false to prevent the watercan from spreading grass.
+	#Default: true
+	spreadGrass = true
+	#Set to false to prevent the watercan from growing saplings.
+	#Default: true
+	growSaplings = true
+	#Set to true to consume the water source block when filling the watercan.
+	#Default: false
+	consumeWaterSource = false
+	#Set to false to prevent the watercan from extinguishing fire.
+	#Default: true
+	extinguishFire = true
+
+[diamond_watercan]
+	#Set to false to prevent the watercan from growing crops / growables.
+	#Default: true
+	growCrops = true
+	#Defines the range of the watercan.
+	#This is the radius that the water will spread out from the targeted block.
+	#For example, a radius of one will water a 3x3 area and a radius of two will water a 5x5 area.
+	#Default: 2
+	#Range: 0 ~ 8
+	range = 2
+	#Defines the range of the watercan.
+	#This is the radius that the water will spread out from the targeted block.
+	#For example, a radius of one will water a 3x3 area and a radius of two will water a 5x5 area.
+	#Default: 2
+	#Range: 0 ~ 100
+	flowerChance = 2
+	#Use the delay modifier to speed up or slow down growth.
+	#Smaller is faster.
+	#Default: 10
+	#Range: 1 ~ 40
+	delayModifier = 10
+	#Set to false to prevent the watercan from moisturizing farmland.
+	#Default: true
+	moisturizeFarmland = true
+	#Set to false to prevent the watercan from spawning flowers on grass.
+	#Default: true
+	spawnFlowers = true
+	#Set to false to prevent the watercan from spreading mycelium.
+	#Default: true
+	spreadMycelium = true
+	#If true, the watercan can be used in a dispenser.
+	#Default: true
+	isDispensable = true
+	#Defines the capacity of the watercan in millibuckets.
+	#Set to zero to make the can never run out of water.
+	#Default: 0
+	#Range: 0 ~ 32767
+	capacity = 0
+	#Set to false to prevent the watercan from spreading grass.
+	#Default: true
+	spreadGrass = true
+	#Set to false to prevent the watercan from growing saplings.
+	#Default: true
+	growSaplings = true
+	#Set to true to consume the water source block when filling the watercan.
+	#Default: false
+	consumeWaterSource = false
+	#Set to false to prevent the watercan from extinguishing fire.
+	#Default: true
+	extinguishFire = true
+

@@ -3,26 +3,54 @@
 [factoryManager]
 	#Maximum depth that the Factory Manager DFS algorithm should go
 	#Range: > 0
-	MaxSearchDepth = 64
+	maxSearchDepth = 64
 	#Number of ticks for the Factory Manager to rescan the network. Set to -1 to make it never rescan passively
 	#Range: > -1
-	RescanInterval = 100
+	rescanInterval = 100
 
 #Procedures config options
-#Run '/sfm reload componentGroups' after updating config
+#Run '/sfm componentGroups reload' after updating config
 [procedures]
-	EnableItemImport = true
-	EnableRedstoneTrigger = true
-	EnableItemExport = true
-	EnableRedstoneEmitter = true
-	EnableIntervalTrigger = true
-	EnableItemTransfer = true
-	EnableCrafting = true
+	enableSignUpdater = false
+	enableItemImport = true
+	enableFluidTransfer = false
+	enableCrafting = false
+	enableRedstoneTrigger = true
+	enableItemTransfer = true
+	enableItemExport = true
+	enableBUDTrigger = false
+	enableIntervalTrigger = true
+	enableRedstoneEmitter = true
 
 #Block property config options
 [blocks]
-	#Whether the redstone emitter block is considered a cable
-	IsRedstoneEmitterBlockCables = false
-	#Whether the redstone input block is considered a cable
-	IsRedstoneInputBlockCables = false
+	#Whether the redstone input block (sfm:redstone_input) is considered a cable
+	isRedstoneInputBlockCables = false
+	#Whether the redstone emitter block (sfm:redstone_emitter) is considered a cable
+	isRedstoneEmitterBlockCables = false
+	#Whether the instant item intake block (sfm:instant_item_intake) is considered a cable
+	isInstantItemIntakeBlockCables = false
+	#Whether the item intake block (sfm:item_intake) is considered a cable
+	isItemIntakeBlockCables = false
+
+#Item intake config options
+[itemIntake]
+	#Internal inventory size for item intakes
+	#Range: 1 ~ 27
+	regularInventorySize = 5
+	#Interval between each pickup attempt for instant item intake, in ticks
+	#Range: > 0
+	instantPickupInterval = 80
+	#Maximum pickup radius that an item take can have, for regular item intake
+	#Range: > 0
+	regularMaxPickupDistance = 3
+	#Maximum pickup radius that an item take can have, for instant item intake
+	#Range: > 0
+	instantMaxPickupDistance = 3
+	#Internal inventory size for instant item intakes
+	#Range: 0 ~ 27
+	instantInventorySize = 5
+	#Interval between each pickup attempt for regular item intake, in ticks
+	#Range: > 0
+	regularPickupInterval = 80
 

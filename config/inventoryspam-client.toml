@@ -4,7 +4,7 @@
 	#Range: 0.001 ~ 1000.0
 	icon_scale = 0.6
 	#Items to ignore when finding changes
-	ignore_items = []
+	ignore_items = ["quark:pickarang"]
 	#Number of items to show progressively faded, when the soft limit is reached
 	#Range: 0 ~ 15
 	fade_limit = 5
@@ -20,7 +20,7 @@
 	draw_scale = 1.0
 	#Number items to show in the overlay before older items start to get forcefully faded
 	#Range: 1 ~ 30
-	soft_limit = 10
+	soft_limit = 6
 	#Show lost items in the overlay
 	show_item_removals = true
 	#Draw item name in the overlay
