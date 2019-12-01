@@ -1,11 +1,197 @@
 
+[Ranks]
+
+	[Ranks.Op]
+		prefix = ""
+
+	[Ranks.Default]
+		prefix = ""
+		perms = ["serverutils.back", "serverutils.delhome", "serverutils.home", "serverutils.maxhome_1", "serverutils.homes", "serverutils.msg", "serverutils.msg.toggle", "serverutils.respond", "serverutils.rtp", "serverutils.rtpnear", "serverutils.rtpfar", "serverutils.sethome", "serverutils.spawn", "serverutils.tpa", "serverutils.tpa.here", "serverutils.tpa.deny", "serverutils.tpa.accept", "serverutils.warp", "serverutils.warps"]
+
 [Commands]
+
+	[Commands.msg]
+		#Range: > 0
+		delay = 0
+		aliases = ["message", "pm"]
+		perm = "serverutils.msg"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.rtpnear]
+		#Range: > 0
+		delay = 5
+		aliases = ["rtpnear"]
+		perm = "serverutils.rtpnear"
+		enable = true
+		#Range: > 0
+		cooldown = 300
 
 	[Commands.delhome]
 		#Range: > 0
 		delay = 0
 		aliases = ["delhome"]
 		perm = "serverutils.delhome"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.repair]
+		#Range: > 0
+		delay = 0
+		aliases = ["repair"]
+		perm = "serverutils.repair"
+		enable = true
+		#Range: > 0
+		cooldown = 5
+		"repair all perm" = "serverutils.repair.all"
+
+	[Commands.tpaAccept]
+		#Range: > 0
+		delay = 0
+		aliases = ["tpaccept"]
+		perm = "serverutils.tpa.accept"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.smite]
+		#Range: > 0
+		delay = 0
+		aliases = ["smite"]
+		perm = "serverutils.simte"
+		enable = false
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.back]
+		#Range: > 0
+		delay = 3
+		aliases = ["back", "return"]
+		perm = "serverutils.back"
+		enable = true
+		#Range: > 0
+		cooldown = 120
+		enable-on-death = true
+
+	[Commands.endchest]
+		#Range: > 0
+		delay = 0
+		aliases = ["endchest", "ec"]
+		perm = "serverutils.endchest"
+		enable = true
+		#Range: > 0
+		cooldown = 600
+
+	[Commands.rules]
+		#Range: > 0
+		delay = 5
+		aliases = ["rules"]
+		perm = "serverutils.rules"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.setwarp]
+		#Range: > 0
+		delay = 0
+		aliases = ["setwarp"]
+		perm = "serverutils.setwarp"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.bomb]
+		#Range: > 0
+		delay = 0
+		aliases = ["bomb", "boom"]
+		perm = "serverutils.bomb"
+		enable = false
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.gamemode]
+		#Range: > 0
+		delay = 0
+		aliases = ["gamemode", "gm"]
+		perm = "serverutils.gamemode"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.nick]
+		#Range: > 0
+		delay = 0
+		aliases = ["nickname", "nick"]
+		perm = "serverutils.nick"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		other-perm = "serverutils.nick.other"
+
+	[Commands.warps]
+		#Range: > 0
+		delay = 0
+		aliases = ["warps"]
+		perm = "serverutils.warps"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.kit]
+		aliases = ["kit"]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.kit"
+		enable = false
+		"modfiy perm" = "serverutils.kit.modify"
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.heal]
+		#Range: > 0
+		delay = 0
+		aliases = ["heal"]
+		perm = "serverutils.heal"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		other-perm = "serverutils.heal.other"
+
+	[Commands.sethome]
+		#Range: > 0
+		delay = 0
+		aliases = ["sethome"]
+		perm = "serverutils.sethome"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.homes]
+		#Range: > 0
+		delay = 0
+		aliases = ["homes"]
+		perm = "serverutils.homes"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.rank]
+		modify-perm = "serverutils.rank.modify"
+		#Range: > 0
+		delay = 0
+		aliases = ["rank"]
+		perm = "serverutils.rank"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.tpaHere]
+		#Range: > 0
+		delay = 0
+		aliases = ["tpahere"]
+		perm = "serverutils.tpa.here"
 		enable = true
 		#Range: > 0
 		cooldown = 0
@@ -19,30 +205,41 @@
 		#Range: > 0
 		cooldown = 0
 
-	[Commands.back]
-		#Range: > 0
-		delay = 5
-		aliases = ["back", "return"]
-		perm = "serverutils.back"
-		enable = true
-		#Range: > 0
-		cooldown = 30
-		enable-on-death = true
-
-	[Commands.endchest]
+	[Commands.motd]
+		modify-perm = "serverutils.motd.modify"
 		#Range: > 0
 		delay = 0
-		aliases = ["endchest", "ec"]
-		perm = "serverutils.endchest"
+		aliases = ["motd"]
+		perm = "serverutils.motd"
 		enable = true
 		#Range: > 0
 		cooldown = 0
 
-	[Commands.bomb]
+	[Commands.tpa]
+		#Range: > 0
+		delay = 3
+		aliases = ["call"]
+		perm = "serverutils.tpa"
+		enable = true
+		#Range: > 0
+		cooldown = 300
+		#Range: > 0
+		"tp time" = 3
+
+	[Commands.mute]
 		#Range: > 0
 		delay = 0
-		aliases = ["bomb", "boom"]
-		perm = "serverutils.bomb"
+		aliases = ["mute"]
+		perm = "serverutils.mute"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.permission]
+		#Range: > 0
+		delay = 0
+		aliases = ["permission", "perms", "p"]
+		perm = "serverutils.permission"
 		enable = true
 		#Range: > 0
 		cooldown = 0
@@ -52,19 +249,37 @@
 		delay = 0
 		aliases = ["drown"]
 		perm = "serverutils.flood"
+		enable = false
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.setspawn]
+		#Range: > 0
+		delay = 0
+		aliases = ["setspawn"]
+		perm = "serverutils.setspawn"
 		enable = true
 		#Range: > 0
 		cooldown = 0
 
 	[Commands.home]
 		#Range: > 0
-		delay = 5
+		delay = 3
 		aliases = ["home"]
 		perm = "serverutils.home"
 		home-max-perm = "serverutils.maxhome_"
 		enable = true
 		#Range: > 0
-		cooldown = 0
+		cooldown = 300
+
+	[Commands.rtp]
+		#Range: > 0
+		delay = 5
+		aliases = ["rtp"]
+		perm = "serverutils.rtp"
+		enable = true
+		#Range: > 0
+		cooldown = 300
 
 	[Commands.feed]
 		#Range: > 0
@@ -81,209 +296,43 @@
 		delay = 0
 		aliases = ["fly"]
 		perm = "serverutils.fly"
-		enable = true
+		enable = false
 		#Range: > 0
 		cooldown = 0
 		other-perm = "serverutils.fly.other"
 
-	[Commands.Ranks]
-
-		[Commands.Ranks.Default]
-			prefix = "&8[&7Player&8]"
-			perms = ["serverutils.back", "serverutils.delhome", "serverutils.home", "serverutils.maxhome_1", "serverutils.homes", "serverutils.rtp", "serverutils.rtpnear", "serverutils.rtpfar", "serverutils.sethome", "serverutils.spawn", "serverutils.tpa", "serverutils.tpa.here", "serverutils.tpa.deny", "serverutils.tpa.accept", "serverutils.warp", "serverutils.warps"]
-
-	[Commands.kit]
-		aliases = ["kit"]
-		perm = "serverutils.kit"
+	[Commands.spawn]
 		#Range: > 0
-		delay = 0
+		delay = 3
+		aliases = ["spawn"]
+		perm = "serverutils.spawn"
 		enable = true
-		"modfiy perm" = "serverutils.kit.modify"
 		#Range: > 0
-		cooldown = 0
+		cooldown = 300
 
-		[Commands.kit.rtpnear]
-			#Range: > 0
-			delay = 5
-			aliases = ["rtpnear"]
-			perm = "serverutils.rtpnear"
-			enable = true
-			#Range: > 0
-			cooldown = 0
+	[Commands.rtpfar]
+		#Range: > 0
+		delay = 5
+		aliases = ["rtpfar"]
+		perm = "serverutils.rtpfar"
+		enable = true
+		#Range: > 0
+		cooldown = 300
 
-		[Commands.kit.repair]
-			#Range: > 0
-			delay = 0
-			aliases = ["repair"]
-			perm = "serverutils.repair"
-			enable = true
-			#Range: > 0
-			cooldown = 5
-			"repair all perm" = "serverutils.repair.all"
-
-		[Commands.kit.tpaAccept]
-			#Range: > 0
-			delay = 0
-			aliases = ["tpaccept"]
-			perm = "serverutils.tpa.accept"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.tpa]
-			#Range: > 0
-			delay = 0
-			aliases = ["call"]
-			perm = "serverutils.tpa"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-			#Range: > 0
-			"tp time" = 5
-
-		[Commands.kit.smite]
-			#Range: > 0
-			delay = 0
-			aliases = ["smite"]
-			perm = "serverutils.simte"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.permission]
-			#Range: > 0
-			delay = 0
-			aliases = ["permission", "perms", "p"]
-			perm = "serverutils.permission"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.setwarp]
-			#Range: > 0
-			delay = 0
-			aliases = ["setwarp"]
-			perm = "serverutils.setwarp"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.setspawn]
-			#Range: > 0
-			delay = 0
-			aliases = ["setspawn"]
-			perm = "serverutils.setspawn"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.rtp]
-			#Range: > 0
-			delay = 5
-			aliases = ["rtp"]
-			perm = "serverutils.rtp"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.nick]
-			#Range: > 0
-			delay = 0
-			aliases = ["nickname", "nick"]
-			perm = "serverutils.nick"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-			other-perm = "serverutils.ck.other"
-
-		[Commands.kit.warps]
-			#Range: > 0
-			delay = 0
-			aliases = ["warps"]
-			perm = "serverutils.warps"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.spawn]
-			#Range: > 0
-			delay = 5
-			aliases = ["spawn"]
-			perm = "serverutils.spawn"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.rtpfar]
-			#Range: > 0
-			delay = 5
-			aliases = ["rtpfar"]
-			perm = "serverutils.rtpfar"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.sethome]
-			#Range: > 0
-			delay = 0
-			aliases = ["sethome"]
-			perm = "serverutils.sethome"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.rank]
-			modify-perm = "serverutils.rank.modify"
-			#Range: > 0
-			delay = 0
-			aliases = ["rank"]
-			perm = "serverutils.rank"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.tpaDeny]
-			#Range: > 0
-			delay = 0
-			aliases = ["tpdeny"]
-			perm = "serverutils.tpa.deny"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.tpaHere]
-			#Range: > 0
-			delay = 0
-			aliases = ["tpahere"]
-			perm = "serverutils.tpa.here"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-		[Commands.kit.warp]
-			#Range: > 0
-			delay = 5
-			aliases = ["warp"]
-			perm = "serverutils.warp"
-			enable = true
-			#Range: > 0
-			cooldown = 0
-
-	[Commands.heal]
+	[Commands.tpaDeny]
 		#Range: > 0
 		delay = 0
-		aliases = ["heal"]
-		perm = "serverutils.heal"
+		aliases = ["tpdeny"]
+		perm = "serverutils.tpa.deny"
 		enable = true
 		#Range: > 0
 		cooldown = 0
-		other-perm = "serverutils.heal.other"
 
-	[Commands.homes]
+	[Commands.respond]
 		#Range: > 0
 		delay = 0
-		aliases = ["homes"]
-		perm = "serverutils.homes"
+		aliases = ["r"]
+		perm = "serverutils.respond"
 		enable = true
 		#Range: > 0
 		cooldown = 0
@@ -293,22 +342,42 @@
 		delay = 0
 		aliases = ["god", "tgm"]
 		perm = "serverutils.god"
-		enable = true
+		enable = false
 		#Range: > 0
 		cooldown = 0
 		other-perm = "serverutils.god.other"
 
+	[Commands.msgtoggle]
+		#Range: > 0
+		delay = 0
+		aliases = ["msgtoggle"]
+		perm = "serverutils.msg.toggle"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.warp]
+		#Range: > 0
+		delay = 3
+		aliases = ["warp"]
+		perm = "serverutils.warp"
+		enable = true
+		#Range: > 0
+		cooldown = 300
+
 [Features]
+	#enabling global permissions will make all players op, then restrict command usage based on the permissions.json file (in the config directory) and the permissions the player has.
+	"global perms" = true
 
 	[Features."Color Chat"]
 		perm = "serverutils.colorchat"
-		enabled = true
+		enabled = false
 
 		[Features."Color Chat"."Color Codes"]
 			#This will enable the &h color code, which will change text based on the month it is.
-			"holiday enabled" = true
+			"holiday enabled" = false
 			#This will enable the &g color code, which will change text to rainbow.
-			"rainbow enabled" = true
+			"rainbow enabled" = false
 
 			[Features."Color Chat"."Color Codes"."Holiday Colors"]
 				June = ["GRAY", "WHITE", "RED"]
@@ -327,5 +396,5 @@
 	[Features."Auto Save"]
 		#How many minutes until the ServerData will be saved. 0 disables this
 		#Range: > 0
-		delay = 5
+		delay = 0
 

@@ -1,3 +1,60 @@
+# 0.2.3 -> 0.3.0
+
+* alib-1.14.4-7.jar
+* angelring-1.14.4-1.1.0-pre1.jar
+* AppleSkin-mc1.14.4-forge-1.0.13.jar
+* BambooBlocksV1.2.8.jar
+* BiomesOPlenty-1.14.4-9.0.0.258-universal.jar
+* bluepower-1.14.4-0.3.161-alpha-universal.jar
+* Bookshelf-1.14.4-4.3.64.jar
+* CapabilityProxy-1.14.4-2.1.5.jar
+* chemlib-1.14.4-14.jar
+* colytra-FORGE-1.14.4-2.1.0.jar
+* comforts-FORGE-1.14.4-2.0-beta4.jar
+* cosmeticbeds-FORGE-1.14.4-2.0.0.1.jar
+* curios-FORGE-1.14.4-1.0.5.4.jar
+* cursedearth-1.4a.jar
+* CyclopsCore-1.14.4-1.6.1.jar
+* DarkUtilities-1.14.4-2.0.4.jar
+* dimdungeons-1.02-forge-1.14.4.jar
+* engineersdecor-1.14.4-1.0.16-b7.jar
+* EverlastingAbilities-1.14.4-1.6.0.jar
+* FarmingForBlockheads_1.14.4-5.2.3.jar
+* Flopper-1.14.4-1.0.5.jar
+* foamdome-2.0.2.jar
+* gardentools-1.14.4-1.0.0.jar
+* industrial-foregoing-1.14.4-2.1.0-69a4a14.jar
+* InventorySpam-1.14.4-1.2.3.jar
+* justenoughbeacons-1.1.jar
+* LargeFluidTank-14.8.8.jar
+* mcjtylib-1.14-3.5.14-alpha.jar
+* mcw-bridges-1.0.2-mc1.14.4.jar
+* mgui-1.14.4-1.0.1.jar
+* minecolonies-0.10.567-ALPHA-universal.jar
+* mininggadgets-1.2.3.jar
+* modular-routers-1.14.4-5.1.2-7.jar
+* Placebo-1.14.4-2.3.5.jar
+* refinedstorage-1.7.1.jar
+* refinedstorageaddons-0.5.jar
+* rftoolsbase-1.14-0.0.11-alpha.jar
+* rftoolsbuilder-1.14-1.2.10-alpha.jar
+* rftoolspower-1.14-1.2.11-alpha.jar
+* rftoolsstorage-1.14-0.0.6-alpha.jar
+* rftoolsutility-1.14-1.2.11-alpha.jar
+* RingOfAttraction-1.14.4-1.0.19.jar
+* RingOfGrowth-1.14.4-1.0.19.jar
+* ScreenshotToClipboard-1.14.4-1.0.3.jar
+* SilentMechanisms-1.14.4-0.6.9+42.jar
+* StevesFactoryManager-1.14.4-3.0.0-alpha21.jar
+* structurize-0.10.200-ALPHA.jar
+* tetra-1.14.4-1.0.5.jar
+* titanium-1.14.4-2.2.9.jar
+* watercan-1.14.4-2.1.0.jar
+* XaerosWorldMap_1.5.1_Forge_1.14.4.jar
+* Xaeros_Minimap_1.19.0_Forge_1.14.4.jar
+* xnet-1.14-1.8.4-alpha.jar
+
+
 # 0.2.2 -> 0.2.3
 
 * mininggadgets-1.2.1.jar

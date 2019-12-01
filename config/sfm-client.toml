@@ -1,17 +1,23 @@
 
 #Client config options
-[client]
+[generalGUI]
+	#Set to true to enable debug highlighting for GUIs
+	enableInspections = false
 	#How long one move wheel movement for scrolling lists
 	#Range: 1 ~ 256
-	ScrollSpeed = 20
-	#Default value for InspectionBoxHighlighting (modifiable in-game via command /sfm settings, but does not persist)
-	EnableInspections = false
-	#Enable to use vanilla background instead of a plain rectangle
-	UseBackgroundOnFullscreen = false
-	#Determines how fast arrow keys moving is (for editor panel)
-	#Range: > 0
-	DefaultEditorMoveSpeed = 2
+	scrollSpeed = 20
+
+#Factory manager GUI config options
+[factoryManagerGUI]
 	#Determines how fast arrow keys moving is, while Shift is pressed
 	#Range: > 0
-	AcceleratedEditorMoveSpeed = 20
+	acceleratedEditorMoveSpeed = 20
+	#Enable to use vanilla background instead of a plain rectangle
+	useBackgroundOnFullscreen = false
+	#Enable to fix the factory manager size at 256*140, 
+	#otherwise it will be 2/3 of the window width, and 3/4 of the window height
+	useFixedSizeScreen = false
+	#Determines how fast arrow keys moving is (for editor panel)
+	#Range: > 0
+	defaultEditorMoveSpeed = 2
 
