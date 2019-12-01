@@ -63,4 +63,4 @@ git stash
 git reset --hard
 git pull
 
-. "remove-client-mods.ps1"
+. "./remove-client-mods.bat"
