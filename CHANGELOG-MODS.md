@@ -1,3 +1,22 @@
+# 0.3.0 -> 0.3.1
+
+* structurize-0.10.201-ALPHA.jar
+* mysticallib-1.14.4-1.10.0.jar
+* mysticalworld-1.14.4-1.6.12.jar
+* minecolonies-0.10.569-ALPHA-universal.jar
+* jei-1.14.4-6.0.0.26.jar
+* ensorcellation-1.14.4-0.2.0b.jar
+* DarkUtilities-1.14.4-2.0.7.jar
+* cofh_core-1.14.4-0.2.0b.jar
+* Bookshelf-1.14.4-4.3.65.jar
+* BiomesOPlenty-1.14.4-9.0.0.259-universal.jar
+* xnet-1.14-1.8.5-alpha.jar
+* rftoolsutility-1.14-1.2.12-alpha.jar
+* mcjtylib-1.14-3.5.15-alpha.jar
+* tetra-1.14.4-1.0.5.jar
+* StevesFactoryManager-1.14.4-3.0.0-alpha21.jar
+* curios-FORGE-1.14.4-1.0.5.4.jar
+
 # 0.2.3 -> 0.3.0
 
 * alib-1.14.4-7.jar

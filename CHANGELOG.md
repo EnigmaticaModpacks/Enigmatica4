@@ -1,3 +1,9 @@
+## [Enigmatica 4 v0.3.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.1) (02-12-2019)
+
+**Changes**
+
+- Removed Techemistry, which was added by mistake. Sorry about that.
+
 ## [Enigmatica 4 v0.3.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.0) (01-12-2019)
 
 **Changes**
