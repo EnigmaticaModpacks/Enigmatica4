@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-12-07T11:04:48.1371822Z",
+  "lastPlayed": "2019-12-07T18:25:28.4461629Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -10005,6 +10005,69 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 353434,
+      "gameInstanceID": "467f00a9-f751-4716-9267-50c4737c0856",
+      "installedFile": {
+        "id": 2835748,
+        "displayName": "BetterBurning-1.14.4-1.0.1.jar",
+        "fileName": "BetterBurning-1.14.4-1.0.1.jar",
+        "fileDate": "2019-12-02T11:54:10.35Z",
+        "fileLength": 6391,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2835/748/BetterBurning-1.14.4-1.0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 2835749,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2135310111,
+            "type": 0
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 1700618113,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 985869423,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 965784003,
+        "gameVersion": [
+          "1.14.4",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "BetterBurning-1.14.4-1.0.1.jar"
+      },
+      "dateInstalled": "2019-12-07T18:17:35.6549966Z",
+      "dateUpdated": "2019-12-07T18:17:35.6569807Z",
+      "dateLastUpdateAttempted": "2019-12-07T18:17:35.6569807Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 243707,
