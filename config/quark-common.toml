@@ -108,6 +108,7 @@
 	"Paper Decor" = true
 	Rope = true
 	"Sturdy Stone" = true
+	"More Potted Plants" = true
 	Grate = true
 	"Variant Bookshelves" = true
 
@@ -150,9 +151,6 @@
 		"Blaze Lantern Fuel Time" = 24000
 		"Charcoal Block Fuel Time" = 16000
 		"Stick Block Fuel Time" = 900
-
-	[building.variant_chests]
-		"Change Names" = true
 
 	[building.more_brick_types]
 		"Enable Magma Bricks" = true
@@ -222,6 +220,7 @@
 		"Item Quality" = 2
 		"Apply Cost" = 35
 		"Library Weight" = 30
+		"Monster Box Weight" = 5
 		"Merge Cost" = 35
 
 	[tools.pickarang]
@@ -249,15 +248,16 @@
 	"Hoe Harvesting" = true
 	"Reacharound Placing" = true
 	"Villagers Follow Emeralds" = true
+	"Compasses Work Everywhere" = true
 	"Note Block Mob Sounds" = true
 	"Double Door Opening" = true
-	"Enchanced Ladders" = true
 	"Automatic Recipe Unlock" = true
 	"Poison Potato Usage" = true
 	"Improved Sleeping" = false
 	"Springy Slime" = true
 	"Utility Recipes" = true
 	"Pat The Dogs" = true
+	"Enhanced Ladders" = true
 	"Snow Golem Player Heads" = true
 	"Glass Shard" = false
 
@@ -276,9 +276,6 @@
 
 	[tweaks.hoe_harvesting]
 		"Hoes Can Have Fortune" = true
-
-	[tweaks.enchanced_ladders]
-		"Fall Speed" = -0.2
 
 	[tweaks.poison_potato_usage]
 		"Poison Effect" = true
@@ -329,6 +326,15 @@
 		#Format is: "harvestState[,afterHarvest]", i.e. "minecraft:wheat[age=7]" or "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]"
 		"Harvestable Blocks" = ["minecraft:wheat[age=7]", "minecraft:carrots[age=7]", "minecraft:potatoes[age=7]", "minecraft:beetroots[age=3]", "minecraft:nether_wart[age=3]", "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]", "minecraft:cocoa[age=2,facing=south],minecraft:cocoa[age=0,facing=south]", "minecraft:cocoa[age=2,facing=east],minecraft:cocoa[age=0,facing=east]", "minecraft:cocoa[age=2,facing=west],minecraft:cocoa[age=0,facing=west]"]
 
+	[tweaks.enhanced_ladders]
+		"Fall Speed" = -0.2
+
+	[tweaks.compasses_work_everywhere]
+		"Enable Nether" = true
+		"Enable Compass Nerf" = true
+		"Enable End" = true
+		"Enable Clock Nerf" = true
+
 [vanity]
 	"Color Runes" = true
 	Emotes = true
@@ -364,6 +370,7 @@
 	"Big Stone Clusters" = true
 	"Elder Prismarine Underground Biome" = true
 	"Brimstone Underground Biome" = true
+	"Blossom Trees" = true
 	"Sandstone Underground Biome" = true
 	"Passive Creatures" = true
 	"Cave Crystal Underground Biome" = true
@@ -375,6 +382,22 @@
 	Foxhound = true
 	"Slime Underground Biome" = true
 	"Spider Nest Underground Biome" = true
+	"Monster Box" = true
+	"Mega Caves" = true
+
+	[world.monster_box]
+		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
+		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
+		"Chance Per Chunk" = 0.5
+		"Min Mob Count" = 5
+		"Min Y" = 5
+		"Max Y" = 30
+		"Max Mob Count" = 8
+		"Enable Extra Loot Table" = true
+
+		[world.monster_box.dimensions]
+			Dimensions = ["minecraft:overworld"]
+			"Is Blacklist" = false
 
 	[world.big_stone_clusters]
 		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack", "minecraft:end_stone", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate", "quark:basalt"]
@@ -763,6 +786,63 @@
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
+	[world.blossom_trees]
+
+		[world.blossom_trees.orange]
+			Rarity = 100
+
+			[world.blossom_trees.orange.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
+
+			[world.blossom_trees.orange.biome_types]
+				"Biome Types" = ["SAVANNA"]
+				"Is Blacklist" = false
+
+		[world.blossom_trees.pink]
+			Rarity = 100
+
+			[world.blossom_trees.pink.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
+
+			[world.blossom_trees.pink.biome_types]
+				"Biome Types" = ["MOUNTAIN"]
+				"Is Blacklist" = false
+
+		[world.blossom_trees.blue]
+			Rarity = 200
+
+			[world.blossom_trees.blue.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
+
+			[world.blossom_trees.blue.biome_types]
+				"Biome Types" = ["COLD"]
+				"Is Blacklist" = false
+
+		[world.blossom_trees.yellow]
+			Rarity = 200
+
+			[world.blossom_trees.yellow.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
+
+			[world.blossom_trees.yellow.biome_types]
+				"Biome Types" = ["PLAINS"]
+				"Is Blacklist" = false
+
+		[world.blossom_trees.lavender]
+			Rarity = 100
+
+			[world.blossom_trees.lavender.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
+
+			[world.blossom_trees.lavender.biome_types]
+				"Biome Types" = ["SWAMP"]
+				"Is Blacklist" = false
+
 	[world.passive_creatures]
 		"Enable Jokes" = false
 		"Enable Brewing" = true
@@ -830,6 +910,29 @@
 			[world.slime_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
+
+	[world.mega_caves]
+
+		[world.mega_caves.spawn_settings]
+			"Horizontal Size" = 80
+			Rarity = 500
+			"Min Y Level" = 10
+			"Horizontal Variation" = 30
+			"Max Y Level" = 20
+			"Vertical Size" = 25
+			"Vertical Variation" = 10
+
+			[world.mega_caves.spawn_settings.biomes]
+				"Biome Types" = ["OCEAN"]
+				"Is Blacklist" = true
+
+			[world.mega_caves.spawn_settings.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
+
+		[world.mega_caves.dimensions]
+			Dimensions = ["minecraft:overworld"]
+			"Is Blacklist" = false
 
 	[world.stonelings]
 		"Cautious Stonelings" = true

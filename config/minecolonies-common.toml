@@ -125,6 +125,8 @@
 	mintownhallpadding = 3
 	#Should the min/max distance from spawn also affect colony placement? [Default: false]
 	restrictcolonyplacement = false
+	#minecolonies.config.officersreceiveadvancements.comment
+	officersreceiveadvancements = true
 	#Max distance from world spawn. [Default: 8000]
 	#Range: 1000 ~ 100000
 	maxdistancefromworldspawn = 8000
