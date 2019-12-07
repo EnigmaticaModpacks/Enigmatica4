@@ -73,3 +73,6 @@ options.txt
 secrets.ps1
 **/*.zip
 CHANGELOG-GENERATED.md
+stdlib_Result$Error.class
+stdlib_Result$Ok.class
+ttt.class
