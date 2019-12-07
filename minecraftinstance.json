@@ -2744,21 +2744,6 @@
       "fileSize": 3184512
     },
     {
-      "folderName": "DangerousStoneCutter-1.14.4-1.2.0.jar",
-      "fingerprint": 2246040523,
-      "fileDateHash": 74735374,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2246040523
-      ],
-      "status": 1,
-      "timestamp": "2019-11-13T19:14:51.7084976Z",
-      "lastWriteTimeUtc": "2019-11-11T18:31:34.6095009Z",
-      "queryTimestamp": "2019-12-03T19:32:50.5505209Z",
-      "fileCount": 1,
-      "fileSize": 7726
-    },
-    {
       "folderName": "PackingTape-1.14.4-0.9.0.jar",
       "fingerprint": 1634493460,
       "fileDateHash": 362967369,
@@ -2772,6 +2757,21 @@
       "queryTimestamp": "2019-12-03T19:32:50.5515526Z",
       "fileCount": 1,
       "fileSize": 73199
+    },
+    {
+      "folderName": "DangerousStoneCutter-1.14.4-1.2.0.jar",
+      "fingerprint": 2246040523,
+      "fileDateHash": 74735374,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2246040523
+      ],
+      "status": 1,
+      "timestamp": "2019-11-13T19:14:51.7084976Z",
+      "lastWriteTimeUtc": "2019-11-11T18:31:34.6095009Z",
+      "queryTimestamp": "2019-12-03T19:32:50.5505209Z",
+      "fileCount": 1,
+      "fileSize": 7726
     },
     {
       "folderName": "ClickMachine-1.14.4-2.1.2.jar",
@@ -2834,21 +2834,6 @@
       "fileSize": 4587686
     },
     {
-      "folderName": "Bookshelf-1.14.4-4.3.65.jar",
-      "fingerprint": 4261250825,
-      "fileDateHash": 1429951845,
-      "sectionID": 8,
-      "individualFingerprints": [
-        4261250825
-      ],
-      "status": 1,
-      "timestamp": "2019-12-02T19:02:54.9225892Z",
-      "lastWriteTimeUtc": "2019-12-02T18:25:30.4543358Z",
-      "queryTimestamp": "2019-12-03T19:32:50.5525556Z",
-      "fileCount": 1,
-      "fileSize": 120241
-    },
-    {
       "folderName": "CommonCapabilities-1.14.4-2.4.4.jar",
       "fingerprint": 2196913905,
       "fileDateHash": 2606153243,
@@ -2862,6 +2847,21 @@
       "queryTimestamp": "2019-12-03T19:32:50.5525556Z",
       "fileCount": 1,
       "fileSize": 231839
+    },
+    {
+      "folderName": "Bookshelf-1.14.4-4.3.65.jar",
+      "fingerprint": 4261250825,
+      "fileDateHash": 1429951845,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4261250825
+      ],
+      "status": 1,
+      "timestamp": "2019-12-02T19:02:54.9225892Z",
+      "lastWriteTimeUtc": "2019-12-02T18:25:30.4543358Z",
+      "queryTimestamp": "2019-12-03T19:32:50.5525556Z",
+      "fileCount": 1,
+      "fileSize": 120241
     },
     {
       "folderName": "alib-1.14.4-7.jar",
@@ -2924,21 +2924,6 @@
       "fileSize": 28413
     },
     {
-      "folderName": "AttributeFix-1.14.4-3.0.3.jar",
-      "fingerprint": 3694735647,
-      "fileDateHash": 456062052,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3694735647
-      ],
-      "status": 1,
-      "timestamp": "2019-11-17T09:36:37.8151898Z",
-      "lastWriteTimeUtc": "2019-11-16T09:59:30.8334546Z",
-      "queryTimestamp": "2019-12-03T19:32:50.554556Z",
-      "fileCount": 1,
-      "fileSize": 7839
-    },
-    {
       "folderName": "dwmh-1.14.4-3.1.1.jar",
       "fingerprint": 158175040,
       "fileDateHash": 3180932328,
@@ -2952,6 +2937,21 @@
       "queryTimestamp": "2019-12-03T19:32:50.554556Z",
       "fileCount": 1,
       "fileSize": 495866
+    },
+    {
+      "folderName": "AttributeFix-1.14.4-3.0.3.jar",
+      "fingerprint": 3694735647,
+      "fileDateHash": 456062052,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3694735647
+      ],
+      "status": 1,
+      "timestamp": "2019-11-17T09:36:37.8151898Z",
+      "lastWriteTimeUtc": "2019-11-16T09:59:30.8334546Z",
+      "queryTimestamp": "2019-12-03T19:32:50.554556Z",
+      "fileCount": 1,
+      "fileSize": 7839
     },
     {
       "folderName": "Controlling-5.0.4.jar",
@@ -10067,7 +10067,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243707,
@@ -13748,7 +13748,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 345819,
