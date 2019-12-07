@@ -2744,21 +2744,6 @@
       "fileSize": 3184512
     },
     {
-      "folderName": "PackingTape-1.14.4-0.9.0.jar",
-      "fingerprint": 1634493460,
-      "fileDateHash": 362967369,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1634493460
-      ],
-      "status": 1,
-      "timestamp": "2019-11-13T19:14:52.4230287Z",
-      "lastWriteTimeUtc": "2019-11-09T10:09:38.9215977Z",
-      "queryTimestamp": "2019-12-03T19:32:50.5515526Z",
-      "fileCount": 1,
-      "fileSize": 73199
-    },
-    {
       "folderName": "DangerousStoneCutter-1.14.4-1.2.0.jar",
       "fingerprint": 2246040523,
       "fileDateHash": 74735374,
@@ -2772,6 +2757,21 @@
       "queryTimestamp": "2019-12-03T19:32:50.5505209Z",
       "fileCount": 1,
       "fileSize": 7726
+    },
+    {
+      "folderName": "PackingTape-1.14.4-0.9.0.jar",
+      "fingerprint": 1634493460,
+      "fileDateHash": 362967369,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1634493460
+      ],
+      "status": 1,
+      "timestamp": "2019-11-13T19:14:52.4230287Z",
+      "lastWriteTimeUtc": "2019-11-09T10:09:38.9215977Z",
+      "queryTimestamp": "2019-12-03T19:32:50.5515526Z",
+      "fileCount": 1,
+      "fileSize": 73199
     },
     {
       "folderName": "ClickMachine-1.14.4-2.1.2.jar",
@@ -2834,21 +2834,6 @@
       "fileSize": 4587686
     },
     {
-      "folderName": "CommonCapabilities-1.14.4-2.4.4.jar",
-      "fingerprint": 2196913905,
-      "fileDateHash": 2606153243,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2196913905
-      ],
-      "status": 1,
-      "timestamp": "2019-10-27T20:59:53.3507947Z",
-      "lastWriteTimeUtc": "2019-10-27T20:36:30.3326915Z",
-      "queryTimestamp": "2019-12-03T19:32:50.5525556Z",
-      "fileCount": 1,
-      "fileSize": 231839
-    },
-    {
       "folderName": "Bookshelf-1.14.4-4.3.65.jar",
       "fingerprint": 4261250825,
       "fileDateHash": 1429951845,
@@ -2862,6 +2847,21 @@
       "queryTimestamp": "2019-12-03T19:32:50.5525556Z",
       "fileCount": 1,
       "fileSize": 120241
+    },
+    {
+      "folderName": "CommonCapabilities-1.14.4-2.4.4.jar",
+      "fingerprint": 2196913905,
+      "fileDateHash": 2606153243,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2196913905
+      ],
+      "status": 1,
+      "timestamp": "2019-10-27T20:59:53.3507947Z",
+      "lastWriteTimeUtc": "2019-10-27T20:36:30.3326915Z",
+      "queryTimestamp": "2019-12-03T19:32:50.5525556Z",
+      "fileCount": 1,
+      "fileSize": 231839
     },
     {
       "folderName": "alib-1.14.4-7.jar",
@@ -2924,21 +2924,6 @@
       "fileSize": 28413
     },
     {
-      "folderName": "dwmh-1.14.4-3.1.1.jar",
-      "fingerprint": 158175040,
-      "fileDateHash": 3180932328,
-      "sectionID": 8,
-      "individualFingerprints": [
-        158175040
-      ],
-      "status": 1,
-      "timestamp": "2019-11-13T19:14:51.7154966Z",
-      "lastWriteTimeUtc": "2019-11-10T18:24:13.6197664Z",
-      "queryTimestamp": "2019-12-03T19:32:50.554556Z",
-      "fileCount": 1,
-      "fileSize": 495866
-    },
-    {
       "folderName": "AttributeFix-1.14.4-3.0.3.jar",
       "fingerprint": 3694735647,
       "fileDateHash": 456062052,
@@ -2952,6 +2937,21 @@
       "queryTimestamp": "2019-12-03T19:32:50.554556Z",
       "fileCount": 1,
       "fileSize": 7839
+    },
+    {
+      "folderName": "dwmh-1.14.4-3.1.1.jar",
+      "fingerprint": 158175040,
+      "fileDateHash": 3180932328,
+      "sectionID": 8,
+      "individualFingerprints": [
+        158175040
+      ],
+      "status": 1,
+      "timestamp": "2019-11-13T19:14:51.7154966Z",
+      "lastWriteTimeUtc": "2019-11-10T18:24:13.6197664Z",
+      "queryTimestamp": "2019-12-03T19:32:50.554556Z",
+      "fileCount": 1,
+      "fileSize": 495866
     },
     {
       "folderName": "Controlling-5.0.4.jar",
@@ -13611,6 +13611,81 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 353617,
+      "gameInstanceID": "467f00a9-f751-4716-9267-50c4737c0856",
+      "installedFile": {
+        "id": 2837334,
+        "displayName": "UpgradeModifiers-1.14.4-1.0.2.jar",
+        "fileName": "UpgradeModifiers-1.14.4-1.0.2.jar",
+        "fileDate": "2019-12-06T03:50:42.31Z",
+        "fileLength": 15099,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2837/334/UpgradeModifiers-1.14.4-1.0.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 2837335,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 228525,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1117177762,
+            "type": 0
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 836444868,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2040447870,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1251353622,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1675006499,
+        "gameVersion": [
+          "1.14.4",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "UpgradeModifiers-1.14.4-1.0.2.jar"
+      },
+      "dateInstalled": "2019-12-07T18:13:59.7663988Z",
+      "dateUpdated": "2019-12-07T18:13:59.9103926Z",
+      "dateLastUpdateAttempted": "2019-12-07T18:13:59.9103926Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 345819,
