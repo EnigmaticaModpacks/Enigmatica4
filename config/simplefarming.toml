@@ -14,7 +14,7 @@
 ["Tweak World Generation Rates"]
 	#Chance of fruit trees generating in the overworld. Higher numbers indicate a lower probability (Default: 600)
 	#Range: 1 ~ 1000000000
-	"Probability of fruit trees generating" = 1000
+	"Probability of fruit trees generating" = 600
 	#Chance of opuntias generating in deserts. Higher numbers indicate a lower probability (Default: 150)
 	#Range: 1 ~ 1000000000
 	"Probability of opuntias generating" = 150
@@ -30,7 +30,7 @@
 
 ["Enable/Disable World Generation"]
 	#Enable this feature to avoid conflicts with other mods that add grass drops (And disable grass drops).
-	"Generate wild crops" = false
+	"Generate wild crops" = true
 	#Indicates whether opuntias (cactus crops) should generate
 	"Generate opuntias" = true
 	#Indicates whether fruit trees should generate
