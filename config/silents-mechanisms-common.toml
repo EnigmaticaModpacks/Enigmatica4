@@ -1,7 +1,7 @@
 
 [general]
 	#Shows a message in chat warning the player that the mod is early in development
-	showBetaWelcomeMessage = true
+	showBetaWelcomeMessage = false
 
 #All world generation settings require you to restart Minecraft!
 [world]
