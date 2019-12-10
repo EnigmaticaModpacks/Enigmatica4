@@ -1,3 +1,16 @@
+## [Enigmatica 4 v0.3.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.2) ()
+
+**Changes**
+
+- Enabled Wild Crops in Worldgen (Simple Farming config)
+- Increased frequency of fruit tree generation.
+- Watering Cans now consume water blocks when filled
+- Disabled Silent's Mechanism welcome message
+
+**Fixed bugs**
+
+- Hopefully fixed the bug that causes recipes to suddenly freak out and break
+
 ## [Enigmatica 4 v0.3.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.1) (02-12-2019)
 
 **Changes**
