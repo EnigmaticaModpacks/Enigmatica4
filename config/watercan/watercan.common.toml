@@ -44,7 +44,7 @@
 	#Default: true
 	growSaplings = true
 	#Set to true to consume the water source block when filling the watercan.
-	#Default: true
+	#Default: false
 	consumeWaterSource = true
 	#Set to false to prevent the watercan from extinguishing fire.
 	#Default: true
