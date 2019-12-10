@@ -1,4 +1,4 @@
-## [Enigmatica 4 v0.3.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.2) ()
+## [Enigmatica 4 v0.3.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.2) (10-12-2019)
 
 **Changes**
 
@@ -6,10 +6,15 @@
 - Increased frequency of fruit tree generation.
 - Watering Cans now consume water blocks when filled
 - Disabled Silent's Mechanism welcome message
+- Add KubeJS [\#182](https://github.com/NillerMedDild/Enigmatica4/issues/182) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Upgrade Modifiers [\#178](https://github.com/NillerMedDild/Enigmatica4/issues/178) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Better Burning [\#172](https://github.com/NillerMedDild/Enigmatica4/issues/172) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Platinum Ore can now be veinmined [\#171](https://github.com/NillerMedDild/Enigmatica4/issues/171) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 
 **Fixed bugs**
 
 - Hopefully fixed the bug that causes recipes to suddenly freak out and break
+- Log to sticks rendering issue [\#180](https://github.com/NillerMedDild/Enigmatica4/issues/180)
 
 ## [Enigmatica 4 v0.3.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.1) (02-12-2019)
 
