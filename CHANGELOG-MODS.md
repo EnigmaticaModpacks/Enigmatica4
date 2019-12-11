@@ -1,3 +1,12 @@
+# 0.3.2 -> 0.3.3
+
+* TorchBandolier-1.14.4-1.3.2+7.jar
+* Xaeros_Minimap_1.19.2_Forge_1.14.4.jar
+* Quark-r2.0-201.jar
+* minecolonies-0.10.586-ALPHA-universal.jar
+* LargeFluidTank-14.8.9.jar
+* entityspring-4.0.1.jar
+
 # 0.3.1 -> 0.3.2
 
 * BetterBurning-1.14.4-1.0.1.jar
