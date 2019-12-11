@@ -365,6 +365,7 @@
 	"New Stone Types" = true
 	Stonelings = true
 	"Lush Underground Biome" = true
+	"Big Dungeon" = true
 	Speleothems = true
 	Biotite = true
 	"Big Stone Clusters" = true
@@ -383,6 +384,7 @@
 	"Slime Underground Biome" = true
 	"Spider Nest Underground Biome" = true
 	"Monster Box" = true
+	"Nether Obsidian Spikes" = true
 	"Mega Caves" = true
 
 	[world.monster_box]
@@ -547,6 +549,8 @@
 				"Is Blacklist" = false
 
 	[world.cave_crystal_underground_biome]
+		#The chance that a crystal can grow, this is on average 1 in X world ticks, set to a higher value to make them grow slower. Minimum is 1, for every tick. Set to 0 to disable growth.
+		"Cave Crystal Growth Chance" = 5
 		"Crystals Grow In Lava" = false
 		"Crystal Spawn Chance" = 0.025
 		"Crystals Craft Runes" = true
@@ -635,6 +639,19 @@
 			[world.sandstone_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
+
+	[world.nether_obsidian_spikes]
+		#The chance for a chunk to contain spikes (1 is 100%, 0 is 0%)
+		"Chance Per Chunk" = 0.1
+		"Big Spike Spawners" = true
+		#Should a chunk have spikes, how many would the generator try to place
+		"Tries Per Chunk" = 4
+		#The chance for a spike to be big (1 is 100%, 0 is 0%)
+		"Big Spike Chance" = 0.03
+
+		[world.nether_obsidian_spikes.dimensions]
+			Dimensions = ["minecraft:the_nether"]
+			"Is Blacklist" = false
 
 	[world.biotite]
 		"Clusters Per Dragon Tick" = 16
@@ -749,6 +766,7 @@
 				"Is Blacklist" = false
 
 	[world.spider_nest_underground_biome]
+		"Enabled Wrapped" = true
 
 		[world.spider_nest_underground_biome.biome_settings]
 			"Horizontal Size" = 26
@@ -785,6 +803,13 @@
 			[world.brimstone_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
+
+	[world.big_dungeon]
+		"Loot Table" = "minecraft:chests/simple_dungeon"
+		#The chance that a big dungeon spawn candidate will be allowed to spawn. 0.2 is 20%, which is the same as the Pillager Outpost.
+		"Spawn Chance" = 0.1
+		"Max Rooms" = 14
+		"Chest Chance" = 0.5
 
 	[world.blossom_trees]
 

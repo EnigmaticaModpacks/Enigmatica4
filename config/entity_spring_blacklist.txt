@@ -1,0 +1,22 @@
+#Remove entities at your own risk!
+minecraft:item
+minecraft:xp_orb
+minecraft:area_effect_cloud
+minecraft:egg
+minecraft:leash_knot
+minecraft:painting
+minecraft:arrow
+minecraft:snowball
+minecraft:fireball
+minecraft:small_fireball
+minecraft:ender_pearl
+minecraft:eye_of_ender_signal
+minecraft:potion
+minecraft:xp_bottle
+minecraft:item_frame
+minecraft:wither_skull
+minecraft:spectral_arrow
+minecraft:shulker_bullet
+minecraft:dragon_fireball
+minecraft:dragon_fireball
+minecraft:llama_spit
