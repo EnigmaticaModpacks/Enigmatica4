@@ -17,7 +17,10 @@ var recipes as IIngredient[][IItemStack] = {
     [<item:minecraft:gravel>, <item:minecraft:gravel>, <item:minecraft:gravel>],
 
     <item:simplefarming:cornbread> : 
-    [<tag:simplefarming:grain>, <tag:forge:corn>, <tag:simplefarming:grain>]
+    [<tag:simplefarming:grain>, <tag:forge:corn>, <tag:simplefarming:grain>],
+
+    <item:minecraft:chest> :
+    [<tag:forge:chests/wooden>]
 /* 
      : 
     [],
