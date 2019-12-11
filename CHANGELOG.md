@@ -1,9 +1,17 @@
-## [Enigmatica 4 v0.3.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.3) ()
+## [Enigmatica 4 v0.3.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.3) (11-12-2019)
 *Forge-1.14.4-28.1.103*
+
+**Changes**
+
+- Add Torch Bandolier [\#186](https://github.com/NillerMedDild/Enigmatica4/issues/186) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Entity Spring [\#185](https://github.com/NillerMedDild/Enigmatica4/issues/185) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 
 **Fixed bugs**
 
 - Crashing when close to another player. Temporarily removed KubeJS to fix this issue.
+- Dimensional Shard Ore and Nether Dimensional Shard Ore cannot be vein mined. [\#189](https://github.com/NillerMedDild/Enigmatica4/issues/189) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- Vanilla chest recipe conflicting with Quark \(All wooden chests can now be crafted in the vanilla chest\) [\#188](https://github.com/NillerMedDild/Enigmatica4/issues/188) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- Ender Biotite from Quark can't be veinmined [\#187](https://github.com/NillerMedDild/Enigmatica4/issues/187) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 
 ## [Enigmatica 4 v0.3.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.2) (10-12-2019)
 *Forge-1.14.4-28.1.103*
@@ -19,11 +27,14 @@
 - Add Better Burning [\#172](https://github.com/NillerMedDild/Enigmatica4/issues/172) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Platinum Ore can now be veinmined [\#171](https://github.com/NillerMedDild/Enigmatica4/issues/171) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 - Removed ChemLib, I forgot to remove it in 0.3.1
+- Add Botany Pots [\#184](https://github.com/NillerMedDild/Enigmatica4/issues/184) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 
 **Fixed bugs**
 
 - Hopefully fixed the bug that causes recipes to suddenly freak out and break
 - Log to sticks rendering issue [\#180](https://github.com/NillerMedDild/Enigmatica4/issues/180)
+- Tetra Holosphere breaks crafting when used. [\#174](https://github.com/NillerMedDild/Enigmatica4/issues/174)
+- Cannot Extract Output from Crafting Station [\#173](https://github.com/NillerMedDild/Enigmatica4/issues/173)
 
 ## [Enigmatica 4 v0.3.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.1) (02-12-2019)
 
