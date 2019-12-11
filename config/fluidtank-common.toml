@@ -9,8 +9,6 @@
 	showInvisibleTankInTab = false
 	#Remove all recipe to make tanks.
 	RemoveRecipe = false
-	#True to use other render system for item. It doesn't show the content of tanks.
-	enableOldRender = false
 
 	#Recipe settings
 	[common.recipe]
