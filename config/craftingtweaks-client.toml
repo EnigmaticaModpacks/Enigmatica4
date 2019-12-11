@@ -13,4 +13,9 @@
 	[client.addons]
 		#State of this addon. Can be ENABLED, BUTTONS_ONLY, HOTKEYS_ONLY or DISABLED.
 		minecraft = "ENABLED"
+		refinedstorage = "ENABLED"
+		#State of this addon. Can be ENABLED, BUTTONS_ONLY, HOTKEYS_ONLY or DISABLED.
+		craftingstation = "ENABLED"
+		#State of this addon. Can be ENABLED, BUTTONS_ONLY, HOTKEYS_ONLY or DISABLED.
+		fastbench = "ENABLED"
 
