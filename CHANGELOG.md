@@ -1,3 +1,10 @@
+## [Enigmatica 4 v0.3.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.4) (11-12-2019)
+*Forge-1.14.4-28.1.103*
+
+**Fixed bugs**
+
+- Servers being unable to start. Had to remove EntitySpring to resolve the issue.
+
 ## [Enigmatica 4 v0.3.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.3) (11-12-2019)
 *Forge-1.14.4-28.1.103*
 

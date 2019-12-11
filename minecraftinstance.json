@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-12-11T18:33:31.8067617Z",
+  "lastPlayed": "2019-12-11T19:28:00.0274685Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -45,6 +45,21 @@
   "installPath": "C:\\Users\\Niels\\Documents\\Curse\\Minecraft\\Instances\\Enigmatica 4\\",
   "name": "Enigmatica 4",
   "cachedScans": [
+    {
+      "folderName": "minecolonies-0.10.586-ALPHA-universal.jar",
+      "fingerprint": 758534237,
+      "fileDateHash": 2042759722,
+      "sectionID": 8,
+      "individualFingerprints": [
+        758534237
+      ],
+      "status": 1,
+      "timestamp": "2019-12-11T18:54:56.8979564Z",
+      "lastWriteTimeUtc": "2019-12-11T18:25:10.9086309Z",
+      "queryTimestamp": "2019-12-11T18:54:58.7742457Z",
+      "fileCount": 1,
+      "fileSize": 33891745
+    },
     {
       "folderName": "corail_woodcutter-1.0.6-1.14.4.jar",
       "fingerprint": 2108200510,
@@ -284,21 +299,6 @@
       "queryTimestamp": "2019-12-10T20:19:48.8123774Z",
       "fileCount": 1,
       "fileSize": 106738
-    },
-    {
-      "folderName": "LargeFluidTank-14.8.8.jar",
-      "fingerprint": 2756649361,
-      "fileDateHash": 811061018,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2756649361
-      ],
-      "status": 1,
-      "timestamp": "2019-11-29T20:27:53.2598322Z",
-      "lastWriteTimeUtc": "2019-11-29T19:55:40.1136044Z",
-      "queryTimestamp": "2019-12-10T20:19:48.8133774Z",
-      "fileCount": 1,
-      "fileSize": 424076
     },
     {
       "folderName": "traverse-1.14.4-2.0.3.jar",
@@ -796,6 +796,21 @@
       "fileSize": 390310
     },
     {
+      "folderName": "TorchBandolier-1.14.4-1.3.2+7.jar",
+      "fingerprint": 19703331,
+      "fileDateHash": 1420582721,
+      "sectionID": 8,
+      "individualFingerprints": [
+        19703331
+      ],
+      "status": 1,
+      "timestamp": "2019-12-11T18:54:57.2779482Z",
+      "lastWriteTimeUtc": "2019-12-11T18:32:54.9741402Z",
+      "queryTimestamp": "2019-12-11T18:54:58.8002719Z",
+      "fileCount": 1,
+      "fileSize": 35414
+    },
+    {
       "folderName": "AutoRegLib-1.4-35.jar",
       "fingerprint": 1019835193,
       "fileDateHash": 3381155323,
@@ -857,8 +872,8 @@
     },
     {
       "folderName": "New World",
-      "fingerprint": 84638868,
-      "fileDateHash": 4044286642,
+      "fingerprint": 3582711590,
+      "fileDateHash": 343176568,
       "sectionID": 10,
       "individualFingerprints": [
         13452606,
@@ -869,16 +884,14 @@
         60705865,
         61433555,
         62889865,
-        99206833,
         111493481,
-        149070860,
         152020343,
         165867751,
+        192230911,
         197890365,
         214943194,
         217377245,
         218358494,
-        224133928,
         242172158,
         244199221,
         261684650,
@@ -903,6 +916,7 @@
         597584472,
         607486413,
         619284709,
+        633689045,
         639580374,
         648823264,
         659607108,
@@ -910,8 +924,6 @@
         676282221,
         685416594,
         698814472,
-        699599441,
-        709837419,
         726415094,
         750159554,
         777628148,
@@ -919,11 +931,11 @@
         795930317,
         804866216,
         818135140,
-        832089464,
         862043715,
         875682094,
         889502969,
         890531325,
+        898062590,
         952040480,
         966178189,
         1022357334,
@@ -934,7 +946,6 @@
         1113071463,
         1118189028,
         1118697579,
-        1133029383,
         1136151338,
         1139524373,
         1155996283,
@@ -949,6 +960,7 @@
         1246405276,
         1250421581,
         1250467749,
+        1296111564,
         1298659556,
         1319483855,
         1330266059,
@@ -957,7 +969,6 @@
         1375089338,
         1375234171,
         1382156633,
-        1388413099,
         1395198490,
         1415543630,
         1465703453,
@@ -1003,16 +1014,19 @@
         1939461946,
         1963333704,
         1976517355,
+        2002844455,
         2005445212,
         2021133744,
         2039055248,
         2042380319,
         2054452009,
+        2080799046,
         2092701282,
         2104293029,
         2104479308,
         2106914143,
         2108330129,
+        2108661582,
         2114854051,
         2120267612,
         2129604139,
@@ -1034,6 +1048,8 @@
         2310379489,
         2314246070,
         2338494993,
+        2362205303,
+        2367756171,
         2375435050,
         2406175595,
         2407601020,
@@ -1048,6 +1064,7 @@
         2465172287,
         2466534822,
         2468308810,
+        2477098348,
         2489116440,
         2490295127,
         2504216553,
@@ -1088,6 +1105,7 @@
         2985141761,
         3017053844,
         3023792559,
+        3033876936,
         3041612461,
         3043238076,
         3048806159,
@@ -1098,7 +1116,6 @@
         3093437168,
         3099276872,
         3104575957,
-        3108122936,
         3110637692,
         3113674335,
         3116127440,
@@ -1115,14 +1132,13 @@
         3158151242,
         3160634043,
         3168402656,
-        3168814891,
         3174937935,
         3185162013,
         3209328839,
         3230598683,
         3230745355,
-        3240036410,
         3264620416,
+        3275069492,
         3294882692,
         3310251508,
         3322075021,
@@ -1130,6 +1146,7 @@
         3328943669,
         3331201195,
         3347746331,
+        3360824095,
         3411323043,
         3421601622,
         3423175787,
@@ -1146,7 +1163,6 @@
         3546341035,
         3547864600,
         3558049527,
-        3562134770,
         3562867299,
         3571744889,
         3579278602,
@@ -1155,6 +1171,7 @@
         3655192697,
         3665613008,
         3698335841,
+        3702208118,
         3712662945,
         3720572550,
         3721660863,
@@ -1182,6 +1199,7 @@
         3920120077,
         3967643555,
         3983694990,
+        3989732488,
         4001877680,
         4022209149,
         4025946928,
@@ -1191,29 +1209,29 @@
         4048090220,
         4055148024,
         4069142448,
-        4070927224,
-        4102280443,
         4116531114,
         4120643079,
+        4124614135,
+        4136493134,
         4146622259,
         4150065028,
         4159316102,
         4166732428,
         4202044555,
         4211319981,
+        4220614990,
         4254541074,
         4257007157,
         4273590207,
         4273718682,
         4274432982,
         4275280226,
-        4283907430,
-        4291634454
+        4283907430
       ],
       "status": 1,
-      "timestamp": "2019-12-10T20:19:48.0067656Z",
-      "lastWriteTimeUtc": "2019-12-10T20:13:41.7761023Z",
-      "queryTimestamp": "2019-12-10T20:19:48.8263934Z",
+      "timestamp": "2019-12-11T18:54:57.30496Z",
+      "lastWriteTimeUtc": "2019-12-11T18:54:56.1269465Z",
+      "queryTimestamp": "2019-12-11T18:54:58.8032492Z",
       "fileCount": 17,
       "fileSize": 0
     },
@@ -1306,6 +1324,21 @@
       "queryTimestamp": "2019-12-10T20:19:48.8283779Z",
       "fileCount": 1,
       "fileSize": 22833
+    },
+    {
+      "folderName": "LargeFluidTank-14.8.9.jar",
+      "fingerprint": 2085999998,
+      "fileDateHash": 812049116,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2085999998
+      ],
+      "status": 1,
+      "timestamp": "2019-12-11T18:54:56.890958Z",
+      "lastWriteTimeUtc": "2019-12-11T18:23:37.0558947Z",
+      "queryTimestamp": "2019-12-11T18:54:58.8052462Z",
+      "fileCount": 1,
+      "fileSize": 428711
     },
     {
       "folderName": "Placebo-1.14.4-2.3.5.jar",
@@ -1486,21 +1519,6 @@
       "queryTimestamp": "2019-12-10T20:19:48.8313778Z",
       "fileCount": 1,
       "fileSize": 225731
-    },
-    {
-      "folderName": "Xaeros_Minimap_1.19.1_Forge_1.14.4.jar",
-      "fingerprint": 568251360,
-      "fileDateHash": 1218468348,
-      "sectionID": 8,
-      "individualFingerprints": [
-        568251360
-      ],
-      "status": 1,
-      "timestamp": "2019-12-07T21:30:20.4528973Z",
-      "lastWriteTimeUtc": "2019-12-07T10:21:18.5653483Z",
-      "queryTimestamp": "2019-12-10T20:19:48.8323785Z",
-      "fileCount": 1,
-      "fileSize": 422857
     },
     {
       "folderName": "autorun-1.14.4-1.0.5.jar",
@@ -2043,21 +2061,6 @@
       "fileSize": 1832618
     },
     {
-      "folderName": "Quark-r2.0-200.jar",
-      "fingerprint": 2260882806,
-      "fileDateHash": 1157667675,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2260882806
-      ],
-      "status": 1,
-      "timestamp": "2019-12-07T21:30:20.1898941Z",
-      "lastWriteTimeUtc": "2019-12-07T10:00:30.2721302Z",
-      "queryTimestamp": "2019-12-10T20:19:48.843376Z",
-      "fileCount": 1,
-      "fileSize": 3924320
-    },
-    {
       "folderName": "mightyarchitect-mc1.14.4_v0.5.jar",
       "fingerprint": 3287963343,
       "fileDateHash": 2432474189,
@@ -2251,6 +2254,21 @@
       "queryTimestamp": "2019-12-10T20:19:48.847377Z",
       "fileCount": 1,
       "fileSize": 30705
+    },
+    {
+      "folderName": "Quark-r2.0-201.jar",
+      "fingerprint": 3437194872,
+      "fileDateHash": 1926019205,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3437194872
+      ],
+      "status": 1,
+      "timestamp": "2019-12-11T18:54:57.2279464Z",
+      "lastWriteTimeUtc": "2019-12-11T18:25:14.6404245Z",
+      "queryTimestamp": "2019-12-11T18:54:58.8302489Z",
+      "fileCount": 1,
+      "fileSize": 4201015
     },
     {
       "folderName": "extraboats-1.1.2-1.14.4.jar",
@@ -2478,6 +2496,21 @@
       "fileSize": 4587686
     },
     {
+      "folderName": "Xaeros_Minimap_1.19.2_Forge_1.14.4.jar",
+      "fingerprint": 928439304,
+      "fileDateHash": 1101417967,
+      "sectionID": 8,
+      "individualFingerprints": [
+        928439304
+      ],
+      "status": 1,
+      "timestamp": "2019-12-11T18:54:57.2789573Z",
+      "lastWriteTimeUtc": "2019-12-11T18:28:26.3408836Z",
+      "queryTimestamp": "2019-12-11T18:54:58.8382476Z",
+      "fileCount": 1,
+      "fileSize": 424666
+    },
+    {
       "folderName": "CommonCapabilities-1.14.4-2.4.4.jar",
       "fingerprint": 2196913905,
       "fileDateHash": 2606153243,
@@ -2521,21 +2554,6 @@
       "queryTimestamp": "2019-12-10T20:19:48.8533774Z",
       "fileCount": 1,
       "fileSize": 22261
-    },
-    {
-      "folderName": "minecolonies-0.10.582-ALPHA-universal.jar",
-      "fingerprint": 3768327419,
-      "fileDateHash": 3905094574,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3768327419
-      ],
-      "status": 1,
-      "timestamp": "2019-12-10T20:19:47.7367512Z",
-      "lastWriteTimeUtc": "2019-12-10T19:32:58.2906648Z",
-      "queryTimestamp": "2019-12-10T20:19:48.8533774Z",
-      "fileCount": 1,
-      "fileSize": 33891715
     },
     {
       "folderName": "dimdungeons-1.02-forge-1.14.4.jar",
@@ -2704,7 +2722,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2019-12-10T20:19:49.8634858Z",
+  "lastPreviousMatchUpdate": "2019-12-11T18:54:59.4552472Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.14.4",
@@ -7456,7 +7474,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 277616,
@@ -15246,79 +15264,6 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
-    },
-    {
-      "addonID": 290748,
-      "gameInstanceID": "bc6034d2-d175-4aaf-9871-aaf6325f8ddd",
-      "installedFile": {
-        "id": 2840956,
-        "displayName": "Entity Spring 4.0.1 - MC 1.14.4",
-        "fileName": "entityspring-4.0.1.jar",
-        "fileDate": "2019-12-11T12:02:06.277Z",
-        "fileLength": 37498,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2840/956/entityspring-4.0.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3604798957,
-            "type": 0
-          },
-          {
-            "foldername": "org",
-            "fingerprint": 2810844869,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2465764503,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 3401335152,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 4253522632,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1086133983,
-        "gameVersion": [
-          "1.14.4",
-          "Forge"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "entityspring-4.0.1.jar"
-      },
-      "dateInstalled": "2019-12-11T18:23:04.5091065Z",
-      "dateUpdated": "2019-12-11T18:23:04.6770729Z",
-      "dateLastUpdateAttempted": "2019-12-11T18:23:04.6770729Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
     },
     {
       "addonID": 255105,

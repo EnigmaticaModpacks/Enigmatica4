@@ -1,3 +1,7 @@
+# 0.3.3 -> 0.3.4
+
+* Entity Spring (removed)
+
 # 0.3.2 -> 0.3.3
 
 * TorchBandolier-1.14.4-1.3.2+7.jar
