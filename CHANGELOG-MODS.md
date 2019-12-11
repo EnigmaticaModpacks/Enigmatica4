@@ -1,6 +1,7 @@
 # 0.3.3 -> 0.3.4
 
 * Entity Spring (removed)
+* A Lib (removed)
 
 # 0.3.2 -> 0.3.3
 
