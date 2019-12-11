@@ -1,11 +1,9 @@
 ## [Enigmatica 4 v0.3.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.3) ()
+*Forge-1.14.4-28.1.103*
 
-**Changes**
-
-- 
 **Fixed bugs**
 
--
+- Crashing when close to another player. Temporarily removed KubeJS to fix this issue.
 
 ## [Enigmatica 4 v0.3.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.2) (10-12-2019)
 *Forge-1.14.4-28.1.103*
