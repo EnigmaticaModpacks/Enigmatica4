@@ -3843,14 +3843,14 @@
       "addonID": 352622,
       "gameInstanceID": "00fa37ba-d3f2-45ff-996c-a3d8189b9573",
       "installedFile": {
-        "id": 2833018,
-        "displayName": "justenoughbeacons-1.1.jar",
-        "fileName": "justenoughbeacons-1.1.jar",
-        "fileDate": "2019-11-26T22:23:07.217Z",
-        "fileLength": 17661,
+        "id": 2842250,
+        "displayName": "justenoughbeacons-1.2.jar",
+        "fileName": "justenoughbeacons-1.2.jar",
+        "fileDate": "2019-12-13T22:29:43.467Z",
+        "fileLength": 17723,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2833/18/justenoughbeacons-1.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2842/250/justenoughbeacons-1.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -3858,12 +3858,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1103323202,
+            "fingerprint": 313845171,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2216988082,
+            "fingerprint": 1098841487,
             "type": 0
           },
           {
@@ -3877,7 +3877,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3869665822,
+        "packageFingerprint": 4035281684,
         "gameVersion": [
           "1.14.4"
         ],
@@ -3890,12 +3890,12 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "justenoughbeacons-1.1.jar"
+        "FileNameOnDisk": "justenoughbeacons-1.2.jar"
       },
       "dateInstalled": "2019-11-29T20:28:51.8037155Z",
-      "dateUpdated": "2019-11-29T20:28:51.8977446Z",
-      "dateLastUpdateAttempted": "2019-11-29T20:28:51.8977446Z",
-      "status": 3,
+      "dateUpdated": "2019-12-14T18:56:48.7265965Z",
+      "dateLastUpdateAttempted": "2019-12-14T18:56:48.7265965Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4322,14 +4322,14 @@
       "addonID": 289712,
       "gameInstanceID": "00fa37ba-d3f2-45ff-996c-a3d8189b9573",
       "installedFile": {
-        "id": 2837589,
-        "displayName": "tetra-1.14.4-1.0.7.jar",
-        "fileName": "tetra-1.14.4-1.0.7.jar",
-        "fileDate": "2019-12-06T21:32:34.79Z",
-        "fileLength": 2299420,
+        "id": 2841874,
+        "displayName": "tetra-1.14.4-1.1.0.jar",
+        "fileName": "tetra-1.14.4-1.1.0.jar",
+        "fileDate": "2019-12-13T00:23:22.333Z",
+        "fileLength": 2302882,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2837/589/tetra-1.14.4-1.0.7.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2841/874/tetra-1.14.4-1.1.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -4344,22 +4344,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3869173222,
+            "fingerprint": 1196581056,
             "type": 0
           },
           {
             "foldername": "se",
-            "fingerprint": 578264293,
+            "fingerprint": 2286693416,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1907410054,
+            "fingerprint": 3904800906,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 1716647238,
+            "fingerprint": 2686668172,
             "type": 0
           },
           {
@@ -4368,7 +4368,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2114960727,
+        "packageFingerprint": 3914427464,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -4382,12 +4382,12 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "tetra-1.14.4-1.0.7.jar"
+        "FileNameOnDisk": "tetra-1.14.4-1.1.0.jar"
       },
       "dateInstalled": "2019-11-24T20:13:42.8873195Z",
-      "dateUpdated": "2019-12-07T10:00:39.3665009Z",
-      "dateLastUpdateAttempted": "2019-12-07T10:00:39.3665009Z",
-      "status": 3,
+      "dateUpdated": "2019-12-14T18:56:59.4379156Z",
+      "dateLastUpdateAttempted": "2019-12-14T18:56:59.4379156Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4571,6 +4571,68 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 354339,
+      "gameInstanceID": "00fa37ba-d3f2-45ff-996c-a3d8189b9573",
+      "installedFile": {
+        "id": 2842440,
+        "displayName": "OpenLoader-1.14.4-1.0.3.jar",
+        "fileName": "OpenLoader-1.14.4-1.0.3.jar",
+        "fileDate": "2019-12-14T09:11:08.907Z",
+        "fileLength": 7345,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2842/440/OpenLoader-1.14.4-1.0.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 2842441,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2242289602,
+            "type": 0
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 4255296860,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 930601385,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2597440541,
+        "gameVersion": [
+          "1.14.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "OpenLoader-1.14.4-1.0.3.jar"
+      },
+      "dateInstalled": "2019-12-14T19:06:47.9462339Z",
+      "dateUpdated": "2019-12-14T19:06:47.9482097Z",
+      "dateLastUpdateAttempted": "2019-12-14T19:06:47.9482097Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 348215,
@@ -7582,16 +7644,16 @@
       "addonID": 353928,
       "gameInstanceID": "00fa37ba-d3f2-45ff-996c-a3d8189b9573",
       "installedFile": {
-        "id": 2839108,
-        "displayName": "BotanyPots-1.14.4-1.0.5.jar",
-        "fileName": "BotanyPots-1.14.4-1.0.5.jar",
-        "fileDate": "2019-12-09T21:47:28.727Z",
-        "fileLength": 143668,
+        "id": 2842003,
+        "displayName": "BotanyPots-1.14.4-1.0.6.jar",
+        "fileName": "BotanyPots-1.14.4-1.0.6.jar",
+        "fileDate": "2019-12-13T09:27:10.663Z",
+        "fileLength": 161897,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2839/108/BotanyPots-1.14.4-1.0.5.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2842/3/BotanyPots-1.14.4-1.0.6.jar",
         "isAlternate": false,
-        "alternateFileId": 2839109,
+        "alternateFileId": 2842004,
         "dependencies": [
           {
             "id": 0,
@@ -7604,7 +7666,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1712944884,
+            "fingerprint": 811604931,
             "type": 0
           },
           {
@@ -7619,7 +7681,7 @@
           },
           {
             "foldername": "data",
-            "fingerprint": 585669634,
+            "fingerprint": 1318835218,
             "type": 0
           },
           {
@@ -7628,7 +7690,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1026364916,
+        "packageFingerprint": 267857313,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -7642,12 +7704,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "BotanyPots-1.14.4-1.0.5.jar"
+        "FileNameOnDisk": "BotanyPots-1.14.4-1.0.6.jar"
       },
       "dateInstalled": "2019-12-09T19:06:49.155676Z",
-      "dateUpdated": "2019-12-10T19:32:00.4867815Z",
-      "dateLastUpdateAttempted": "2019-12-10T19:32:00.4867815Z",
-      "status": 3,
+      "dateUpdated": "2019-12-14T18:56:42.6010097Z",
+      "dateLastUpdateAttempted": "2019-12-14T18:56:42.6010097Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8291,26 +8353,20 @@
       "addonID": 238086,
       "gameInstanceID": "00fa37ba-d3f2-45ff-996c-a3d8189b9573",
       "installedFile": {
-        "id": 2841149,
-        "displayName": "kubejs-forge-1.14.4-2.1.0.20.jar",
-        "fileName": "kubejs-forge-1.14.4-2.1.0.20.jar",
-        "fileDate": "2019-12-11T18:59:55.417Z",
-        "fileLength": 430455,
+        "id": 2841768,
+        "displayName": "kubejs-forge-1.14.4-2.1.0.21.jar",
+        "fileName": "kubejs-forge-1.14.4-2.1.0.21.jar",
+        "fileDate": "2019-12-12T19:49:55.24Z",
+        "fileLength": 430556,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2841/149/kubejs-forge-1.14.4-2.1.0.20.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2841/768/kubejs-forge-1.14.4-2.1.0.21.jar",
         "isAlternate": false,
-        "alternateFileId": 2841150,
+        "alternateFileId": 2841769,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 278398,
+            "addonId": 328085,
             "type": 2,
             "fileId": 0
           },
@@ -8322,13 +8378,19 @@
           },
           {
             "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
             "addonId": 342117,
             "type": 2,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 328085,
+            "addonId": 278398,
             "type": 2,
             "fileId": 0
           }
@@ -8337,12 +8399,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3135838142,
+            "fingerprint": 1632599625,
             "type": 0
           },
           {
             "foldername": "dev",
-            "fingerprint": 1243968442,
+            "fingerprint": 3087042781,
             "type": 0
           },
           {
@@ -8361,7 +8423,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3787328010,
+        "packageFingerprint": 2925981589,
         "gameVersion": [
           "1.14.4"
         ],
@@ -8374,12 +8436,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "kubejs-forge-1.14.4-2.1.0.20.jar"
+        "FileNameOnDisk": "kubejs-forge-1.14.4-2.1.0.21.jar"
       },
       "dateInstalled": "2019-12-11T19:55:59.8858627Z",
-      "dateUpdated": "2019-12-11T19:55:59.9288529Z",
-      "dateLastUpdateAttempted": "2019-12-11T19:55:59.9288529Z",
-      "status": 3,
+      "dateUpdated": "2019-12-14T19:01:59.263721Z",
+      "dateLastUpdateAttempted": "2019-12-14T19:01:59.263721Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8466,16 +8528,16 @@
       "addonID": 291006,
       "gameInstanceID": "00fa37ba-d3f2-45ff-996c-a3d8189b9573",
       "installedFile": {
-        "id": 2840900,
-        "displayName": "LargeFluidTank-14.8.9.jar",
-        "fileName": "LargeFluidTank-14.8.9.jar",
-        "fileDate": "2019-12-11T08:43:50.543Z",
-        "fileLength": 428711,
+        "id": 2842551,
+        "displayName": "LargeFluidTank-14.9.0.jar",
+        "fileName": "LargeFluidTank-14.9.0.jar",
+        "fileDate": "2019-12-14T12:46:05.333Z",
+        "fileLength": 448039,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2840/900/LargeFluidTank-14.8.9.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2842/551/LargeFluidTank-14.9.0.jar",
         "isAlternate": false,
-        "alternateFileId": 2840901,
+        "alternateFileId": 2842552,
         "dependencies": [
           {
             "id": 0,
@@ -8488,22 +8550,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3350524612,
+            "fingerprint": 2706685827,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 4245722864,
+            "fingerprint": 2831363803,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2961662884,
+            "fingerprint": 3005993261,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 1104728538,
+            "fingerprint": 247676742,
             "type": 0
           },
           {
@@ -8512,7 +8574,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2085999998,
+        "packageFingerprint": 671164394,
         "gameVersion": [
           "1.14.4"
         ],
@@ -8525,12 +8587,12 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "LargeFluidTank-14.8.9.jar"
+        "FileNameOnDisk": "LargeFluidTank-14.9.0.jar"
       },
       "dateInstalled": "2019-10-26T17:17:44.6093419Z",
-      "dateUpdated": "2019-12-11T18:23:37.0688873Z",
-      "dateLastUpdateAttempted": "2019-12-11T18:23:37.0688873Z",
-      "status": 3,
+      "dateUpdated": "2019-12-14T18:56:53.063905Z",
+      "dateLastUpdateAttempted": "2019-12-14T18:56:53.063905Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12294,16 +12356,16 @@
       "addonID": 245506,
       "gameInstanceID": "00fa37ba-d3f2-45ff-996c-a3d8189b9573",
       "installedFile": {
-        "id": 2841279,
-        "displayName": "minecolonies-0.10.588-BETA-universal.jar",
-        "fileName": "minecolonies-0.10.588-BETA-universal.jar",
-        "fileDate": "2019-12-11T22:19:24.72Z",
-        "fileLength": 33891743,
-        "releaseType": 2,
+        "id": 2842479,
+        "displayName": "minecolonies-0.10.593-RELEASE-universal.jar",
+        "fileName": "minecolonies-0.10.593-RELEASE-universal.jar",
+        "fileDate": "2019-12-14T10:37:19.047Z",
+        "fileLength": 33891749,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2841/279/minecolonies-0.10.588-BETA-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2842/479/minecolonies-0.10.593-RELEASE-universal.jar",
         "isAlternate": false,
-        "alternateFileId": 2841280,
+        "alternateFileId": 2842481,
         "dependencies": [
           {
             "id": 0,
@@ -12316,7 +12378,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2333640018,
+            "fingerprint": 1632990068,
             "type": 0
           },
           {
@@ -12340,7 +12402,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3719936197,
+        "packageFingerprint": 94948527,
         "gameVersion": [
           "1.14.4"
         ],
@@ -12353,12 +12415,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "minecolonies-0.10.588-BETA-universal.jar"
+        "FileNameOnDisk": "minecolonies-0.10.593-RELEASE-universal.jar"
       },
       "dateInstalled": "2019-11-13T19:14:55.6918442Z",
-      "dateUpdated": "2019-12-12T18:33:53.3654314Z",
-      "dateLastUpdateAttempted": "2019-12-12T18:33:53.3654314Z",
-      "status": 3,
+      "dateUpdated": "2019-12-14T19:03:34.4047989Z",
+      "dateLastUpdateAttempted": "2019-12-14T19:03:34.4047989Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14857,6 +14919,84 @@
       "installedTargets": null
     },
     {
+      "addonID": 233342,
+      "gameInstanceID": "00fa37ba-d3f2-45ff-996c-a3d8189b9573",
+      "installedFile": {
+        "id": 2842302,
+        "displayName": "fairylights-2.1.13-1.14.4",
+        "fileName": "fairylights-2.1.13-1.14.4.jar",
+        "fileDate": "2019-12-14T00:27:53.523Z",
+        "fileLength": 590722,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2842/302/fairylights-2.1.13-1.14.4.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3491340835,
+            "type": 0
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 3154574795,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1300998308,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 2853238543,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 2278060699,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 830928258,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2135992799,
+        "gameVersion": [
+          "1.14.4",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "fairylights-2.1.13-1.14.4.jar"
+      },
+      "dateInstalled": "2019-12-14T19:07:01.1940057Z",
+      "dateUpdated": "2019-12-14T19:07:01.1979843Z",
+      "dateLastUpdateAttempted": "2019-12-14T19:07:01.1979843Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 263420,
       "gameInstanceID": "00fa37ba-d3f2-45ff-996c-a3d8189b9573",
       "installedFile": {
@@ -14927,14 +15067,14 @@
       "addonID": 272335,
       "gameInstanceID": "00fa37ba-d3f2-45ff-996c-a3d8189b9573",
       "installedFile": {
-        "id": 2815719,
-        "displayName": "Cucumber-1.14.4-2.0.5.jar",
-        "fileName": "Cucumber-1.14.4-2.0.5.jar",
-        "fileDate": "2019-10-24T18:07:04.83Z",
-        "fileLength": 122954,
+        "id": 2842421,
+        "displayName": "Cucumber-1.14.4-2.0.6.jar",
+        "fileName": "Cucumber-1.14.4-2.0.6.jar",
+        "fileDate": "2019-12-14T07:27:39.703Z",
+        "fileLength": 127802,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2815/719/Cucumber-1.14.4-2.0.5.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2842/421/Cucumber-1.14.4-2.0.6.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -14942,56 +15082,44 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2847700340,
-            "type": 3
+            "fingerprint": 1506145850,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2631298649,
-            "type": 3
+            "fingerprint": 2818985084,
+            "type": 0
           },
           {
             "foldername": "assets",
             "fingerprint": 785234268,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 3205790006,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 1925323948,
+        "packageFingerprint": 278548311,
         "gameVersion": [
           "1.14.4"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000014.0000000004",
-            "gameVersion": "1.14.4",
-            "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
-            "gameVersionName": "1.14.4"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1688707,
-        "projectId": 272335,
-        "packageFingerprintId": 370608995,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
-        "gameVersionMappingId": 1981663,
-        "gameVersionId": 7469,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Cucumber-1.14.4-2.0.5.jar"
+        "FileNameOnDisk": "Cucumber-1.14.4-2.0.6.jar"
       },
       "dateInstalled": "2019-10-26T17:17:44.5937171Z",
-      "dateUpdated": "2018-10-26T17:17:44.5937171Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2019-12-14T18:56:45.5216761Z",
+      "dateLastUpdateAttempted": "2019-12-14T18:56:45.5216761Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
