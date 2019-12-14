@@ -26,7 +26,10 @@ var recipes as IIngredient[][IItemStack] = {
     [<item:bluepower:basalt>],
 	
 	<item:bluepower:basalt> :
-    [<item:quark:basalt>]
+    [<item:quark:basalt>],
+	
+	<item:minecraft:crafting_table> :
+    [<item:craftingstation:crafting_station_slab>]
 /* 
      : 
     [],
