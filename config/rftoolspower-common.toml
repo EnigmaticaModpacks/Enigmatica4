@@ -73,8 +73,6 @@
 		#RF per tick that the generator can charge items with
 		#Range: > 0
 		generatorChargePerTick = 1000
-		#Whether the coal generator should exist
-		enabled = true
 		#Amount of RF generated per tick
 		#Range: > 0
 		generatePerTick = 40
