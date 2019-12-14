@@ -3,7 +3,21 @@
 
 **Changes**
 
-- 
+- Everlasting Abilities: Reduced the max rarity of the totem you spawn with from 3 to 2.
+- Everlasting Abilities: Neutral mobs (pigs, cows...) can no longer drop totems.
+- Everlasting Abilities: Reduced the max level of the Haste ability from 5 to 2.
+- Everlasting Abilities: Reduced the max level of the Regeneration ability from 3 to 1.
+- Everlasting Abilities: Increased the rarity of the Regeneration ability from 2 to 3.
+- Everlasting Abilities: Increased the rarity of the Fire Resistance ability from 1 to 2.
+- Everlasting Abilities: Increased the xp needed to get Fire Resistance from 20 to 30 levels.
+- Everlasting Abilities: Removed the Saturation ability, as it allows you to skip food completely.
+- Everlasting Abilities: Removed the Resistance ability, as it makes you immortal on level 2 and above.
+- Everlasting Abilities: Increased rarity and xp requirement of Waterbreathing (from 0 to 1, and from 10 to 15)
+- Everlasting Abilities: Increased rarity and xp requirement of Strength (from 1 to 2, and from 20 to 35)
+- Everlasting Abilities: Decreased the max level of Strength from 5 to 3
+- Apotheosis: Changed the item that makes a spawner ignore spawn conditions from a Dragon Egg to a Dragon Scale, as they are replenishable.
+
+
 **Fixed bugs**
 
 - 
