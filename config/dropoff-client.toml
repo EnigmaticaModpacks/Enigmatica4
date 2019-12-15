@@ -19,12 +19,12 @@
 	"Highlight delay" = 3000
 	#Min number of slots that a container can be eligible for transfer to, this will exclude furnaces and most machines with a low slot count.
 	#Range: > 0
-	"Minimum Slots" = 6
+	"Minimum Slots" = 9
 	#Survival inventory button position width offset.
 	#Range: > -2147483648
-	"Survival inventory button X offset" = 50
+	"Survival inventory button X offset" = 58
 	#Survival inventory button position height offset.
 	#Range: > -2147483648
-	"Survival inventory button Y offset" = -18
-	"Blacklisted Block Entities" = ["minecraft:furnace", "minecraft:blast_furnace", "minecraft:smoker"]
+	"Survival inventory button Y offset" = -20
+	"Blacklisted Block Entities" = []
 
