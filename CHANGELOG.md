@@ -1,4 +1,4 @@
-## [Enigmatica 4 v0.3.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.5) ()
+## [Enigmatica 4 v0.3.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.5) (15-12-2019)
 *Forge-1.14.4-28.1.103*
 
 **Changes**
@@ -19,10 +19,23 @@
 - Convertion recipe between Crafting Station Slab and Crafting Table.
 - Blacklisted Curse of Vanishing from showing up in JEI.
 - Tetra: Ruby Sword compatibility (Credit mickelus)
+- Add Quickstack [\#206](https://github.com/NillerMedDild/Enigmatica4/issues/206) [[Keybinding](https://github.com/NillerMedDild/Enigmatica4/labels/Keybinding)] [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Evaluate Inspirations [\#204](https://github.com/NillerMedDild/Enigmatica4/issues/204) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- \[Suggestion\] Add the Dragon scale \(quark\) as a second option to disable checking conditions on Apotheosis spawners [\#201](https://github.com/NillerMedDild/Enigmatica4/issues/201) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- Everlasting Abilities: Thoughts [\#199](https://github.com/NillerMedDild/Enigmatica4/issues/199) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
+- Add Fairy Lights [\#194](https://github.com/NillerMedDild/Enigmatica4/issues/194) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Basalt Inconsistencies [\#193](https://github.com/NillerMedDild/Enigmatica4/issues/193) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- Add Open Loader \(Replaces Global Data Packs\) [\#192](https://github.com/NillerMedDild/Enigmatica4/issues/192) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Patchouli [\#191](https://github.com/NillerMedDild/Enigmatica4/issues/191) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Blacklist Stonelings from Apotheosis Spawners [\#156](https://github.com/NillerMedDild/Enigmatica4/issues/156) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
+- Added basic datapack structure for tetra + support for bluepower ruby swords [\#205](https://github.com/NillerMedDild/Enigmatica4/pull/205) ([mickelus](https://github.com/mickelus))
 
 **Fixed bugs**
 
-- 
+- Breaking Xnet connectors \(of any color\) drops routing connectors [\#207](https://github.com/NillerMedDild/Enigmatica4/issues/207)
+- Mobs aren't spawning on vector plates. [\#195](https://github.com/NillerMedDild/Enigmatica4/issues/195)
+- Crash KubeJS [\#190](https://github.com/NillerMedDild/Enigmatica4/issues/190)
+
 
 ## [Enigmatica 4 v0.3.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.4) (11-12-2019)
 *Forge-1.14.4-28.1.103*
