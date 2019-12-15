@@ -1,5 +1,33 @@
 # 0.3.4 -> 0.3.5
 
+* BambooBlocksV1.2.10.jar
+* BiomesOPlenty-1.14.4-9.0.0.261-universal.jar
+* Bookshelf-1.14.4-4.4.72.jar
+* BotanyPots-1.14.4-1.0.8.jar
+* CraftTweaker-1.14.4-5.0.1.149.jar
+* Cucumber-1.14.4-2.0.6.jar
+* DarkUtilities-1.14.4-2.0.10.jar
+* engineersdecor-1.14.4-1.0.17-b2.jar
+* fairylights-2.1.14-1.14.4.jar
+* industrial-foregoing-1.14.4-2.1.1-6df3f9e.jar
+* Inspirations-1.14.4-1.0.2.jar
+* justenoughbeacons-1.2.jar
+* kubejs-forge-1.14.4-2.1.0.21.jar
+* LargeFluidTank-14.9.0.jar
+* Mantle-1.14.4-1.4.32.jar
+* mcjtylib-1.14-3.5.16-alpha.jar
+* minecolonies-0.10.593-RELEASE-universal.jar
+* OpenLoader-1.14.4-1.0.3.jar
+* quickstack-2.0.2.jar
+* rftoolsbase-1.14-0.0.12-alpha.jar
+* rftoolsbuilder-1.14-1.2.11-alpha.jar
+* rftoolspower-1.14-1.2.12-alpha.jar
+* rftoolsstorage-1.14-0.0.7-alpha.jar
+* rftoolsutility-1.14-1.2.13-alpha.jar
+* StevesFactoryManager-1.14.4-3.0.0-alpha22.jar
+* tetra-1.14.4-1.1.3.jar
+* titanium-1.14.4-2.2.10.jar
+* xnet-1.14-1.8.6-alpha.jar
 
 # 0.3.3 -> 0.3.4
 
