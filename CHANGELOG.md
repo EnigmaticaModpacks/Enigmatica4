@@ -16,7 +16,9 @@
 - Everlasting Abilities: Increased rarity and xp requirement of Strength (from 1 to 2, and from 20 to 35)
 - Everlasting Abilities: Decreased the max level of Strength from 5 to 3
 - Apotheosis: Changed the item that makes a spawner ignore spawn conditions from a Dragon Egg to a Dragon Scale, as they are replenishable.
-
+- Convertion recipe between Crafting Station Slab and Crafting Table.
+- Blacklisted Curse of Vanishing from showing up in JEI.
+- Tetra: Ruby Sword compatibility (Credit mickelus)
 
 **Fixed bugs**
 
