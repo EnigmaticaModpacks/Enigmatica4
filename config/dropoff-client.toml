@@ -1,30 +1,30 @@
 
 [general]
-	#Ignore hotbar when transferring.
-	"Ignore Hotbar" = true
-	#Highlight nearby containers.
-	"Highlight containers" = true
-	# information to the chat when task is complete.
-	"Display Message" = true
 	#Show button in the player inventory.
 	"Show inventory button" = true
-	#Creative inventory button position width offset.
-	#Range: > -2147483648
-	"Creative inventory button X offset" = 71
-	#Creative inventory button position height offset.
-	#Range: > -2147483648
-	"Creative inventory button Y offset" = -63
-	#Blocks highlighting delay in milliseconds. Delay < 0 means forever.
-	#Range: > -1
-	"Highlight delay" = 3000
-	#Min number of slots that a container can be eligible for transfer to, this will exclude furnaces and most machines with a low slot count.
-	#Range: > 0
-	"Minimum Slots" = 9
 	#Survival inventory button position width offset.
 	#Range: > -2147483648
 	"Survival inventory button X offset" = 58
 	#Survival inventory button position height offset.
 	#Range: > -2147483648
 	"Survival inventory button Y offset" = -20
+	#Creative inventory button position width offset.
+	#Range: > -2147483648
+	"Creative inventory button X offset" = 71
+	#Highlight nearby containers.
+	"Highlight containers" = true
+	#Blocks highlighting delay in milliseconds. Delay < 0 means forever.
+	#Range: > -1
+	"Highlight delay" = 3000
+	# information to the chat when task is complete.
+	"Display Message" = true
+	#Ignore hotbar when transferring.
+	"Ignore Hotbar" = true
+	#Creative inventory button position height offset.
+	#Range: > -2147483648
+	"Creative inventory button Y offset" = -63
+	#Min number of slots that a container can be eligible for transfer to, this will exclude furnaces and most machines with a low slot count.
+	#Range: > 0
+	"Minimum Slots" = 9
 	"Blacklisted Block Entities" = []
 
