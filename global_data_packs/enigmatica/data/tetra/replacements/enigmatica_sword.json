@@ -1,2 +1,17 @@
 [
+    {
+        "predicate": {
+            "item": "bluepower:ruby_sword"
+        },
+        "item": "tetra:sword_modular",
+        "modules": {
+            "sword/blade": ["sword/basic_blade", "basic_blade/ruby"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/oak"],
+            "sword/guard": ["sword/makeshift_guard", "makeshift_guard/oak"]
+        },
+        "improvements": {
+            "sword/blade:arrested": 0
+        }
+    }
 ]

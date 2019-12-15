@@ -547,5 +547,24 @@
             "location": "tetra:items/module/sword/blade/basic/metal",
             "tint": "knightmetal"
         }]
+    },
+    {
+        "key": "basic_blade/ruby",
+        "durability": 730,
+        "integrity": -2,
+        "magicCapacity": 10,
+        "damage": 5,
+        "attackSpeed": 1.65,
+        "effects": {
+            "sweeping": 1
+        },
+        "capabilities": {
+            "cut": [1, 0.9375]
+        },
+        "glyph": { "tint": "ff3859" },
+        "models": [{
+            "location": "tetra:items/module/sword/blade/basic/metal",
+            "tint": "ff3859"
+        }]
     }
 ]

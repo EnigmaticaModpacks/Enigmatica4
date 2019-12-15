@@ -327,6 +327,20 @@
                 },
                 "moduleKey": "sword/basic_blade",
                 "moduleVariant": "basic_blade/knightmetal"
+            },
+            {
+                "material": {
+                    "tag": "forge:gems/ruby",
+                    "count": 2
+                },
+                "requiredCapabilities": {
+                    "hammer": 1
+                },
+                "moduleKey": "sword/basic_blade",
+                "moduleVariant": "basic_blade/ruby",
+                "improvements": {
+                    "arrested": 0
+                }
             }
         ]
     }
