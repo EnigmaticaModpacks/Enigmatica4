@@ -1,0 +1,11 @@
+
+[modules]
+	#A collection of features to improve building
+	InspirationsBuilding = true
+	#Adds various tools or tweaks to vanilla tools
+	InspirationsTools = true
+	#Various vanilla tweaks
+	InspirationsTweaks = true
+	#Adds various utilities
+	InspirationsUtility = true
+
