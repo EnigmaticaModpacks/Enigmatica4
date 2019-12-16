@@ -26,5 +26,7 @@
 	#Min number of slots that a container can be eligible for transfer to, this will exclude furnaces and most machines with a low slot count.
 	#Range: > 0
 	"Minimum Slots" = 9
+	#Enable dump button.
+	"Enable Dump Button" = false
 	"Blacklisted Block Entities" = []
 
