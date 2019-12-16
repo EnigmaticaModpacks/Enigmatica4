@@ -1,3 +1,17 @@
+## [Enigmatica 4 v0.3.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.6) ()
+*Forge-1.14.4-28.1.103*
+
+**Changes**
+
+- The Nether Portal now has a name when you look at it with The One Probe
+- Disabled the Dump button from Quickstack
+
+**Fixed bugs**
+
+- Xnet facades aren't working properly [\#211](https://github.com/NillerMedDild/Enigmatica4/issues/211)
+- Something happened to gears, they disappeared [\#209](https://github.com/NillerMedDild/Enigmatica4/issues/209)
+- Fluidtanks issues [\#208](https://github.com/NillerMedDild/Enigmatica4/issues/208)
+
 ## [Enigmatica 4 v0.3.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.5) (15-12-2019)
 *Forge-1.14.4-28.1.103*
 
@@ -35,7 +49,6 @@
 - Breaking Xnet connectors \(of any color\) drops routing connectors [\#207](https://github.com/NillerMedDild/Enigmatica4/issues/207)
 - Mobs aren't spawning on vector plates. [\#195](https://github.com/NillerMedDild/Enigmatica4/issues/195)
 - Crash KubeJS [\#190](https://github.com/NillerMedDild/Enigmatica4/issues/190)
-
 
 ## [Enigmatica 4 v0.3.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.4) (11-12-2019)
 *Forge-1.14.4-28.1.103*

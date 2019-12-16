@@ -1,3 +1,12 @@
+# 0.3.5 -> 0.3.6
+
+* industrial-foregoing-1.14.4-2.1.2-582ea8b.jar
+* mcjtylib-1.14-3.5.17-alpha.jar
+* quickstack-2.0.3.jar
+* rftoolsbuilder-1.14-1.2.12-alpha.jar
+* StevesFactoryManager-1.14.4-3.0.0-alpha23.jar
+* xnet-1.14-1.8.7-alpha.jar
+
 # 0.3.4 -> 0.3.5
 
 * BambooBlocksV1.2.10.jar
