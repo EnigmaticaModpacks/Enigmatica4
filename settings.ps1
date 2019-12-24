@@ -79,9 +79,13 @@ $SERVER_FILE_DISPLAY_NAME = "Enigmatica 4 Server - $MODPACK_VERSION"
 
 # A continuous line of the folders and files (with extensions) to zip into Server Files.
 # Default: @("mods", "config")
-$CONTENTS_TO_ZIP = @("mods", 
-"config", "resources", 
-"global_data_packs",
+$CONTENTS_TO_ZIP = @(
+"mods", 
+"config", 
+"defaultconfigs", 
+"openloader", 
+"scripts",
+"kubejs",
 "server-start-license.md", 
 "server-start-readme.md", 
 "server-start.bat", 

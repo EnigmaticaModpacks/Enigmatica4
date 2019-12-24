@@ -1,3 +1,15 @@
+## [Enigmatica 4 v0.3.7](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.7) ()
+*Forge-1.14.4-28.1.103*
+
+**Changes**
+
+- Added additional settings to the server.properties file, and alphabetized them.
+
+**Fixed bugs**
+
+- Server files were missing several important folders, that is now fixed.
+
+
 ## [Enigmatica 4 v0.3.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.6) (16-12-2019)
 *Forge-1.14.4-28.1.103*
 
