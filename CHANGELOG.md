@@ -1,4 +1,4 @@
-## [Enigmatica 4 v0.3.7](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.7) ()
+## [Enigmatica 4 v0.3.7](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.7)
 *Forge-1.14.4-28.1.109*
 
 **Changes**
@@ -12,8 +12,7 @@
 - Blue power ores drop xp with silk touch tools [\#196](https://github.com/NillerMedDild/Enigmatica4/issues/196)
 - Watering Can doesn't water while looking at crops. [\#181](https://github.com/NillerMedDild/Enigmatica4/issues/181)
 
-
-## [Enigmatica 4 v0.3.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.6) (16-12-2019)
+## [Enigmatica 4 v0.3.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.6)
 *Forge-1.14.4-28.1.103*
 
 **Changes**
@@ -27,7 +26,7 @@
 - Something happened to gears, they disappeared [\#209](https://github.com/NillerMedDild/Enigmatica4/issues/209)
 - Fluidtanks issues [\#208](https://github.com/NillerMedDild/Enigmatica4/issues/208)
 
-## [Enigmatica 4 v0.3.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.5) (15-12-2019)
+## [Enigmatica 4 v0.3.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.5)
 *Forge-1.14.4-28.1.103*
 
 **Changes**
@@ -65,14 +64,14 @@
 - Mobs aren't spawning on vector plates. [\#195](https://github.com/NillerMedDild/Enigmatica4/issues/195)
 - Crash KubeJS [\#190](https://github.com/NillerMedDild/Enigmatica4/issues/190)
 
-## [Enigmatica 4 v0.3.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.4) (11-12-2019)
+## [Enigmatica 4 v0.3.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.4)
 *Forge-1.14.4-28.1.103*
 
 **Fixed bugs**
 
 - Servers being unable to start. Had to remove EntitySpring to resolve the issue.
 
-## [Enigmatica 4 v0.3.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.3) (11-12-2019)
+## [Enigmatica 4 v0.3.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.3)
 *Forge-1.14.4-28.1.103*
 
 **Changes**
@@ -87,7 +86,7 @@
 - Vanilla chest recipe conflicting with Quark \(All wooden chests can now be crafted in the vanilla chest\) [\#188](https://github.com/NillerMedDild/Enigmatica4/issues/188) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 - Ender Biotite from Quark can't be veinmined [\#187](https://github.com/NillerMedDild/Enigmatica4/issues/187) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 
-## [Enigmatica 4 v0.3.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.2) (10-12-2019)
+## [Enigmatica 4 v0.3.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.2) 
 *Forge-1.14.4-28.1.103*
 
 **Changes**
@@ -110,13 +109,13 @@
 - Tetra Holosphere breaks crafting when used. [\#174](https://github.com/NillerMedDild/Enigmatica4/issues/174)
 - Cannot Extract Output from Crafting Station [\#173](https://github.com/NillerMedDild/Enigmatica4/issues/173)
 
-## [Enigmatica 4 v0.3.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.1) (02-12-2019)
+## [Enigmatica 4 v0.3.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.1)
 
 **Changes**
 
 - Removed Techemistry, which was added by mistake. Sorry about that.
 
-## [Enigmatica 4 v0.3.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.0) (01-12-2019)
+## [Enigmatica 4 v0.3.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.0)
 
 **Changes**
 
@@ -138,7 +137,7 @@
 
 - Additional Tags on Ores [\#149](https://github.com/NillerMedDild/Enigmatica4/issues/149)
 
-## [Enigmatica 4 v0.2.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.3) (18-11-2019)
+## [Enigmatica 4 v0.2.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.3)
 
 **Changes**
 
@@ -161,7 +160,7 @@
 - Fixed Log -\> Sticks/Chests recipes [\#140](https://github.com/NillerMedDild/Enigmatica4/issues/140) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 - mysticallib crash [\#117](https://github.com/NillerMedDild/Enigmatica4/issues/117)
 
-## [Enigmatica 4 v0.2.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.2) (10-11-2019)
+## [Enigmatica 4 v0.2.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.2) 
 
 **Changes**
 
@@ -183,7 +182,7 @@
 
 - Swing through grass not working on servers (I removed it from the server files, d'oh)
 
-## [Enigmatica 4 v0.2.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.1) (31-10-2019)
+## [Enigmatica 4 v0.2.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.1)
 *Forge-1.14.4-28.1.74*
 
 **Changes**
@@ -195,7 +194,7 @@
 
 - Server crash caused by mobrenderer
 
-## [Enigmatica 4 v0.2.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.0) (26-10-2019)
+## [Enigmatica 4 v0.2.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.0) 
 *Forge-1.14.4-28.1.69*
 
 **Changes**
@@ -210,7 +209,7 @@
 
 - Game Crash - Squid & Armor issues [\#93](https://github.com/NillerMedDild/Enigmatica4/issues/93)
 
-## [Enigmatica 4 v0.1.9](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.9) (26-10-2019)
+## [Enigmatica 4 v0.1.9](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.9) 
 *Forge-1.14.4-28.1.69*
 
 **Fixed bugs**
@@ -268,7 +267,7 @@
 - Mouse middle-click sort doesn't work unless another inventory is open [\#48](https://github.com/NillerMedDild/Enigmatica4/issues/48)
 - BetterAdvancement Config [\#1](https://github.com/NillerMedDild/Enigmatica4/issues/1)
 
-## [0.1.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.6) (2019-10-18)
+## [0.1.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.6) 
 
 **Implemented enhancements**
 
@@ -283,7 +282,7 @@
 
 - The Midnight dimension crash on enter [\#37](https://github.com/NillerMedDild/Enigmatica4/issues/37)
 
-## [0.1.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.5) (2019-10-16)
+## [0.1.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.5) 
 
 **Implemented enhancements**
 
@@ -305,10 +304,10 @@
 - random crashes while exploring [\#33](https://github.com/NillerMedDild/Enigmatica4/issues/33)
 - Server files are missing all top-level server-only files [\#29](https://github.com/NillerMedDild/Enigmatica4/issues/29)
 
-## [0.1.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.4) (2019-10-13)
-## [0.1.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.3) (2019-10-13)
-## [0.1.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.2) (2019-10-13)
-## [0.1.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.1) (2019-10-13)
+## [0.1.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.4) 
+## [0.1.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.3) 
+## [0.1.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.2) 
+## [0.1.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.1)
 
 **Implemented enhancements**
 
