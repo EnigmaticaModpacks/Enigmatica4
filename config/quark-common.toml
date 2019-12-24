@@ -811,6 +811,10 @@
 		"Max Rooms" = 14
 		"Chest Chance" = 0.5
 
+		[world.big_dungeon.biome_types]
+			"Biome Types" = ["OCEAN", "BEACH", "NETHER", "END"]
+			"Is Blacklist" = true
+
 	[world.blossom_trees]
 
 		[world.blossom_trees.orange]

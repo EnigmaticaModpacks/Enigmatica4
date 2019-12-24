@@ -12,7 +12,7 @@
 	black_dim = [-1, 1]
 
 ["Tweak World Generation Rates"]
-	#Chance of fruit trees generating in the overworld. Higher numbers indicate a lower probability (Default: 600)
+	#Chance of fruit trees generating in the overworld. Higher numbers indicate a lower probability (Default: 1500)
 	#Range: 1 ~ 1000000000
 	"Probability of fruit trees generating" = 600
 	#Chance of opuntias generating in deserts. Higher numbers indicate a lower probability (Default: 150)
@@ -24,7 +24,7 @@
 	#Chance of wild plants generating in the overworld. Higher numbers indicate a lower probability (Default: 800)
 	#Range: 1 ~ 1000000000
 	"Probability of wild plants generating" = 800
-	#Chance of berry bushes generating in the overworld. Higher numbers indicate a lower probability (Default: 200)
+	#Chance of berry bushes generating in the overworld. Higher numbers indicate a lower probability (Default: 300)
 	#Range: 1 ~ 1000000000
 	"Probability of berry bushes generating" = 200
 

@@ -55,15 +55,15 @@
 		# The path to the 256x256 window icon which is used on Mac OS X.
 		# Leave this, the 16x16 icon and the 32x32 icon blank to use the default icon.
 		# Default: 
-		icon256 = "kubejs/assets/logo/icon2.png"
+		icon256 = "openloader/resources/enigmatica/icon.png"
 		# The path to the 16x16 Minecraft window icon.
 		# Leave this and the 32x32 icon blank to use the default icon.
 		# Default: 
-		icon16 = "kubejs/assets/logo/icon2.png"
+		icon16 = "openloader/resources/enigmatica/icon.png"
 		# The path to the 32x32 Minecraft window icon.
 		# Leave this and the 16x16 icon blank to use the default icon.
 		# Default: 
-		icon32 = "resources/enigmatica4/icon2.png"
+		icon32 = "openloader/resources/enigmatica/icon.png"
 		# The Minecraft window title.
 		# Default: Minecraft 1.14.4
 		title = "Enigmatica 4"
