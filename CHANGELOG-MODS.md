@@ -1,3 +1,25 @@
+# 0.3.6 -> 0.3.7
+
+* Aquaculture-1.14.4-2.0.3.jar
+* BiomesOPlenty-1.14.4-9.0.0.262-universal.jar
+* bluepower-1.14.4-0.3.172-alpha-universal.jar
+* craftingstation-2.1.3c.jar
+* engineersdecor-1.14.4-1.0.17-b3.jar
+* foamdome-3.0.0.jar
+* Geolosys-1.14.4-4.0.11.jar
+* jei-1.14.4-6.0.0.27.jar
+* kubejs-forge-1.14.4-2.1.0.23.jar
+* minecolonies-0.10.602-ALPHA-universal.jar
+* Quark-r2.0-204.jar
+* RingOfAttraction-1.14.4-1.0.20.jar
+* RingOfGrowth-1.14.4-1.0.20.jar
+* simplefarming-1.14.4-1.2.5.jar
+* SimpleStorageNetwork-1.14.4-0.2.0.jar
+* tetra-1.14.4-1.3.0.jar
+* torchmaster-2.0.0-rc2.jar
+* u_team_core-1.14.4-2.8.0.140.jar
+* Xaeros_Minimap_1.19.3_Forge_1.14.4.jar
+
 # 0.3.5 -> 0.3.6
 
 * industrial-foregoing-1.14.4-2.1.2-582ea8b.jar

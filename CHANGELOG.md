@@ -8,6 +8,9 @@
 **Fixed bugs**
 
 - Server files were missing several important folders, that is now fixed.
+- Feral lantern and Dread lamp  don't drop when you break them [\#210](https://github.com/NillerMedDild/Enigmatica4/issues/210)
+- Blue power ores drop xp with silk touch tools [\#196](https://github.com/NillerMedDild/Enigmatica4/issues/196)
+- Watering Can doesn't water while looking at crops. [\#181](https://github.com/NillerMedDild/Enigmatica4/issues/181)
 
 
 ## [Enigmatica 4 v0.3.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.6) (16-12-2019)
