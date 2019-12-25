@@ -1,3 +1,12 @@
+# 0.3.7 -> 0.4.0
+
+* Botania r1.11-372.jar
+* kubejs-forge-1.14.4-2.1.0.24.jar
+* minecolonies-0.10.603-ALPHA-universal.jar
+* MouseTweaks-2.13-mc1.14.4.jar
+* TOOLKIT-1.4.1.jar
+* Xaeros_Minimap_1.19.4_Forge_1.14.4.jar
+
 # 0.3.6 -> 0.3.7
 
 * Aquaculture-1.14.4-2.0.3.jar

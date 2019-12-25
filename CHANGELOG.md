@@ -3,11 +3,8 @@
 
 **Changes**
 
-- 
-
-**Fixed bugs**
-
-- 
+- Add Botania (!!!) [\#221](https://github.com/NillerMedDild/Enigmatica4/issues/221) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Toolkit [\#216](https://github.com/NillerMedDild/Enigmatica4/issues/216) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 
 ## [Enigmatica 4 v0.3.7](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.7)
 *Forge-1.14.4-28.1.109*
