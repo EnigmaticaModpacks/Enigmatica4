@@ -1,0 +1,94 @@
+
+[blockBreakingParticles]
+	#Set this to false to remove the block breaking particles from the flowers and other items in the mod.
+	enabled = true
+
+[blockBreakingParticlesTool]
+	#Set this to false to remove the block breaking particles from the Mana Shatterer, as there can be a good amount in higher levels.
+	enabled = true
+
+[chargeAnimation]
+	#Set this to false to disable the animation when an item is charging on top of a mana pool
+	enabled = true
+
+[manaSpreaders]
+	#Set this to true to disable the mana spreader shooting sound
+	silent = false
+
+[spreader]
+	#How many ticks into the future will mana spreaders attempt to predict where mana bursts go? Setting this lower will improve spreader performance, but will cause them to not fire at targets that are too far away.
+	#Range: > 1
+	traceTime = 400
+
+[flower]
+	#Turn this off ONLY IF you're on an extremely large world with an exaggerated count of Mana Spreaders/Mana Pools and are experiencing TPS lag. This toggles whether flowers are strict with their checking for connecting to pools/spreaders or just check whenever possible.
+	forceCheck = true
+
+[enderPickpocket]
+	#Set to false to disable the ability for the Hand of Ender to pickpocket other players' ender chests
+	enabled = true
+
+[fallenKanade]
+	#Set this to false to disable the Fallen Kanade flower (gives Regeneration). This config option is here for those using Blood Magic. Note: Turning this off will not remove ones already in the world, it'll simply prevent the crafting.
+	enabled = true
+
+[manaEnchanter]
+	#Set this to false to disable the Mana Enchanter. Since some people find it OP or something. This only disables the entry and creation. Old ones that are already in the world will stay.
+	enabled = true
+
+[manaFluxfield]
+	#Set this to false to disable the Mana Fluxfield (generates FE from mana). This only disables the entry and creation. Old ones that are already in the world will stay.
+	enabled = true
+
+[relics]
+	#Set this to false to disable the Relic System. This only disables the entries, drops and achievements. Old ones that are already in the world will stay.
+	enabled = true
+
+[ringOfOdin]
+	#Set this to false to make the Ring of Odin not apply fire resistance. Mostly for people who use Witchery transformations.
+	fireResist = true
+
+[magnetRing]
+	#Set this to true to invert the Ring of Magnetization's controls (from shift to stop to shift to work)
+	invert = false
+
+[thaumraftStabilizers]
+	#Set this to false to disable Thaumcraft Infusion Stabilizing in botania blocks
+	enabled = true
+
+[thaumcraftAspects]
+	#Set this to false to disable Thaumcraft aspects on Botania items
+	enabled = true
+
+[harvestLevel]
+	#The harvest level of the Mana Lens: Weight. 3 is diamond level. Defaults to 2 (iron level)
+	#Range: > 0
+	weightLens = 2
+	#The harvest level of the Mana Lens: Bore. 3 is diamond level. Defaults to 3
+	#Range: > 0
+	boreLens = 3
+
+[worldgen]
+
+	[worldgen.mushroom]
+		#The quantity of Botania mushrooms to generate underground, in the world, defaults to 40, the lower the number the less patches generate.
+		#Range: > 0
+		quantity = 40
+
+	[worldgen.flower]
+		#The inverse chance for a Botania flower patch to be generated, defaults to 16. The higher this value is the less patches will exist and the more flower each will have.
+		#Range: > 0
+		patchChance = 16
+		#The chance for a Botania flower generated in a patch to be a tall flower. 0.1 is 10%, 1 is 100%. Defaults to 0.05
+		#Range: 0.0 ~ 1.0
+		tallChance = 0.05
+		#The quantity of Botania flower patches to generate in the world, defaults to 2, the lower the number the less patches generate.
+		#Range: > 0
+		quantity = 2
+		#The density of each Botania flower patch generated, defaults to 2, the lower the number, the less each patch will have.
+		#Range: > 0
+		density = 2
+		#The size of each Botania flower patch, defaults to 6. The larger this is the farther the each patch can spread
+		#Range: > 0
+		patchSize = 6
+

@@ -1,0 +1,66 @@
+#Set this to true to set the power system's particles to be a lot more subtle. Good for low-end systems, if the particles are causing lag.
+subtile_power_system = false
+#Set this to true to use a static wand beam that shows every single position of the burst, similar to the way it used to work on old Botania versions. Warning: Disabled by default because it may be laggy.
+static_wand_beam = false
+#Set this to false to disable the wireframe when looking a block bound to something (spreaders, flowers, etc).
+bound_block_wireframe = true
+#Set this to false to disable rendering of baubles in the player.
+render_baubles = true
+#Set this to false to disable seasonal features, such as halloween and christmas.
+seasonal_features = true
+#Set this to false to disable custom armor models
+armor_models = true
+#Set this to true if you use lots of floating flowers and are experiencing rendering lag. Will disable the floating flowers' animations and render them statically for a major performance boost. Hit F3+A in-world after toggling this.
+static_floaters = false
+#Set to false to disable Botania's messages in the F3 debug screen
+debug_info = true
+#Set this to true if you are the chosen one. For lovers of glitch art and just general mad people.
+matrix_mode = false
+#Set this to false to disable the references in the flower tooltips. (You monster D:)
+references = true
+
+[shaders]
+	#The GL Texture Unit to use for the secondary sampler passed in to the Lexica Botania's category button shader. DO NOT TOUCH THIS IF YOU DON'T KNOW WHAT YOU'RE DOING
+	#Range: > 0
+	secondary_unit = 7
+	#Set this to false to disable the use of shaders for some of the mod's renders.
+	enabled = true
+
+[lexicon]
+	#Set this to true to enable justified text in the Lexica Botania's text pages.
+	justified_text = false
+	#Set this to false to disable the rotating items in the petal and rune entries in the Lexica Botania.
+	rotating_items = true
+	#Set this to false to disable the animated 3D render for the Lexica Botania.
+	render_3d = true
+
+[particles]
+	#The frequency in which particles spawn from normal (worldgen) mystical flowers
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	flower_frequency = 0.75
+	#Set this to false to disable the particles in the elven portal.
+	elf_portal = true
+
+[fancy_skybox]
+	#Set this to true to enable the fancy skybox in non Garden of Glass worlds. (Does not require Garden of Glass loaded to use, needs 'fancy_skybox.enabled' to be true as well)
+	normal_worlds = false
+	#Set this to false to disable the fancy skybox in Garden of Glass
+	enabled = true
+
+[hud]
+
+	[hud.flight_bar]
+		#The height of the Flugel Tiara flight bar. You can change this if you have a mod that adds a bar in that spot.
+		#Range: > 0
+		height = 49
+
+	[hud.flight_bar_breath]
+		#The height of the Flugel Tiara flight bar if your breath bar is shown. You can change this if you have a mod that adds a bar in that spot.
+		#Range: > 0
+		height = 59
+
+	[hud.mana_bar]
+		#The height of the mana display bar in above the XP bar. You can change this if you have a mod that changes where the XP bar is.
+		#Range: > 0
+		height = 29
+

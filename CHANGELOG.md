@@ -1,3 +1,14 @@
+## [Enigmatica 4 v0.4.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.0)
+*Forge-1.14.4-28.1.109*
+
+**Changes**
+
+- 
+
+**Fixed bugs**
+
+- 
+
 ## [Enigmatica 4 v0.3.7](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.7)
 *Forge-1.14.4-28.1.109*
 
@@ -306,7 +317,7 @@
 
 ## [0.1.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.4) 
 ## [0.1.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.3) 
-## [0.1.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.2) 
+## [0.1.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.2)
 ## [0.1.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.1)
 
 **Implemented enhancements**
