@@ -25,6 +25,12 @@ var recipes as IIngredient[][][IItemStack] = {
         [<tag:forge:ingots/iron>, <tag:minecraft:logs>, <tag:forge:ingots/iron>], 
         [<tag:forge:ingots/iron>, <tag:minecraft:logs>, <tag:forge:ingots/iron>],
         [<item:minecraft:air>, <tag:forge:ingots/iron>, <item:minecraft:air>]
+    ],
+    <item:naturescompass:naturescompass> : 
+    [
+        [<tag:minecraft:saplings>, <tag:minecraft:logs>, <tag:minecraft:saplings>], 
+        [<tag:minecraft:logs>, <item:minecraft:compass>, <tag:minecraft:logs>],
+        [<tag:minecraft:saplings>, <tag:minecraft:logs>, <tag:minecraft:saplings>]
     ]/*,
      : 
     [

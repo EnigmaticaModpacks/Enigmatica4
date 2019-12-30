@@ -58,6 +58,8 @@
 		without_factory_dropper = false
 		#Disable slag bricks and derived blocks.
 		without_slag_bricks = false
+		#Disable the small tree cutter.
+		without_tree_cutter = false
 		#Disable treated wood window, etc.
 		without_windows = false
 		#Disable item disposal/trash/void incinerator device.

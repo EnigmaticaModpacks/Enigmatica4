@@ -1,3 +1,14 @@
+## [Enigmatica 4 v0.4.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.1)
+*Forge-1.14.4-28.1.109*
+
+**Changes**
+
+- Removed the Draw Bridge mod and it's library mod
+
+**Fixed bugs**
+
+- 
+
 ## [Enigmatica 4 v0.4.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.0)
 *Forge-1.14.4-28.1.109*
 

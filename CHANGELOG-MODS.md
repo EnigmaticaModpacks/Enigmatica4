@@ -1,3 +1,25 @@
+# 0.4.0 -> 0.4.1
+
+* Botania r1.11-373.jar
+* CookingForBlockheads_1.14.4-7.4.2.jar
+* CraftingTweaks_1.14.4-10.1.5.jar
+* DefaultOptions_1.14.4-10.2.7.jar
+* engineersdecor-1.14.4-1.0.18-b1.jar
+* FarmingForBlockheads_1.14.4-5.3.1.jar
+* KleeSlabs_1.14.4-7.4.8.jar
+* multibeds-1.14-1.5.1.jar
+* NaturesCompass-1.14.4-1.8.1.jar
+* PackingTape-1.14.4-0.9.1.jar
+* Patchouli-1.1-24.jar
+* Quark-r2.0-208.jar
+* refinedstorage-1.7.3.jar
+* rsgauges-1.14.4-1.2.0-b1.jar
+* shetiphiancore-1.14-3.6.0.jar
+* SilentMechanisms-1.14.4-0.6.10+43.jar
+* TMechworks-1.14.4-2.0.1.jar
+* tombstone-4.1.8-1.14.4.jar
+* TOOLKIT-1.4.2.jar
+
 # 0.3.7 -> 0.4.0
 
 * Botania r1.11-372.jar
