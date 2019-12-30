@@ -3,11 +3,18 @@
 
 **Changes**
 
+- Add MultiBeds [\#223](https://github.com/NillerMedDild/Enigmatica4/issues/223) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Nature's Compass [\#235](https://github.com/NillerMedDild/Enigmatica4/issues/235) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add RS Gauges & Switches [\#232](https://github.com/NillerMedDild/Enigmatica4/issues/232) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Tinkers Mechworks [\#226](https://github.com/NillerMedDild/Enigmatica4/issues/226) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Removed the Draw Bridge mod and it's library mod
 
 **Fixed bugs**
 
-- 
+- DataPacks not loading
+- Scripts not loading
+- Tetra Hammer crash [\#227](https://github.com/NillerMedDild/Enigmatica4/issues/227)
+- Items with NBT act badly inside the vanilla crafting table [\#169](https://github.com/NillerMedDild/Enigmatica4/issues/169)
 
 ## [Enigmatica 4 v0.4.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.0)
 *Forge-1.14.4-28.1.109*
