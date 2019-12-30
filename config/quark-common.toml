@@ -146,6 +146,7 @@
 		"Enable Chorus Fruit Block" = true
 		"Enable Blaze Lantern" = true
 		"Enable Bamboo Block" = true
+		"Enable Berry Sack" = true
 		"Enable Golden Apple Crate" = true
 		"Enable Sugar Cane Block" = true
 		"Blaze Lantern Fuel Time" = 24000
@@ -260,6 +261,7 @@
 	"Enhanced Ladders" = true
 	"Snow Golem Player Heads" = true
 	"Glass Shard" = false
+	"Campfires Boost Elytra" = true
 
 	[tweaks.sign_editing]
 		"Requires Empty Hand" = true
@@ -334,6 +336,10 @@
 		"Enable Compass Nerf" = true
 		"Enable End" = true
 		"Enable Clock Nerf" = true
+
+	[tweaks.campfires_boost_elytra]
+		"Boost Strength" = 0.5
+		"Max Speed" = 1.0
 
 [vanity]
 	"Color Runes" = true
