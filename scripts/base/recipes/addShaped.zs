@@ -2,6 +2,7 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
+var air = <item:minecraft:air>;
 var recipes as IIngredient[][][IItemStack] = {
 	<item:minecraft:stick> * 16 : 
     [
@@ -11,26 +12,26 @@ var recipes as IIngredient[][][IItemStack] = {
     <item:minecraft:chest> * 4 : 
     [
         [<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>], 
-        [<tag:minecraft:logs>, <item:minecraft:air>, <tag:minecraft:logs>],
+        [<tag:minecraft:logs>, air, <tag:minecraft:logs>],
         [<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>]
     ],
     <item:minecraft:chest> : 
     [
         [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>], 
-        [<tag:minecraft:planks>, <item:minecraft:air>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, air, <tag:minecraft:planks>],
         [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>]
     ],
     <item:minecraft:hopper> : 
     [
         [<tag:forge:ingots/iron>, <tag:minecraft:logs>, <tag:forge:ingots/iron>], 
         [<tag:forge:ingots/iron>, <tag:minecraft:logs>, <tag:forge:ingots/iron>],
-        [<item:minecraft:air>, <tag:forge:ingots/iron>, <item:minecraft:air>]
+        [air, <tag:forge:ingots/iron>, air]
     ],
-    <item:naturescompass:naturescompass> : 
+    <item:refinedstorageaddons:wireless_crafting_grid> : 
     [
-        [<tag:minecraft:saplings>, <tag:minecraft:logs>, <tag:minecraft:saplings>], 
-        [<tag:minecraft:logs>, <item:minecraft:compass>, <tag:minecraft:logs>],
-        [<tag:minecraft:saplings>, <tag:minecraft:logs>, <tag:minecraft:saplings>]
+        [<item:refinedstorage:quartz_enriched_iron>, <item:rftoolsbase:infused_enderpearl>, <item:refinedstorage:quartz_enriched_iron>], 
+        [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:wireless_grid>, <item:refinedstorage:quartz_enriched_iron>],
+        [<item:refinedstorage:quartz_enriched_iron>, <item:minecraft:crafting_table>, <item:refinedstorage:quartz_enriched_iron>]
     ]/*,
      : 
     [

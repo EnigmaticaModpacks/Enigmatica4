@@ -36,3 +36,7 @@ public function addShapeless(output as IItemStack, input as IIngredient[], remov
 
 	craftingTable.addShapeless(recipeName, output, input);
 }
+
+public function removeRecipe(output as IItemStack) as void {
+	craftingTable.removeRecipe(output);
+}
