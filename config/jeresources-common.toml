@@ -4,7 +4,7 @@ itemsPerColumn = 4
 itemsPerRow = 4
 diyData = true
 showDevData = false
-enchantsBlacklist = ["flimflam", "soulBound", "vanishing_curse"]
+enchantsBlacklist = ["flimflam", "soulBound", "minecraft:vanishing_curse", "cyclic:magnet"]
 hiddenTabs = []
 dimensionsBlacklist = [-11]
 

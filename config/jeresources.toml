@@ -1,7 +1,7 @@
 hiddenTabs = []
 #Range: 1 ~ 4
 itemsPerRow = 4
-enchantsBlacklist = ["flimflam", "soulBound"]
+enchantsBlacklist = ["flimflam", "soulBound", "minecraft:vanishing_curse", "cyclic:magnet"]
 showDevData = false
 dimensionsBlacklist = [-11]
 diyData = true
