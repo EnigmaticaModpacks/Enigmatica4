@@ -2,12 +2,19 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
+var air = <item:minecraft:air>;
 var recipes as IIngredient[][][IItemStack] = {
 	<item:minecraft:oak_sign> * 3 : 
     [
         [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>], 
         [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>],
-        [<item:minecraft:air>, <tag:forge:rods/wooden>, <item:minecraft:air>]
+        [air, <tag:forge:rods/wooden>, air]
+    ],
+	<item:cyclic:mattock> : 
+    [
+        [<tag:forge:storage_blocks/lapis>, <tag:forge:obsidian>, <tag:forge:storage_blocks/lapis>], 
+        [air, <tag:forge:ingots/steel>, air],
+        [air, <tag:forge:ingots/steel>, air]
     ]/*,
      : 
     [
@@ -65,17 +72,17 @@ for planks in <tag:minecraft:planks>.items {
             if (counter == 6) {
                 craftingTable.addShapedMirrored(<item:storagedrawers:oak_full_drawers_1>.translationKey + "_" + planks.translationKey, <item:storagedrawers:oak_full_drawers_1>, [
                     [planks, planks, planks], 
-                    [<item:minecraft:air>, <tag:forge:chests/wooden>, <item:minecraft:air>],
+                    [air, <tag:forge:chests/wooden>, air],
                     [planks, planks, planks]
                 ]);
                 craftingTable.addShapedMirrored(<item:storagedrawers:oak_full_drawers_2>.translationKey + "_" + planks.translationKey, <item:storagedrawers:oak_full_drawers_2> * 2, [
                     [planks, planks, planks], 
-                    [<item:minecraft:air>, <tag:forge:chests/wooden>, <item:minecraft:air>],
+                    [air, <tag:forge:chests/wooden>, air],
                     [planks, planks, planks]
                 ]);
                 craftingTable.addShapedMirrored(<item:storagedrawers:oak_full_drawers_4>.translationKey + "_" + planks.translationKey, <item:storagedrawers:oak_full_drawers_4> * 4, [
                     [planks, planks, planks], 
-                    [<item:minecraft:air>, <tag:forge:chests/wooden>, <item:minecraft:air>],
+                    [air, <tag:forge:chests/wooden>, air],
                     [planks, planks, planks]
                 ]);
             }
@@ -100,17 +107,17 @@ for slabs in <tag:minecraft:wooden_slabs>.items {
             if (counter == 6) {
                 craftingTable.addShapedMirrored(<item:storagedrawers:oak_half_drawers_1>.translationKey + "_" + slabs.translationKey, <item:storagedrawers:oak_half_drawers_1>, [
                     [slabs, slabs, slabs], 
-                    [<item:minecraft:air>, <tag:forge:chests/wooden>, <item:minecraft:air>],
+                    [air, <tag:forge:chests/wooden>, air],
                     [slabs, slabs, slabs]
                 ]);
                 craftingTable.addShapedMirrored(<item:storagedrawers:oak_half_drawers_2>.translationKey + "_" + slabs.translationKey, <item:storagedrawers:oak_half_drawers_2> * 2, [
                     [slabs, slabs, slabs], 
-                    [<item:minecraft:air>, <tag:forge:chests/wooden>, <item:minecraft:air>],
+                    [air, <tag:forge:chests/wooden>, air],
                     [slabs, slabs, slabs]
                 ]);
                 craftingTable.addShapedMirrored(<item:storagedrawers:oak_half_drawers_4>.translationKey + "_" + slabs.translationKey, <item:storagedrawers:oak_half_drawers_4> * 4, [
                     [slabs, slabs, slabs], 
-                    [<item:minecraft:air>, <tag:forge:chests/wooden>, <item:minecraft:air>],
+                    [air, <tag:forge:chests/wooden>, air],
                     [slabs, slabs, slabs]
                 ]);
             }
