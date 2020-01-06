@@ -4,4 +4,5 @@ Priority ranges:
 900-999: Crucial scripts, such as dependencies for others, function declarations and globals.
 800-899: Adding/removing oredict tags.
 
+100-199: Recipe removals
 0-99: Recipes
