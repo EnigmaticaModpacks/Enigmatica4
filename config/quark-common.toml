@@ -383,7 +383,7 @@
 	"Cave Crystal Underground Biome" = true
 	"Glowshroom Underground Biome" = true
 	"Overgrown Underground Biome" = true
-	"Cave Roots" = true
+	"Cave Roots" = false
 	"Permafrost Underground Biome" = true
 	"Underground Clay" = true
 	Foxhound = true
