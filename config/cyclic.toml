@@ -1,0 +1,6 @@
+
+#General settings
+[cyclic]
+	#Testing only, this does nothing
+	itemTooltip = true
+

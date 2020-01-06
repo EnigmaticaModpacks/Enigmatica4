@@ -1,6 +1,10 @@
 
 #Factory manager config options
 [factoryManager]
+	#Maximum number that the controller is allowed executes a single procedure in one execution pass
+	#Extra attempts to the procedure will be ignored, and it's connection chain will stop
+	#Range: 1 ~ 64
+	repeatThreshold = 8
 	#Maximum depth that the Factory Manager DFS algorithm should go
 	#Range: > 0
 	maxSearchDepth = 64
@@ -12,14 +16,18 @@
 #Run '/sfm componentGroups reload' after updating config
 [procedures]
 	enableSignUpdater = false
-	enableItemImport = true
-	enableFluidTransfer = false
-	enableCrafting = false
 	enableRedstoneTrigger = true
 	enableItemTransfer = true
+	enableIntervalTrigger = true
+	enableMergeBranch = true
+	enableItemImport = true
+	enableSequentialBranch = true
+	enableFluidTransfer = false
+	enableCrafting = false
+	enableFunctionInvoke = true
 	enableItemExport = true
 	enableBUDTrigger = false
-	enableIntervalTrigger = true
+	enableFunctionHat = true
 	enableRedstoneEmitter = true
 
 #Block property config options

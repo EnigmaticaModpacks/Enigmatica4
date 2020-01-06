@@ -117,3 +117,11 @@
 		#Note that disabling oil will make some items uncraftable unless recipes are changed
 		chance = 6
 
+[machine]
+
+	[machine.fluidGenerators]
+		#The amount of fluid (in milliBuckets, or mB) fluid generators consume at once.
+		#Lower values reduce waste, but may cause lag as the generator more frequently turns on/off.
+		#A generator with less fluid in the tank will not be able to run.
+		injectionVolume = 100
+
