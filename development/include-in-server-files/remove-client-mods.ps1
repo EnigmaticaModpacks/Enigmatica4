@@ -5,6 +5,7 @@ param(
 		"BetterAdvancements",
 		"CraftingTweaks", 
 		"DefaultOptions", 
+		"DefaultSettings",
 		"EnchantmentDescriptions", 
 		"EquipmentTooltips", 
 		"FpsReducer", 

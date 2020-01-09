@@ -1,5 +1,5 @@
 {
 	"scripts": [
-		{"file": "tags/basalt.js"}
+		{"file": "tags/forge/stones.js"}
 	]
 }

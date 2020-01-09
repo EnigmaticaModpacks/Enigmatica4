@@ -9,6 +9,7 @@ $CLIENT_MODS = @(
 	"BetterAdvancements",
 	"CraftingTweaks", 
 	"DefaultOptions", 
+	"DefaultSettings",
 	"EnchantmentDescriptions", 
 	"EquipmentTooltips", 
 	"FpsReducer", 

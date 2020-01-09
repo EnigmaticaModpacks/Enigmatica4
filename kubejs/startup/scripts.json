@@ -1,5 +1,6 @@
 {
 	"scripts": [
-		{"file": "startup.js"}
+		{"file": "factory/blocks.js"},
+		{"file": "factory/items.js"}
 	]
 }

@@ -1,3 +1,26 @@
+## [Enigmatica 4 v0.4.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.2)
+*Forge-1.14.4-28.1.109*
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- Added Bonsai Pots 2 by davenonymous 
+- Added Libnonymous by davenonymous 
+- Added DefaultSettings by PT400C
+- Cyclic: Made a Mattock recipe
+- Quark: Disabled Cave Roots worldgen
+- RefinedStorageAddons: Increased the energy capacity of the Wireless Crafting Grid from 3200 to 1.000.000
+- RefinedStorageAddons: Increased the energy cost of opening the Wireless Crafting Grid from 30 to 500
+- RefinedStorageAddons: Increased the energy cost of crafting with the Wireless Crafting Grid from 1 to 10
+- RefinedStorageAddons: Increased the energy cost of clearing the crafting grid in the Wireless Crafting Grid from 10 to 50
+- RefinedStorageAddons: Changed the recipe of the Wireless Crafting Grid.
+- SereneSeasons: Increased the maximum height Greenhouse Glass may be above crops for them to grow every season from 7 to 15
+- JustEnoughResources: Blacklisted Curse of Vanishing and Magnet from the JER Enchantment tab in JEI
+
+**Fixed bugs**
+
+- 
+
 ## [Enigmatica 4 v0.4.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.1)
 *Forge-1.14.4-28.1.109*
 

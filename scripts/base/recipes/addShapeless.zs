@@ -2,6 +2,7 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
+var air = <item:minecraft:air>;
 var recipes as IIngredient[][IItemStack] = {
 	<item:minecraft:flint> : 
     [<item:minecraft:gravel>, <item:minecraft:gravel>, <item:minecraft:gravel>],

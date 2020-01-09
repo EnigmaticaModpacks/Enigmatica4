@@ -92,3 +92,7 @@
 		#Range: > 0
 		patchSize = 6
 
+[gardenOfGlass]
+	#Set this to false to disable spawning with a Lexica Botania in Garden of Glass worlds, if you are modifying the modpack's progression to not start with Botania.
+	spawnWithLexicon = true
+
