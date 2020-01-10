@@ -1,3 +1,48 @@
+# 0.4.1 -> 0.4.2
+
+* angelring-1.14.4-1.1.0-pre2.jar
+* authme-1.14_1.15-1.0.0.jar
+* BetterAdvancements-1.14.4-0.1.0.94.jar
+* Botania r1.11-375.jar
+* Controlling-5.0.5.jar
+* corail_woodcutter-1.1.0-1.14.4.jar
+* craftingstation-2.1.5.jar
+* CraftTweaker-1.14.4-5.0.1.158.jar
+* Cyclic-1.14.4-0.1.1.jar
+* DefaultSettings-1.14.x-2.1.2.jar
+* dimdungeons-1.03-forge-1.14.4.jar
+* elevatorid-1.14.4-1.5.2.jar
+* EnchantmentDescriptions-1.14.4-1.3.9.jar
+* engineersdecor-1.14.4-1.0.18-b3.jar
+* extlights-1.8.jar
+* extraboats-1.2.2-1.14.4.jar
+* fairylights-2.1.15-1.14.4.jar
+* FpsReducer-mc1.14.4-1.14.jar
+* Geolosys-1.14.4-4.0.11.jar
+* invtweaks-1.14.4-0.5.0.jar
+* JustEnoughResources-1.14.4-0.10.0.70.jar
+* kubejs-forge-1.14.4-2.2.0.25.jar
+* LargeFluidTank-14.9.1.jar
+* Ma-Essentials-1.14.4-1.2.9.jar
+* mcw-bridges-1.0.3-mc1.14.4.jar
+* minecolonies-0.10.616-ALPHA-universal.jar
+* NaturesCompass-1.14.4-1.8.2.jar
+* OpenLoader-1.14.4-1.0.3.jar
+* OreExcavation-1.6.147.jar
+* PackingTape-1.14.4-0.9.2.jar
+* Quark-r2.0-209.jar
+* rftoolsutility-1.14-1.2.14-alpha.jar
+* rsgauges-1.14.4-1.2.0-b2.jar
+* SereneSeasons-1.14.4-2.0.0.40-universal.jar
+* SilentMechanisms-1.14.4-0.6.11+44.jar
+* simplytea-2.0.4.jar
+* StevesFactoryManager-1.14.4-3.0.0-alpha24.jar
+* structurize-0.10.203-ALPHA.jar
+* tetra-1.14.4-1.5.1.jar
+* torchslabmod_1.14.4_v1.2.jar
+* XaerosWorldMap_1.5.4_Forge_1.14.4.jar
+* Xaeros_Minimap_1.19.6_Forge_1.14.4.jar
+
 # 0.4.0 -> 0.4.1
 
 * Botania r1.11-373.jar

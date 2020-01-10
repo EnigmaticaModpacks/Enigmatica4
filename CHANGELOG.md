@@ -4,9 +4,8 @@
 
 **Changes**
 
-- Added Bonsai Pots 2 by davenonymous 
 - Added Libnonymous by davenonymous 
-- Added DefaultSettings by PT400C
+- Added DefaultSettings by PT400C (needed for future plans)
 - Cyclic: Made a Mattock recipe
 - Quark: Disabled Cave Roots worldgen
 - RefinedStorageAddons: Increased the energy capacity of the Wireless Crafting Grid from 3200 to 1.000.000
