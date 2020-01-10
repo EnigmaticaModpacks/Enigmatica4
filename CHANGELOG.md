@@ -4,18 +4,19 @@
 
 **Changes**
 
-- Evaluate Ma Essentials \(Adds commands like /home\) [\#255](https://github.com/NillerMedDild/Enigmatica4/issues/255) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
-- Investigate TorchSlabs [\#253](https://github.com/NillerMedDild/Enigmatica4/issues/253) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
-- \[Request\] Add BonsaiTrees 2 [\#251](https://github.com/NillerMedDild/Enigmatica4/issues/251) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
-- Add Openblocks Elevators [\#250](https://github.com/NillerMedDild/Enigmatica4/issues/250) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
-- Add Cyclic [\#244](https://github.com/NillerMedDild/Enigmatica4/issues/244) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
-- Add Extended Lights [\#243](https://github.com/NillerMedDild/Enigmatica4/issues/243) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
-- Add Inventory Tweaks Reborn [\#241](https://github.com/NillerMedDild/Enigmatica4/issues/241) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
-- Add AuthMe [\#238](https://github.com/NillerMedDild/Enigmatica4/issues/238) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Ma Essentials (by Statywek) \(Adds commands like /home\) [\#255](https://github.com/NillerMedDild/Enigmatica4/issues/255) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add TorchSlabs (by EndlesNights) [\#253](https://github.com/NillerMedDild/Enigmatica4/issues/253) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add BonsaiTrees 2 (by davenonymous) [\#251](https://github.com/NillerMedDild/Enigmatica4/issues/251) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Openblocks Elevators (by vsngarcia) [\#250](https://github.com/NillerMedDild/Enigmatica4/issues/250) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Cyclic (by Lothrazar) [\#244](https://github.com/NillerMedDild/Enigmatica4/issues/244) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Extended Lights (by polyvalord) [\#243](https://github.com/NillerMedDild/Enigmatica4/issues/243) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Inventory Tweaks Reborn (by Landmaster) [\#241](https://github.com/NillerMedDild/Enigmatica4/issues/241) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add AuthMe (by Ax1eum) [\#238](https://github.com/NillerMedDild/Enigmatica4/issues/238) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Serene Seasons (by Forstride) [\#203](https://github.com/NillerMedDild/Enigmatica4/issues/203) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Libnonymous (by davenonymous)
+- Add DefaultSettings (by PT400C) required for future plans
+- Add MultiBeds (by ShetiPhan) [\#223](https://github.com/NillerMedDild/Enigmatica4/issues/223) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Serene Seasons / Simple Farming Mod Compatibility [\#224](https://github.com/NillerMedDild/Enigmatica4/issues/224) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
-- Add Serene Seasons [\#203](https://github.com/NillerMedDild/Enigmatica4/issues/203) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
-- Added Libnonymous by davenonymous 
-- Added DefaultSettings by PT400C (needed for future plans)
 - Cyclic: Made a Mattock recipe
 - Quark: Disabled Cave Roots worldgen
 - RefinedStorageAddons: Increased the energy capacity of the Wireless Crafting Grid from 3200 to 1.000.000
@@ -27,7 +28,6 @@
 - JustEnoughResources: Blacklisted Curse of Vanishing and Magnet from the JER Enchantment tab in JEI
 - Configure Farming for Blockheads Market [\#166](https://github.com/NillerMedDild/Enigmatica4/issues/166) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
 - Nerf Refined Storage Addons [\#154](https://github.com/NillerMedDild/Enigmatica4/issues/154) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
-- Add MultiBeds [\#223](https://github.com/NillerMedDild/Enigmatica4/issues/223) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 
 **Fixed bugs**
 
