@@ -4,6 +4,16 @@
 
 **Changes**
 
+- Evaluate Ma Essentials \(Adds commands like /home\) [\#255](https://github.com/NillerMedDild/Enigmatica4/issues/255) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Investigate TorchSlabs [\#253](https://github.com/NillerMedDild/Enigmatica4/issues/253) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- \[Request\] Add BonsaiTrees 2 [\#251](https://github.com/NillerMedDild/Enigmatica4/issues/251) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Openblocks Elevators [\#250](https://github.com/NillerMedDild/Enigmatica4/issues/250) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Cyclic [\#244](https://github.com/NillerMedDild/Enigmatica4/issues/244) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Extended Lights [\#243](https://github.com/NillerMedDild/Enigmatica4/issues/243) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add Inventory Tweaks Reborn [\#241](https://github.com/NillerMedDild/Enigmatica4/issues/241) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Add AuthMe [\#238](https://github.com/NillerMedDild/Enigmatica4/issues/238) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Serene Seasons / Simple Farming Mod Compatibility [\#224](https://github.com/NillerMedDild/Enigmatica4/issues/224) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
+- Add Serene Seasons [\#203](https://github.com/NillerMedDild/Enigmatica4/issues/203) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Added Libnonymous by davenonymous 
 - Added DefaultSettings by PT400C (needed for future plans)
 - Cyclic: Made a Mattock recipe
@@ -15,10 +25,14 @@
 - RefinedStorageAddons: Changed the recipe of the Wireless Crafting Grid.
 - SereneSeasons: Increased the maximum height Greenhouse Glass may be above crops for them to grow every season from 7 to 15
 - JustEnoughResources: Blacklisted Curse of Vanishing and Magnet from the JER Enchantment tab in JEI
+- Configure Farming for Blockheads Market [\#166](https://github.com/NillerMedDild/Enigmatica4/issues/166) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
+- Nerf Refined Storage Addons [\#154](https://github.com/NillerMedDild/Enigmatica4/issues/154) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- Add MultiBeds [\#223](https://github.com/NillerMedDild/Enigmatica4/issues/223) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 
 **Fixed bugs**
 
-- 
+- Everlasting Abilities Flight non-functional, because of Angel Ring issue [\#242](https://github.com/NillerMedDild/Enigmatica4/issues/242)
+
 
 ## [Enigmatica 4 v0.4.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.1)
 *Forge-1.14.4-28.1.109*
