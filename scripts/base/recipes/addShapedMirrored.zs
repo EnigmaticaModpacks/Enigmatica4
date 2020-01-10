@@ -2,6 +2,17 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
+/*
+
+output : 
+    [
+        [air, air, air], 
+        [air, air, air],
+        [air, air, air]
+    ]
+
+*/
+
 var air = <item:minecraft:air>;
 var recipes as IIngredient[][][IItemStack] = {
 	<item:minecraft:oak_sign> * 3 : 
@@ -9,38 +20,7 @@ var recipes as IIngredient[][][IItemStack] = {
         [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>], 
         [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>],
         [air, <tag:forge:rods/wooden>, air]
-    ],
-	<item:cyclic:mattock> : 
-    [
-        [<tag:forge:storage_blocks/lapis>, <tag:forge:obsidian>, <tag:forge:storage_blocks/lapis>], 
-        [air, <tag:forge:ingots/steel>, air],
-        [air, <tag:forge:ingots/steel>, air]
-    ]/*,
-     : 
-    [
-        
-    ],
-     : 
-    [
-        
-    ],
-     : 
-    [
-        
-    ],
-     : 
-    [
-        
-    ],
-     : 
-    [
-        
-    ],
-     : 
-    [
-        
     ]
-    */
 };
 
 for output, input in recipes {
@@ -64,6 +44,7 @@ var vanillaPlanks as IItemStack[] = [
     <item:minecraft:dark_oak_planks>
 ];
 
+var chest = <tag:forge:chests/wooden>;
 for planks in <tag:minecraft:planks>.items {
     var counter as int = 0;
     for vanillaPlank in vanillaPlanks {
@@ -72,18 +53,18 @@ for planks in <tag:minecraft:planks>.items {
             if (counter == 6) {
                 craftingTable.addShapedMirrored(<item:storagedrawers:oak_full_drawers_1>.translationKey + "_" + planks.translationKey, <item:storagedrawers:oak_full_drawers_1>, [
                     [planks, planks, planks], 
-                    [air, <tag:forge:chests/wooden>, air],
+                    [air, chest, air],
                     [planks, planks, planks]
                 ]);
                 craftingTable.addShapedMirrored(<item:storagedrawers:oak_full_drawers_2>.translationKey + "_" + planks.translationKey, <item:storagedrawers:oak_full_drawers_2> * 2, [
-                    [planks, planks, planks], 
-                    [air, <tag:forge:chests/wooden>, air],
-                    [planks, planks, planks]
+                    [planks, chest, planks], 
+                    [planks, planks, planks],
+                    [planks, chest, planks]
                 ]);
                 craftingTable.addShapedMirrored(<item:storagedrawers:oak_full_drawers_4>.translationKey + "_" + planks.translationKey, <item:storagedrawers:oak_full_drawers_4> * 4, [
-                    [planks, planks, planks], 
-                    [air, <tag:forge:chests/wooden>, air],
-                    [planks, planks, planks]
+                    [chest, planks, chest], 
+                    [planks, planks, planks],
+                    [chest, planks, chest]
                 ]);
             }
         }
@@ -107,18 +88,18 @@ for slabs in <tag:minecraft:wooden_slabs>.items {
             if (counter == 6) {
                 craftingTable.addShapedMirrored(<item:storagedrawers:oak_half_drawers_1>.translationKey + "_" + slabs.translationKey, <item:storagedrawers:oak_half_drawers_1>, [
                     [slabs, slabs, slabs], 
-                    [air, <tag:forge:chests/wooden>, air],
+                    [air, chest, air],
                     [slabs, slabs, slabs]
                 ]);
                 craftingTable.addShapedMirrored(<item:storagedrawers:oak_half_drawers_2>.translationKey + "_" + slabs.translationKey, <item:storagedrawers:oak_half_drawers_2> * 2, [
-                    [slabs, slabs, slabs], 
-                    [air, <tag:forge:chests/wooden>, air],
-                    [slabs, slabs, slabs]
+                    [slabs, chest, slabs], 
+                    [slabs, slabs, slabs],
+                    [slabs, chest, slabs]
                 ]);
                 craftingTable.addShapedMirrored(<item:storagedrawers:oak_half_drawers_4>.translationKey + "_" + slabs.translationKey, <item:storagedrawers:oak_half_drawers_4> * 4, [
-                    [slabs, slabs, slabs], 
-                    [air, <tag:forge:chests/wooden>, air],
-                    [slabs, slabs, slabs]
+                    [chest, slabs, chest], 
+                    [slabs, slabs, slabs],
+                    [chest, slabs, chest]
                 ]);
             }
         }
