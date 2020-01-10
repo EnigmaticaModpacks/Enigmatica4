@@ -1,7 +1,8 @@
 /* #priority 900
 import crafttweaker.api.item.IIngredient;
+import crafttweaker.api.tag.MCTag;
 
-var materialTags as IIngredient[] = [
+var tags as MCTag[] = [
 
 <tag:forge:nuggets/iron>,
 <tag:forge:ingots/iron>,
@@ -389,10 +390,9 @@ var materialTags as IIngredient[] = [
 
 ];
 
-for tag in materialTags {
-    if (tag.items.length > 0) {
-        for item in tag.items {
-            println(item.translationKey + " found in " + tag.commandString);
-        }
+for tag in tags {
+    tag.createItemTag();
+    for item in tag.items {
+        println(item.translationKey + " found in " + tag.commandString);
     }
 } */
