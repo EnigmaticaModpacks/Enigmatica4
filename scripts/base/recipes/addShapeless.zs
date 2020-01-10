@@ -2,6 +2,12 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
+/*
+
+output :
+[air, air, air]
+
+*/
 var air = <item:minecraft:air>;
 var recipes as IIngredient[][IItemStack] = {
 	<item:minecraft:flint> : 
@@ -21,26 +27,6 @@ var recipes as IIngredient[][IItemStack] = {
 	
 	<item:minecraft:crafting_table> :
     [<item:craftingstation:crafting_station_slab>]
-/* 
-     : 
-    [],
-    
-     : 
-    [],
-     : 
-    [],
-     : 
-    [],
-     : 
-    [],
-     : 
-    [],
-     : 
-    [],
-     : 
-    [],
-     : 
-    [], */
 };
 
 for output, input in recipes {
