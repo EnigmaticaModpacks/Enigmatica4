@@ -134,6 +134,8 @@
 		#Defines how many millibuckets per redstone signal strength can be transferred per tick through the analog redstone controlled valves. Note: power 0 is always off, power 15 is always the max flow rate. Between power 1 and 14 this scaler will result in a flow = 'redstone slope' * 'current redstone power'. The value can be changed on-the-fly for tuning. 
 		#Range: 1 ~ 10000
 		pipevalve_redstone_gain = 20
+		#Disables increasing/decreasing the crafting grid items by scrolling over the crafting result slot.
+		without_crafting_mouse_scrolling = false
 		#Defines the energy consumption (per tick) for speeding up the smelting process. If IE is installed, an external heater has to be inserted into an auxiliary slot of the lab furnace. The power source needs to be able to provide at least 4 times this consumption (fixed threshold value). The value can be changed on-the-fly for tuning. The default value corresponds to the IE heater consumption.
 		#Range: 16 ~ 256
 		furnace_boost_energy_consumption = 24

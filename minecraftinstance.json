@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-01-09T19:36:33.8823831Z",
+  "lastPlayed": "2020-01-10T19:50:05.6177868Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -2697,21 +2697,6 @@
       "fileSize": 24394
     },
     {
-      "folderName": "invtweaks-1.14.4-0.5.0.jar",
-      "fingerprint": 189831922,
-      "fileDateHash": 143802239,
-      "sectionID": 8,
-      "individualFingerprints": [
-        189831922
-      ],
-      "status": 1,
-      "timestamp": "2020-01-05T18:30:05.2554984Z",
-      "lastWriteTimeUtc": "2020-01-05T18:24:38.9410314Z",
-      "queryTimestamp": "2020-01-07T18:46:22.7022073Z",
-      "fileCount": 1,
-      "fileSize": 75480
-    },
-    {
       "folderName": "kubejs-forge-1.14.4-2.1.0.24.jar",
       "fingerprint": 118945993,
       "fileDateHash": 2694062106,
@@ -2725,6 +2710,21 @@
       "queryTimestamp": "2020-01-07T18:46:22.7022073Z",
       "fileCount": 1,
       "fileSize": 430905
+    },
+    {
+      "folderName": "invtweaks-1.14.4-0.5.0.jar",
+      "fingerprint": 189831922,
+      "fileDateHash": 143802239,
+      "sectionID": 8,
+      "individualFingerprints": [
+        189831922
+      ],
+      "status": 1,
+      "timestamp": "2020-01-05T18:30:05.2554984Z",
+      "lastWriteTimeUtc": "2020-01-05T18:24:38.9410314Z",
+      "queryTimestamp": "2020-01-07T18:46:22.7022073Z",
+      "fileCount": 1,
+      "fileSize": 75480
     },
     {
       "folderName": "DangerousStoneCutter-1.14.4-1.2.0.jar",
@@ -2787,21 +2787,6 @@
       "fileSize": 49818
     },
     {
-      "folderName": "Aquaculture-1.14.4-2.0.3.jar",
-      "fingerprint": 1615579149,
-      "fileDateHash": 927867269,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1615579149
-      ],
-      "status": 1,
-      "timestamp": "2019-12-24T21:55:00.6586537Z",
-      "lastWriteTimeUtc": "2019-12-22T18:08:48.7558921Z",
-      "queryTimestamp": "2020-01-07T18:46:22.7052045Z",
-      "fileCount": 1,
-      "fileSize": 447647
-    },
-    {
       "folderName": "CommonCapabilities-1.14.4-2.4.4.jar",
       "fingerprint": 2196913905,
       "fileDateHash": 2606153243,
@@ -2815,6 +2800,21 @@
       "queryTimestamp": "2020-01-07T18:46:22.7052045Z",
       "fileCount": 1,
       "fileSize": 231839
+    },
+    {
+      "folderName": "Aquaculture-1.14.4-2.0.3.jar",
+      "fingerprint": 1615579149,
+      "fileDateHash": 927867269,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1615579149
+      ],
+      "status": 1,
+      "timestamp": "2019-12-24T21:55:00.6586537Z",
+      "lastWriteTimeUtc": "2019-12-22T18:08:48.7558921Z",
+      "queryTimestamp": "2020-01-07T18:46:22.7052045Z",
+      "fileCount": 1,
+      "fileSize": 447647
     },
     {
       "folderName": "swingthroughgrass-1.14.4-1.3.2.jar",
@@ -2862,21 +2862,6 @@
       "fileSize": 28413
     },
     {
-      "folderName": "dwmh-1.14.4-3.1.1.jar",
-      "fingerprint": 158175040,
-      "fileDateHash": 3180932328,
-      "sectionID": 8,
-      "individualFingerprints": [
-        158175040
-      ],
-      "status": 1,
-      "timestamp": "2019-11-13T19:14:51.7154966Z",
-      "lastWriteTimeUtc": "2019-11-10T18:24:13.6197664Z",
-      "queryTimestamp": "2020-01-07T18:46:22.7092118Z",
-      "fileCount": 1,
-      "fileSize": 495866
-    },
-    {
       "folderName": "AttributeFix-1.14.4-3.0.3.jar",
       "fingerprint": 3694735647,
       "fileDateHash": 456062052,
@@ -2890,6 +2875,21 @@
       "queryTimestamp": "2020-01-07T18:46:22.7082086Z",
       "fileCount": 1,
       "fileSize": 7839
+    },
+    {
+      "folderName": "dwmh-1.14.4-3.1.1.jar",
+      "fingerprint": 158175040,
+      "fileDateHash": 3180932328,
+      "sectionID": 8,
+      "individualFingerprints": [
+        158175040
+      ],
+      "status": 1,
+      "timestamp": "2019-11-13T19:14:51.7154966Z",
+      "lastWriteTimeUtc": "2019-11-10T18:24:13.6197664Z",
+      "queryTimestamp": "2020-01-07T18:46:22.7092118Z",
+      "fileCount": 1,
+      "fileSize": 495866
     },
     {
       "folderName": "refinedstorage-1.7.3.jar",
@@ -2997,21 +2997,6 @@
       "fileSize": 18271
     },
     {
-      "folderName": "Cyclic-1.14.4-0.1.0.jar",
-      "fingerprint": 159727175,
-      "fileDateHash": 2811244224,
-      "sectionID": 8,
-      "individualFingerprints": [
-        159727175
-      ],
-      "status": 1,
-      "timestamp": "2020-01-06T18:40:49.1178849Z",
-      "lastWriteTimeUtc": "2020-01-06T18:06:27.9340522Z",
-      "queryTimestamp": "2020-01-07T18:46:22.7142014Z",
-      "fileCount": 1,
-      "fileSize": 1613659
-    },
-    {
       "folderName": "BambooBlocksV1.2.10.jar",
       "fingerprint": 1162679361,
       "fileDateHash": 3792122200,
@@ -3025,6 +3010,21 @@
       "queryTimestamp": "2020-01-07T18:46:22.7142014Z",
       "fileCount": 1,
       "fileSize": 141607
+    },
+    {
+      "folderName": "Cyclic-1.14.4-0.1.0.jar",
+      "fingerprint": 159727175,
+      "fileDateHash": 2811244224,
+      "sectionID": 8,
+      "individualFingerprints": [
+        159727175
+      ],
+      "status": 1,
+      "timestamp": "2020-01-06T18:40:49.1178849Z",
+      "lastWriteTimeUtc": "2020-01-06T18:06:27.9340522Z",
+      "queryTimestamp": "2020-01-07T18:46:22.7142014Z",
+      "fileCount": 1,
+      "fileSize": 1613659
     },
     {
       "folderName": "simplytea-2.0.4.jar",
@@ -3441,14 +3441,14 @@
       "addonID": 331983,
       "gameInstanceID": "da2bb6d2-84a9-4f29-8a36-388fe9286d59",
       "installedFile": {
-        "id": 2773465,
-        "displayName": "Corail Woodcutter 1.0.6 for 1.14.4",
-        "fileName": "corail_woodcutter-1.0.6-1.14.4.jar",
-        "fileDate": "2019-08-29T02:36:27.45Z",
-        "fileLength": 303596,
+        "id": 2857824,
+        "displayName": "Corail Woodcutter 1.1.0 for 1.14.4",
+        "fileName": "corail_woodcutter-1.1.0-1.14.4.jar",
+        "fileDate": "2020-01-10T16:33:41.707Z",
+        "fileLength": 304596,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2773/465/corail_woodcutter-1.0.6-1.14.4.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/824/corail_woodcutter-1.1.0-1.14.4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -3456,17 +3456,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2170051778,
+            "fingerprint": 914723421,
             "type": 0
           },
           {
             "foldername": "ovh",
-            "fingerprint": 1382308472,
+            "fingerprint": 3550183294,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3816725164,
+            "fingerprint": 1113980860,
             "type": 0
           },
           {
@@ -3480,7 +3480,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2108200510,
+        "packageFingerprint": 955001434,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -3494,12 +3494,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "corail_woodcutter-1.0.6-1.14.4.jar"
+        "FileNameOnDisk": "corail_woodcutter-1.1.0-1.14.4.jar"
       },
       "dateInstalled": "2019-07-29T16:59:50.4160496Z",
-      "dateUpdated": "2019-09-08T08:29:41.1571701Z",
-      "dateLastUpdateAttempted": "2019-09-08T08:29:41.1571701Z",
-      "status": 5,
+      "dateUpdated": "2020-01-10T18:38:04.2627714Z",
+      "dateLastUpdateAttempted": "2020-01-10T18:38:04.2627714Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4925,14 +4925,14 @@
       "addonID": 289712,
       "gameInstanceID": "da2bb6d2-84a9-4f29-8a36-388fe9286d59",
       "installedFile": {
-        "id": 2857329,
-        "displayName": "tetra-1.14.4-1.4.0.jar",
-        "fileName": "tetra-1.14.4-1.4.0.jar",
-        "fileDate": "2020-01-09T18:33:30.483Z",
-        "fileLength": 1208787,
-        "releaseType": 2,
+        "id": 2857750,
+        "displayName": "tetra-1.14.4-1.5.1.jar",
+        "fileName": "tetra-1.14.4-1.5.1.jar",
+        "fileDate": "2020-01-10T14:15:45.257Z",
+        "fileLength": 1227890,
+        "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2857/329/tetra-1.14.4-1.4.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/750/tetra-1.14.4-1.5.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -4947,22 +4947,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1056433277,
+            "fingerprint": 2236211672,
             "type": 0
           },
           {
             "foldername": "se",
-            "fingerprint": 3182918623,
+            "fingerprint": 2784624245,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 83239972,
+            "fingerprint": 3839316321,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 1223982629,
+            "fingerprint": 2804794018,
             "type": 0
           },
           {
@@ -4971,7 +4971,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 803652100,
+        "packageFingerprint": 1998108538,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -4985,11 +4985,11 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "tetra-1.14.4-1.4.0.jar"
+        "FileNameOnDisk": "tetra-1.14.4-1.5.1.jar"
       },
       "dateInstalled": "2019-12-24T21:55:02.2804645Z",
-      "dateUpdated": "2020-01-09T18:54:38.6736788Z",
-      "dateLastUpdateAttempted": "2020-01-09T18:54:38.6736788Z",
+      "dateUpdated": "2020-01-10T18:38:23.8310106Z",
+      "dateLastUpdateAttempted": "2020-01-10T18:38:23.8310106Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -10325,14 +10325,14 @@
       "addonID": 313866,
       "gameInstanceID": "da2bb6d2-84a9-4f29-8a36-388fe9286d59",
       "installedFile": {
-        "id": 2854930,
-        "displayName": "engineersdecor-1.14.4-1.0.18-b2.jar",
-        "fileName": "engineersdecor-1.14.4-1.0.18-b2.jar",
-        "fileDate": "2020-01-05T09:28:08.647Z",
-        "fileLength": 1037329,
+        "id": 2857680,
+        "displayName": "engineersdecor-1.14.4-1.0.18-b3.jar",
+        "fileName": "engineersdecor-1.14.4-1.0.18-b3.jar",
+        "fileDate": "2020-01-10T09:12:22.783Z",
+        "fileLength": 1042197,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2854/930/engineersdecor-1.14.4-1.0.18-b2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/680/engineersdecor-1.14.4-1.0.18-b3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -10347,7 +10347,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4034592850,
+            "fingerprint": 3728312140,
             "type": 0
           },
           {
@@ -10357,17 +10357,17 @@
           },
           {
             "foldername": "wile",
-            "fingerprint": 331898094,
+            "fingerprint": 3863831221,
             "type": 0
           },
           {
-            "foldername": ".gitversion",
-            "fingerprint": 3380496180,
+            "foldername": ".gitversion-engineersdecor",
+            "fingerprint": 2931653427,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2597892101,
+            "fingerprint": 3992803838,
             "type": 0
           },
           {
@@ -10386,7 +10386,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4119265864,
+        "packageFingerprint": 362768961,
         "gameVersion": [
           "1.14.4"
         ],
@@ -10399,12 +10399,12 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "engineersdecor-1.14.4-1.0.18-b2.jar"
+        "FileNameOnDisk": "engineersdecor-1.14.4-1.0.18-b3.jar"
       },
       "dateInstalled": "2019-12-30T21:17:26.0989504Z",
-      "dateUpdated": "2020-01-05T10:37:12.7806033Z",
-      "dateLastUpdateAttempted": "2020-01-05T10:37:12.7806033Z",
-      "status": 5,
+      "dateUpdated": "2020-01-10T18:38:10.8542179Z",
+      "dateLastUpdateAttempted": "2020-01-10T18:38:10.8542179Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12450,6 +12450,84 @@
       "installedTargets": null
     },
     {
+      "addonID": 345135,
+      "gameInstanceID": "da2bb6d2-84a9-4f29-8a36-388fe9286d59",
+      "installedFile": {
+        "id": 2850339,
+        "displayName": "[Forge v1.14.4] Ma Essentials v1.2.9",
+        "fileName": "Ma-Essentials-1.14.4-1.2.9.jar",
+        "fileDate": "2019-12-27T18:09:21.593Z",
+        "fileLength": 191190,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2850/339/Ma-Essentials-1.14.4-1.2.9.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2389613537,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 252489484,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1234346028,
+            "type": 0
+          },
+          {
+            "foldername": "default_kits.json",
+            "fingerprint": 2828746046,
+            "type": 0
+          },
+          {
+            "foldername": "ma-essentials.png",
+            "fingerprint": 869931060,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 456006708,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1107557827,
+        "gameVersion": [
+          "1.14.4",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Ma-Essentials-1.14.4-1.2.9.jar"
+      },
+      "dateInstalled": "2020-01-10T19:49:03.9099644Z",
+      "dateUpdated": "2020-01-10T19:49:03.9099644Z",
+      "dateLastUpdateAttempted": "2020-01-10T19:49:03.9099644Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 292226,
       "gameInstanceID": "da2bb6d2-84a9-4f29-8a36-388fe9286d59",
       "installedFile": {
@@ -12728,14 +12806,14 @@
       "addonID": 296686,
       "gameInstanceID": "da2bb6d2-84a9-4f29-8a36-388fe9286d59",
       "installedFile": {
-        "id": 2851457,
-        "displayName": "rsgauges-1.14.4-1.2.0-b1.jar",
-        "fileName": "rsgauges-1.14.4-1.2.0-b1.jar",
-        "fileDate": "2019-12-29T19:46:40.303Z",
-        "fileLength": 843675,
+        "id": 2857684,
+        "displayName": "rsgauges-1.14.4-1.2.0-b2.jar",
+        "fileName": "rsgauges-1.14.4-1.2.0-b2.jar",
+        "fileDate": "2020-01-10T09:15:53.86Z",
+        "fileLength": 844485,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2851/457/rsgauges-1.14.4-1.2.0-b1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/684/rsgauges-1.14.4-1.2.0-b2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -12743,71 +12821,59 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 393883110,
-            "type": 3
+            "fingerprint": 2273972912,
+            "type": 0
           },
           {
             "foldername": "wile",
-            "fingerprint": 1176931862,
-            "type": 3
+            "fingerprint": 2914544849,
+            "type": 0
           },
           {
-            "foldername": ".gitversion",
-            "fingerprint": 1463884712,
-            "type": 3
+            "foldername": ".gitversion-rsgauges",
+            "fingerprint": 2399113313,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 830741673,
-            "type": 3
+            "fingerprint": 261148325,
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 2015806801,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "logo.png",
             "fingerprint": 2495119306,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 1686000509,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 3921927858,
+        "packageFingerprint": 2713830008,
         "gameVersion": [
           "1.14.4"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000014.0000000004",
-            "gameVersion": "1.14.4",
-            "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
-            "gameVersionName": "1.14.4"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1731634,
-        "projectId": 296686,
-        "packageFingerprintId": 392300281,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
-        "gameVersionMappingId": 2046166,
-        "gameVersionId": 7469,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rsgauges-1.14.4-1.2.0-b1.jar"
+        "FileNameOnDisk": "rsgauges-1.14.4-1.2.0-b2.jar"
       },
       "dateInstalled": "2019-12-30T21:17:26.0999507Z",
-      "dateUpdated": "2018-12-30T21:17:26.0999507Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateUpdated": "2020-01-10T18:38:17.2568417Z",
+      "dateLastUpdateAttempted": "2020-01-10T18:38:17.2568417Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16539,84 +16605,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 233342,
-      "gameInstanceID": "da2bb6d2-84a9-4f29-8a36-388fe9286d59",
-      "installedFile": {
-        "id": 2842784,
-        "displayName": "fairylights-2.1.14-1.14.4",
-        "fileName": "fairylights-2.1.14-1.14.4.jar",
-        "fileDate": "2019-12-14T21:18:40.653Z",
-        "fileLength": 590735,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2842/784/fairylights-2.1.14-1.14.4.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 765456979,
-            "type": 0
-          },
-          {
-            "foldername": "me",
-            "fingerprint": 2475798879,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1300998308,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2853238543,
-            "type": 0
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 2278060699,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 830928258,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3423552173,
-        "gameVersion": [
-          "1.14.4",
-          "Forge"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "fairylights-2.1.14-1.14.4.jar"
-      },
-      "dateInstalled": "2019-12-14T19:07:01.1940057Z",
-      "dateUpdated": "2019-12-15T10:41:05.6719807Z",
-      "dateLastUpdateAttempted": "2019-12-15T10:41:05.6719807Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 263420,
       "gameInstanceID": "da2bb6d2-84a9-4f29-8a36-388fe9286d59",
       "installedFile": {
@@ -16672,6 +16660,84 @@
       "dateInstalled": "2019-12-24T21:55:02.2844175Z",
       "dateUpdated": "2020-01-09T18:55:19.6461634Z",
       "dateLastUpdateAttempted": "2020-01-09T18:55:19.6461634Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 233342,
+      "gameInstanceID": "da2bb6d2-84a9-4f29-8a36-388fe9286d59",
+      "installedFile": {
+        "id": 2857646,
+        "displayName": "fairylights-2.1.15-1.14.4",
+        "fileName": "fairylights-2.1.15-1.14.4.jar",
+        "fileDate": "2020-01-10T06:04:59.017Z",
+        "fileLength": 623476,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/646/fairylights-2.1.15-1.14.4.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2877327806,
+            "type": 0
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 589820931,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 18224560,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 522860535,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 2278060699,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 830928258,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3986878550,
+        "gameVersion": [
+          "1.14.4",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "fairylights-2.1.15-1.14.4.jar"
+      },
+      "dateInstalled": "2019-12-14T19:07:01.1940057Z",
+      "dateUpdated": "2020-01-10T18:38:12.6417906Z",
+      "dateLastUpdateAttempted": "2020-01-10T18:38:12.6417906Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -16754,27 +16820,27 @@
       "addonID": 318012,
       "gameInstanceID": "da2bb6d2-84a9-4f29-8a36-388fe9286d59",
       "installedFile": {
-        "id": 2857244,
-        "displayName": "DefaultSettings-1.14.x-2.1.1",
-        "fileName": "DefaultSettings-1.14.x-2.1.1.jar",
-        "fileDate": "2020-01-09T15:01:49.08Z",
-        "fileLength": 571047,
+        "id": 2857829,
+        "displayName": "DefaultSettings-1.14.x-2.1.2",
+        "fileName": "DefaultSettings-1.14.x-2.1.2.jar",
+        "fileDate": "2020-01-10T16:37:50.39Z",
+        "fileLength": 580754,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2857/244/DefaultSettings-1.14.x-2.1.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/829/DefaultSettings-1.14.x-2.1.2.jar",
         "isAlternate": false,
-        "alternateFileId": 2857245,
+        "alternateFileId": 2857830,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1351709464,
+            "fingerprint": 3469291900,
             "type": 0
           },
           {
             "foldername": "de",
-            "fingerprint": 3540292998,
+            "fingerprint": 712510574,
             "type": 0
           },
           {
@@ -16793,7 +16859,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 309149366,
+        "packageFingerprint": 3166774624,
         "gameVersion": [
           "1.14.4",
           "1.14.3",
@@ -16808,11 +16874,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "DefaultSettings-1.14.x-2.1.1.jar"
+        "FileNameOnDisk": "DefaultSettings-1.14.x-2.1.2.jar"
       },
       "dateInstalled": "2020-01-07T18:21:23.5588486Z",
-      "dateUpdated": "2020-01-09T18:47:24.2056027Z",
-      "dateLastUpdateAttempted": "2020-01-09T18:47:24.2056027Z",
+      "dateUpdated": "2020-01-10T18:38:06.8153288Z",
+      "dateLastUpdateAttempted": "2020-01-10T18:38:06.8153288Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,

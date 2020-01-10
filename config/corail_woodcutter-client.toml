@@ -1,0 +1,6 @@
+
+#Personal Options that can be edited even on server
+[client]
+	#Display the stonecutting recipes in a custom category in JEI - depending if you're on a server or singleplayer, this option requires to relog on the server or restart your client [false/true|default:true]
+	stonecutting_support_in_jei = true
+
