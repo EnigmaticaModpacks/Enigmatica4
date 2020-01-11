@@ -1,3 +1,19 @@
+## [Enigmatica 4 v0.4.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.3)
+*Forge-1.14.4-28.1.109*
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- RefinedStorage: Increased energy capacity and base usage of the Controller (1000000FE and 1FE/t)
+- RefinedStorage: Increased energy usage of the Network Transmitter to 200 FE/t
+- RefinedStorage: Increased base range and upgrade range of the Wireless Transmitter (50 and 25 per)
+- RefinedStorage: Changed energy usage of the Wireless Grid (open: 300 from 30, extract item: 10 from 5, insert item: 1 from 5)
+- RefinedStorage: Increased energy usage of the Wireless Fluid Grid (open: 300 from 30, extract item: 10 from 5, insert item: 10 from 5)
+
+**Fixed bugs**
+
+- Crafting Station crashing while not having adjacent chests/furnaces (tile entities) etc.
+
 ## [Enigmatica 4 v0.4.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.2)
 *Forge-1.14.4-28.1.109*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
@@ -32,7 +48,6 @@
 **Fixed bugs**
 
 - Everlasting Abilities Flight non-functional, because of Angel Ring issue [\#242](https://github.com/NillerMedDild/Enigmatica4/issues/242)
-
 
 ## [Enigmatica 4 v0.4.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.1)
 *Forge-1.14.4-28.1.109*
