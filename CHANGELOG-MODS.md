@@ -1,3 +1,13 @@
+# 0.4.2 -> 0.4.3
+
+* BonsaiTrees-2.0.1.32.jar
+* craftingstation-2.1.5a.jar
+* CraftTweaker-1.14.4-5.0.1.160.jar
+* libnonymous-1.14.4-1.0.2.21.jar
+* minecolonies-0.10.624-ALPHA-universal.jar
+* NaturesCompass-1.14.4-1.8.3.jar
+* StevesFactoryManager-1.14.4-3.0.0-alpha25.jar
+
 # 0.4.1 -> 0.4.2
 
 * angelring-1.14.4-1.1.0-pre2.jar
