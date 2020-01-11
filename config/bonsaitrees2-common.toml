@@ -1,0 +1,11 @@
+
+#General Settings
+[general]
+	#Additional items that are able to cut bonsai trees.
+	additionalCuttingTools = ["minecraft:shears"]
+	#If set to true, then dye is not being used up when painting bonsai pots.
+	noDyeCost = false
+	#How to handle waterlogged bonsai pots.
+	#Allowed Values: NOTHING, DROP_LOOT, DROP_SAPLING
+	waterloggedEffect = "DROP_LOOT"
+
