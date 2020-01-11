@@ -30,10 +30,10 @@
 	useEnergy = true
 	#The energy capacity of the Controller
 	#Range: > 0
-	capacity = 32000
+	capacity = 1000000
 	#The base energy used by the Controller
 	#Range: > 0
-	baseUsage = 0
+	baseUsage = 1
 	#The maximum energy that the Controller can receive
 	#Range: > 0
 	maxTransfer = 2147483647
@@ -158,10 +158,10 @@
 	usage = 8
 	#The base range of the Wireless Transmitter
 	#Range: > 0
-	baseRange = 16
+	baseRange = 50
 	#The additional range per Range Upgrade in the Wireless Transmitter
 	#Range: > 0
-	rangePerUpgrade = 8
+	rangePerUpgrade = 25
 
 [storageMonitor]
 	#The energy used by the Storage Monitor
@@ -173,32 +173,32 @@
 	useEnergy = true
 	#The energy capacity of the Wireless Grid
 	#Range: > 0
-	capacity = 3200
+	capacity = 1000000
 	#The energy used by the Wireless Grid to open
 	#Range: > 0
-	openUsage = 30
+	openUsage = 300
 	#The energy used by the Wireless Grid to extract items
 	#Range: > 0
-	extractUsage = 5
+	extractUsage = 10
 	#The energy used by the Wireless Grid to insert items
 	#Range: > 0
-	insertUsage = 5
+	insertUsage = 1
 
 [wirelessFluidGrid]
 	#Whether the Wireless Fluid Grid uses energy
 	useEnergy = true
 	#The energy capacity of the Wireless Fluid Grid
 	#Range: > 0
-	capacity = 3200
+	capacity = 1000000
 	#The energy used by the Wireless Fluid Grid to open
 	#Range: > 0
-	openUsage = 30
+	openUsage = 300
 	#The energy used by the Wireless Fluid Grid to extract fluids
 	#Range: > 0
-	extractUsage = 5
+	extractUsage = 10
 	#The energy used by the Wireless Fluid Grid to insert fluids
 	#Range: > 0
-	insertUsage = 5
+	insertUsage = 10
 
 [constructor]
 	#The energy used by the Constructor
