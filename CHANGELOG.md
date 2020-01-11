@@ -4,6 +4,7 @@
 
 **Changes**
 
+- Add BonsaiTrees 2 (Actually added it this time, woops) [\#251](https://github.com/NillerMedDild/Enigmatica4/issues/251) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - RefinedStorage: Increased energy capacity and base usage of the Controller (1000000FE and 1FE/t)
 - RefinedStorage: Increased energy usage of the Network Transmitter to 200 FE/t
 - RefinedStorage: Increased base range and upgrade range of the Wireless Transmitter (50 and 25 per)
