@@ -2,6 +2,7 @@ param(
 	[PSObject]
 	$ClientMods = @(
 		"AppleSkin", 
+		"AuthMe", 
 		"BetterAdvancements",
 		"CraftingTweaks", 
 		"DefaultOptions", 

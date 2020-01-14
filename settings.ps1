@@ -6,6 +6,7 @@
 
 $CLIENT_MODS = @(
 	"AppleSkin", 
+	"AuthMe",
 	"BetterAdvancements",
 	"CraftingTweaks", 
 	"DefaultOptions", 
