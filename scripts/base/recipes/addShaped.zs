@@ -4,7 +4,7 @@ import crafttweaker.api.item.IIngredient;
 
 /*
 
-output : 
+    output : 
     [
         [air, air, air], 
         [air, air, air],
@@ -37,6 +37,12 @@ var recipes as IIngredient[][][IItemStack] = {
         [<tag:forge:ingots/iron>, <tag:minecraft:logs>, <tag:forge:ingots/iron>], 
         [<tag:forge:ingots/iron>, <tag:minecraft:logs>, <tag:forge:ingots/iron>],
         [air, <tag:forge:ingots/iron>, air]
+    ],
+    <item:simplefarming:fish_and_chips> : 
+    [
+        [air, <tag:forge:crops/potato>, air], 
+        [<tag:forge:grain>, <item:aquaculture:fish_fillet_cooked>, <tag:forge:grain>],
+        [air, <tag:forge:crops/potato>, air]
     ]
 };
 
