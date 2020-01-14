@@ -12,6 +12,8 @@
 
 	[Commands.back]
 		#Range: > 0
+		death_custom_cooldown = 0
+		#Range: > 0
 		delay = 3
 		#Enable command: /back
 		enable = true
@@ -64,6 +66,8 @@
 		cooldown = 300
 		#Range: > 1
 		limit = 3
+		#Range: > 1
+		limit_op = 5
 
 	[Commands.up]
 		#Enable command: /up

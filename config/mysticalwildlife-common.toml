@@ -1,7 +1,145 @@
-#Base time between Krill forages (can be up to 2x that amount in game)
-#Range: 1 ~ 1073741823
-krillForageTime = 1800
-#Base time between Aphrodite Essence drops (can be up to 2x that amount in game)
-#Range: 1 ~ 1073741823
-cicapteraLovelyEssenceTime = 12000
+
+#Mob spawns
+[spawns]
+
+	#Dusk Lurker spawn
+	[spawns.dusk_lurker_spawn]
+		#Minimum group size
+		#Range: 1 ~ 255
+		min = 2
+		#Maximum group size
+		#Range: 1 ~ 255
+		max = 5
+		#Spawn weight (higher = more frequent, 0 disables spawn)
+		#Range: 0 ~ 2048
+		weight = 8
+
+	#Wintry Cicaptera spawn
+	[spawns.cicaptera_wintry_spawn]
+		#Minimum group size
+		#Range: 1 ~ 255
+		min = 4
+		#Maximum group size
+		#Range: 1 ~ 255
+		max = 6
+		#Spawn weight (higher = more frequent, 0 disables spawn)
+		#Range: 0 ~ 2048
+		weight = 8
+
+	#Vrontausaurus spawn
+	[spawns.vrontausaurus_spawn]
+		#Minimum group size
+		#Range: 1 ~ 255
+		min = 3
+		#Maximum group size
+		#Range: 1 ~ 255
+		max = 4
+		#Spawn weight (higher = more frequent, 0 disables spawn)
+		#Range: 0 ~ 2048
+		weight = 6
+
+	#Verdant Cicaptera spawn
+	[spawns.cicaptera_verdant_spawn]
+		#Minimum group size
+		#Range: 1 ~ 255
+		min = 4
+		#Maximum group size
+		#Range: 1 ~ 255
+		max = 6
+		#Spawn weight (higher = more frequent, 0 disables spawn)
+		#Range: 0 ~ 2048
+		weight = 8
+
+	#Lovely Cicaptera spawn
+	[spawns.cicaptera_lovely_spawn]
+		#Minimum group size
+		#Range: 1 ~ 255
+		min = 2
+		#Maximum group size
+		#Range: 1 ~ 255
+		max = 3
+		#Spawn weight (higher = more frequent, 0 disables spawn)
+		#Range: 0 ~ 2048
+		weight = 4
+
+	#Crimson Cicaptera spawn
+	[spawns.cicaptera_crimson_spawn]
+		#Minimum group size
+		#Range: 1 ~ 255
+		min = 3
+		#Maximum group size
+		#Range: 1 ~ 255
+		max = 4
+		#Spawn weight (higher = more frequent, 0 disables spawn)
+		#Range: 0 ~ 2048
+		weight = 2
+
+	#Plumper spawn
+	[spawns.plumper_spawn]
+		#Minimum group size
+		#Range: 1 ~ 255
+		min = 3
+		#Maximum group size
+		#Range: 1 ~ 255
+		max = 5
+		#Spawn weight (higher = more frequent, 0 disables spawn)
+		#Range: 0 ~ 2048
+		weight = 12
+
+	#Azure Cicaptera spawn
+	[spawns.cicaptera_azure_spawn]
+		#Minimum group size
+		#Range: 1 ~ 255
+		min = 4
+		#Maximum group size
+		#Range: 1 ~ 255
+		max = 6
+		#Spawn weight (higher = more frequent, 0 disables spawn)
+		#Range: 0 ~ 2048
+		weight = 8
+
+	#Sandy Cicaptera spawn
+	[spawns.cicaptera_sandy_spawn]
+		#Minimum group size
+		#Range: 1 ~ 255
+		min = 4
+		#Maximum group size
+		#Range: 1 ~ 255
+		max = 6
+		#Spawn weight (higher = more frequent, 0 disables spawn)
+		#Range: 0 ~ 2048
+		weight = 4
+
+	#Yaga Hog spawn
+	[spawns.yaga_hog_spawn]
+		#Minimum group size
+		#Range: 1 ~ 255
+		min = 4
+		#Maximum group size
+		#Range: 1 ~ 255
+		max = 5
+		#Spawn weight (higher = more frequent, 0 disables spawn)
+		#Range: 0 ~ 2048
+		weight = 12
+
+	#Krill spawn
+	[spawns.krill_spawn]
+		#Minimum group size
+		#Range: 1 ~ 255
+		min = 1
+		#Maximum group size
+		#Range: 1 ~ 255
+		max = 3
+		#Spawn weight (higher = more frequent, 0 disables spawn)
+		#Range: 0 ~ 2048
+		weight = 12
+
+#Misc
+[misc]
+	#Base time between Krill forages (can be up to 2x that amount in game)
+	#Range: 1 ~ 1073741823
+	krillForageTime = 1800
+	#Base time between Aphrodite Essence drops (can be up to 2x that amount in game)
+	#Range: 1 ~ 1073741823
+	cicapteraLovelyEssenceTime = 12000
 
