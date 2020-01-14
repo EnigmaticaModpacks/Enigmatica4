@@ -4,7 +4,8 @@
 
 **Changes**
 
-- 
+- [Added the mod Simply Backpacks](https://www.curseforge.com/minecraft/mc-mods/simply-backpacks)
+
 **Fixed bugs**
 
 - 
