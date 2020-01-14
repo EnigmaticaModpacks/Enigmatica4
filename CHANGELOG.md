@@ -5,6 +5,8 @@
 **Changes**
 
 - [Added the mod Simply Backpacks](https://www.curseforge.com/minecraft/mc-mods/simply-backpacks)
+- [Added the mod Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones)
+- [Added the mod Powah](https://www.curseforge.com/minecraft/mc-mods/powah)
 
 **Fixed bugs**
 
