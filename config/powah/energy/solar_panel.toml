@@ -1,0 +1,27 @@
+
+#Range: min = 0, max = 2147483647
+["Basic Solar Panel"]
+	capacity = "1000"
+	transfer = "40"
+	perTick = "10"
+
+["Hardened Solar Panel"]
+	capacity = "4000"
+	transfer = "160"
+	perTick = "40"
+
+["Blazing Solar Panel"]
+	capacity = "16000"
+	transfer = "320"
+	perTick = "160"
+
+["Niotic Solar Panel"]
+	capacity = "32000"
+	transfer = "640"
+	perTick = "320"
+
+["Spirited Solar Panel"]
+	capacity = "64000"
+	transfer = "1280"
+	perTick = "640"
+
