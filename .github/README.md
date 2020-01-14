@@ -5,7 +5,7 @@ This is the official repository and issue-tracker for the modpack Enigmatica 4, 
 ### Table of Contents
 * [Testing](#testing)
 * [Setup](#setup)
-  * [Windows / Mac](#windows-/-mac)
+  * [Windows / Mac](#windows--mac)
   * [Linux](#linux)
   * [Server Automation](#server-automation)
 * [Links](#links)
