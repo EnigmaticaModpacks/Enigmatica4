@@ -1,0 +1,9 @@
+{
+  "parent": "kubejs:parent/ore",
+  "textures":
+  {
+    "face": "block/coarse_dirt",
+    "overlay": "kubejs:block/ore/bauxite",
+    "particle": "block/coarse_dirt"
+  }
+}

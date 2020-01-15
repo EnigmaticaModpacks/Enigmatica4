@@ -4,4 +4,10 @@ events.listen('block.registry', function (event) {
   .material(block.material.earth)
   .hardness(1.0)
   .add();
+
+  event
+  .create('bauxite_dirt_ore')
+  .material(block.material.earth)
+  .hardness(1.0)
+  .add();
 })
