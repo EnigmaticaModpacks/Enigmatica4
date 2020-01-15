@@ -7,10 +7,13 @@
 - [Added the mod Simply Backpacks](https://www.curseforge.com/minecraft/mc-mods/simply-backpacks)
 - [Added the mod Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones)
 - [Added the mod Powah](https://www.curseforge.com/minecraft/mc-mods/powah)
+- Make the Simple farming recipes that requires fish craftable with aquaculture fish fillets [\#256](https://github.com/NillerMedDild/Enigmatica4/issues/256) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+- Rebalanced Powah's energy values [\#263](https://github.com/NillerMedDild/Enigmatica4/issues/263) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
 
 **Fixed bugs**
 
-- Fixed an issue where automatically replaced stacks in your inventory were getting destroyed (Fixed in Inventory Tweaks Reborn)
+- Inventory refill deletes extra stacks [\#266](https://github.com/NillerMedDild/Enigmatica4/issues/266)
+- Bonsai Tree 2 not working on Server [\#261](https://github.com/NillerMedDild/Enigmatica4/issues/261)
 
 ## [Enigmatica 4 v0.4.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.3)
 *Forge-1.14.4-28.1.109*
