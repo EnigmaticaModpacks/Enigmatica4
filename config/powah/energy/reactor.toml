@@ -8,27 +8,27 @@ coolantFluidsAPI = true
 
 #Range: min = 0, max = 2147483647
 ["Basic Reactor"]
-	capacity = "1000000"
 	transfer = "10000"
 	genFactor = "150"
+	capacity = "1000000"
 
 ["Hardened Reactor"]
-	capacity = "2000000"
 	transfer = "20000"
 	genFactor = "300"
+	capacity = "2000000"
 
 ["Blazing Reactor"]
-	capacity = "4000000"
 	transfer = "40000"
 	genFactor = "600"
+	capacity = "4000000"
 
 ["Niotic Reactor"]
-	capacity = "8000000"
 	transfer = "80000"
 	genFactor = "1200"
+	capacity = "8000000"
 
 ["Spirited Reactor"]
-	capacity = "16000000"
 	transfer = "160000"
 	genFactor = "2400"
+	capacity = "16000000"
 

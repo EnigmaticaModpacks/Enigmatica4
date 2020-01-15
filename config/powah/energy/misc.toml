@@ -1,18 +1,18 @@
 
 #Range: min = 0, max = 2147483647
 ["Player Transmitter"]
-	capacity = "100000"
 	transfer = "1000"
+	capacity = "100000"
 
 ["Dimensional Player Transmitter"]
-	capacity = "250000"
 	transfer = "2500"
+	capacity = "250000"
 
 ["Energy Discharger"]
-	capacity = "1000000"
 	transfer = "100000"
+	capacity = "1000000"
 
 ["Energy Hopper"]
-	capacity = "1000000"
 	transfer = "10000"
+	capacity = "1000000"
 

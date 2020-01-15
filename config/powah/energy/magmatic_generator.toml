@@ -8,27 +8,27 @@ magmaticFluidsAPI = true
 
 #Range: min = 0, max = 2147483647
 ["Basic Magmatic Generator"]
-	capacity = "75000"
 	transfer = "120"
 	perTick = "60"
+	capacity = "75000"
 
 ["Hardened Magmatic Generator"]
-	capacity = "150000"
 	transfer = "240"
 	perTick = "120"
+	capacity = "150000"
 
 ["Blazing Magmatic Generator"]
-	capacity = "300000"
 	transfer = "480"
 	perTick = "240"
+	capacity = "300000"
 
 ["Niotic Magmatic Generator"]
-	capacity = "600000"
 	transfer = "960"
 	perTick = "480"
+	capacity = "600000"
 
 ["Spirited Magmatic Generator"]
-	capacity = "1200000"
 	transfer = "1920"
 	perTick = "960"
+	capacity = "1200000"
 

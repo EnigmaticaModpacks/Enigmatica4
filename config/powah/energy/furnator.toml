@@ -6,27 +6,27 @@ fuelEnergyBase = 20
 #
 #Range: min = 0, max = 2147483647
 ["Basic Furnator"]
-	capacity = "50000"
 	transfer = "160"
 	perTick = "40"
+	capacity = "50000"
 
 ["Hardened Furnator"]
-	capacity = "100000"
 	transfer = "320"
 	perTick = "80"
+	capacity = "100000"
 
 ["Blazing Furnator"]
-	capacity = "200000"
 	transfer = "640"
 	perTick = "160"
+	capacity = "200000"
 
 ["Niotic Furnator"]
-	capacity = "400000"
 	transfer = "1280"
 	perTick = "320"
+	capacity = "400000"
 
 ["Spirited Furnator"]
-	capacity = "800000"
 	transfer = "2560"
 	perTick = "640"
+	capacity = "800000"
 
