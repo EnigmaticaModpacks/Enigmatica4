@@ -1,4 +1,4 @@
-#priority 898
+/* #priority 898
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -517,30 +517,26 @@ for material, types in materials {
     for type, itemTag in types {
         switch (type) {
             case "nugget":
-            if (material == "copper") {
-                 for copperItem in <tag:mysticalworld:copper_items>.items {
-                    blastFurnace.addRecipe(formatRecipeName(itemTag.first()) + "_from_" + formatRecipeName(copperItem), itemTag.first(), copperItem, 0.1, 200);   
-                } 
-            }
-            break;
+                addEquipmentToNuggetSmeltingRecipes(material, itemTag);
+                break;
             case "ingot":
-            break;
+                break;
             case "block":
-            break;
+                break;
             case "ore":
-            break;
+                break;
             case "dust":
-            break;
+                break;
             case "fluid":
-            break;
+                break;
             case "gear":
-            break;
+                break;
             case "plate":
-            break;
+                break;
             case "rod":
-            break;
+                break;
             case "sheet":
-            break;
+                break;
         }
     }
-}
+} */

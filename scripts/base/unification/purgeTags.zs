@@ -1,4 +1,4 @@
-#priority 899
+/* #priority 899
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -529,4 +529,4 @@ for material, types in materials {
             purgeItemTag(itemTag, modPriorities);
         }
     }
-}
+} */

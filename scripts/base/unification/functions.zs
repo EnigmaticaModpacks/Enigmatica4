@@ -1,4 +1,4 @@
-#priority 910
+/* #priority 910
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -30,10 +30,10 @@ public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 			// From from Minecraft recipes
 			craftingTable.removeRecipe(item);
 			furnace.removeRecipe(item);
-			<recipetype:blasting>.removeRecipe(item);
+			blastFurnace.removeRecipe(item);
 
 			//JEI.RemoveAndHide(item);
 			//RemoveProcessingFor(item);
 		}
 	}
-}
+} */
