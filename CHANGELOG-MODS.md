@@ -1,3 +1,22 @@
+# 0.4.3 -> 0.4.4
+
+* BonsaiTrees-2.0.2.35.jar
+* corail_woodcutter-1.1.1-1.14.4.jar
+* Cyclic-1.14.4-0.1.2.jar
+* invtweaks-1.14.4-0.6.1.jar
+* libnonymous-1.14.4-1.0.3.24.jar
+* Lollipop-1.14.4-0.0.23.jar
+* Ma-Essentials-1.14.4-1.2.10.jar
+* minecolonies-0.10.631-BETA-universal.jar
+* mysticallib-1.14.4-1.13.0.jar
+* mysticalwildlife-1.14.4-1.3.4.jar
+* mysticalworld-1.14.4-1.7.1.jar
+* Powah-1.14.4-0.2.2.jar
+* simplybackpacks-1.14.4-1.3.0.jar
+* tetra-1.14.4-1.8.0.jar
+* torchslabmod-1.14.4_v1.3.1.jar
+* Waystones_1.14.4-5.0.1.jar
+
 # 0.4.2 -> 0.4.3
 
 * BonsaiTrees-2.0.1.32.jar
