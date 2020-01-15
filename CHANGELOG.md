@@ -10,7 +10,7 @@
 
 **Fixed bugs**
 
-- 
+- Fixed an issue where automatically replaced stacks in your inventory were getting destroyed (Fixed in Inventory Tweaks Reborn)
 
 ## [Enigmatica 4 v0.4.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.3)
 *Forge-1.14.4-28.1.109*
