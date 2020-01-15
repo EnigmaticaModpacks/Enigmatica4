@@ -4,4 +4,4 @@
 <recipetype:smoking>.removeAll();
 
 
-cooking.addRecipe("wood2coal", <item:minecraft:charcoal>, <tag:minecraft:logs>, 20, 20); */
+campfire.addRecipe("wood2coal", <item:minecraft:charcoal>, <tag:minecraft:logs>, 20, 20); */

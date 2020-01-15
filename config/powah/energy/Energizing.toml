@@ -1,0 +1,31 @@
+#Range for every direction, Eg: range of 4 = 9X9, range of 1 = 3X3 etc..., [default: 4]
+#Range: 1 ~ 16
+range = 4
+
+#
+#Range: min = 0, max = 2147483647
+["Basic Energizing Rod"]
+	energizing = "75"
+	transfer = "75"
+	capacity = "10000"
+
+["Hardened Energizing Rod"]
+	energizing = "150"
+	transfer = "150"
+	capacity = "20000"
+
+["Blazing Energizing Rod"]
+	energizing = "300"
+	transfer = "300"
+	capacity = "30000"
+
+["Niotic Energizing Rod"]
+	energizing = "600"
+	transfer = "600"
+	capacity = "40000"
+
+["Spirited Energizing Rod"]
+	energizing = "1200"
+	transfer = "1200"
+	capacity = "50000"
+

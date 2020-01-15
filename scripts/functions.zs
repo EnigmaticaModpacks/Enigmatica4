@@ -1,6 +1,8 @@
 #priority 950
+
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
+import crafttweaker.api.tag.MCTag;
 
 
 public function formatRecipeName(item as IItemStack) as string {

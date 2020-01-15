@@ -26,7 +26,16 @@ var recipes as IIngredient[][IItemStack] = {
     [<item:quark:basalt>],
 	
 	<item:minecraft:crafting_table> :
-    [<item:craftingstation:crafting_station_slab>]
+    [<item:craftingstation:crafting_station_slab>],
+
+    <item:simplefarming:fish_sandwich> :
+    [<tag:forge:bread>, <item:aquaculture:fish_fillet_cooked>, <item:aquaculture:fish_fillet_cooked>, <tag:forge:crops/tomato>, <tag:forge:salad_ingredients>],
+
+    <item:simplefarming:sushi> :
+    [<tag:forge:grain>, <item:minecraft:dried_kelp>, <item:aquaculture:fish_fillet_raw>, <item:aquaculture:fish_fillet_raw>],
+
+    <item:simplefarming:fish_fillet> :
+    [<tag:forge:grain>, <tag:forge:grain>, <item:aquaculture:fish_fillet_cooked>, <item:aquaculture:fish_fillet_cooked>]
 };
 
 for output, input in recipes {

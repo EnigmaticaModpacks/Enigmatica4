@@ -1,3 +1,17 @@
+## [Enigmatica 4 v0.4.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.4)
+*Forge-1.14.4-28.1.109*
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- [Added the mod Simply Backpacks](https://www.curseforge.com/minecraft/mc-mods/simply-backpacks)
+- [Added the mod Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones)
+- [Added the mod Powah](https://www.curseforge.com/minecraft/mc-mods/powah)
+
+**Fixed bugs**
+
+- Fixed an issue where automatically replaced stacks in your inventory were getting destroyed (Fixed in Inventory Tweaks Reborn)
+
 ## [Enigmatica 4 v0.4.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.3)
 *Forge-1.14.4-28.1.109*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*

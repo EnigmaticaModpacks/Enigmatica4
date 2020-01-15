@@ -17,9 +17,5 @@ events.listen('server.datapack.tags', function (event) {
     'bluepower:tiles', 
     'bluepower:basaltbrick_cracked', 
     'bluepower:cracked_basalt_lava');
-
-    console.info("SEARCHFORME");
-    console.info(block.material.keySet());
-
 })
 
