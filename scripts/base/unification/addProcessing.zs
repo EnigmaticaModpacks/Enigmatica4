@@ -671,11 +671,11 @@ for material, types in materials {
                 addOreToIngotSmelting(material, itemTag);
                 break;
             case "dust":
-            //TODO: addOreToDustCrushing(material, itemTag) function
+            // TODO: addOreToDustCrushing(material, itemTag) function
                 //addOreToDustCrushing(material, itemTag);
                 break;
             case "gem":
-            //TODO: addOreToGemCrushing(material, itemTag) function
+            // TODO: addOreToGemCrushing(material, itemTag) function
                 //addOreToGemCrushing(material, itemTag);
                 break;
             /* case "block":
