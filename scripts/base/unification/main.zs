@@ -1,4 +1,4 @@
-/* #priority 899
+#priority 899
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -515,6 +515,7 @@ var materials as MCTag[string][string] = {
 
 var modPriorities as string[] = [
     "minecraft",
+    "kubejs",
     "silents_mechanisms",
     "bluepower",
     "botania",
@@ -529,4 +530,4 @@ for material, types in materials {
             purgeItemTag(itemTag, modPriorities);
         }
     }
-} */
+}
