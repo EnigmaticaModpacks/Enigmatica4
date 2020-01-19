@@ -23,7 +23,7 @@ public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) a
 public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 	for item in tag.items {
 		if (!item.matches(getPreferredItemInTag(tag, modPriorities))) {
-			//tag.removeItems(item);
+			tag.removeItems(item);
 			removeProcessingFor(item);
 		}
 	}
