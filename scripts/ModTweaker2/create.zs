@@ -1,5 +1,8 @@
 #priority 1000
 
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.IIngredient;
+
 public function create_pressing_removeRecipe(output as IItemStack) as void {
     <recipetype:minecraft:pressing>.removeRecipe(output);
 }
