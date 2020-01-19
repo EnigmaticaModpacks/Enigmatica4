@@ -1,3 +1,17 @@
+## [Enigmatica 4 v0.4.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.5)
+*Forge-1.14.4-28.1.109*
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- Serene Seasons: Starting season is now mid spring
+- Serene Seasons: Seasons only last 9 days now, down from 21.
+- Serene Seasons: Ice & Snow no longer forms during the winter
+
+**Fixed bugs**
+
+- 
+
 ## [Enigmatica 4 v0.4.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.4)
 *Forge-1.14.4-28.1.109*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*

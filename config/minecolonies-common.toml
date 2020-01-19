@@ -25,6 +25,8 @@
 	growthmodifier = 1.0
 	#Should citizen name tags be rendered? [Default: true]
 	alwaysrendernametag = true
+	#minecolonies.config.operatorvisitscoloniessilently.comment
+	operatorVisitsColoniesSilently = false
 	#Should players be able to place an infinite amount of supplychests? [Default: false]
 	allowinfinitesupplychests = false
 	#Average citizen respawn interval (in seconds). [Default: 60]
