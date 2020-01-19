@@ -1,4 +1,17 @@
 events.listen('item.registry', function (event) {
-  event.createBlockItem('test_block').add();
-  event.createBlockItem('bauxite_dirt_ore').add();
+  for (var i = 0; i < materials.length - 1; i++) {
+    event.createBlockItem('ore_dirt_' + materials[i]).add();
+  }
 })
+
+/*
+
+maxStackSize(40)
+.unstackable()
+.maxDamage(400)
+.containerItem(utils.id('minecraft:bucket'))
+.tool(TOOL_PICKAXE, 3).rarity(RARITY_RARE)
+.glow(true).tooltip("Hi")
+.group("building_blocks")
+
+*/
