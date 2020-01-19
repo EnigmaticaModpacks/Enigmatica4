@@ -1,4 +1,4 @@
-/* #priority 898
+#priority 898
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -517,17 +517,20 @@ for material, types in materials {
     for type, itemTag in types {
         switch (type) {
             case "nugget":
-                addEquipmentToNuggetSmeltingRecipes(material, itemTag);
+                addEquipmentToNuggetSmelting(material, itemTag);
                 break;
             case "ingot":
-                break;
-            case "block":
-                break;
-            case "ore":
+                addOreToIngotSmelting(material, itemTag);
                 break;
             case "dust":
+            //TODO: addOreToDustCrushing(material, itemTag) function
+                //addOreToDustCrushing(material, itemTag);
                 break;
-            case "fluid":
+            /* case "block":
+                break;
+            case "ore":
+                break; */
+            /* case "fluid":
                 break;
             case "gear":
                 break;
@@ -536,7 +539,7 @@ for material, types in materials {
             case "rod":
                 break;
             case "sheet":
-                break;
+                break; */
         }
     }
-} */
+}
