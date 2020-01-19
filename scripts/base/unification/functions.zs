@@ -1,4 +1,4 @@
-/* #priority 910
+#priority 910
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -23,17 +23,8 @@ public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) a
 public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 	for item in tag.items {
 		if (!item.matches(getPreferredItemInTag(tag, modPriorities))) {
-			var itemInArray as IItemStack[] = [item];
-			// Remove from tag
-			tag.removeItems(item);
-
-			// From from Minecraft recipes
-			craftingTable.removeRecipe(item);
-			furnace.removeRecipe(item);
-			blastFurnace.removeRecipe(item);
-
-			//JEI.RemoveAndHide(item);
-			//RemoveProcessingFor(item);
+			//tag.removeItems(item);
+			removeProcessingFor(item);
 		}
 	}
-} */
+}
