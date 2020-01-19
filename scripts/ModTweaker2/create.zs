@@ -4,7 +4,7 @@ public function create_pressing_removeRecipe(output as IItemStack) as void {
     <recipetype:minecraft:pressing>.removeRecipe(output);
 }
 
-public function create_pressing_addRecipe(recipeName as string, output as IItemStack, input as IIngredient, xp as float, processingTime as int) as void {
+public function create_pressing_addRecipe(recipeName as string, output as IItemStack, input as IIngredient, xp as float, time as int) as void {
     <recipetype:minecraft:pressing>.addJSONRecipe(recipeName,
     {
         ingredients: [
@@ -17,8 +17,8 @@ public function create_pressing_addRecipe(recipeName as string, output as IItemS
                 item: output.registryName,
                 count: output.amount
             }
-        ]
-        processingTime: processingTime
+        ],
+        processingTime: time
     });
 }
 

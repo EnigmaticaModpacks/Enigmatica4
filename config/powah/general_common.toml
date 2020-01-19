@@ -2,30 +2,30 @@
 ["World Gen"]
 	#Enable/Disable ore generation. [default:true]
 	oreGen = true
+	#Enable/Disable ore generation. [default:true]
+	#Range: 1 ~ 64
+	dryIceGenChance = 12
 	#Poor Uraninite Ore generation chance
 	#Range: 1 ~ 64
 	poorUraniniteGenChance = 11
 	#Enable/Disable ore generation. [default:true]
 	#Range: 1 ~ 64
-	uraniniteGenChance = 7
-	#Enable/Disable ore generation. [default:true]
-	#Range: 1 ~ 64
 	denseUraniniteGenChance = 3
 	#Enable/Disable ore generation. [default:true]
 	#Range: 1 ~ 64
-	dryIceGenChance = 12
+	uraniniteGenChance = 7
 
 [Capacitors]
-	#
-	#Enable this to get Blazing Capacitor by right clicking a blaze with a Large Basic Capacitor. [default:true]
-	capacitor_blazing = true
 	#
 	#Enable this to get Niotic Capacitor by right clicking a Diamond Ore with a Blazing Capacitor. [default:true]
 	capacitor_niotic = true
 	#
-	#Enable this to get Spirited Capacitor by right clicking an Emerald Ore with a Niotic Capacitor. [default:true]
-	capacitor_spirited = true
+	#Enable this to get Blazing Capacitor by right clicking a blaze with a Large Basic Capacitor. [default:true]
+	capacitor_blazing = true
 	#
 	#Enable this to get Player Aerial Pearl by right clicking a Zombie or Husk with a Aerial Pearl. [default:true]
 	player_aerial_pearl = true
+	#
+	#Enable this to get Spirited Capacitor by right clicking an Emerald Ore with a Niotic Capacitor. [default:true]
+	capacitor_spirited = true
 
