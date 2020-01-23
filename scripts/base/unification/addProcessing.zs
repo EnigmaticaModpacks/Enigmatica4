@@ -4,7 +4,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
 
-
+/* 
 var dusts as MCTag[string][string] = {
     "redstone": {
         //"nugget": <tag:forge:nuggets/redstone>,
@@ -44,7 +44,7 @@ var dusts as MCTag[string][string] = {
         "rod": <tag:forge:rods/teslatite>,
         "sheet": <tag:forge:sheets/teslatite>
     }
-}
+};
 
 var gems as MCTag[string][string] = {
     "diamond": {
@@ -150,7 +150,7 @@ var gems as MCTag[string][string] = {
         "rod": <tag:forge:rods/ruby>,
         "sheet": <tag:forge:sheets/ruby>
     }
-};
+}; */
 
 var materials as MCTag[string][string] = {
     "iron": {
@@ -672,7 +672,7 @@ for material, types in materials {
                 break;
             case "dust":
             // TODO: addOreToDustCrushing(material, itemTag) function
-                //addOreToDustCrushing(material, itemTag);
+                addOreToDustCrushing(material, itemTag);
                 break;
             case "gem":
             // TODO: addOreToGemCrushing(material, itemTag) function
