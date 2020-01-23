@@ -1,24 +1,18 @@
-[
-    {
-        "key": "basic_blade_schema",
-        "slots": ["sword/blade"],
-        "materialSlotCount": 1,
-        "displayType": "major",
-        "outcomes": [
-            {
-                "material": {
-                    "tag": "forge:gems/ruby",
-                    "count": 2
-                },
-                "requiredCapabilities": {
-                    "hammer": 1
-                },
-                "moduleKey": "sword/basic_blade",
-                "moduleVariant": "basic_blade/ruby",
-                "improvements": {
-                    "arrested": 0
-                }
-            }
-        ]
-    }
-]
+{
+	"outcomes": [
+		{
+			"material": {
+				"tag": "forge:gems/ruby",
+				"count": 2
+			},
+			"requiredCapabilities": {
+				"hammer": 1
+			},
+			"moduleKey": "sword/basic_blade",
+			"moduleVariant": "basic_blade/ruby",
+			"improvements": {
+				"arrested": 0
+			}
+		}
+	]
+}
