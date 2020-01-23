@@ -4,9 +4,7 @@
 
 **Changes**
 
-- Serene Seasons: Starting season is now mid spring
-- Serene Seasons: Seasons only last 9 days now, down from 21.
-- Serene Seasons: Ice & Snow no longer forms during the winter
+- Removed Serene Seasons, by popular demand.
 
 **Fixed bugs**
 
