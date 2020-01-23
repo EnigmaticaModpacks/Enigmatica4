@@ -32,8 +32,8 @@ public function create_crushing_removeRecipe(output as IItemStack) as void {
     <recipetype:minecraft:crushing>.removeRecipe(output);
 }
 
-public function create_crushing_addRecipe(recipeName as string, output as IItemStack, input as IItemStack, xp as float, time as int) as void {
-    <recipetype:minecraft:crushing>.addJSONRecipe(recipeName,
+public function create_crushing_addRecipe(recipeName as string, output as IItemStack, input as IItemStack, time as int) as void {
+    <recipetype:create:crushing>.addJSONRecipe(recipeName,
     {
         ingredients: [
             {
