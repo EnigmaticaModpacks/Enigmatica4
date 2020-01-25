@@ -671,8 +671,9 @@ for material, types in materials {
                 addOreToIngotSmelting(material, itemTag);
                 break;
             case "dust":
-            // TODO: addOreToDustCrushing(material, itemTag) function
-                addOreToDustCrushing(material, itemTag);
+            // TODO: When Create 0.2.0 hits, this should be uncommented. 
+            // The recipetype crusher doesn't work atm.
+                //addOreToDustCrushing(material, itemTag);
                 break;
             case "gem":
             // TODO: addOreToGemCrushing(material, itemTag) function
