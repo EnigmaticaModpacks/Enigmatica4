@@ -2,7 +2,6 @@
 #General options
 [general]
 	#Reference position of HUD.
-	#(0:off)
 	#Range: 1 ~ 8
 	hudReferencePos = 3
 	#Frame rate during reducing.

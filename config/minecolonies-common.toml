@@ -92,8 +92,6 @@
 	oplevelforserver = 3
 	#Sets weither or not Colony structures are destroyed automatically. [Default: true]
 	autodestroycolonyblocks = true
-	#Should the player be allowed to use the '/mc citizens info' command? [Default: true]
-	canplayerusecitizeninfocommand = true
 	#Should the player be allowed to use the '/mc rtp' command? [Default: true]
 	canplayerusertpcommand = true
 	#minecolonies.config.numberofattemptsforsafetp.comment
@@ -117,8 +115,6 @@
 	canplayerusekillcitizenscommand = true
 	#Can Player Teleport to allied colonies? [Default:true]
 	canplayeruseallytownhallteleport = true
-	#Should the player be allowed to use the '/mc citizens list' command? [Default: true]
-	canplayeruselistcitizenscommand = true
 
 #minecolonies.config.claims.comment
 [claims]
