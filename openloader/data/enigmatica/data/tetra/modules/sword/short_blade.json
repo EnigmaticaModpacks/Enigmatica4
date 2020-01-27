@@ -1,0 +1,88 @@
+{
+	"variants": [
+		{
+			"key": "short_blade/ruby",
+			
+			"durability": 320,
+			"integrity": -2,
+			"magicCapacity": 10,
+			"damage": 6,
+			"attackSpeed": 1.5,
+			"capabilities": {
+				"cut": [1, 0.9375]
+			},
+			"glyph": { "tint": "ff3859" },
+			"models": [{
+				"location": "tetra:items/module/sword/blade/short/metal",
+				"tint": "ff3859"
+			}]
+		},
+		{
+			"key": "short_blade/amethyst",
+			
+			"durability": 320,
+			"integrity": -2,
+			"magicCapacity": 10,
+			"damage": 6,
+			"attackSpeed": 1.5,
+			"capabilities": {
+				"cut": [1, 0.9375]
+			},
+			"glyph": { "tint": "951cff" },
+			"models": [{
+				"location": "tetra:items/module/sword/blade/short/shiny",
+				"tint": "951cff"
+			}]
+		},
+		{
+			"key": "short_blade/sapphire",
+			
+			"durability": 320,
+			"integrity": -2,
+			"magicCapacity": 10,
+			"damage": 6,
+			"attackSpeed": 1.5,
+			"capabilities": {
+				"cut": [1, 0.9375]
+			},
+			"glyph": { "tint": "383fff" },
+			"models": [{
+				"location": "tetra:items/module/sword/blade/short/metal",
+				"tint": "383fff"
+			}]
+		},
+		{
+			"key": "short_blade/malachite",
+			
+			"durability": 320,
+			"integrity": -2,
+			"magicCapacity": 10,
+			"damage": 6,
+			"attackSpeed": 1.5,
+			"capabilities": {
+				"cut": [1, 0.9375]
+			},
+			"glyph": { "tint": "1fff96" },
+			"models": [{
+				"location": "tetra:items/module/sword/blade/short/metal",
+				"tint": "1fff96"
+			}]
+		},
+		{
+			"key": "short_blade/platinum",
+			"durability": 311,
+			"integrity": -1,
+			"magicCapacity": 11,
+			"damage": 5.5,
+			"attackSpeed": 1.5,
+			"capabilities": {
+				"cut": [1, 0.9375]
+			},
+			"glyph": { "tint": "d6f6ff" },
+			"models": [{
+				"location": "tetra:items/module/sword/blade/short/metal",
+				"tint": "ccc2ff"
+			}]
+		}
+	]
+}

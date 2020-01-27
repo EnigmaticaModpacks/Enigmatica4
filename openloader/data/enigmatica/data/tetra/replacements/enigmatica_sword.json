@@ -1,17 +1,125 @@
 [
-    {
-        "predicate": {
-            "item": "bluepower:ruby_sword"
-        },
-        "item": "tetra:sword_modular",
-        "modules": {
-            "sword/blade": ["sword/basic_blade", "basic_blade/ruby"],
-            "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
-            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/oak"],
-            "sword/guard": ["sword/makeshift_guard", "makeshift_guard/oak"]
-        },
-        "improvements": {
-            "sword/blade:arrested": 0
-        }
-    }
+	{
+		"predicate": {
+			"item": "bluepower:ruby_sword"
+		},
+		"item": "tetra:sword_modular",
+		"modules": {
+			"sword/blade": ["sword/basic_blade", "basic_blade/ruby"],
+			"sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+			"sword/pommel": ["sword/decorative_pommel", "decorative_pommel/oak"],
+			"sword/guard": ["sword/makeshift_guard", "makeshift_guard/oak"]
+		},
+		"improvements": {
+			"sword/blade:arrested": 0
+		}
+	},
+	{
+		"predicate": {
+			"item": "bluepower:amethyst_sword"
+		},
+		"item": "tetra:sword_modular",
+		"modules": {
+			"sword/blade": ["sword/basic_blade", "basic_blade/amethyst"],
+			"sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+			"sword/pommel": ["sword/decorative_pommel", "decorative_pommel/oak"],
+			"sword/guard": ["sword/makeshift_guard", "makeshift_guard/oak"]
+		},
+		"improvements": {
+			"sword/blade:arrested": 0
+		}
+	},
+	{
+		"predicate": {
+			"item": "bluepower:malachite_sword"
+		},
+		"item": "tetra:sword_modular",
+		"modules": {
+			"sword/blade": ["sword/basic_blade", "basic_blade/malachite"],
+			"sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+			"sword/pommel": ["sword/decorative_pommel", "decorative_pommel/oak"],
+			"sword/guard": ["sword/makeshift_guard", "makeshift_guard/oak"]
+		},
+		"improvements": {
+			"sword/blade:arrested": 0
+		}
+	},
+	{
+		"predicate": {
+			"item": "bluepower:sapphire_sword"
+		},
+		"item": "tetra:sword_modular",
+		"modules": {
+			"sword/blade": ["sword/basic_blade", "basic_blade/sapphire"],
+			"sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+			"sword/pommel": ["sword/decorative_pommel", "decorative_pommel/oak"],
+			"sword/guard": ["sword/makeshift_guard", "makeshift_guard/oak"]
+		},
+		"improvements": {
+			"sword/blade:arrested": 0
+		}
+	},
+	{
+		"predicate": {
+			"item": "mysticalworld:amethyst_sword"
+		},
+		"item": "tetra:sword_modular",
+		"modules": {
+			"sword/blade": ["sword/basic_blade", "basic_blade/amethyst"],
+			"sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+			"sword/pommel": ["sword/decorative_pommel", "decorative_pommel/oak"],
+			"sword/guard": ["sword/makeshift_guard", "makeshift_guard/oak"]
+		},
+		"improvements": {
+			"sword/blade:arrested": 0
+		}
+	},
+	{
+		"predicate": {
+			"item": "mysticalworld:lead_sword"
+		},
+		"item": "tetra:sword_modular",
+		"modules": {
+			"sword/blade": ["sword/basic_blade", "basic_blade/lead"],
+			"sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+			"sword/pommel": ["sword/decorative_pommel", "decorative_pommel/oak"],
+			"sword/guard": ["sword/makeshift_guard", "makeshift_guard/oak"]
+		}
+	},
+	{
+		"predicate": {
+			"item": "mysticalworld:tin_sword"
+		},
+		"item": "tetra:sword_modular",
+		"modules": {
+			"sword/blade": ["sword/basic_blade", "basic_blade/tin"],
+			"sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+			"sword/pommel": ["sword/decorative_pommel", "decorative_pommel/oak"],
+			"sword/guard": ["sword/makeshift_guard", "makeshift_guard/oak"]
+		}
+	},
+	{
+		"predicate": {
+			"item": "mysticalworld:copper_sword"
+		},
+		"item": "tetra:sword_modular",
+		"modules": {
+			"sword/blade": ["sword/basic_blade", "basic_blade/copper"],
+			"sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+			"sword/pommel": ["sword/decorative_pommel", "decorative_pommel/oak"],
+			"sword/guard": ["sword/makeshift_guard", "makeshift_guard/oak"]
+		}
+	},
+	{
+		"predicate": {
+			"item": "mysticalworld:silver_sword"
+		},
+		"item": "tetra:sword_modular",
+		"modules": {
+			"sword/blade": ["sword/basic_blade", "basic_blade/silver"],
+			"sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+			"sword/pommel": ["sword/decorative_pommel", "decorative_pommel/oak"],
+			"sword/guard": ["sword/makeshift_guard", "makeshift_guard/oak"]
+		}
+	}
 ]
