@@ -28,7 +28,7 @@ public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 			// TODO: Remove after a while (written 25-01-2020)
 			// This part should be removed after a few updates 
 			// This will make it possible to convert old materials to the new default material
-			craftingTable.addShapeless(item.registryName + "_temporary_conversion_recipe", tag.first(), [item]);
+			craftingTable.addShapeless(formatRecipeName(item) + "_temporary_conversion_recipe", tag.first(), [item]);
 		}
 	}
 }

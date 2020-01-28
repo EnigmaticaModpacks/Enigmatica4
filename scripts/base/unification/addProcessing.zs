@@ -517,48 +517,9 @@ var materials as MCTag[string][string] = {
         "sheet": <tag:forge:sheets/enderium>
     },
 
-    "redstone": {
-        //"nugget": <tag:forge:nuggets/redstone>,
-        //"ingot": <tag:forge:ingots/redstone>,
-        "block": <tag:forge:storage_blocks/redstone>,
-        "ore": <tag:forge:ores/redstone>,
-        "dust": <tag:forge:dusts/redstone>,
-        //"fluid": <fluid:forge:fluids/redstone>,
-        "gear": <tag:forge:gears/redstone>,
-        "plate": <tag:forge:plates/redstone>,
-        "rod": <tag:forge:rods/redstone>,
-        "sheet": <tag:forge:sheets/redstone>
-    },
-
-    "glowstone": {
-        //"nugget": <tag:forge:nuggets/glowstone>,
-        //"ingot": <tag:forge:ingots/glowstone>,
-        "block": <tag:forge:storage_blocks/glowstone>,
-        "ore": <tag:forge:ores/glowstone>,
-        "dust": <tag:forge:dusts/glowstone>,
-        //"fluid": <fluid:forge:fluids/glowstone>,
-        "gear": <tag:forge:gears/glowstone>,
-        "plate": <tag:forge:plates/glowstone>,
-        "rod": <tag:forge:rods/glowstone>,
-        "sheet": <tag:forge:sheets/glowstone>
-    },
-
-    "teslatite": {
-        //"nugget": <tag:forge:nuggets/teslatite>,
-        //"ingot": <tag:forge:ingots/teslatite>,
-        "block": <tag:forge:storage_blocks/teslatite>,
-        "ore": <tag:forge:ores/teslatite>,
-        "dust": <tag:forge:dusts/teslatite>,
-        //"fluid": <fluid:forge:fluids/teslatite>,
-        "gear": <tag:forge:gears/teslatite>,
-        "plate": <tag:forge:plates/teslatite>,
-        "rod": <tag:forge:rods/teslatite>,
-        "sheet": <tag:forge:sheets/teslatite>
-    },
-
     "diamond": {
         "nugget": <tag:forge:nuggets/diamond>,
-        "gem": <tag:forge:gems/diamond>,
+        "ingot": <tag:forge:ingots/diamond>,
         "block": <tag:forge:storage_blocks/diamond>,
         "ore": <tag:forge:ores/diamond>,
         "dust": <tag:forge:dusts/diamond>,
@@ -571,7 +532,7 @@ var materials as MCTag[string][string] = {
 
     "lapis_lazuli": {
         "nugget": <tag:forge:nuggets/lapis_lazuli>,
-        "gem": <tag:forge:gems/lapis_lazuli>,
+        "ingot": <tag:forge:ingots/lapis_lazuli>,
         "block": <tag:forge:storage_blocks/lapis_lazuli>,
         "ore": <tag:forge:ores/lapis_lazuli>,
         "dust": <tag:forge:dusts/lapis_lazuli>,
@@ -584,7 +545,7 @@ var materials as MCTag[string][string] = {
 
     "emerald": {
         "nugget": <tag:forge:nuggets/emerald>,
-        "gem": <tag:forge:gems/emerald>,
+        "ingot": <tag:forge:ingots/emerald>,
         "block": <tag:forge:storage_blocks/emerald>,
         "ore": <tag:forge:ores/emerald>,
         "dust": <tag:forge:dusts/emerald>,
@@ -597,7 +558,7 @@ var materials as MCTag[string][string] = {
 
     "quartz": {
         "nugget": <tag:forge:nuggets/quartz>,
-        "gem": <tag:forge:gems/quartz>,
+        "ingot": <tag:forge:ingots/quartz>,
         "block": <tag:forge:storage_blocks/quartz>,
         "ore": <tag:forge:ores/quartz>,
         "dust": <tag:forge:dusts/quartz>,
@@ -610,7 +571,7 @@ var materials as MCTag[string][string] = {
 
     "amethyst": {
         "nugget": <tag:forge:nuggets/amethyst>,
-        "gem": <tag:forge:gems/amethyst>,
+        "ingot": <tag:forge:ingots/amethyst>,
         "block": <tag:forge:storage_blocks/amethyst>,
         "ore": <tag:forge:ores/amethyst>,
         "dust": <tag:forge:dusts/amethyst>,
@@ -623,7 +584,7 @@ var materials as MCTag[string][string] = {
 
     "sapphire": {
         "nugget": <tag:forge:nuggets/sapphire>,
-        "gem": <tag:forge:gems/sapphire>,
+        "ingot": <tag:forge:ingots/sapphire>,
         "block": <tag:forge:storage_blocks/sapphire>,
         "ore": <tag:forge:ores/sapphire>,
         "dust": <tag:forge:dusts/sapphire>,
@@ -636,7 +597,7 @@ var materials as MCTag[string][string] = {
 
     "malachite": {
         "nugget": <tag:forge:nuggets/malachite>,
-        "gem": <tag:forge:gems/malachite>,
+        "ingot": <tag:forge:ingots/malachite>,
         "block": <tag:forge:storage_blocks/malachite>,
         "ore": <tag:forge:ores/malachite>,
         "dust": <tag:forge:dusts/malachite>,
@@ -649,7 +610,7 @@ var materials as MCTag[string][string] = {
 
     "ruby": {
         "nugget": <tag:forge:nuggets/ruby>,
-        "gem": <tag:forge:gems/ruby>,
+        "ingot": <tag:forge:ingots/ruby>,
         "block": <tag:forge:storage_blocks/ruby>,
         "ore": <tag:forge:ores/ruby>,
         "dust": <tag:forge:dusts/ruby>,
@@ -658,41 +619,84 @@ var materials as MCTag[string][string] = {
         "plate": <tag:forge:plates/ruby>,
         "rod": <tag:forge:rods/ruby>,
         "sheet": <tag:forge:sheets/ruby>
+    },
+
+    "redstone": {
+        "nugget": <tag:forge:nuggets/redstone>,
+        "ingot": <tag:forge:ingots/redstone>,
+        "block": <tag:forge:storage_blocks/redstone>,
+        "ore": <tag:forge:ores/redstone>,
+        "dust": <tag:forge:dusts/redstone>,
+        //"fluid": <fluid:forge:fluids/redstone>,
+        "gear": <tag:forge:gears/redstone>,
+        "plate": <tag:forge:plates/redstone>,
+        "rod": <tag:forge:rods/redstone>,
+        "sheet": <tag:forge:sheets/redstone>
+    },
+
+    "glowstone": {
+        "nugget": <tag:forge:nuggets/glowstone>,
+        "ingot": <tag:forge:ingots/glowstone>,
+        "block": <tag:forge:storage_blocks/glowstone>,
+        "ore": <tag:forge:ores/glowstone>,
+        "dust": <tag:forge:dusts/glowstone>,
+        //"fluid": <fluid:forge:fluids/glowstone>,
+        "gear": <tag:forge:gears/glowstone>,
+        "plate": <tag:forge:plates/glowstone>,
+        "rod": <tag:forge:rods/glowstone>,
+        "sheet": <tag:forge:sheets/glowstone>
+    },
+
+    "teslatite": {
+        "nugget": <tag:forge:nuggets/teslatite>,
+        "ingot": <tag:forge:ingots/teslatite>,
+        "block": <tag:forge:storage_blocks/teslatite>,
+        "ore": <tag:forge:ores/teslatite>,
+        "dust": <tag:forge:dusts/teslatite>,
+        //"fluid": <fluid:forge:fluids/teslatite>,
+        "gear": <tag:forge:gears/teslatite>,
+        "plate": <tag:forge:plates/teslatite>,
+        "rod": <tag:forge:rods/teslatite>,
+        "sheet": <tag:forge:sheets/teslatite>
     }
 }; 
 
 for material, types in materials {
     for type, itemTag in types {
-        switch (type) {
-            case "nugget":
-                addEquipmentToNuggetSmelting(material, itemTag);
-                break;
-            case "ingot":
-                addOreToIngotSmelting(material, itemTag);
-                break;
-            case "dust":
-            // TODO: When Create 0.2.0 hits, this should be uncommented. 
-            // The recipetype crusher doesn't work atm.
-                //addOreToDustCrushing(material, itemTag);
-                break;
-            case "gem":
-            // TODO: addOreToGemCrushing(material, itemTag) function
-                //addOreToGemCrushing(material, itemTag);
-                break;
-            /* case "block":
-                break;
-            case "ore":
-                break; */
-            /* case "fluid":
-                break;
-            case "gear":
-                break;
-            case "plate":
-                break;
-            case "rod":
-                break;
-            case "sheet":
-                break; */
+        if (itemTag.isItemTag) {
+            if (itemTag.items.length > 1) {
+                switch (type) {
+                    case "nugget":
+                        addEquipmentToNuggetSmelting(material, itemTag);
+                        break;
+                    case "ingot":
+                        addOreToIngotSmelting(material, itemTag);
+                        break;
+                    case "dust":
+                        // TODO: When Create 0.2.0 hits, this should be uncommented. 
+                        // The recipetype crusher doesn't work atm.
+                        //addOreToDustCrushing(material, itemTag);
+                        break;
+                    case "gem":
+                        // TODO: addOreToGemCrushing(material, itemTag) function
+                        //addOreToGemCrushing(material, itemTag);
+                        break;
+                        /* case "block":
+                            break;
+                        case "ore":
+                            break; */
+                        /* case "fluid":
+                            break;
+                        case "gear":
+                            break;
+                        case "plate":
+                            break;
+                        case "rod":
+                            break;
+                        case "sheet":
+                            break; */
+                }
+            }
         }
     }
 }

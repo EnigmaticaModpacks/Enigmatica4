@@ -1,12 +1,10 @@
-#priority 909
+#priority 1000
 
-import crafttweaker.api.item.IItemStack;
-import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
 
 public function addEquipmentToNuggetSmelting(material as string, itemTag as MCTag) as void {
     logger.info("Adding Metal Item to Nugget Smelting/Blasting recipes for " + material + ".");
-    var xp = 0.1;
+    var xp = 1.0;
     var cookingTime = 200;
     if (material == "copper") {
             for item in <tag:mysticalworld:copper_items>.items {
