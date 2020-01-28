@@ -1,0 +1,99 @@
+{
+	"variants": [
+		{
+			"key": "basic_pickaxe/ruby",
+			"durability": 365,
+			"integrity": -2,
+			"magicCapacity": 10,
+			"damage": 4,
+			"attackSpeed": -0.2,
+			"capabilities": {
+				"pickaxe": [4, 6.6667]
+			},
+			"glyph": {
+				"tint": "ff3859",
+				"textureX": 176
+			},
+			"models": [{
+				"location": "tetra:items/module/duplex/head/basic_pickaxe/metal",
+				"tint": "ff3859"
+			}]
+		},
+		{
+			"key": "basic_pickaxe/amethyst",
+			"durability": 365,
+			"integrity": -2,
+			"magicCapacity": 10,
+			"damage": 4,
+			"attackSpeed": -0.2,
+			"capabilities": {
+				"pickaxe": [4, 6.6667]
+			},
+			"glyph": {
+				"tint": "951cff",
+				"textureX": 176
+			},
+			"models": [{
+				"location": "tetra:items/module/duplex/head/basic_pickaxe/shiny",
+				"tint": "951cff"
+			}]
+		},
+		{
+			"key": "basic_pickaxe/sapphire",
+			"durability": 365,
+			"integrity": -2,
+			"magicCapacity": 10,
+			"damage": 4,
+			"attackSpeed": -0.2,
+			"capabilities": {
+				"pickaxe": [4, 6.6667]
+			},
+			"glyph": {
+				"tint": "383fff",
+				"textureX": 176
+			},
+			"models": [{
+				"location": "tetra:items/module/duplex/head/basic_pickaxe/metal",
+				"tint": "383fff"
+			}]
+		},
+		{
+			"key": "basic_pickaxe/malachite",
+			"durability": 365,
+			"integrity": -2,
+			"magicCapacity": 10,
+			"damage": 4,
+			"attackSpeed": -0.2,
+			"capabilities": {
+				"pickaxe": [4, 6.6667]
+			},
+			"glyph": {
+				"tint": "1fff96",
+				"textureX": 176
+			},
+			"models": [{
+				"location": "tetra:items/module/duplex/head/basic_pickaxe/metal",
+				"tint": "1fff96"
+			}]
+		},
+		{
+			"key": "basic_pickaxe/platinum",
+			"durability": 202,
+			"integrity": -2,
+			"magicCapacity": 11,
+			"damage": 2,
+			"attackSpeed": -0.2,
+			"capabilities": {
+				"pickaxe": [4, 6.5]
+			},
+			"glyph": {
+				"tint": "d6f6ff",
+				"textureX": 176
+			},
+			"models": [{
+				"location": "tetra:items/module/duplex/head/basic_pickaxe/metal",
+				"tint": "ccc2ff"
+			}]
+		}
+	]
+}

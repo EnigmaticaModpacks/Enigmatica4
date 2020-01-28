@@ -8,8 +8,8 @@
 			"requiredCapabilities": {
 				"hammer": 1
 			},
-			"moduleKey": "sword/basic_blade",
-			"moduleVariant": "basic_blade/ruby",
+			"moduleKey": "duplex/basic_pickaxe",
+			"moduleVariant": "basic_pickaxe/ruby",
 			"improvements": {
 				"arrested": 0
 			}
@@ -22,8 +22,8 @@
 			"requiredCapabilities": {
 				"hammer": 1
 			},
-			"moduleKey": "sword/basic_blade",
-			"moduleVariant": "basic_blade/amethyst",
+			"moduleKey": "duplex/basic_pickaxe",
+			"moduleVariant": "basic_pickaxe/amethyst",
 			"improvements": {
 				"arrested": 0
 			}
@@ -36,8 +36,8 @@
 			"requiredCapabilities": {
 				"hammer": 1
 			},
-			"moduleKey": "sword/basic_blade",
-			"moduleVariant": "basic_blade/sapphire",
+			"moduleKey": "duplex/basic_pickaxe",
+			"moduleVariant": "basic_pickaxe/sapphire",
 			"improvements": {
 				"arrested": 0
 			}
@@ -50,8 +50,8 @@
 			"requiredCapabilities": {
 				"hammer": 1
 			},
-			"moduleKey": "sword/basic_blade",
-			"moduleVariant": "basic_blade/malachite",
+			"moduleKey": "duplex/basic_pickaxe",
+			"moduleVariant": "basic_pickaxe/malachite",
 			"improvements": {
 				"arrested": 0
 			}
@@ -64,8 +64,8 @@
 			"requiredCapabilities": {
 				"hammer": 2
 			},
-			"moduleKey": "sword/basic_blade",
-			"moduleVariant": "basic_blade/platinum"
+			"moduleKey": "duplex/basic_pickaxe",
+			"moduleVariant": "basic_pickaxe/platinum"
 		}
 	]
 }

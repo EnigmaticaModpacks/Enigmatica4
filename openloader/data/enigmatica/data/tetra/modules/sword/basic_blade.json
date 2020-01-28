@@ -1,21 +1,99 @@
-[
-    {
-        "key": "basic_blade/ruby",
-        "durability": 730,
-        "integrity": -2,
-        "magicCapacity": 10,
-        "damage": 5,
-        "attackSpeed": 1.65,
-        "effects": {
-            "sweeping": 1
-        },
-        "capabilities": {
-            "cut": [1, 0.9375]
-        },
-        "glyph": { "tint": "ff3859" },
-        "models": [{
-            "location": "tetra:items/module/sword/blade/basic/metal",
-            "tint": "ff3859"
-        }]
-    }
-]
+{
+	"variants": [
+		{
+			"key": "basic_blade/ruby",
+			"durability": 730,
+			"integrity": -2,
+			"magicCapacity": 10,
+			"damage": 5,
+			"attackSpeed": 0.2,
+			"effects": {
+				"sweeping": 1
+			},
+			"capabilities": {
+				"cut": [1, 0.9375]
+			},
+			"glyph": { "tint": "ff3859" },
+			"models": [{
+				"location": "tetra:items/module/sword/blade/basic/metal",
+				"tint": "ff3859"
+			}]
+		},
+		{
+			"key": "basic_blade/amethyst",
+			"durability": 730,
+			"integrity": -2,
+			"magicCapacity": 10,
+			"damage": 5,
+			"attackSpeed": 0.2,
+			"effects": {
+				"sweeping": 1
+			},
+			"capabilities": {
+				"cut": [1, 0.9375]
+			},
+			"glyph": { "tint": "951cff" },
+			"models": [{
+				"location": "tetra:items/module/sword/blade/basic/shiny",
+				"tint": "951cff"
+			}]
+		},
+		{
+			"key": "basic_blade/sapphire",
+			"durability": 730,
+			"integrity": -2,
+			"magicCapacity": 10,
+			"damage": 5,
+			"attackSpeed": 0.2,
+			"effects": {
+				"sweeping": 1
+			},
+			"capabilities": {
+				"cut": [1, 0.9375]
+			},
+			"glyph": { "tint": "383fff" },
+			"models": [{
+				"location": "tetra:items/module/sword/blade/basic/metal",
+				"tint": "383fff"
+			}]
+		},
+		{
+			"key": "basic_blade/malachite",
+			"durability": 730,
+			"integrity": -2,
+			"magicCapacity": 10,
+			"damage": 5,
+			"attackSpeed": 0.2,
+			"effects": {
+				"sweeping": 1
+			},
+			"capabilities": {
+				"cut": [1, 0.9375]
+			},
+			"glyph": { "tint": "1fff96" },
+			"models": [{
+				"location": "tetra:items/module/sword/blade/basic/metal",
+				"tint": "1fff96"
+			}]
+		},
+		{
+			"key": "basic_blade/platinum",
+			"durability": 380,
+			"integrity": -1,
+			"magicCapacity": 11,
+			"damage": 6,
+			"attackSpeed": 0.2,
+			"effects": {
+				"sweeping": 1
+			},
+			"capabilities": {
+				"cut": [1, 0.9375]
+			},
+			"glyph": { "tint": "d6f6ff" },
+			"models": [{
+				"location": "tetra:items/module/sword/blade/basic/metal",
+				"tint": "ccc2ff"
+			}]
+		}
+	]
+}

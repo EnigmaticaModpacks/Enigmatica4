@@ -1,5 +1,38 @@
 {
 	"block.minecraft.nether_portal.name": "Nether Portal",
 	"block.kubejs.test_block": "My Awesome Block 9000",
-	"block.kubejs.bauxite_dirt_ore": "Bauxite Ore Deposit"
+	"block.kubejs.bauxite_dirt_ore": "Bauxite Ore Deposit",
+
+	"basic_blade/ruby": "Ruby blade",
+	"basic_blade/ruby.prefix": "Ruby",
+	"basic_blade/amethyst": "Amethyst blade",
+	"basic_blade/amethyst.prefix": "Amethyst",
+	"basic_blade/sapphire": "Sapphire blade",
+	"basic_blade/sapphire.prefix": "Sapphire",
+	"basic_blade/malachite": "Malachite blade",
+	"basic_blade/malachite.prefix": "Malachite",
+	"basic_blade/platinum": "Platinum blade",
+	"basic_blade/platinum.prefix": "Platinum",
+
+	"short_blade/ruby": "Ruby blade",
+	"short_blade/ruby.prefix": "Ruby",
+	"short_blade/amethyst": "Amethyst blade",
+	"short_blade/amethyst.prefix": "Amethyst",
+	"short_blade/sapphire": "Sapphire blade",
+	"short_blade/sapphire.prefix": "Sapphire",
+	"short_blade/malachite": "Malachite blade",
+	"short_blade/malachite.prefix": "Malachite",
+	"short_blade/platinum": "Platinum blade",
+	"short_blade/platinum.prefix": "Platinum",
+
+	"basic_pickaxe/ruby": "Ruby pick",
+	"basic_pickaxe/ruby.prefix": "Ruby",
+	"basic_pickaxe/amethyst": "Amethyst pick",
+	"basic_pickaxe/amethyst.prefix": "Amethyst",
+	"basic_pickaxe/sapphire": "Sapphire pick",
+	"basic_pickaxe/sapphire.prefix": "Sapphire",
+	"basic_pickaxe/malachite": "Malachite pick",
+	"basic_pickaxe/malachite.prefix": "Malachite",
+	"basic_pickaxe/platinum": "Platinum pick",
+	"basic_pickaxe/platinum.prefix": "Platinum"
 }
