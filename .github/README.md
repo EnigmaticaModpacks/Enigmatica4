@@ -30,7 +30,12 @@ Follow these steps to setup your workspace/server:
 ## Windows / Mac
 1) Download the [Twitch App](https://www.twitch.tv/downloads) if you haven't already.
 2) Fork and clone the Enigmatica 4 repository to the Instances folder of the Twitch App, the default path is `C:\Users\User\Documents\Twitch\Minecraft\Instances`
-3) Double click the script `setup.bat` to setup InstanceSync. It is found in the `development` folder.
+3) Double click the script `setup.bat` to setup InstanceSync. It is found in the `development` folder.  Alternatively, via CLI:
+```
+cd development
+chmod +x setup.bat
+./setup.bat
+```
 4) Pull.
 5) Open the Twitch App, go to Mods > Minecraft, and you should see Enigmatica 4. If you already had Twitch App open, restart it.
 
@@ -54,7 +59,12 @@ git remote -v                                      # Verify remote
 git fetch
 git pull
 ```
-8) Now double click the script `setup.sh` to setup InstanceSync. It is found in the `development` folder.
+8) Now run the setup script to setup InstanceSync:
+```
+cd development
+chmod +x setup.sh
+./setup.sh
+```
 9) One more `git pull`
 
 You're done!
