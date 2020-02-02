@@ -1,3 +1,5 @@
+#!/bin/sh
+
 cd ..
 
 echo "#!/bin/sh" > .git/hooks/post-merge
