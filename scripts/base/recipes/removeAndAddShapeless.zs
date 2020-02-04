@@ -8,5 +8,5 @@ var recipes as IIngredient[][IItemStack] = {
 };
 
 for output, input in recipes {
-    addShapeless(output, input, false);
+    addShapeless(output, input, true);
 }
