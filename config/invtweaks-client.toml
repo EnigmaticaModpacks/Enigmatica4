@@ -19,6 +19,19 @@
 	#CATEGORY = /OTHER covers all remaining items after other rules are exhausted
 	rules = ["D /LOCKED", "A1-C9 /OTHER"]
 
+	#Custom settings per GUI
+	#x = x-position of external sort button relative to GUI top left
+	#y = same as above except for the y-position
+	#Omit x and y to leave position unchanged
+	#sortRange = slots to sort
+	#E.g. sortRange = "5,0-2" sorts slots 5,0,1,2 in that order
+	#sortRange = "" disables sorting for that container
+	#Out-of-bound slots are ignored
+	#Omit sortRange to leave as default
+	[[sorting.containerOverrides]]
+		containerClass = "com.tfar.craftingstation.CraftingStationContainer"
+		sortRange = ""
+
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category

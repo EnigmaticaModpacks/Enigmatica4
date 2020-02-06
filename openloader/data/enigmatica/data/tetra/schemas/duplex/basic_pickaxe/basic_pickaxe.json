@@ -1,0 +1,71 @@
+{
+	"outcomes": [
+		{
+			"material": {
+				"tag": "forge:gems/ruby",
+				"count": 2
+			},
+			"requiredCapabilities": {
+				"hammer": 1
+			},
+			"moduleKey": "duplex/basic_pickaxe",
+			"moduleVariant": "basic_pickaxe/ruby",
+			"improvements": {
+				"arrested": 0
+			}
+		},
+		{
+			"material": {
+				"tag": "forge:gems/amethyst",
+				"count": 2
+			},
+			"requiredCapabilities": {
+				"hammer": 1
+			},
+			"moduleKey": "duplex/basic_pickaxe",
+			"moduleVariant": "basic_pickaxe/amethyst",
+			"improvements": {
+				"arrested": 0
+			}
+		},
+		{
+			"material": {
+				"tag": "forge:gems/sapphire",
+				"count": 2
+			},
+			"requiredCapabilities": {
+				"hammer": 1
+			},
+			"moduleKey": "duplex/basic_pickaxe",
+			"moduleVariant": "basic_pickaxe/sapphire",
+			"improvements": {
+				"arrested": 0
+			}
+		},
+		{
+			"material": {
+				"tag": "forge:gems/malachite",
+				"count": 2
+			},
+			"requiredCapabilities": {
+				"hammer": 1
+			},
+			"moduleKey": "duplex/basic_pickaxe",
+			"moduleVariant": "basic_pickaxe/malachite",
+			"improvements": {
+				"arrested": 0
+			}
+		},
+		{
+			"material": {
+				"tag": "forge:ingots/platinum",
+				"count": 2
+			},
+			"requiredCapabilities": {
+				"hammer": 2
+			},
+			"moduleKey": "duplex/basic_pickaxe",
+			"moduleVariant": "basic_pickaxe/platinum"
+		}
+	]
+}

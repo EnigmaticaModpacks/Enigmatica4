@@ -6,7 +6,7 @@ import crafttweaker.api.tag.MCTag;
 
 
 public function formatRecipeName(item as IItemStack) as string {
-	return item.translationKey + "_" + item.amount;
+	return item.amount > 1 ? item.translationKey + "_" + item.amount : item.translationKey; 
 }
 
 public function addShaped(output as IItemStack, input as IIngredient[][], removeOriginalRecipe as bool) as void {

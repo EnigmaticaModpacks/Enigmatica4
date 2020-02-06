@@ -8,5 +8,9 @@ var recipes as IIngredient[][IItemStack] = {
 };
 
 for output, input in recipes {
-    addShapeless(output, input, false);
+    addShapeless(output, input, true);
 }
+
+/* for knife in <tag:forge:fillet_knife>.items {
+    addShapeless(<item:simplefarming:raw_bacon> * 2, [<item:minecraft:porkchop>, knife.transformDamage(1)], true);
+} */

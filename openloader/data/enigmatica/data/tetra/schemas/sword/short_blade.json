@@ -1,0 +1,66 @@
+{
+	"outcomes": [
+		{
+			"material": {
+				"tag": "forge:gems/ruby"
+			},
+			"requiredCapabilities": {
+				"hammer": 3
+			},
+			"moduleKey": "sword/short_blade",
+			"moduleVariant": "short_blade/ruby",
+			"improvements": {
+				"arrested": 0
+			}
+		},
+		{
+			"material": {
+				"tag": "forge:gems/amethyst"
+			},
+			"requiredCapabilities": {
+				"hammer": 3
+			},
+			"moduleKey": "sword/short_blade",
+			"moduleVariant": "short_blade/amethyst",
+			"improvements": {
+				"arrested": 0
+			}
+		},
+		{
+			"material": {
+				"tag": "forge:gems/sapphire"
+			},
+			"requiredCapabilities": {
+				"hammer": 3
+			},
+			"moduleKey": "sword/short_blade",
+			"moduleVariant": "short_blade/sapphire",
+			"improvements": {
+				"arrested": 0
+			}
+		},
+		{
+			"material": {
+				"tag": "forge:gems/malachite"
+			},
+			"requiredCapabilities": {
+				"hammer": 3
+			},
+			"moduleKey": "sword/short_blade",
+			"moduleVariant": "short_blade/malachite",
+			"improvements": {
+				"arrested": 0
+			}
+		},
+		{
+			"material": {
+				"tag": "forge:ingots/platinum"
+			},
+			"requiredCapabilities": {
+				"hammer": 3
+			},
+			"moduleKey": "sword/short_blade",
+			"moduleVariant": "short_blade/platinum"
+		}
+	]
+}

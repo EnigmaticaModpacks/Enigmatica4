@@ -1,4 +1,4 @@
-/* #priority 910
+#priority 910
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -23,17 +23,12 @@ public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) a
 public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 	for item in tag.items {
 		if (!item.matches(getPreferredItemInTag(tag, modPriorities))) {
-			var itemInArray as IItemStack[] = [item];
-			// Remove from tag
 			tag.removeItems(item);
-
-			// From from Minecraft recipes
-			craftingTable.removeRecipe(item);
-			furnace.removeRecipe(item);
-			blastFurnace.removeRecipe(item);
-
-			//JEI.RemoveAndHide(item);
-			//RemoveProcessingFor(item);
+			removeProcessingFor(item);
+			// TODO: Remove after a while (written 25-01-2020)
+			// This part should be removed after a few updates 
+			// This will make it possible to convert old materials to the new default material
+			craftingTable.addShapeless(formatRecipeName(item) + "_temporary_conversion_recipe", tag.first(), [item]);
 		}
 	}
-} */
+}

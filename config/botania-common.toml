@@ -4,7 +4,7 @@
 	enabled = true
 
 [blockBreakingParticlesTool]
-	#Set this to false to remove the block breaking particles from the Mana Shatterer, as there can be a good amount in higher levels.
+	#Set this to false to remove the block breaking particles from the Terra Shatterer, as there can be a good amount in higher levels.
 	enabled = true
 
 [chargeAnimation]

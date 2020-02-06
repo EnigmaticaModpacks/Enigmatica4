@@ -15,12 +15,22 @@ output :
 
 var air = <item:minecraft:air>;
 var recipes as IIngredient[][][IItemStack] = {
+    
     <item:refinedstorageaddons:wireless_crafting_grid> : 
-    [
-        [<item:refinedstorage:quartz_enriched_iron>, <item:rftoolsbase:infused_enderpearl>, <item:refinedstorage:quartz_enriched_iron>], 
-        [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:wireless_grid>, <item:refinedstorage:quartz_enriched_iron>],
-        [<item:refinedstorage:quartz_enriched_iron>, <item:minecraft:crafting_table>, <item:refinedstorage:quartz_enriched_iron>]
-    ]
+        [
+            [<item:refinedstorage:quartz_enriched_iron>, <item:rftoolsbase:infused_enderpearl>, <item:refinedstorage:quartz_enriched_iron>], 
+            [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:wireless_grid>, <item:refinedstorage:quartz_enriched_iron>],
+            [<item:refinedstorage:quartz_enriched_iron>, <item:minecraft:crafting_table>, <item:refinedstorage:quartz_enriched_iron>]
+        ],
+
+    <item:mysticalworld:amethyst_spear> : 
+        [
+            [<item:bluepower:amethyst_sword>], 
+            [<tag:forge:rods/wooden>],
+            [<tag:forge:rods/wooden>]
+        ]
+
+    
 };
 
 for output, input in recipes {

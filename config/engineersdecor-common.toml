@@ -142,6 +142,9 @@
 		#Defines, in percent, probable it is that a mob leaves a chair when sitting on it. The 'dice is rolled' about every 20 ticks. There is also a minimum Sitting time of about 3s. The config value can be changed on-the-fly for tuning.
 		#Range: 0.001 ~ 10.0
 		chair_mob_standup_probability_percent = 1.0
+		#Defines (for each individual cow) the minimum time between milking.
+		#Range: 1000 ~ 24000
+		milking_machine_milking_delay = 4000
 		#Defines if the Small Block Breaker does not work without RF power.
 		block_breaker_requires_power = false
 		#Defines, in percent, how fast the lab furnace smelts compared to a vanilla furnace. 100% means vanilla furnace speed, 150% means the lab furnace is faster. The value can be changed on-the-fly for tuning.

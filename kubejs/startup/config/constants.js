@@ -1,0 +1,22 @@
+var materials = [
+    "adamantium",
+    "aluminum",
+    "chrome",
+    "coal",
+    "copper",
+    "diamond",
+    "emerald",
+    "gold",
+    "iridium",
+    "iron",
+    "lapis",
+    "lead",
+    "manganeese",
+    "nickel",
+    "platinum",
+    "redstone",
+    "silver",
+    "tin",
+    "tungsten",
+    "uranium"
+  ];

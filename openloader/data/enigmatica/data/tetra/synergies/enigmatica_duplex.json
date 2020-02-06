@@ -1,0 +1,8 @@
+[
+	{
+		"moduleVariants": ["basic_pickaxe/platinum", "basic_pickaxe/platinum"],
+		"capabilities": {
+			"pickaxe": 1
+		}
+	}
+]

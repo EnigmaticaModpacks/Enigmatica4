@@ -1,6 +1,7 @@
 {
 	"scripts": [
 		{"file": "factory/blocks.js"},
-		{"file": "factory/items.js"}
+		{"file": "factory/items.js"},
+		{"file": "config/constants.js"}
 	]
 }

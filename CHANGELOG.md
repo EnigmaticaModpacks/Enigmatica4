@@ -1,3 +1,15 @@
+## [Enigmatica 4 v0.4.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.5)
+*Forge-1.14.4-28.1.109*
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- Removed Serene Seasons, by popular demand.
+
+**Fixed bugs**
+
+- 
+
 ## [Enigmatica 4 v0.4.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.4)
 *Forge-1.14.4-28.1.109*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
