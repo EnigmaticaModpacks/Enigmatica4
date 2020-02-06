@@ -1,3 +1,54 @@
+# 0.4.4 -> 0.4.5
+
+* Aquaculture-1.14.4-2.0.7.jar
+* authme-1.14_1.15-1.1.1.jar
+* bambooblocks-1.2.11.jar
+* bluepower-1.14.4-0.3.183-alpha-universal.jar
+* Botania r1.11-377.jar
+* Controlling-5.0.6.jar
+* CookingForBlockheads_1.14.4-7.4.4.jar
+* CraftingTweaks_1.14.4-10.2.1.jar
+* CraftTweaker-1.14.4-5.0.1.162.jar
+* curios-FORGE-1.14.4-1.0.6.1.jar
+* Cyclic-1.14.4-0.1.3.jar
+* DarkUtilities-1.14.4-2.0.11.jar
+* DefaultSettings-1.14.x-2.1.3.jar
+* engineersdecor-1.14.4-1.0.19-b2.jar
+* extraboats-1.2.3-1.14.4.jar
+* FarmingForBlockheads_1.14.4-5.3.2.jar
+* FpsReducer-mc1.14.4-1.14.1.jar
+* invtweaks-1.14.4-0.7.0.jar
+* IronJetpacks-1.14.4-2.0.3.jar
+* kubejs-forge-1.14.4-2.2.0.27.jar
+* LargeFluidTank-14.9.5.jar
+* libnonymous-1.14.4-1.0.4.25.jar
+* Ma-Essentials-1.14.4-1.2.11.jar
+* mgui-1.14.4-1.2.0.jar
+* minecolonies-0.10.680-RELEASE-universal.jar
+* modular-routers-1.14.4-5.1.4-9.jar
+* mysticallib-1.14.4-1.14.0.jar
+* mysticalworld-1.14.4-1.7.2.jar
+* OpenLoader-1.14.4-1.0.4.jar
+* Patchouli-1.14.4-1.1-25.jar
+* Powah-1.14.4-0.2.6.jar
+* Quark-r2.0-210.jar
+* randompatches-1.14.4-1.21.0.0.jar
+* RandomThings-MC1.14.4-5.0.1.jar
+* rsgauges-1.14.4-1.2.1-b1.jar
+* ScalableCatsForce-2.13.1-build-6-with-library.jar
+* ServerTabInfo-1.14.4-1.2.6.jar
+* SilentMechanisms-1.14.4-0.6.13+49.jar
+* simplefarming-1.14.4-1.2.7.jar
+* solcarrot-1.14.4-1.9.4.jar
+* structurize-0.10.226-ALPHA.jar
+* tetra-1.14.4-1.17.0.jar
+* tombstone-4.1.9-1.14.4.jar
+* torchslabmod-1.14.4_v1.4.jar
+* TrashSlot_1.14.4-10.4.8.jar
+* Waystones_1.14.4-5.1.1.jar
+* XaerosWorldMap_1.5.5_Forge_1.14.4.jar
+* Xaeros_Minimap_20.2.0_Forge_1.14.4.jar
+
 # 0.4.3 -> 0.4.4
 
 * BonsaiTrees-2.0.2.35.jar

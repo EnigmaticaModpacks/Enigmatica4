@@ -1,14 +1,22 @@
 ## [Enigmatica 4 v0.4.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.5)
-*Forge-1.14.4-28.1.109*
+*Forge-1.14.4-28.2.0*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
 
 **Changes**
 
 - Removed Serene Seasons, by popular demand.
+- Command Line Integration for InstanceSync [\#283](https://github.com/NillerMedDild/Enigmatica4/pull/283) ([justinkillen](https://github.com/justinkillen))
+- added pack variants for tetra basic blade, short blade & basic pickaxe [\#278](https://github.com/NillerMedDild/Enigmatica4/pull/278) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)] ([mickelus](https://github.com/mickelus))
+- \[Mod Request\] Add Server Tab Info to the pack [\#273](https://github.com/NillerMedDild/Enigmatica4/issues/273) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- \[Request\] Add TrashSlot \(or some other trash type mod\) [\#269](https://github.com/NillerMedDild/Enigmatica4/issues/269) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
+- Unification \(Ores/Ingot etc\) [\#109](https://github.com/NillerMedDild/Enigmatica4/issues/109) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 
 **Fixed bugs**
 
-- 
+- Bamboo Chests deleting contents [\#286](https://github.com/NillerMedDild/Enigmatica4/issues/286)
+- Factory hoppers not working [\#284](https://github.com/NillerMedDild/Enigmatica4/issues/284)
+- Crash: Excavate IV Enchant [\#272](https://github.com/NillerMedDild/Enigmatica4/issues/272) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
+- Recipe confict: Amethyst swords [\#270](https://github.com/NillerMedDild/Enigmatica4/issues/270) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 
 ## [Enigmatica 4 v0.4.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.4)
 *Forge-1.14.4-28.1.109*
