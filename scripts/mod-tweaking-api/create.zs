@@ -1,4 +1,4 @@
-/* #priority 1000
+#priority 1000
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -48,4 +48,4 @@ public function create_crushing_addRecipe(recipeName as string, output as IItemS
         ],
         processingTime: time
     });
-} */
+}
