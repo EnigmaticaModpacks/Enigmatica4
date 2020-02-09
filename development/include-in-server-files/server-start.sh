@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #### Minecraft-Forge Server install/launcher script
 #### Linux Version
 ####
