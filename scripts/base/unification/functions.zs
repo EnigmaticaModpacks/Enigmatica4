@@ -1,8 +1,9 @@
-#priority 910
+#priority 1000
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.BracketHandlers;
 
 public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) as IItemStack {
 	for mod in modPriorities {
@@ -25,9 +26,6 @@ public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 		if (!item.matches(getPreferredItemInTag(tag, modPriorities))) {
 			tag.removeItems(item);
 			removeProcessingFor(item);
-			// TODO: Remove after a while (written 25-01-2020)
-			// This part should be removed after a few updates 
-			// This will make it possible to convert old materials to the new default material
 			craftingTable.addShapeless(formatRecipeName(item) + "_temporary_conversion_recipe", tag.first(), [item]);
 		}
 	}

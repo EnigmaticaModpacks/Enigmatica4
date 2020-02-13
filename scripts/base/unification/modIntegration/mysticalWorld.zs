@@ -1,39 +1,26 @@
 #priority 1000
 
 import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.BracketHandlers;
 
-public function addEquipmentToNuggetSmelting(material as string, itemTag as MCTag) as void {
-    logger.info("Adding Metal Item to Nugget Smelting/Blasting recipes for " + material + ".");
+public function addEquipmentToNuggetSmelting(material as string) as void {
+    logger.info("Adding Metal Item to Nugget Smelting/Blasting recipes for " + material);
+    var nuggetTag = BracketHandlers.getTag("forge:nuggets/" + material);
+    var nugget = nuggetTag.first();
+    var equipmentTag = BracketHandlers.getTag("mysticalworld:" + material + "_items");
     var xp = 1.0;
     var cookingTime = 200;
-    if (material == "copper") {
-            for item in <tag:mysticalworld:copper_items>.items {
-            blastFurnace.addRecipe(formatRecipeName(itemTag.first()) + "_from_" + formatRecipeName(item), itemTag.first(), item, xp, cookingTime);
-            furnace.addRecipe(formatRecipeName(itemTag.first()) + "_from_" + formatRecipeName(item), itemTag.first(), item, xp, cookingTime);  
-        } 
+
+    if (equipmentTag.first().matches(<item:minecraft:air>)) {
+        logger.info("Attempted to add Metal Item to Nugget Smelting/Blasting recipes, but no items exist in the ItemTag " + equipmentTag.commandString);
     }
-    if (material == "lead") {
-            for item in <tag:mysticalworld:lead_items>.items {
-            blastFurnace.addRecipe(formatRecipeName(itemTag.first()) + "_from_" + formatRecipeName(item), itemTag.first(), item, xp, cookingTime);  
-            furnace.addRecipe(formatRecipeName(itemTag.first()) + "_from_" + formatRecipeName(item), itemTag.first(), item, xp, cookingTime); 
-        } 
-    }
-    if (material == "silver") {
-            for item in <tag:mysticalworld:silver_items>.items {
-            blastFurnace.addRecipe(formatRecipeName(itemTag.first()) + "_from_" + formatRecipeName(item), itemTag.first(), item, xp, cookingTime);  
-            furnace.addRecipe(formatRecipeName(itemTag.first()) + "_from_" + formatRecipeName(item), itemTag.first(), item, xp, cookingTime); 
-        } 
-    }
-    if (material == "quicksilver") {
-            for item in <tag:mysticalworld:quicksilver_items>.items {
-            blastFurnace.addRecipe(formatRecipeName(itemTag.first()) + "_from_" + formatRecipeName(item), itemTag.first(), item, xp, cookingTime);   
-            furnace.addRecipe(formatRecipeName(itemTag.first()) + "_from_" + formatRecipeName(item), itemTag.first(), item, xp, cookingTime);
-        } 
-    }
-    if (material == "tin") {
-            for item in <tag:mysticalworld:tin_items>.items {
-            blastFurnace.addRecipe(formatRecipeName(itemTag.first()) + "_from_" + formatRecipeName(item), itemTag.first(), item, xp, cookingTime);  
-            furnace.addRecipe(formatRecipeName(itemTag.first()) + "_from_" + formatRecipeName(item), itemTag.first(), item, xp, cookingTime); 
-        } 
+    else if (nugget.matches(<item:minecraft:air>)) {
+        logger.info("Attempted to add Metal Item to Nugget Smelting/Blasting recipes, but no items exist in the ItemTag " + nuggetTag.commandString);
+    } 
+    else {
+        for item in equipmentTag.items {
+            blastFurnace.addRecipe(formatRecipeName(nuggetTag.first()) + "_from_" + formatRecipeName(item), nuggetTag.first(), item, xp, cookingTime);
+            furnace.addRecipe(formatRecipeName(nuggetTag.first()) + "_from_" + formatRecipeName(item), nuggetTag.first(), item, xp, cookingTime);    
+        }  
     }
 }
