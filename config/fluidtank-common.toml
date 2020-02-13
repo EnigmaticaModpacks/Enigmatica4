@@ -5,35 +5,19 @@
 	showTOP = true
 	#True to enable waila and top to show tank info.
 	showToolTipOnMods = true
+	#False to disable rainbow renderer for pipe.
+	enablePipeRainbowRenderer = true
+	#Color of pipe. Works only if 'enablePipeRainbowRenderer' is false.
+	pipeColor = -1
 	#True to show invisible tank in creative tabs. Recipe and block aren't removed.
 	showInvisibleTankInTab = false
+	#True to allow fluid supplier to work.
+	enableFluidSupplier = true
 	#Remove all recipe to make tanks.
 	RemoveRecipe = false
 
 	#Recipe settings
 	[common.recipe]
-		#Set tag name of items to craft Tin tank.
-		TinOreName = "forge:ingots/tin"
-		#Set tag name of items to craft Stone tank.
-		StoneOreName = "forge:stone"
-		#Set tag name of items to craft Star tank.
-		StarOreName = "forge:nether_stars"
-		#Set tag name of items to craft Iron tank.
-		IronOreName = "forge:ingots/iron"
-		#Set tag name of items to craft Bronze tank.
-		BronzeOreName = "forge:ingots/bronze"
-		#Set tag name of items to craft Emerald tank.
-		EmeraldOreName = "forge:gems/emerald"
-		#Set tag name of items to craft Lead tank.
-		LeadOreName = "forge:ingots/lead"
-		#Set tag name of items to craft Copper tank.
-		CopperOreName = "forge:ingots/copper"
-		#Set tag name of items to craft Diamond tank.
-		DiamondOreName = "forge:gems/diamond"
-		#Set tag name of items to craft Silver tank.
-		SilverOreName = "forge:ingots/silver"
 		#True to use easy recipe.
 		easyRecipe = false
-		#Set tag name of items to craft Gold tank.
-		GoldOreName = "forge:ingots/gold"
 
