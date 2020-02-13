@@ -1,3 +1,32 @@
+# 0.4.5 -> 0.4.6
+
+* angelring-1.1.0.jar
+* bambooblocks-1.2.12.jar
+* BotanyPots-1.14.4-1.0.8.jar
+* caelus-FORGE-1.14.4-1.0.1.2.jar
+* cofh_core-1.14.4-0.3.0b.jar
+* comforts-FORGE-1.14.4-2.0-beta6.jar
+* curioofundying-FORGE-1.14.4-2.0.1.jar
+* ensorcellation-1.14.4-0.3.0b.jar
+* EverlastingAbilities-1.14.4-1.6.1.jar
+* extraboats-1.2.4-1.14.4.jar
+* Flopper-1.14.4-1.0.6.jar
+* invtweaks-1.14.4-1.0.1.jar
+* JustEnoughResources-1.14.4-0.10.0.70.jar
+* LargeFluidTank-14.9.6.jar
+* minecolonies-0.10.688-ALPHA-universal.jar
+* Patchouli-1.14.4-1.1-26.jar
+* Powah-1.14.4-0.2.7.jar
+* rsgauges-1.14.4-1.2.1.jar
+* structurize-0.10.245-ALPHA.jar
+* tetra-1.14.4-1.17.0.jar
+* tetra-1.14.4-1.18.1.jar
+* tombstone-4.1.9-1.14.4.jar
+* tombstone-4.2.1-1.14.4.jar
+* torchslabmod-1.14.4_v1.5.jar
+* UpgradeModifiers-1.14.4-1.0.2.jar
+* Xaeros_Minimap_20.3.0_Forge_1.14.4.jar
+
 # 0.4.4 -> 0.4.5
 
 * Aquaculture-1.14.4-2.0.7.jar
