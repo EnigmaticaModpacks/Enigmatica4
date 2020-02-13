@@ -5,7 +5,9 @@ import crafttweaker.api.tag.MCTag;
 
 public expand MCTag {
     public first() as IItemStack? {
-        var items = this.items;
-        return items.length == 0 ? <item:minecraft:air> : items[0];
+        if (!this.isItemTag) {
+            return <item:minecraft:air>;
+        }
+        return this.items.length == 0 ? <item:minecraft:air> : items[0];
     }
 }
