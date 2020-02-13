@@ -1,3 +1,15 @@
+## [Enigmatica 4 v0.4.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.6)
+*Forge-1.14.4-28.2.0*
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- Create \(the mod\) Compatibility Recipes [\#107](https://github.com/NillerMedDild/Enigmatica4/issues/107) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+
+**Fixed bugs**
+
+- Dusts are unsmeltable [\#295](https://github.com/NillerMedDild/Enigmatica4/issues/295) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+
 ## [Enigmatica 4 v0.4.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.5)
 *Forge-1.14.4-28.2.0*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
