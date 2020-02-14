@@ -1,4 +1,8 @@
-# 0.4.6 -> 0.4.7
+# 0.4.5 -> 0.4.8
+
+* Downgraded EverlastingAbilities to 1.14.4-1.6.0.jar
+
+**From 0.4.7**
 
 * BotanyPots-1.14.4-1.0.9.jar
 * cofh_core-1.14.4-0.3.1b.jar
@@ -35,6 +39,10 @@
 * torchslabmod-1.14.4_v1.5.jar
 * UpgradeModifiers-1.14.4-1.0.2.jar
 * Xaeros_Minimap_20.3.0_Forge_1.14.4.jar
+
+# 0.4.6 -> 0.4.7
+
+**Failed**
 
 # 0.4.5 -> 0.4.6
 
