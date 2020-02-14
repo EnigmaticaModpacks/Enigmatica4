@@ -1,4 +1,4 @@
-## [Enigmatica 4 v0.4.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.6)
+## Enigmatica 4 v0.4.7
 *Forge-1.14.4-28.2.0*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
 
@@ -10,7 +10,11 @@
 
 - Dusts are unsmeltable [\#295](https://github.com/NillerMedDild/Enigmatica4/issues/295) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 
-## [Enigmatica 4 v0.4.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.5)
+## Enigmatica 4 v0.4.6
+
+**Failed, servers could not start**
+
+## Enigmatica 4 v0.4.5
 *Forge-1.14.4-28.2.0*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
 
@@ -30,7 +34,7 @@
 - Crash: Excavate IV Enchant [\#272](https://github.com/NillerMedDild/Enigmatica4/issues/272) [[Config](https://github.com/NillerMedDild/Enigmatica4/labels/Config)]
 - Recipe confict: Amethyst swords [\#270](https://github.com/NillerMedDild/Enigmatica4/issues/270) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 
-## [Enigmatica 4 v0.4.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.4)
+## Enigmatica 4 v0.4.4
 *Forge-1.14.4-28.1.109*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
 
@@ -47,7 +51,7 @@
 - Inventory refill deletes extra stacks [\#266](https://github.com/NillerMedDild/Enigmatica4/issues/266)
 - Bonsai Tree 2 not working on Server [\#261](https://github.com/NillerMedDild/Enigmatica4/issues/261)
 
-## [Enigmatica 4 v0.4.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.3)
+## Enigmatica 4 v0.4.3
 *Forge-1.14.4-28.1.109*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
 

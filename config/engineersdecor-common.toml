@@ -100,44 +100,44 @@
 		#Enables small quick-move arrows from/to player/block storage. Makes the UI a bit too busy, therefore disabled by default.
 		with_crafting_quickmove_buttons = false
 		#Defines how much RF power the Small Tree Cutter requires to magnificently increase the processing speed. The config value can be changed on-the-fly for tuning.
-		#Range: 16 ~ 512
+		#Range: 4 ~ 1024
 		tree_cuttter_energy_consumption = 64
 		#Defines, in percent, how fast the electrical furnace smelts compared to a vanilla furnace. 100% means vanilla furnace speed, 150% means the electrical furnace is faster. The value can be changed on-the-fly for tuning.
-		#Range: 50 ~ 500
+		#Range: 50 ~ 800
 		e_furnace_speed_percent = 200
 		#Defines if the electrical furnace automatically pulls items from an inventory at the input side.The config value can be changed on-the-fly for tuning.
 		e_furnace_automatic_pulling = false
 		#Defines how much time the Small Milking Machine needs work. Note this is a permanent standby power, not only when the device does something. Use zero to disable energy dependency and energy handling of the machine. The config value can be changed on-the-fly for tuning.
-		#Range: 0 ~ 128
+		#Range: 0 ~ 1024
 		milking_machine_energy_consumption = 0
 		#Defines how many millibuckets can be transferred (per tick) through the valves. That is technically the 'storage size' specified for blocks that want to fill fluids into the valve (the valve has no container and forward that to the output block), The value can be changed on-the-fly for tuning. 
-		#Range: 1 ~ 10000
+		#Range: 1 ~ 32000
 		pipevalve_max_flowrate = 1000
 		#Defines how much RF power the Small Block Breaker requires to magnificently increase the processing speed. The config value can be changed on-the-fly for tuning.
-		#Range: 16 ~ 512
+		#Range: 4 ~ 1024
 		block_breaker_power_consumption = 64
 		#Defines, in percent, how high the probability is that a mob sits on a chair when colliding with it. Can be changed on-the-fly for tuning.
 		#Range: 0.0 ~ 80.0
 		chair_mob_sitting_probability_percent = 10.0
 		#Defines, in percent, how fuel efficient the lab furnace is, compared to a vanilla furnace. 100% means vanilla furnace consumiton, 200% means the lab furnace needs about half the fuel of a vanilla furnace, The value can be changed on-the-fly for tuning.
-		#Range: 50 ~ 250
+		#Range: 50 ~ 400
 		furnace_fuel_efficiency_percent = 100
 		#Defines how much RF per tick the the electrical furnace consumed (average) for smelting. The feeders transferring items from/to adjacent have this consumption/8 for each stack transaction. The default value is only slightly higher than a furnace with an IE external heater (and no burning fuel inside).The config value can be changed on-the-fly for tuning.
-		#Range: 10 ~ 256
+		#Range: 8 ~ 4096
 		e_furnace_power_consumption = 16
 		#Defines the peak power production (at noon) of the Small Solar Panel. Note that the agerage power is much less, as no power is produced at all during the night, and the power curve is nonlinear rising/falling during the day. Bad weather conditions also decrease the production. The config value can be changed on-the-fly for tuning.
-		#Range: 10 ~ 256
+		#Range: 2 ~ 4096
 		small_solar_panel_peak_production = 30
 		#Defines how much time the Small Tree Cutter needs to cut a tree without RF power. The value is in seconds. With energy it is 6 times faster. The config value can be changed on-the-fly for tuning.
 		#Range: 10 ~ 240
 		tree_cuttter_cutting_time_needed = 60
 		#Defines how many millibuckets per redstone signal strength can be transferred per tick through the analog redstone controlled valves. Note: power 0 is always off, power 15 is always the max flow rate. Between power 1 and 14 this scaler will result in a flow = 'redstone slope' * 'current redstone power'. The value can be changed on-the-fly for tuning. 
-		#Range: 1 ~ 10000
+		#Range: 1 ~ 32000
 		pipevalve_redstone_gain = 20
 		#Disables increasing/decreasing the crafting grid items by scrolling over the crafting result slot.
 		without_crafting_mouse_scrolling = false
 		#Defines the energy consumption (per tick) for speeding up the smelting process. If IE is installed, an external heater has to be inserted into an auxiliary slot of the lab furnace. The power source needs to be able to provide at least 4 times this consumption (fixed threshold value). The value can be changed on-the-fly for tuning. The default value corresponds to the IE heater consumption.
-		#Range: 16 ~ 256
+		#Range: 8 ~ 1024
 		furnace_boost_energy_consumption = 24
 		#Defines, in percent, probable it is that a mob leaves a chair when sitting on it. The 'dice is rolled' about every 20 ticks. There is also a minimum Sitting time of about 3s. The config value can be changed on-the-fly for tuning.
 		#Range: 0.001 ~ 10.0
@@ -148,7 +148,7 @@
 		#Defines if the Small Block Breaker does not work without RF power.
 		block_breaker_requires_power = false
 		#Defines, in percent, how fast the lab furnace smelts compared to a vanilla furnace. 100% means vanilla furnace speed, 150% means the lab furnace is faster. The value can be changed on-the-fly for tuning.
-		#Range: 50 ~ 500
+		#Range: 50 ~ 800
 		furnace_smelting_speed_percent = 130
 		#Defines how much time the Small Block Breaker needs per block hardness, means: 'reluctance' * hardness + min_time, you change the 'reluctance' here.The unit is ticks/hardness. The config value can be changed on-the-fly for tuning.
 		#Range: 5 ~ 50
