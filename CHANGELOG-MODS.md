@@ -1,4 +1,13 @@
-# 0.4.5 -> 0.4.6
+# 0.4.6 -> 0.4.7
+
+* BotanyPots-1.14.4-1.0.9.jar
+* cofh_core-1.14.4-0.3.1b.jar
+* engineersdecor-1.14.4-1.0.19-b3.jar
+* JustEnoughResources-1.14.4-0.10.1.74.jar
+* tetra-1.14.4-1.19.0.jar
+* UpgradeModifiers-1.14.4-1.0.3.jar
+
+**From 0.4.6**
 
 * angelring-1.1.0.jar
 * bambooblocks-1.2.12.jar
@@ -26,6 +35,10 @@
 * torchslabmod-1.14.4_v1.5.jar
 * UpgradeModifiers-1.14.4-1.0.2.jar
 * Xaeros_Minimap_20.3.0_Forge_1.14.4.jar
+
+# 0.4.5 -> 0.4.6
+
+**Failed**
 
 # 0.4.4 -> 0.4.5
 
