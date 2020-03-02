@@ -45,7 +45,7 @@ $MODPACK_VERSION = "0.4.8"
 # Only used by the Changelog Generator
 $LAST_MODPACK_VERSION = "0.4.7"
 
-$FORGE_VERSION=28.2.0
+$FORGE_VERSION=28.2.3
 
 $CLIENT_FILENAME = "Enigmatica4"
 
@@ -62,7 +62,7 @@ $CLIENT_CHANGELOG_TYPE = "html"
 
 # Must be a single string. Use Powershell escaping for new lines etc. New line is `n and indent is `t
 $CLIENT_CHANGELOG = "<h3>Enigmatica 4 v$MODPACK_VERSION</h3>" +
-					"<p>Using Forge-1.14.4-28.2.0 </p><br />" +
+					"<p>Using Forge-1.14.4-28.2.3 </p><br />" +
 					"<a href=`"https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG.md`">Changelog</a> <br />" +
 					"<a href=`"https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md`">Mod Updates</a>"
 
