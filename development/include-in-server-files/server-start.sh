@@ -4,8 +4,9 @@
 ####
 #### Created by: Dijkstra
 #### Mascot: Ordinator
+#### (Poorly) Edited by: NillerMedDild 
 ####
-#### Originally created for use in "All The Mods" modpacks
+#### Originally created for use in "All The Mods" modpacks, and since then modified for 1.14+
 #### NO OFFICIAL AFFILIATION WITH MOJANG OR FORGE
 ####
 #### This script will fetch the appropriate forge installer
@@ -18,11 +19,10 @@
 #### You might need to chmod +x before executing
 ####
 #### IF THERE ARE ANY ISSUES
-#### Please make a report on the AllTheMods github:
-#### https://github.com/whatthedrunk/allthemods/issues
+#### Please make a report on the Enigmatica4 github:
+#### https://github.com/NillerMedDild/Enigmatica4/issues
 #### with the contents of [serverstart.log] and [installer.log]
 ####
-#### or come find us on Discord: https://discord.gg/FdFDVWb
 ####
 
 #For Server Owners
