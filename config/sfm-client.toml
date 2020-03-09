@@ -1,5 +1,5 @@
 
-#Client config options
+#General GUI config options
 [generalGUI]
 	#Set to true to enable debug highlighting for GUIs
 	enableInspections = false
@@ -20,4 +20,9 @@
 	#Determines how fast arrow keys moving is (for editor panel)
 	#Range: > 0
 	defaultEditorMoveSpeed = 2
+
+#General client config options
+[general]
+	#Controls whether the to hint the player to reload component groups on login or not
+	showComponentGroupsMessage = true
 

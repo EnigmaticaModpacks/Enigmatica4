@@ -34,6 +34,8 @@
 [blocks]
 	#Whether the redstone input block (sfm:redstone_input) is considered a cable
 	isRedstoneInputBlockCables = false
+	#Whether the block detector (sfm:bud) is considered a cable
+	isBUDBlockCables = false
 	#Whether the redstone emitter block (sfm:redstone_emitter) is considered a cable
 	isRedstoneEmitterBlockCables = false
 	#Whether the instant item intake block (sfm:instant_item_intake) is considered a cable

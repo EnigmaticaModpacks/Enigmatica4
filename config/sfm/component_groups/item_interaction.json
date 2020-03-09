@@ -1,0 +1,12 @@
+{
+  "name": "sfm:item_interaction",
+  "translation_key": "component_group.sfm.ItemInteraction",
+  "icon": "sfm:textures/gui/group_icon/item_interaction.png",
+  "members": [
+    "sfm:item_transfer",
+    "sfm:item_import",
+    "sfm:item_export",
+    "sfm:crafting",
+    "sfm:read_inventory"
+  ]
+}

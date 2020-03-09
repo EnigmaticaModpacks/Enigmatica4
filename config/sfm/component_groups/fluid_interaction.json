@@ -1,0 +1,11 @@
+{
+  "name": "sfm:fluid_interaction",
+  "translation_key": "component_group.sfm.FluidInteraction",
+  "icon": "sfm:textures/gui/group_icon/fluid_interaction.png",
+  "members": [
+    "sfm:fluid_transfer",
+    "sfm:fluid_import",
+    "sfm:fluid_export",
+    "sfm:read_tank"
+  ]
+}

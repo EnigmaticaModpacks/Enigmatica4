@@ -1,0 +1,10 @@
+{
+  "order": [
+    "sfm:trigger",
+    "sfm:item_interaction",
+    "sfm:fluid_interaction",
+    "sfm:redstone_interaction",
+    "sfm:flow_control",
+    "sfm:misc"
+  ]
+}

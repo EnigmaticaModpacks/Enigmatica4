@@ -1,0 +1,14 @@
+{
+  "name": "sfm:flow_control",
+  "translation_key": "component_group.sfm.FlowControl",
+  "icon": "sfm:textures/gui/group_icon/flow_control.png",
+  "members": [
+    "sfm:sequential",
+    "sfm:merge",
+    "sfm:condition",
+    "sfm:variable",
+    "sfm:for_each",
+    "sfm:function_hat",
+    "sfm:function_invoke"
+  ]
+}
