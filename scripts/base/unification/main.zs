@@ -239,18 +239,18 @@ var materials as MCTag[string][string] = {
         "sheet": <tag:forge:sheets/aluminum>
     },
 
-    "uranium": {
-        "nugget": <tag:forge:nuggets/uranium>,
-        "ingot": <tag:forge:ingots/uranium>,
-        "block": <tag:forge:storage_blocks/uranium>,
-        "ore": <tag:forge:ores/uranium>,
-        "dust": <tag:forge:dusts/uranium>,
-        //"fluid": <fluid:forge:fluids/uranium>,
-        "gear": <tag:forge:gears/uranium>,
-        "plate": <tag:forge:plates/uranium>,
-        "rod": <tag:forge:rods/uranium>,
-        "sheet": <tag:forge:sheets/uranium>
-    },
+    // "uranium": {
+    //     "nugget": <tag:forge:nuggets/uranium>,
+    //     "ingot": <tag:forge:ingots/uranium>,
+    //     "block": <tag:forge:storage_blocks/uranium>,
+    //     "ore": <tag:forge:ores/uranium>,
+    //     "dust": <tag:forge:dusts/uranium>,
+    //     //"fluid": <fluid:forge:fluids/uranium>,
+    //     "gear": <tag:forge:gears/uranium>,
+    //     "plate": <tag:forge:plates/uranium>,
+    //     "rod": <tag:forge:rods/uranium>,
+    //     "sheet": <tag:forge:sheets/uranium>
+    // },
 
     "bronze": {
         "nugget": <tag:forge:nuggets/bronze>,
@@ -499,18 +499,18 @@ var materials as MCTag[string][string] = {
         "sheet": <tag:forge:sheets/glowstone>
     },
 
-    "teslatite": {
-        "nugget": <tag:forge:nuggets/teslatite>,
-        "ingot": <tag:forge:ingots/teslatite>,
-        "block": <tag:forge:storage_blocks/teslatite>,
-        "ore": <tag:forge:ores/teslatite>,
-        "dust": <tag:forge:dusts/teslatite>,
-        //"fluid": <fluid:forge:fluids/teslatite>,
-        "gear": <tag:forge:gears/teslatite>,
-        "plate": <tag:forge:plates/teslatite>,
-        "rod": <tag:forge:rods/teslatite>,
-        "sheet": <tag:forge:sheets/teslatite>
-    }
+    // "teslatite": {
+    //     "nugget": <tag:forge:nuggets/teslatite>,
+    //     "ingot": <tag:forge:ingots/teslatite>,
+    //     "block": <tag:forge:storage_blocks/teslatite>,
+    //     "ore": <tag:forge:ores/teslatite>,
+    //     "dust": <tag:forge:dusts/teslatite>,
+    //     //"fluid": <fluid:forge:fluids/teslatite>,
+    //     "gear": <tag:forge:gears/teslatite>,
+    //     "plate": <tag:forge:plates/teslatite>,
+    //     "rod": <tag:forge:rods/teslatite>,
+    //     "sheet": <tag:forge:sheets/teslatite>
+    // }
 }; 
 
 var modPriorities as string[] = [
