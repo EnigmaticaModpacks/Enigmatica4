@@ -108,6 +108,7 @@
 	"Paper Decor" = true
 	Rope = true
 	"Sturdy Stone" = true
+	"Iron Plates" = true
 	"More Potted Plants" = true
 	Grate = true
 	"Variant Bookshelves" = true
@@ -149,6 +150,7 @@
 		"Enable Berry Sack" = true
 		"Enable Golden Apple Crate" = true
 		"Enable Sugar Cane Block" = true
+		"Enable Bonded Leather" = true
 		"Blaze Lantern Fuel Time" = 24000
 		"Charcoal Block Fuel Time" = 16000
 		"Stick Block Fuel Time" = 900
@@ -1035,6 +1037,7 @@
 [client]
 	"Greener Grass" = true
 	"Variant Animal Textures" = true
+	"Back Button Keybind" = true
 	"Improved Tooltips" = true
 	"Improved Mount Hud" = true
 	"Usage Ticker" = true

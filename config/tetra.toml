@@ -52,6 +52,8 @@
 	#Integrity multiplier for bow honing, a value of 2 would cause a bow which uses 3 integrity to require 2*3 times as many uses before it can be honed
 	#Range: > -2147483648
 	hone_bow_integrity_multiplier = 32
+	#Enable the stonecutter module for swords, the stonecutter has to be removed from loot tables if this is disabled
+	stonecutter = true
 	#Enable modular bows
 	bow = true
 	#The base value for number of uses required before a single headed implement can be honed
