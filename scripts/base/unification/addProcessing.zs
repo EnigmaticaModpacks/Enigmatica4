@@ -515,60 +515,7 @@ var materials as MCTag[string][string] = {
 }; 
 
 for material, types in materials {
-    //#addEquipmentToNuggetSmelting(material);
-    var nuggetTag = BracketHandlers.getTag("forge:nuggets/" + material);
-    var nugget = nuggetTag.first();
-    var equipmentTag = BracketHandlers.getTag("mysticalworld:" + material + "_items");
-    var xp = 1.0;
-    var cookingTime = 200;
-
-    if (equipmentTag.first().matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add Metal Item to Nugget Smelting/Blasting recipes, but no items exist in the ItemTag " + equipmentTag.commandString);
-    }
-    else if (nugget.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add Metal Item to Nugget Smelting/Blasting recipes, but no items exist in the ItemTag " + nuggetTag.commandString);
-    } 
-    else {
-        for item in equipmentTag.items {
-            blastFurnace.removeRecipe(nuggetTag.first(), item);
-            furnace.removeRecipe(nuggetTag.first(), item);
-            blastFurnace.addRecipe(formatRecipeName(nuggetTag.first()) + "_from_" + formatRecipeName(item), nuggetTag.first(), item, xp, cookingTime);
-            furnace.addRecipe(formatRecipeName(nuggetTag.first()) + "_from_" + formatRecipeName(item), nuggetTag.first(), item, xp, cookingTime);    
-        }  
-    }
-
-    //#addDustToIngotSmelting(material);
-    var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
-    var ingotItemTag = BracketHandlers.getTag("forge:ingots/" + material);
-    var dust = dustItemTag.first();
-    var ingot = ingotItemTag.first();
-    xp = 0.0;
-    cookingTime = 200;
-
-    if (dust.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + dustItemTag.commandString);
-    }
-    else if (ingot.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + ingotItemTag.commandString);
-    } 
-    else {
-        blastFurnace.removeRecipe(ingot, dust);
-        furnace.removeRecipe(ingot, dust);
-        blastFurnace.addRecipe("blastfurnace_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
-        furnace.addRecipe("furnace_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
-    }
-
-    //#addOreToIngotSmelting(material);
-    var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
-    var ore = oreItemTag.first();
-    xp = 1.0;
-
-    if (ore.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + oreItemTag.commandString);
-    } else {
-        blastFurnace.removeRecipe(ingot, ore);
-        furnace.removeRecipe(ingot, ore);
-        blastFurnace.addRecipe("blastfurnace_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime);
-        furnace.addRecipe("furnace_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime); 
-    }
+    mysticalWorld_smeltingAndBlasting_nugget_from_equipment(material);
+    minecraft_smeltingAndBlasting_ingot_from_ore(material);
+    minecraft_smeltingAndBlasting_ingot_from_dust(material);
 }
