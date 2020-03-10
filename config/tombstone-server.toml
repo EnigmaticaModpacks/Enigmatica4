@@ -20,6 +20,8 @@
 
 #Allows to customize or disable the enchantments
 [enchantments]
+	#Enables the enchantment Plague Bringer [false/true|default:true]
+	enable_enchantment_plague_bringer = true
 	#Enables the enchantment Shadow Step [false/true|default:true]
 	enable_enchantment_shadow_step = true
 	#Enables the enchantment Soulbound [false/true|default:true]

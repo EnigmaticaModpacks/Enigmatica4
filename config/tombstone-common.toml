@@ -38,13 +38,15 @@
 	allow_beyond_the_grave_damage = true
 	#Allows teleportation to other dimensions [false/true|default:true]
 	teleport_dim = true
-	#Effects that are never preserved on death
-	black_list_effects = ["tombstone:ghostly_shape", "tombstone:preservation", "tombstone:exorcism", "minecraft:bad_omen", "minecraft:glowing"]
 	#The percentage of items that are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	percent_loss_on_death = 0
+	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
+	unhandled_beneficial_effects = ["tombstone:ghostly_shape", "tombstone:preservation", "tombstone:exorcism"]
 	#Whether graves should be allowed to bypass anti-griefing rules [false/true|default:true]
 	graves_bypass_griefing_rules = true
+	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
+	unhandled_harmful_effects = ["minecraft:nausea"]
 	#Enables PvP mode, which allows players to open graves of players they kill [false/true|default:false]
 	pvp_mode = false
 	#Whether to handle player death [false/true|default:true]
@@ -82,7 +84,7 @@
 [decorative_grave]
 	#The creatures that can't be captured in receptacle
 	black_list_capturable_souls = []
-	#The cooldown in minutes to reset the perks with the Ã‚nkh of Pray [0..60|default:20]
+	#The cooldown in minutes to reset the perks with the ankh of Pray [0..60|default:20]
 	#Range: 0 ~ 60
 	cooldown_reset_perk = 20
 	#Allows the purification effect to clear neutral effects [false/true|default:true]
@@ -101,6 +103,8 @@
 
 #Allows to customize or disable the enchantments
 [enchantments]
+	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
+	nerf_plague_bringer = true
 	#Restricts the effect of Shadow Step to players [false/true|default:true]
 	restrict_shadow_step_to_player = true
 
