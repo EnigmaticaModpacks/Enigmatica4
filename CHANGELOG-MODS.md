@@ -1,3 +1,34 @@
+# 0.4.8 -> 0.4.9
+
+* Botania r1.11-378.jar
+* BotanyPots-1.14.4-1.0.10.jar
+* Bountiful Baubles-1.14.4-0.0.3.jar
+* CosmeticArmorReworked-1.14.4-v1b.jar
+* craftingstation-2.1.6.jar
+* CraftTweaker-1.14.4-5.0.1.165.jar
+* curiousshulkerboxes-FORGE-1.14.4-1.0.0.2.jar
+* DarkUtilities-1.14.4-2.0.13.jar
+* DefaultSettings-1.14.x-2.1.4.jar
+* EnchantmentDescriptions-1.14.4-1.3.13.jar
+* engineersdecor-1.14.4-1.0.19-b5.jar
+* extraboats-1.2.6-1.14.4.jar
+* invtweaks-1.14.4-1.0.2.jar
+* mcw-bridges-1.0.4-mc1.14.4.jar
+* minecolonies-0.10.715-RELEASE-universal.jar
+* multibeds-1.14-1.5.2.jar
+* NaturesCompass-1.14.4-1.8.5.jar
+* PackMenu-1.14.4-0.2.4.jar
+* Quark-r2.0-212.jar
+* rsgauges-1.14.4-1.2.2-b1.jar
+* shetiphiancore-1.14-3.6.1.jar
+* simplefarming-1.14.4-1.2.8.jar
+* simplybackpacks-1.14.4-1.4.0.jar
+* StevesFactoryManager-1.14.4-3.0.0-alpha26.jar
+* StorageDrawers-1.14.4-6.0.6.jar
+* tetra-1.14.4-1.24.0.jar
+* tombstone-4.2.4-1.14.4.jar
+* Xaeros_Minimap_20.5.0_Forge_1.14.4.jar
+
 # 0.4.5 -> 0.4.8
 
 * Downgraded EverlastingAbilities to 1.14.4-1.6.0.jar

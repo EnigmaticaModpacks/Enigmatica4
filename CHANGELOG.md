@@ -1,4 +1,23 @@
+## Enigmatica 4 v0.4.9
+
+*Forge-1.14.4-28.2.3*
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- Fluid Pipe Cheaper Recipe [\#301](https://github.com/NillerMedDild/Enigmatica4/issues/301)
+
+**Fixed bugs**
+
+- Crash on Exit  [\#299](https://github.com/NillerMedDild/Enigmatica4/issues/299)
+- Blaze Rod Dupe [\#297](https://github.com/NillerMedDild/Enigmatica4/issues/297)
+- Simply Backpacks Deleting items [\#282](https://github.com/NillerMedDild/Enigmatica4/issues/282)
+- Crash when accessing drawer's inventory form crafting station [\#240](https://github.com/NillerMedDild/Enigmatica4/issues/240)
+- Mining Gadgets bypass the protection in dimensional dungeons [\#202](https://github.com/NillerMedDild/Enigmatica4/issues/202)
+- Upgrading drawers requires opening the GUI [\#197](https://github.com/NillerMedDild/Enigmatica4/issues/197)
+
 ## Enigmatica 4 v0.4.8
+
 *Forge-1.14.4-28.2.0*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
 
