@@ -63,8 +63,8 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 # Must be a single string. Use Powershell escaping for new lines etc. New line is `n and indent is `t
 $CLIENT_CHANGELOG = "### Enigmatica 4 v$MODPACK_VERSION <br />" +
 					"*Using Forge-1.14.4-28.2.3* <br />" +
-					"[Changelog](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG.md) <br />" +
-					"[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md) "
+					"[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt) <br /> " +
+					"[Changelog](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG.md) "
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "beta"
@@ -140,7 +140,7 @@ $ENABLE_SERVER_FILE_MODULE = $true
 # This module requires an older modpack manifest zip to be present, 
 # $LAST_MODPACK_VERSION must be set, and the manifest naming must be consistent.
 # Default: $false
-$ENABLE_CHANGELOG_GENERATOR_MODULE = $false
+$ENABLE_CHANGELOG_GENERATOR_MODULE = $true
 
 # Toggle removal and re-download of jars on/off.
 # Setting this to true will ensure that you always have the latest 
