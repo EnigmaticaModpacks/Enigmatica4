@@ -4,6 +4,12 @@ var oreDimensional = [
     'rftoolsbase:dimensionalshard_end'
 ];
 
+var oreUraninite = [
+    'powah:uraninite_ore_poor',
+    'powah:uraninite_ore',
+    'powah:uraninite_ore_dense'
+];
+
 var stoneBasalt = [
     'quark:basalt', 
     'bluepower:basalt', 
