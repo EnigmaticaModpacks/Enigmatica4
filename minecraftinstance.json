@@ -4129,8 +4129,8 @@
     },
     {
       "folderName": "PANORAMA",
-      "fingerprint": 3774027881,
-      "fileDateHash": 2960764700,
+      "fingerprint": 2268190081,
+      "fileDateHash": 1422505417,
       "sectionID": 10,
       "individualFingerprints": [
         7149229,
@@ -4150,9 +4150,7 @@
         152020343,
         165867751,
         197890365,
-        201528658,
         214943194,
-        216510894,
         217377245,
         218358494,
         232347456,
@@ -4165,15 +4163,18 @@
         304669894,
         306949050,
         328875845,
+        350922017,
         352132745,
         381250165,
         385292307,
         391076718,
         391889636,
         394218779,
+        401620467,
         405763360,
         414362277,
         426027092,
+        433346086,
         443063314,
         450077672,
         458193158,
@@ -4182,7 +4183,6 @@
         484915355,
         489490950,
         524637631,
-        546904222,
         555243763,
         566951490,
         574536089,
@@ -4209,6 +4209,7 @@
         791590658,
         795930317,
         804866216,
+        810006898,
         818135140,
         821152506,
         827666301,
@@ -4216,6 +4217,8 @@
         861179075,
         862043715,
         875682094,
+        924079465,
+        928622285,
         952040480,
         963909854,
         966178189,
@@ -4226,7 +4229,6 @@
         1044387446,
         1080397231,
         1083108912,
-        1091860245,
         1108995772,
         1113071463,
         1117959469,
@@ -4256,8 +4258,8 @@
         1250467749,
         1251511019,
         1268314865,
-        1294574663,
         1295501377,
+        1296111564,
         1298659556,
         1317842827,
         1319483855,
@@ -4267,15 +4269,18 @@
         1359029563,
         1375089338,
         1375234171,
+        1376586112,
         1382156633,
         1395198490,
         1415543630,
+        1440412074,
         1448464797,
         1465703453,
         1487828005,
         1513490660,
         1513817215,
         1520322090,
+        1528805606,
         1539929434,
         1540447798,
         1540447798,
@@ -4284,6 +4289,7 @@
         1540447798,
         1547410526,
         1577013593,
+        1591040356,
         1643907425,
         1645962111,
         1663004389,
@@ -4294,7 +4300,6 @@
         1690409601,
         1704665841,
         1707670672,
-        1713820328,
         1722796223,
         1750071890,
         1772674210,
@@ -4314,9 +4319,9 @@
         1871590624,
         1873246570,
         1889212938,
+        1894250359,
         1903865777,
         1904397225,
-        1904619667,
         1909180063,
         1916002817,
         1920829853,
@@ -4327,6 +4332,7 @@
         1971215541,
         1976517355,
         2005445212,
+        2021133744,
         2042380319,
         2045767961,
         2054452009,
@@ -4350,8 +4356,8 @@
         2210640974,
         2227483802,
         2229422009,
-        2239351717,
         2251992967,
+        2252015771,
         2255498287,
         2273742266,
         2295963405,
@@ -4363,8 +4369,8 @@
         2338494993,
         2371569268,
         2375435050,
-        2379586943,
         2379896918,
+        2386979771,
         2406175595,
         2407601020,
         2426286374,
@@ -4386,7 +4392,6 @@
         2533287518,
         2543362111,
         2563032919,
-        2567369814,
         2579916051,
         2582942538,
         2607673711,
@@ -4420,7 +4425,6 @@
         2883760563,
         2908951938,
         2943109431,
-        2944963539,
         2947968694,
         2949860347,
         2959087651,
@@ -4433,6 +4437,7 @@
         3043238076,
         3048806159,
         3057031240,
+        3061110115,
         3062078404,
         3064211733,
         3071552660,
@@ -4451,22 +4456,18 @@
         3137099421,
         3138625197,
         3142891953,
-        3144138894,
-        3148441435,
         3152648222,
         3154776081,
         3160634043,
         3168402656,
-        3172810020,
         3174937935,
         3185162013,
-        3186298045,
         3209328839,
         3230598683,
         3230745355,
         3236508570,
         3237146000,
-        3240036410,
+        3279177893,
         3294882692,
         3310251508,
         3322075021,
@@ -4477,7 +4478,7 @@
         3356039782,
         3367581872,
         3414207886,
-        3415460439,
+        3414358893,
         3421601622,
         3422336511,
         3423175787,
@@ -4486,6 +4487,7 @@
         3463857721,
         3472336113,
         3479547008,
+        3499701103,
         3502362098,
         3503373901,
         3522057484,
@@ -4515,6 +4517,8 @@
         3771282984,
         3771282984,
         3771282984,
+        3771282984,
+        3771282984,
         3776625548,
         3782790164,
         3793102788,
@@ -4530,17 +4534,18 @@
         3862205226,
         3867031375,
         3875195892,
+        3897514917,
         3897945371,
         3911703551,
         3914309881,
         3920120077,
+        3932364774,
         3960799019,
         3967643555,
         3981771691,
         3983694990,
         4001539963,
         4001877680,
-        4010450183,
         4025946928,
         4026594146,
         4033715380,
@@ -4550,6 +4555,7 @@
         4072653579,
         4100826706,
         4104332161,
+        4116531114,
         4141445155,
         4146622259,
         4150065028,
@@ -4557,13 +4563,11 @@
         4170809451,
         4202044555,
         4211319981,
-        4223105772,
         4247800149,
         4254541074,
         4257007157,
         4260441830,
         4260502917,
-        4263874737,
         4273590207,
         4273718682,
         4274432982,
@@ -4572,9 +4576,9 @@
         4283907430
       ],
       "status": 1,
-      "timestamp": "2020-03-10T20:34:14.6377552Z",
-      "lastWriteTimeUtc": "2020-03-10T20:34:14.1147306Z",
-      "queryTimestamp": "2020-03-10T20:34:16.529622Z",
+      "timestamp": "2020-03-10T21:05:37.3817453Z",
+      "lastWriteTimeUtc": "2020-03-10T21:05:36.8599767Z",
+      "queryTimestamp": "2020-03-10T21:05:39.5064043Z",
       "fileCount": 18,
       "fileSize": 0
     },
@@ -4715,7 +4719,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-03-10T20:34:17.1956148Z",
+  "lastPreviousMatchUpdate": "2020-03-10T21:05:40.0370687Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.14.4",
@@ -5916,7 +5920,7 @@
       "dateInstalled": "2020-03-09T19:58:50.1417809Z",
       "dateUpdated": "2020-03-10T18:58:42.4364544Z",
       "dateLastUpdateAttempted": "2020-03-10T18:58:42.4364544Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6593,8 +6597,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "tetra-1.14.4-1.24.0.jar"
       },
-      "dateInstalled": "2020-03-10T20:34:17.1945787Z",
-      "dateUpdated": "2019-03-10T20:34:17.1945787Z",
+      "dateInstalled": "2020-03-10T21:28:03.9210611Z",
+      "dateUpdated": "2019-03-10T21:28:03.9210611Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -6605,7 +6609,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 308653,
@@ -6783,14 +6787,14 @@
       "addonID": 345973,
       "gameInstanceID": "2eccf8d4-e675-478c-8e37-edca55e0e2c7",
       "installedFile": {
-        "id": 2803663,
-        "displayName": "cycp_1.14-1.0.jar",
-        "fileName": "cycp_1.14-1.0.jar",
-        "fileDate": "2019-10-07T15:39:56.05Z",
-        "fileLength": 6715,
+        "id": 2899283,
+        "displayName": "cyclepaintings_1.14-1.1.jar",
+        "fileName": "cyclepaintings_1.14-1.1.jar",
+        "fileDate": "2020-03-12T10:25:57.46Z",
+        "fileLength": 6528,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2803/663/cycp_1.14-1.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2899/283/cyclepaintings_1.14-1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -6798,58 +6802,40 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 382049236,
-            "type": 3
+            "fingerprint": 1024088475,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2909248862,
-            "type": 3
+            "fingerprint": 3138798511,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 1353179417,
-            "type": 3
+            "fingerprint": 4151144863,
+            "type": 0
           }
         ],
-        "packageFingerprint": 2817870784,
+        "packageFingerprint": 1122591641,
         "gameVersion": [
           "1.14.4",
           "Forge"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000014.0000000004",
-            "gameVersion": "1.14.4",
-            "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
-            "gameVersionName": "1.14.4"
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1674430,
-        "projectId": 345973,
-        "packageFingerprintId": 364715719,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
-        "gameVersionMappingId": 1962645,
-        "gameVersionId": 7469,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "cycp_1.14-1.0.jar"
+        "FileNameOnDisk": "cyclepaintings_1.14-1.1.jar"
       },
       "dateInstalled": "2019-10-09T08:14:03.9203536Z",
-      "dateUpdated": "2018-10-09T08:14:03.9203536Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateUpdated": "2020-03-12T19:19:54.6753277Z",
+      "dateLastUpdateAttempted": "2020-03-12T19:19:54.6753277Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7327,6 +7313,74 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 334853,
+      "gameInstanceID": "2eccf8d4-e675-478c-8e37-edca55e0e2c7",
+      "installedFile": {
+        "id": 2834351,
+        "displayName": "SimpleDiscordRichPresence-1.0.3.jar",
+        "fileName": "SimpleDiscordRichPresence-1.0.3.jar",
+        "fileDate": "2019-11-29T19:13:25.783Z",
+        "fileLength": 121500,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2834/351/SimpleDiscordRichPresence-1.0.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2702547300,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3220027592,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 1114439685,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1299377530,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 908113368,
+        "gameVersion": [
+          "1.14.4",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "SimpleDiscordRichPresence-1.0.3.jar"
+      },
+      "dateInstalled": "2020-03-12T19:20:39.741641Z",
+      "dateUpdated": "2020-03-12T19:20:39.7426382Z",
+      "dateLastUpdateAttempted": "2020-03-12T19:20:39.7426382Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 342097,
@@ -10599,7 +10653,7 @@
       "dateInstalled": "2020-01-14T18:41:02.9998357Z",
       "dateUpdated": "2020-03-10T18:58:46.8587407Z",
       "dateLastUpdateAttempted": "2020-03-10T18:58:46.8587407Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13269,7 +13323,7 @@
       "dateInstalled": "2020-02-06T18:38:06.3701547Z",
       "dateUpdated": "2020-03-10T18:58:30.2680342Z",
       "dateLastUpdateAttempted": "2020-03-10T18:58:30.2680342Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13877,22 +13931,22 @@
       "addonID": 250419,
       "gameInstanceID": "2eccf8d4-e675-478c-8e37-edca55e0e2c7",
       "installedFile": {
-        "id": 2893695,
-        "displayName": "EnchantmentDescriptions-1.14.4-1.3.13.jar",
-        "fileName": "EnchantmentDescriptions-1.14.4-1.3.13.jar",
-        "fileDate": "2020-03-03T08:53:07.273Z",
+        "id": 2898953,
+        "displayName": "EnchantmentDescriptions-1.14.4-1.3.14.jar",
+        "fileName": "EnchantmentDescriptions-1.14.4-1.3.14.jar",
+        "fileDate": "2020-03-11T19:58:21.31Z",
         "fileLength": 23291,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2893/695/EnchantmentDescriptions-1.14.4-1.3.13.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2898/953/EnchantmentDescriptions-1.14.4-1.3.14.jar",
         "isAlternate": false,
-        "alternateFileId": 2893696,
+        "alternateFileId": 2898954,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3471224533,
+            "fingerprint": 2447341064,
             "type": 0
           },
           {
@@ -13911,7 +13965,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2010463773,
+        "packageFingerprint": 2026690509,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -13925,12 +13979,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "EnchantmentDescriptions-1.14.4-1.3.13.jar"
+        "FileNameOnDisk": "EnchantmentDescriptions-1.14.4-1.3.14.jar"
       },
       "dateInstalled": "2019-10-26T17:17:44.6093419Z",
-      "dateUpdated": "2020-03-03T20:58:28.9190211Z",
-      "dateLastUpdateAttempted": "2020-03-03T20:58:28.9190211Z",
-      "status": 5,
+      "dateUpdated": "2020-03-12T19:20:00.4496339Z",
+      "dateLastUpdateAttempted": "2020-03-12T19:20:00.4496339Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14059,14 +14113,14 @@
       "addonID": 347898,
       "gameInstanceID": "2eccf8d4-e675-478c-8e37-edca55e0e2c7",
       "installedFile": {
-        "id": 2809141,
-        "displayName": "easyelytrato_1.14-1.1.jar",
-        "fileName": "easyelytrato_1.14-1.1.jar",
-        "fileDate": "2019-10-14T10:31:14.297Z",
-        "fileLength": 8690,
+        "id": 2898714,
+        "displayName": "easyelytrato_1.14-1.2.jar",
+        "fileName": "easyelytrato_1.14-1.2.jar",
+        "fileDate": "2020-03-11T12:41:54.737Z",
+        "fileLength": 9134,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2809/141/easyelytrato_1.14-1.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2898/714/easyelytrato_1.14-1.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -14074,57 +14128,39 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4160964521,
-            "type": 3
+            "fingerprint": 2779594506,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 3759005555,
-            "type": 3
+            "fingerprint": 2724420759,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 2610806890,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 3880207804,
+        "packageFingerprint": 2316414181,
         "gameVersion": [
           "1.14.4",
           "Forge"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000014.0000000004",
-            "gameVersion": "1.14.4",
-            "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
-            "gameVersionName": "1.14.4"
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1680834,
-        "projectId": 347898,
-        "packageFingerprintId": 367143629,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
-        "gameVersionMappingId": 1970750,
-        "gameVersionId": 7469,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "easyelytrato_1.14-1.1.jar"
+        "FileNameOnDisk": "easyelytrato_1.14-1.2.jar"
       },
       "dateInstalled": "2019-10-14T20:47:58.3819975Z",
-      "dateUpdated": "2018-10-14T20:47:58.3819975Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateUpdated": "2020-03-11T19:12:59.0435998Z",
+      "dateLastUpdateAttempted": "2020-03-11T19:12:59.0435998Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -15186,6 +15222,86 @@
       "installedTargets": null
     },
     {
+      "addonID": 309516,
+      "gameInstanceID": "2eccf8d4-e675-478c-8e37-edca55e0e2c7",
+      "installedFile": {
+        "id": 2898304,
+        "displayName": "Bountiful-3.0.0-1.14.4.jar",
+        "fileName": "bountiful-3.0.0.jar",
+        "fileDate": "2020-03-10T20:12:15.74Z",
+        "fileLength": 294061,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2898/304/bountiful-3.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 314581,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 331763303,
+            "type": 0
+          },
+          {
+            "foldername": "ejektaflex",
+            "fingerprint": 739234722,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 905508954,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 4200235341,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4253522632,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3366020154,
+        "gameVersion": [
+          "1.14.4",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "bountiful-3.0.0.jar"
+      },
+      "dateInstalled": "2020-03-12T19:21:12.6746878Z",
+      "dateUpdated": "2020-03-12T19:21:12.6767086Z",
+      "dateLastUpdateAttempted": "2020-03-12T19:21:12.6767086Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 238222,
       "gameInstanceID": "2eccf8d4-e675-478c-8e37-edca55e0e2c7",
       "installedFile": {
@@ -15784,7 +15900,7 @@
       "dateInstalled": "2020-02-06T18:38:06.3851557Z",
       "dateUpdated": "2020-03-10T18:58:36.1107574Z",
       "dateLastUpdateAttempted": "2020-03-10T18:58:36.1107574Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16628,6 +16744,78 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 314581,
+      "gameInstanceID": "2eccf8d4-e675-478c-8e37-edca55e0e2c7",
+      "installedFile": {
+        "id": 2838583,
+        "displayName": "Kottle-1.4.0.jar",
+        "fileName": "Kottle-1.4.0.jar",
+        "fileDate": "2019-12-08T19:18:51.777Z",
+        "fileLength": 5830116,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2838/583/Kottle-1.4.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 2883122,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2927981646,
+            "type": 0
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 2224857984,
+            "type": 0
+          },
+          {
+            "foldername": "kotlin",
+            "fingerprint": 2156919650,
+            "type": 0
+          },
+          {
+            "foldername": "kotlinx",
+            "fingerprint": 1343170438,
+            "type": 0
+          },
+          {
+            "foldername": "org",
+            "fingerprint": 2486080166,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 849075615,
+        "gameVersion": [
+          "1.14.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Kottle-1.4.0.jar"
+      },
+      "dateInstalled": "2020-03-12T19:21:09.2277327Z",
+      "dateUpdated": "2020-03-12T19:21:09.2327189Z",
+      "dateLastUpdateAttempted": "2020-03-12T19:21:09.2327189Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 293973,
