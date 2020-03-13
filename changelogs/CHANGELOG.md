@@ -1,3 +1,18 @@
+## Enigmatica 4 v0.4.10
+
+*Forge-1.14.4-28.2.3*
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG-MODS)*
+
+**Added Mods**
+
+- Bountiful [\#308](https://github.com/NillerMedDild/Enigmatica4/issues/308)
+- Simple Discord Rich Presence [\#307](https://github.com/NillerMedDild/Enigmatica4/issues/307)
+
+**Fixed bugs**
+
+- Main menu still displays default buttons [\#310](https://github.com/NillerMedDild/Enigmatica4/issues/310)
+- Uraninite cannot be veinmined \(by default\) [\#305](https://github.com/NillerMedDild/Enigmatica4/issues/305)
+
 ## Enigmatica 4 v0.4.9
 
 *Forge-1.14.4-28.2.3*

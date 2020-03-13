@@ -61,10 +61,10 @@ $GAME_VERSIONS = @(7469)
 $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Must be a single string. Use Powershell escaping for new lines etc. New line is `n and indent is `t
-$CLIENT_CHANGELOG = "### Enigmatica 4 v$MODPACK_VERSION <br />" +
-					"*Using Forge-1.14.4-28.2.3* <br />" +
-					"[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt) <br /> " +
-					"[Changelog](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG.md) "
+$CLIENT_CHANGELOG = "### Enigmatica 4 v$MODPACK_VERSION <br /><br />" +
+					"Using Forge-1.14.4-28.2.3 <br />" +
+					"#### [Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt) <br /> " +
+					"#### [Changelog](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG.md) "
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "beta"
