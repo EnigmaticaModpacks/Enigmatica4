@@ -1,3 +1,16 @@
+# 0.4.9 -> 0.4.10
+
+* bountiful-3.0.0.jar
+* citadel-1.0.4-1.14.4.jar
+* cyclepaintings_1.14-1.1.jar
+* easyelytrato_1.14-1.2.jar
+* EnchantmentDescriptions-1.14.4-1.3.14.jar
+* engineersdecor-1.14.4-1.0.20-b1.jar
+* Kottle-1.4.0.jar
+* SimpleDiscordRichPresence-1.0.3.jar
+* tetra-1.14.4-1.25.0.jar
+* Xaeros_Minimap_20.5.1_Forge_1.14.4.jar
+
 # 0.4.8 -> 0.4.9
 
 * Botania r1.11-378.jar
