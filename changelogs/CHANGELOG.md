@@ -1,7 +1,7 @@
 ## Enigmatica 4 v0.4.10
 
 *Forge-1.14.4-28.2.3*
-*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG-MODS)*
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG-MODS.md)*
 
 **Added Mods**
 
