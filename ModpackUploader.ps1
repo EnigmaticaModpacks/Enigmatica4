@@ -62,7 +62,7 @@ if ($ENABLE_CHANGELOG_GENERATOR_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host "Generating changelog..." -ForegroundColor Green
     Write-Host ""
 
-    java -jar ChangelogGenerator-2.0.0-pre2.jar
+    java -jar ChangelogGenerator-2.0.0-pre3.jar
 	Move-Item -Path changelog.txt -Destination changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt
 }
 
