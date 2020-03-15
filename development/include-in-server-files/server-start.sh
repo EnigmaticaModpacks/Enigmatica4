@@ -208,7 +208,7 @@ read_config(){
       			eval "export ${name}='${val%?}'"
       		fi
    		fi
-	done < settings_linux.cfg 
+	done < settings-linux.cfg 
 
 }
 
