@@ -1,3 +1,34 @@
+## Enigmatica 4 v0.5.0
+
+### This is a major update, make sure to backup your world before updating! 
+There is a chance that this new update does not work with your current world.
+
+*Forge-1.14.4-28.2.3*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG_MODS_0.5.0.txt)*
+
+**Added Mods**
+
+- [Passthrough Signs](https://www.curseforge.com/minecraft/mc-mods/passthrough-signs)
+- [ReAuth](https://www.curseforge.com/minecraft/mc-mods/reauth)
+- Immersive Engineering [\#323](https://github.com/NillerMedDild/Enigmatica4/issues/323)
+- EnderChests [\#318](https://github.com/NillerMedDild/Enigmatica4/issues/318)
+- Extreme Sound Muffler [\#316](https://github.com/NillerMedDild/Enigmatica4/issues/316)
+- Rats [\#303](https://github.com/NillerMedDild/Enigmatica4/issues/303)
+- EnderTanks [\#222](https://github.com/NillerMedDild/Enigmatica4/issues/222)
+
+**Removed Mods**
+
+* AuthMe (Replaced with ReAuth)
+
+**Changes**
+
+* Re-do Default Keybindings [\#328](https://github.com/NillerMedDild/Enigmatica4/issues/328)
+
+**Fixed bugs**
+
+- Linux servers not starting: Typo in Enigmatica4Server-0.4.10 server-start.sh [\#327](https://github.com/NillerMedDild/Enigmatica4/issues/327)
+- Iron Plates [\#314](https://github.com/NillerMedDild/Enigmatica4/issues/314)
+
 ## Enigmatica 4 v0.4.10
 
 *Forge-1.14.4-28.2.3*
