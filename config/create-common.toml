@@ -1,0 +1,161 @@
+
+#
+#Modify Create's impact on your terrain
+[world]
+	#
+	#Prevents all worldgen added by Create from taking effect
+	disableWorldGen = false
+
+	[world.copper_ore]
+		#
+		#Range: > 0
+		minHeight = 40
+		#
+		#Range: > 0
+		clusterCount = 1
+		#
+		#Range: > 0
+		maxHeight = 96
+		#
+		#Whether to spawn this in your World
+		enable = true
+		#
+		#Range: > 0
+		clusterSize = 21
+
+	[world.weathered_limestone]
+		#
+		#Range: > 0
+		minHeight = 10
+		#
+		#Range: 0.0 ~ 1.0
+		clusterChance = 0.03125
+		#
+		#Range: > 0
+		maxHeight = 30
+		#
+		#Whether to spawn this in your World
+		enable = true
+		#
+		#Range: > 0
+		clusterSize = 128
+
+	[world.zinc_ore]
+		#
+		#Range: > 0
+		minHeight = 55
+		#
+		#Range: > 0
+		clusterCount = 1
+		#
+		#Range: > 0
+		maxHeight = 80
+		#
+		#Whether to spawn this in your World
+		enable = true
+		#
+		#Range: > 0
+		clusterSize = 17
+
+	[world.zinc_ore_desert]
+		#
+		#Range: > 0
+		minHeight = 50
+		#
+		#Range: > 0
+		clusterCount = 5
+		#
+		#Range: > 0
+		maxHeight = 85
+		#
+		#Whether to spawn this in your World
+		enable = true
+		#
+		#Range: > 0
+		clusterSize = 17
+
+	[world.limestone]
+		#
+		#Range: > 0
+		minHeight = 30
+		#
+		#Range: 0.0 ~ 1.0
+		clusterChance = 0.03125
+		#
+		#Range: > 0
+		maxHeight = 70
+		#
+		#Whether to spawn this in your World
+		enable = true
+		#
+		#Range: > 0
+		clusterSize = 128
+
+	[world.dolomite]
+		#
+		#Range: > 0
+		minHeight = 20
+		#
+		#Range: 0.0 ~ 1.0
+		clusterChance = 0.015625
+		#
+		#Range: > 0
+		maxHeight = 70
+		#
+		#Whether to spawn this in your World
+		enable = true
+		#
+		#Range: > 0
+		clusterSize = 128
+
+	[world.copper_ore_ocean]
+		#
+		#Range: > 0
+		minHeight = 20
+		#
+		#Range: > 0
+		clusterCount = 4
+		#
+		#Range: > 0
+		maxHeight = 55
+		#
+		#Whether to spawn this in your World
+		enable = true
+		#
+		#Range: > 0
+		clusterSize = 15
+
+	[world.gabbro]
+		#
+		#Range: > 0
+		minHeight = 20
+		#
+		#Range: 0.0 ~ 1.0
+		clusterChance = 0.015625
+		#
+		#Range: > 0
+		maxHeight = 70
+		#
+		#Whether to spawn this in your World
+		enable = true
+		#
+		#Range: > 0
+		clusterSize = 128
+
+	[world.scoria]
+		#
+		#Range: > 0
+		minHeight = 0
+		#
+		#Range: 0.0 ~ 1.0
+		clusterChance = 0.03125
+		#
+		#Range: > 0
+		maxHeight = 10
+		#
+		#Whether to spawn this in your World
+		enable = true
+		#
+		#Range: > 0
+		clusterSize = 128
+

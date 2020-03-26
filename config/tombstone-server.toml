@@ -7,6 +7,9 @@
 	#Experience loss on death (%) [0..100|default:0]
 	#Range: 0 ~ 100
 	xp_loss = 0
+	#Scroll duration [1200..120000|default:12000]
+	#Range: 1200 ~ 120000
+	scroll_duration = 12000
 	#Whether to handle player experience [false/true|default:true]
 	handle_player_xp = true
 	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
@@ -17,6 +20,9 @@
 	#The time in minutes before a Grave's Key isn't required to open a grave (-1 = disabled) [-1..MAX|default:-1]
 	#Range: > -1
 	decay_time = -1
+	#Required level in Knowledge of Death to craft Familiar Receptacle [0..20|default:10]
+	#Range: 0 ~ 20
+	familiar_receptacle_required_level = 10
 
 #Allows to customize or disable the enchantments
 [enchantments]
