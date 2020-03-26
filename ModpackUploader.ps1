@@ -50,7 +50,7 @@ if ($ENABLE_MANIFEST_BUILDER_MODULE) {
 }
 
 if ($ENABLE_CHANGELOG_GENERATOR_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
-    Remove-Item oldmanifest.json, manifest.json, shortchangelog.txt, MOD_CHANGELOGS.txt -ErrorAction SilentlyContinue
+	Remove-Item old.json, new.json, changelog.txt -ErrorAction SilentlyContinue
     sz e "$CLIENT_FILENAME`-$LAST_MODPACK_VERSION.zip" manifest.json
     Rename-Item -Path manifest.json -NewName old.json
     sz e "$CLIENT_FILENAME`-$MODPACK_VERSION.zip" manifest.json
@@ -62,8 +62,10 @@ if ($ENABLE_CHANGELOG_GENERATOR_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host "Generating changelog..." -ForegroundColor Green
     Write-Host ""
 
-    java -jar ChangelogGenerator-2.0.0-pre2.jar
+    java -jar ChangelogGenerator-2.0.0-pre3.jar
 	Move-Item -Path changelog.txt -Destination changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt
+	
+	Remove-Item old.json, new.json, changelog.txt -ErrorAction SilentlyContinue
 }
 
 if ($ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE) {

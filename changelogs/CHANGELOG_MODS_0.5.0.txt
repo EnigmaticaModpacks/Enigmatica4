@@ -1,0 +1,885 @@
+========================================
+Enigmatica4 0.4.10 --> Enigmatica4 0.5.0
+========================================
+
+Added:
+- EnderChests
+- EnderTanks
+- Extreme sound muffler
+- Immersive Engineering
+- Passthrough Signs
+- Rats
+- ReAuth
+
+Updated:
+	Corail Tombstone (Corail Tombstone 4.2.4 for 1.14.4 --> Corail Tombstone 4.3.1 for 1.14.4):
+		Corail Tombstone 4.3.1 for 1.14.4:
+			This mod supports mc version from 1.8.9 to 1.15.2
+			Minecraft Version = [1.14.4] - Forge Version [28.1.58+]
+			Latest : 4.3.1 - Recommended : 4.3.1
+			Changes 4.3.1 :
+			* - "magic items" by fishing in the junk lootable requires an open water space for the entity hook (in prevision of 1.16, don't try to make a hole ;))
+			* client config to define the fog color (this doesn't influence what is seen by others players)
+			* client config to define when fog can appear (day, night, both, never)
+			* something
+			Changes 4.3.0 :
+			* - projectiles (by using the left hand) don't apply the tombstone weapon enchantments of the mainhand
+			* fix the translation of earn/lose knowledge (from the previous version changes)
+			* remove perk entries from the api (related to forge error handling)
+			* adapt skull reward from the advancement about the favorite grave (as only undead skulls/heads are useable for decorative grave)
+			* compat with minecolonies : killing citizens, pirates & barbarians affect player's alignment
+			* config to define the level required for familiar receptacle (10 by default)
+			* adjust contributor rewards to fit the latest contents
+			* config to define the duration of scrolls
+			* config to backup players just before their death (default is false)
+			* client config option to favor the tools on the hotbar when recovering a grave
+			* same sync on config file change for client config being shared on the server (the config gui already does it)
+			* re-add the original tombstone model (adapted)
+			* anvil recipes for white marble grave are now visible in JEI (engraved name)
+			Changes 4.2.4 :
+			* integration TheOneProbe
+			* display the Y on lost tablet tooltip before the first teleportation
+			* re-use the same casting particle texture as 1.12.2
+			* new enchantment Plague Bringer (can't combine with Magic Siphon)
+			* config to limit Plague Bringer to bad alignment player (or he will be affected with the same bad effect) - default true
+			* config for unhandled harmful effects with nausea in by default (also rename the config for beneficial effects)
+			* avoid a vanilla bug where onEntityDamaged is called twice for player for the mainhand
+			* limit plague bringer & magic siphon to be effective only on mainhand
+			Changes 4.2.3 :
+			* server configs are now in the usual config folder (#135)
+			* sync the server config to players on dedicated server (without the need to relog)
+			Changes 4.2.2 :
+			* disabled magic items in config also disable the recipes in game (some of them have now a custom serializer "tombstone:disableable_shaped", "tombstone:disableable_shapeless" and are still editable in json for modpackers)
+			* loot entries are now done in builder allowing them to not be present when the magic item is disabled (require to reload the game)
+			* new item "tablet of cupidity" : a deceitful craftable version of lost tablets leading to others places
+			* remove beyondTheGrave damages from lost tablets
+			* update chinese translation (courtesy of Papadave66)
+			Changes 4.2.1 :
+			* spanish translation (courtesy of EdicionGamer)
+			* a new perk Tomb Raider, for bad alignement player and if the config option Tomb Raiding is enabled, allowing to plunders some items in an abandoned grave. A grave is considered as abandoned based on the real time of the server : it's one day by default if the decayTime is not enabled and in the other case, it uses the decayTime adjusted by the level of knowledge of death of the plunderer (to allow them to acces faster theses graves than others players with a cap of 50% faster). The number of stolen items is variable and it's possible to not find all the items.
+			* hide disable items in creative tabs
+			* additional checks about cooldown if the gametime changes to an inconsistent value
+			* some configs are now in the world save folder/serverConfig
+
+		Corail Tombstone 4.3.0 for 1.14.4:
+			This mod supports mc version from 1.8.9 to 1.15.2
+			Minecraft Version = [1.14.4] - Forge Version [28.1.58+]
+			Latest : 4.3.0 - Recommended : 4.2.4
+			Changes 4.3.0 :
+			* - projectiles (by using the left hand) don't apply the tombstone weapon enchantments of the mainhand
+			* fix the translation of earn/lose knowledge (from the previous version changes)
+			* remove perk entries from the api (related to forge error handling)
+			* adapt skull reward from the advancement about the favorite grave (as only undead skulls/heads are useable for decorative grave)
+			* compat with minecolonies : killing citizens, pirates & barbarians affect player's alignment
+			* config to define the level required for familiar receptacle (10 by default)
+			* adjust contributor rewards to fit the latest contents
+			* config to define the duration of scrolls
+			* config to backup players just before their death (default is false)
+			* client config option to favor the tools on the hotbar when recovering a grave
+			* same sync on config file change for client config being shared on the server (the config gui already does it)
+			* re-add the original tombstone model (adapted)
+			* anvil recipes for white marble grave are now visible in JEI (engraved name)
+			Changes 4.2.4 :
+			* integration TheOneProbe
+			* display the Y on lost tablet tooltip before the first teleportation
+			* re-use the same casting particle texture as 1.12.2
+			* new enchantment Plague Bringer (can't combine with Magic Siphon)
+			* config to limit Plague Bringer to bad alignment player (or he will be affected with the same bad effect) - default true
+			* config for unhandled harmful effects with nausea in by default (also rename the config for beneficial effects)
+			* avoid a vanilla bug where onEntityDamaged is called twice for player for the mainhand
+			* limit plague bringer & magic siphon to be effective only on mainhand
+			Changes 4.2.3 :
+			* server configs are now in the usual config folder (#135)
+			* sync the server config to players on dedicated server (without the need to relog)
+			Changes 4.2.2 :
+			* disabled magic items in config also disable the recipes in game (some of them have now a custom serializer "tombstone:disableable_shaped", "tombstone:disableable_shapeless" and are still editable in json for modpackers)
+			* loot entries are now done in builder allowing them to not be present when the magic item is disabled (require to reload the game)
+			* new item "tablet of cupidity" : a deceitful craftable version of lost tablets leading to others places
+			* remove beyondTheGrave damages from lost tablets
+			* update chinese translation (courtesy of Papadave66)
+			Changes 4.2.1 :
+			* spanish translation (courtesy of EdicionGamer)
+			* a new perk Tomb Raider, for bad alignement player and if the config option Tomb Raiding is enabled, allowing to plunders some items in an abandoned grave. A grave is considered as abandoned based on the real time of the server : it's one day by default if the decayTime is not enabled and in the other case, it uses the decayTime adjusted by the level of knowledge of death of the plunderer (to allow them to acces faster theses graves than others players with a cap of 50% faster). The number of stolen items is variable and it's possible to not find all the items.
+			* hide disable items in creative tabs
+			* additional checks about cooldown if the gametime changes to an inconsistent value
+			* some configs are now in the world save folder/serverConfig
+			Changes 4.2.0 :
+			* fix for the tablet of assistance (introduced in 4.1.9)
+			* set a new cooldown on magic items if the gametime is reset (#123)
+			* antibuilder tag (twilight forest)
+
+	CraftTweaker (CraftTweaker-1.14.4-5.0.1.165.jar --> CraftTweaker-1.14.4-5.0.1.166.jar):
+		CraftTweaker-1.14.4-5.0.1.166.jar:
+			Current version: 5.0.1.166
+			* [Fixed Shapeless recipes not displaying tags correctly](https://github.com/CraftTweaker/CraftTweaker/commit/1327cbf6122be1b63f9c6c63e680691f3ecf2f7f) - Jared - Thu Mar 26 16:10:29 2020
+			* [Get the recipetype safer, hopefully. Close #927](https://github.com/CraftTweaker/CraftTweaker/commit/e2cbf1facf78876515d7784149e0a29abdcd2c4c) - Jared - Wed Feb 26 23:09:29 2020
+			* [Fixed scripts bigger than 32k not working on servers](https://github.com/CraftTweaker/CraftTweaker/commit/bebb6c382e5c720006bff46354c0612a6bf073bd) - Jared - Wed Feb 26 20:40:33 2020
+			* [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/3c09bf964150ee5f790005ab7da04f0e030cc148) - Jared - Tue Feb 18 23:13:26 2020
+			* [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/92199c07469124ebf3350d63885354a0f9286a44) - Jared - Sat Jan 25 19:54:12 2020
+			* [wrapper classes docs are now /vanilla/api/](https://github.com/CraftTweaker/CraftTweaker/commit/e524914f5b057a9c007dca1310638c2bcac53d31) - Jared - Sun Jan 19 22:18:46 2020
+			* [move all generated docs to /vanilla/api](https://github.com/CraftTweaker/CraftTweaker/commit/6a1d9f4f69025c20e450feef2ca561c7ab54ad03) - Jared - Sun Jan 19 22:15:13 2020
+			* [no more value = for docs annotation](https://github.com/CraftTweaker/CraftTweaker/commit/ba576f0a25678a6451080d23403ae3954d41d914) - Jared - Sun Jan 19 22:03:38 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/f3b595aa161e93f6ff90788b53fbea04ee9b265d) - kindlich - Sat Jan 11 13:58:34 2020
+			* [make YAML output be in folders](https://github.com/CraftTweaker/CraftTweaker/commit/0de76eb4e3008edf0963c65d83ee971b4963c20c) - Jared - Fri Jan 10 22:55:02 2020
+			* [ignore docsOut and src/generated](https://github.com/CraftTweaker/CraftTweaker/commit/c7f9f97ed3398bc61b0bf81f1050284fb0c6ca79) - Jared - Fri Jan 10 22:54:34 2020
+			* [update ZC to fix server crashes](https://github.com/CraftTweaker/CraftTweaker/commit/7c703a57a06fc9bb2ea7d2ecde673e7ff18f89ef) - Jared - Fri Jan 10 22:23:43 2020
+			* [update ZC](https://github.com/CraftTweaker/CraftTweaker/commit/224ad15e53c38b430dbd4230922d82f7f5b59977) - Jared - Fri Jan 10 19:21:41 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/5d9f252e406156b81bcadd720b95e8a9ddca43f4) - kindlich - Fri Jan 10 19:06:10 2020
+			* [Added IIngredient#asIData](https://github.com/CraftTweaker/CraftTweaker/commit/1f4761cdf63d7b8b9bd878ac2a34940a36a4eb17) - kindlich - Fri Jan 10 19:00:45 2020
+			* [Updated Doc location for Biome and BiomeSpawnEntry](https://github.com/CraftTweaker/CraftTweaker/commit/02cf6a708b3d163174ddfd31276807d941b78cdc) - kindlich - Fri Jan 10 18:58:57 2020
+			* [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/2839aed162ff778c0acd40472474a3fde50e83bc) - Jared - Wed Jan 8 17:53:38 2020
+			* [Removed test code for no wrapper file](https://github.com/CraftTweaker/CraftTweaker/commit/69fa5381ed1f6457342fd34fde78155ecbb4143b) - kindlich - Sun Jan 5 20:23:39 2020
+			* [DocumentProcessor: Clear the output directory first](https://github.com/CraftTweaker/CraftTweaker/commit/d64087adf887972238ba1ec7482ce8e83676f395) - kindlich - Sun Jan 5 20:20:35 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/9f960d9c5a301a942c48512e4ab2085a08d83ea9) - kindlich - Sun Jan 5 19:51:50 2020
+			* [Fix recipes "canFit" Close #912](https://github.com/CraftTweaker/CraftTweaker/commit/5a72b2d373b3d5d480dd4a61d904ecb9f040173a) - Jared - Sun Jan 5 14:15:28 2020
+			* [Added some advancements as being wrapped](https://github.com/CraftTweaker/CraftTweaker/commit/57cc981aee01abaa689b872ab851d63a7db4b366) - kindlich - Wed Jan 1 23:45:25 2020
+			* [Fixed some issues with the wrapper Processor](https://github.com/CraftTweaker/CraftTweaker/commit/e22c6972784858c8118eb1485496f1ea1eb655c8) - kindlich - Wed Jan 1 23:44:59 2020
+			* [Forgot Some these](https://github.com/CraftTweaker/CraftTweaker/commit/54a5854f42414293ff8c6ea897f9c86a45956665) - kindlich - Wed Jan 1 22:56:12 2020
+			* [Event Wrapper and Comment cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/13501a232699331ea342199b86ec938692e621ee) - kindlich - Wed Jan 1 21:35:22 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/100bfb38141ec271a31e04e342f82cad6dc0a4a4) - kindlich - Wed Jan 1 16:43:17 2020
+			* [Removed 2nd MCWorld](https://github.com/CraftTweaker/CraftTweaker/commit/d82e4ef51904c0378c4025973a14dfdbb5b0da7c) - kindlich - Wed Jan 1 16:30:19 2020
+			* [Removed unused buildSrc](https://github.com/CraftTweaker/CraftTweaker/commit/0b782c48bb8d36950a00546258d0d63d9f98154c) - kindlich - Wed Jan 1 16:27:20 2020
+			* [Made Event listeners unregister themselves on a reload](https://github.com/CraftTweaker/CraftTweaker/commit/592e7d9862449a6f7285a65250be98296e3820d3) - kindlich - Wed Jan 1 16:25:55 2020
+			* [Only remove sidedActions when on the same side](https://github.com/CraftTweaker/CraftTweaker/commit/7d15faf7ae87abbc96d060cdc832b6cc957a7002) - kindlich - Wed Jan 1 16:24:36 2020
+			* [Added missing Document and ZenWrapper annotations](https://github.com/CraftTweaker/CraftTweaker/commit/42cd76858c4bb9901ac234f2bd2cc9bc342738d5) - kindlich - Wed Jan 1 16:23:38 2020
+			* [More work on wrappers](https://github.com/CraftTweaker/CraftTweaker/commit/a5f6a37ecd56898eefd2408b9e4177cba5927aba) - kindlich - Wed Jan 1 16:22:16 2020
+			* [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/a93ea989e169113d715fa84e4144b8ca23491b06) - kindlich - Tue Dec 31 23:03:43 2019
+			* [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/2c785dbd40fa4e6ad62d6574347041f85fa7984f) - kindlich - Tue Dec 31 21:46:11 2019
+			* [CTTooltipEvent handler working now.](https://github.com/CraftTweaker/CraftTweaker/commit/b43eefc90d69e5111b7a17fdac383bbf0487fc78) - kindlich - Fri Dec 27 16:52:33 2019
+			* [Some minor cleanup for Annotation Processors](https://github.com/CraftTweaker/CraftTweaker/commit/2e0897e84a4fbd7733d63d1fb054f80411fe929b) - kindlich - Thu Dec 26 23:07:54 2019
+			* [Simple yaml generation and fixed multiple classes being generated](https://github.com/CraftTweaker/CraftTweaker/commit/2912e29a540d1241f7616e3641a9a95f276019a1) - kindlich - Mon Dec 23 13:31:29 2019
+			* [Some cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/18591fa7ac102e2cf11c172d9bc5e76b92b10624) - kindlich - Mon Dec 23 13:06:59 2019
+			* [Some more work on Expansions and declaredModid](https://github.com/CraftTweaker/CraftTweaker/commit/91eb925ba4ecdf5a03498677a572383547fd04cc) - kindlich - Mon Dec 23 12:53:29 2019
+			* [Started working on expansion classes](https://github.com/CraftTweaker/CraftTweaker/commit/4b68e0e43bd13b86d94b227b97a67094ae0981ea) - kindlich - Sun Dec 22 23:23:31 2019
+			* [Normal classes should be running now](https://github.com/CraftTweaker/CraftTweaker/commit/6b06dd25f2b4adb58c72eec818d5f87cafdc98f7) - kindlich - Sun Dec 22 21:15:31 2019
+			* [Base classes for Document Processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/34fd8a748133dbc8a0c609ae9e21ef41336252d4) - kindlich - Sat Dec 21 22:42:42 2019
+			* [Start working on annotation processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/bd6cf0c2cf376516896fa603fa3a9bc41911760f) - kindlich - Fri Dec 20 14:04:26 2019
+			* [It shouldn't be CT, should be MC](https://github.com/CraftTweaker/CraftTweaker/commit/bbcfb802e5b3638495dd3437d3557359d4d32e71) - Jared - Tue Dec 17 10:50:52 2019
+			* [Replaced IEventHandler with Consumer](https://github.com/CraftTweaker/CraftTweaker/commit/e0fcd372ad7143fa3a69f42d0c4fd59cf00e2986) - kindlich - Sat Dec 14 21:25:17 2019
+			* [event test](https://github.com/CraftTweaker/CraftTweaker/commit/98d834eed872ba45bb9ecd24b4bbab249b9f031a) - Jared - Thu Dec 12 18:43:10 2019
+			* [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/02dbe0659348e71ed5a2bdd25fb232af2da45735) - Jared - Thu Dec 12 18:41:54 2019
+			* [Fix creating non item tags Close #894](https://github.com/CraftTweaker/CraftTweaker/commit/d789ba46c24bbd18ea9e45bf0cc6fac02b602819) - Jared - Sun Dec 8 20:35:53 2019
+			* [Gave MCTag a toString() method](https://github.com/CraftTweaker/CraftTweaker/commit/c0eff766d56ca341cde171408ebb6c233c964fec) - Jared - Sun Dec 8 20:32:30 2019
+			* [Preprocessor Annotation validator](https://github.com/CraftTweaker/CraftTweaker/commit/bdb566290c0270dc3af98e75d725e17841b54553) - kindlich - Sun Dec 8 20:07:31 2019
+			* [Force BEPs to return a specific type](https://github.com/CraftTweaker/CraftTweaker/commit/cd3bdfbf34c690e2c0f093f5b42db1a688f4c885) - kindlich - Sun Dec 8 19:44:07 2019
+			* [invalid recipe names are now logged (not fixed!) close #877](https://github.com/CraftTweaker/CraftTweaker/commit/ef821921e1cdd911aec23fcc3a9794dffaa60012) - Jared - Fri Dec 6 23:54:48 2019
+			* [Gave MCBlockState a proper commandString](https://github.com/CraftTweaker/CraftTweaker/commit/35f12bd6c64058580cfb7629bd1ab4c04eb7da1a) - Jared - Fri Dec 6 23:42:02 2019
+			* [Should fix random null pointer exceptions when comparing stacks](https://github.com/CraftTweaker/CraftTweaker/commit/b1b0f7cb12963b7e3c95d9b662d42e8a2934597c) - Jared - Fri Dec 6 23:28:04 2019
+			* [Fixed the reload listener being too early close #883](https://github.com/CraftTweaker/CraftTweaker/commit/60047cb682cda0661830887c718c9b22eeb54dc2) - Jared - Fri Dec 6 23:19:29 2019
+			* [Fixed JEI showing the recipes incorrectly on servers](https://github.com/CraftTweaker/CraftTweaker/commit/570deaceeed83c3eebe0da08063c44c114ff406d) - Jared - Fri Dec 6 23:03:56 2019
+			* [update ZenCode](https://github.com/CraftTweaker/CraftTweaker/commit/c1d9f18d2665bae72b4d623e3d1a0f215065f750) - Jared - Fri Dec 6 22:44:29 2019
+			* [update ZS to include stdlibs (please report issues!)](https://github.com/CraftTweaker/CraftTweaker/commit/41b431043e430a53e2a3cf3407f5a9921746a60e) - Jared - Fri Dec 6 03:57:29 2019
+			* [Added MCBiome and MCBiomeSpawnEntry](https://github.com/CraftTweaker/CraftTweaker/commit/04c42b8c98239269547ea60f897e25096be831be) - Jared - Fri Nov 22 23:46:36 2019
+			* [entityclassification bep](https://github.com/CraftTweaker/CraftTweaker/commit/f9ec8c5f1fb99b6e24ce91ad0a41ff759f3166db) - Jared - Fri Nov 22 23:05:04 2019
+			* [renamed entityType bracket handler to entitytype, to fit with the rest](https://github.com/CraftTweaker/CraftTweaker/commit/b3b11ef1e3ff1c0c0e9bee636e2b47c6f804d271) - Jared - Fri Nov 22 22:15:30 2019
+			* [Just warn about docs, don't error](https://github.com/CraftTweaker/CraftTweaker/commit/cd4eeb1cf7e77c28906a50894f76cfceee5d93f5) - Jared - Fri Nov 22 22:10:34 2019
+			* [Added BlockPos and Direction/Axis](https://github.com/CraftTweaker/CraftTweaker/commit/076c282df6e242de7f25cca14065434a402dbf97) - Jared - Wed Nov 20 04:15:54 2019
+			* [added docParam this to IData related stuff](https://github.com/CraftTweaker/CraftTweaker/commit/89b249931cd7ac7b302c073f0d1d19b874788f33) - Jared - Sat Nov 16 15:34:33 2019
+			* [remove TODOS from docs](https://github.com/CraftTweaker/CraftTweaker/commit/7335be72ab1db2989cc040ebc6011edb80aff20f) - Jared - Sat Nov 16 12:38:23 2019
+			* [Fix extra spaces in param examples](https://github.com/CraftTweaker/CraftTweaker/commit/7cc191cec787ab21bbeb24d2584d04e0492b1a77) - Jared - Sat Nov 16 12:38:13 2019
+			* [Made the document processor check for interfaces and super classes](https://github.com/CraftTweaker/CraftTweaker/commit/9081e02bdb3e0aba84f96ea640cac02c1d10e21e) - Jared - Sat Nov 16 01:43:06 2019
+			* [Set timeouts and closed the buffered reader](https://github.com/CraftTweaker/CraftTweaker/commit/00db92a516db7e46b6b7042873c55d39f413a6cb) - Jared - Thu Nov 14 15:29:40 2019
+			* [add docParams for things to fix failed builds](https://github.com/CraftTweaker/CraftTweaker/commit/7c7553da78989db2ce9f05c1a3f6f0da95292def) - Jared - Thu Nov 14 01:53:05 2019
+			* [renamed CTRecipeManager to CTCraftingTableManager](https://github.com/CraftTweaker/CraftTweaker/commit/4022ee82170c7dcff88826b8e634a0e159f8fe7f) - Jared - Thu Nov 14 01:24:06 2019
+			* [Add more javadocs and Document javadocs](https://github.com/CraftTweaker/CraftTweaker/commit/294c12b46c1682c0e076afdb39ac4b8857dffa5e) - Jared - Thu Nov 14 01:22:59 2019
+			* [Actually register MCEntityClassification](https://github.com/CraftTweaker/CraftTweaker/commit/a2a7f49dc28967d5301ee341155281c2c1f543fa) - Jared - Thu Nov 14 01:20:46 2019
+			* [Apparently HTTPGet isn't on the server...](https://github.com/CraftTweaker/CraftTweaker/commit/614a24757df3c4e9d4171829acfeda7f1af389d4) - Jared - Wed Nov 13 23:45:25 2019
+			* [Added a patron message. use #nobrand to disable it. open beta msg gone](https://github.com/CraftTweaker/CraftTweaker/commit/561511680fbbb6aea75468138070f71353e6e273) - Jared - Tue Nov 12 02:21:20 2019
+			* [Disabled debug mode to start with, made #debug enable it](https://github.com/CraftTweaker/CraftTweaker/commit/7cd78799e2da610f98a872c8fe8dff05d598c5f3) - Jared - Wed Nov 6 11:13:35 2019
+			* [Added composter support](https://github.com/CraftTweaker/CraftTweaker/commit/3d371a905e8e14eab71a5e9494a1bd35bc7ca1aa) - Jared - Tue Nov 5 23:52:12 2019
+			* [made actions only undo on their effective sides (not a full fix)](https://github.com/CraftTweaker/CraftTweaker/commit/c2166e3674a729e0fd45401a658a831985bb1744) - Jared - Tue Nov 5 23:52:00 2019
+			* [add MCIngredientList, which is, fixes server tags in recipes](https://github.com/CraftTweaker/CraftTweaker/commit/74ed833f66ae051822fcb5dee2bedd74fe4e06b8) - Jared - Tue Nov 5 20:13:48 2019
+			* [Ingredients only work with Tag<Item> so just always create it](https://github.com/CraftTweaker/CraftTweaker/commit/2428a951a3af1f5b63208150a485dc340e1511ed) - Jared - Tue Nov 5 20:12:54 2019
+			* [no need to pretty print our json](https://github.com/CraftTweaker/CraftTweaker/commit/3f9441aefdf5929a6aaa5d75ad361e0c438c4750) - Jared - Tue Nov 5 20:12:37 2019
+			* [IData#toJsonString](https://github.com/CraftTweaker/CraftTweaker/commit/d0ab6511d18423d3f488e2ecb1cf63faeec7b6e2) - kindlich - Tue Nov 5 19:59:36 2019
+			* [Fix nested maps in json](https://github.com/CraftTweaker/CraftTweaker/commit/8dcf80c7b568052c53c14087916462c8dd80302a) - Jared - Tue Nov 5 12:51:22 2019
+			* [Added a way to add any recipe through json](https://github.com/CraftTweaker/CraftTweaker/commit/7cb66910a8aa3020ae8aa86c7c01b4b78d52b478) - Jared - Mon Nov 4 23:51:54 2019
+			* [Fixed the stone cutter subType being wrong](https://github.com/CraftTweaker/CraftTweaker/commit/9324b32c133fe61cf9c254d713f3df4939bfe2c9) - Jared - Mon Nov 4 23:51:34 2019
+			* [fix command dumps being hard to copy](https://github.com/CraftTweaker/CraftTweaker/commit/3f86c6a5aec95ada60ccc8aebc7fff49e611bf3e) - Jared - Mon Nov 4 23:51:21 2019
+			* [removed source and javadoc jars from curseforge upload](https://github.com/CraftTweaker/CraftTweaker/commit/ef43e24057bac52e883dd37332c5594b7d09cf0e) - Jared - Sun Nov 3 23:21:41 2019
+			* [Added a tag dump command](https://github.com/CraftTweaker/CraftTweaker/commit/944395cb03d7e4c375b4ad9adce0aa39e1778bb7) - Jared - Sun Nov 3 23:13:10 2019
+			* [Fixed duplicate jar entries](https://github.com/CraftTweaker/CraftTweaker/commit/ac9ea58c9ff6021241f872ccb36dcdfb48d65f12) - Jared - Sun Nov 3 13:00:23 2019
+			* [Made stdlibs a jar file, in theory this should work](https://github.com/CraftTweaker/CraftTweaker/commit/7225829f2c5ea2cf4cb2e0e821bc97aa3e798fbc) - Jared - Sat Nov 2 21:53:11 2019
+			* [add <item>.registryName](https://github.com/CraftTweaker/CraftTweaker/commit/92dede21bef019455b6abf18e570372d5885ca28) - Jared - Sat Nov 2 21:40:00 2019
+			* [and we're back to the zip file because Java resources are not feasible](https://github.com/CraftTweaker/CraftTweaker/commit/6d26fd25229ec1a622ed02bb1f294eed896f0c5f) - Jared - Sat Nov 2 21:29:12 2019
+			* [Fully remove any other zip files from the jar file.](https://github.com/CraftTweaker/CraftTweaker/commit/8c96694f079f185d159e1d260686997601898191) - Jared - Sat Nov 2 18:45:46 2019
+			* [remove left over 7z file...](https://github.com/CraftTweaker/CraftTweaker/commit/4bbd9faa44dc43356cf5a334aa74bc68c6d6bc5f) - Jared - Sat Nov 2 18:37:53 2019
+			* [Made stdLibs a folder instead of a zip file to reduce curse wait times](https://github.com/CraftTweaker/CraftTweaker/commit/f351b225fa640570074f3326606e66eb5a05c3c4) - Jared - Sat Nov 2 18:33:46 2019
+			* [undo zsp test](https://github.com/CraftTweaker/CraftTweaker/commit/bc747467579e1380842fa491b9074ea366dfdd97) - Jared - Sat Nov 2 14:33:10 2019
+			* [test with making StdLibs zsp instead of zip](https://github.com/CraftTweaker/CraftTweaker/commit/ce5801f4cbec7a5630024342171e5cdcac96b861) - Jared - Sat Nov 2 14:28:17 2019
+			* [Blacklist crafttweaker:scripts recipe type from being used in scripts](https://github.com/CraftTweaker/CraftTweaker/commit/ee0bec4bfddd768d8dc18c192819a08ec33721c5) - Jared - Fri Nov 1 18:59:57 2019
+			* [Fix client only actions not being applied in single player](https://github.com/CraftTweaker/CraftTweaker/commit/c193eb604fadac6e642919cb6ad5563a70cc330a) - Jared - Fri Nov 1 15:11:25 2019
+			* [fix script recipe type modid](https://github.com/CraftTweaker/CraftTweaker/commit/e2dd626c995e08db9e8168d3a14be2e90eb382cb) - Jared - Fri Nov 1 15:10:40 2019
+			* [fix recipe dumps if there are no recipes in a recipe type](https://github.com/CraftTweaker/CraftTweaker/commit/00b8fb1dd244555b13b38ef2740805545c4ffa93) - Jared - Fri Nov 1 15:10:25 2019
+			* [re-enable curseforge pushing](https://github.com/CraftTweaker/CraftTweaker/commit/1cfaff85b9aae782bcdaa2eedc6be7c6dc2d2fc5) - Jared - Fri Nov 1 09:07:48 2019
+			* [Fixed javadoc complaining about docParam](https://github.com/CraftTweaker/CraftTweaker/commit/1bc78f150c08ad5e9c42f4f92c2d811876dfa2f1) - kindlich - Thu Oct 31 19:14:40 2019
+			* [Fixed pipeline](https://github.com/CraftTweaker/CraftTweaker/commit/9f6c3be5ab0ea4577af95ed1e92cdda9d95c8921) - kindlich - Thu Oct 31 17:22:53 2019
+			* [Split Jenkins Pipeline](https://github.com/CraftTweaker/CraftTweaker/commit/8a439cca69cd19e71af7a194f0a0989c3a8a100d) - kindlich - Thu Oct 31 17:19:31 2019
+			* [fix gradle execing commands](https://github.com/CraftTweaker/CraftTweaker/commit/5af8959cc9afed4d3c4fb422f7185a2ea12761df) - Jared - Thu Oct 31 16:29:45 2019
+			* [remove line about ct syntax, feedback received](https://github.com/CraftTweaker/CraftTweaker/commit/911d78038a972b6aa028f918a5463f67d9cf604e) - Jared - Thu Oct 31 16:12:20 2019
+			* [Add burn time changing](https://github.com/CraftTweaker/CraftTweaker/commit/1c2e637a258d9ec15f4a4b1bf296cd6a5915f81a) - Jared - Thu Oct 31 16:09:28 2019
+			* [Set docParam missing as error and added it to the existing classes](https://github.com/CraftTweaker/CraftTweaker/commit/0de8d10cb5b1b6e036be120872df9145ed1e121a) - kindlich - Wed Oct 30 18:25:18 2019
+			* [Changed some regex matches to make them more readable](https://github.com/CraftTweaker/CraftTweaker/commit/8691284e033a875cbd71bab2efc56898fa366bc1) - kindlich - Wed Oct 30 18:23:51 2019
+			* [Fixed static-only classes wanting docParam this](https://github.com/CraftTweaker/CraftTweaker/commit/69e61e7f2fee4d68f7b28407f8a9dae15216bd60) - kindlich - Wed Oct 30 00:01:52 2019
+			* [docParam and scriptFile for generated documents Methods need @docParam for their parameters. If the type has nonstatic methods, then the type also needs @docParam on its javadoc](https://github.com/CraftTweaker/CraftTweaker/commit/d20fe1f5b461a572dbde2d15ace8f366afee888e) - kindlich - Tue Oct 29 18:17:19 2019
+
+	Create (create-mc1.14.4_v0.1.1a.jar --> create-mc1.14.4_v0.2.1.jar):
+		create-mc1.14.4_v0.2.1.jar:
+			Create 0.2.1 for Minecraft 1.14.4
+			With lots of content come lots of bugs, thank you to everyone reporting them to us!
+			* Fixed compat crash when tooltips are loaded early
+			* Capacity of all sources have doubled
+			* Fixed inconsistencies with Create's World-gen
+			* Fixed stress values of components not added correctly when chunks are being loaded and unloaded
+			* Chassis range is now displayed with an overlay instead of outlines. Fixes performance issues with large structures
+			* Crushing wheels no longer pull players in peaceful mode
+			* Mixers no longer ignore items inserted during processing
+			* Powered Latch now reacts to weak power on the sides
+			* Fixed adjustable crates not updating their inventory properly when extended
+			* Fixed Deployers not finding attached inventories
+			* Moving Saws are now able to break leaves
+			* Added limestone, weathered limestone, gabbro, dolomite and scoria (as well as their polished variants) to #forge:stone
+			* Added #forge:storage_blocks/copper to #forge:storage_blocks
+			* Added copper block to #forge:storage_blocks/copper
+			* Added config value for the furnace generators speed
+			* Added the generation speed of water wheel, encased fan and furnace generator to their tooltips
+			* Goggles can now show the power of an analog lever when worn
+			Please submit any Issues you come across on the [Issue Tracker](https://github.com/simibubi/Create/issues).
+
+		create-mc1.14.4_v0.2.jar:
+			Create 0.2 for Minecraft 1.14.4
+			Forge 28.1.20+
+			An update both to the foundation and content of Create. Consider starting a new world with this version.
+			Kinetics
+			*
+			Added
+			* Mechanical Mixer
+			* Mechanical Saw
+			* Mechanical Crafter
+			* Furnace Engine and Flywheel
+			* The Deployer
+			* Hand Crank
+			* Wrench to rotate, dismantle and configure some components
+			* Gauges to measure speed and stress
+			* Engineer’s Goggles to see more info about kinetic systems
+			* Nozzle, an attachment for encased fans
+			* Analog Belt Pulley
+			* Rotation Speed Controller
+			* Sequenced Gearshift
+			* Cuckoo Clock
+			* Clockwork Bearing
+			* Rope Pulley
+			*
+			Tweaked
+			* Introduced a new Torque-esque mechanic, preventing infinite speed-up and overusing single sources. (Can be disabled)
+			* The speed unit now resembles RPM
+			* Kinetic components now break when their speed changes to frequently
+			* Some components now require a minimum speed to operate
+			* Encased fans no longer affect their environment in both directions
+			* Encased Belts can now connect multiple shafts in a line
+			* Sand washing recipe nerfed slightly
+			* Turntable now also moves armor stands
+			* Entities killed by crushing wheels will now drop their loot below the wheels
+			* The Motor is now creative only
+			* While the F3 menu is open, kinetic systems will be colored randomly to help with ingame debugging. This can be disabled in the configs or with /create toggleDebug false
+			*
+			Belts
+			* Transported items are no longer in-world entities
+			* Items can be picked of belts by right-clicking
+			* Funnels can now sit on belts sideways
+			* Some of Create’s blocks now support belts as in/outputs
+			* Brass Casings can now be added to belts to allow for extractors and funnels to be placed on belts directly
+			* Belt Observer now has 4 modes with different behaviours
+			* Added Belt Tunnels
+			* Belt Tunnels that can be placed on belt casings
+			* Belt Tunnels can act as belt mergers for parallel belts
+			*
+			Moving Structures
+			* Groups of blocks moved by mechanical pistons/bearings are referred to as Contraptions
+			* Contraption Controllers can now specify when to retire the contraption back into blocks
+			* Contraptions that include an Inventory (e.g. a chest) now automatically fill those with outputs from Saws, Drills and Harvesters
+			* Contraptions will now stall (wait in place) while certain action are performed
+			* Redstone Contacts now also work properly when part of a contraption
+			* Added the Cart Assembler, allowing for the creation of contraptions mounted on minecarts
+			* Added the Portable Storage Interface
+			Logistics
+			*
+			Tweaked
+			* Belt Funnels are now called Funnels
+			* Funnels can now pick up item entities
+			* Funnels can now be filtered
+			* Funnels and extractors can now be placed vertically as well
+			* Extractors are now aware of other extractors on the same inventory and will take turns
+			* Extraction count can now be controlled with a scrollable value on extractors and transposers
+			* Adjustable Crates (previously FlexCrates) can now be grouped in pairs
+			* Flexpeater renamed to Adjustable Repeater
+			*
+			Added
+			* Transposer Block (as well as a linked variant)
+			* Filters for matching a group of items or nested filters
+			* Attribute Filters for matching item properties
+			* Analog Lever
+			* Powered Latch
+			* Powered Toggle Latch
+			* Adjustable pulse repeater
+			Curiosities
+			*  Added
+			* Deforester
+			* Sand Paper
+			* Some new materials including Refined Radiance and Shadow Steel
+			* Blazing, Shadow Steel and Gilded Quartz Tools with special traits
+			* Handheld Worldshaper (creative only)
+			Palettes
+			*  Added
+			* Several new Blocks with connected textures
+			* Framed Glass, Iron Glass and Wooden Glass variants, as well as panes for all glass types
+			* "Layered" variant for Granite, Diorite, Andesire, Gabbro, Limestone, Weathered Limestone and Dolomite
+			* Scoria Blocks (regular, dark and natural variants)
+			* Decorative Casings (Andesite, Copper, Brass)
+			* Oxidizing Blocks (Copper Ore, Copper Block and Shingles)
+			Other
+			* JEI screens are now a bit more compact
+			* Added some oregen to the Overworld (customizable in the configs)
+			* Added some Advancements
+			* Container blocks now have comparator outputs
+			* Various changes to models and textures
+			Several other bug fixes as well as many new bugs :) If you find any, please report them to us on the [Issue Tracker](https://github.com/Creators-of-Create/Create/issues). Thank you and have fun!
+
+	DefaultSettings (DefaultSettings-1.14.x-2.1.4 --> DefaultSettings-1.14.x-2.1.9):
+		DefaultSettings-1.14.x-2.1.9:
+			Updates:
+			* Fixed language and resourcepacks not updating properly (1.13+)
+			* Fixed multiple minor crashes and errors
+
+		DefaultSettings-1.14.x-2.1.8:
+			Updates:
+			+ Keys, Options (OF), and Servers now also dynamically update on the user's side
+			+ Sharing configs for all available profiles (Beta, Niels Pilgaard Grøndahl)
+			* Improved disk space management and startup speed
+
+		DefaultSettings-1.14.x-2.1.5:
+			Updates:
+			* Fixed occasional log error spam
+
+	Dimensional Dungeons (dimdungeons-1.03-forge-1.14.4.jar --> dimdungeons-1.051-forge-1.14.4.jar):
+		dimdungeons-1.051-forge-1.14.4.jar:
+			* Fixed a bug in my support for GraveStone Mod by henkelmax. (And tested it this time.)
+			* This update is only needed if you are running a dedicated server or a single player game and also have this mod installed.
+
+		dimdungeons-1.05-forge-1.14.4.jar:
+			* New Loot Tables! Loot is improved 200% 400%!
+			* Included many mod compatibility fixes from the 1.15.2 builds.
+
+	Engineer's Decor (engineersdecor-1.14.4-1.0.20-b1.jar --> engineersdecor-1.14.4-1.0.20-b2.jar):
+		engineersdecor-1.14.4-1.0.20-b2.jar:
+			* v1.0.20-b2  [U] Forge version requirement set to >= 28.2.3.
+			[A] Added Labeled Crate (storage crate with built-in item frame).
+			* v1.0.20-b1  [A] Electrical Furnace: Added four-position speed switch (off, 100%, 150%, 200%), power consumption
+			increases at higher rate (off, 100%, 200%, 400%).
+			[A] Added Steel Mesh Fence Gate (single or double height gate fitting to the Steel Mesh Fence).
+			[M] Waste Incinerator processing speed tweaked.
+			* v1.0.19-b5  [A] Added right-click display of power and progress information for Block Breaker, Solar Panel, and Tree Cutter.
+			[A] Solar Panel power curve tuned.
+			[A] Mod manual 1st edition release recipe added.
+			[A] Factory Hopper: Resetting NBT when breaking with empty inventory (for stacking), enabled item cap for all sides.
+			[M] Electrical Furnace model polished.
+			* v1.0.19-b4  [A] Ported primary Immersive Engineering dependent recipes (alternative recipes
+			will still work if IE is not installed).
+			[M] Furni comparator output overrides reflect input slots and empty fuel state/power-cutoff.
+			[M] Solar Panel config: Default value for internal battery capacity increased.
+			[F] Block Placer: Shifted GUI player slots 1px to the right.
+			[A] Added mod block tags for slabs, stairs, and walls (PR#89, thanks CrudeAustin for the data).
+			[A] Added experimental Patchouli manual (creative only).
+			[!] Skipped blacklisting Treated Wood Crafting Table slots for the inventorysorter mod due
+			to potential startup crashes for single player games (issue #88 fix deferred).
+			* v1.0.19-b3  [M] Config tweaks: Value limit ranges increased to facilitate modpacking.
+			[A] Factory Hopper: Added bottom item handler (CR#227).
+			[M] Block shapes refined.
+			[F] Fixed duping bug (issue #87, thx Nachtflame)
+			* v1.0.19-b2  [F] Fixed Floor Grating item pass-through jitters (thx Cid).
+			[M] Removed obsolete recipe collision testing recipes.
+			[F] Fixed missing Block Breaker dynamic block drops.
+			[F] Block Placer planting race condition issue fixed (issue #83, thx jcardii).
+			[F] Factory Hopper: Added second standard insertion after smart-insert to circumcent compat issues (issue #84, thx NillerMedDild).
+			* v1.0.19-b1  [F] Fixed Tree Cutter / Block Breaker not accepting small energy transfers (thx WindFox, issue #82).
+			* v1.0.18-b4  [M] Lang update ru_ru (PR#77, thanks Smollet777).
+			[F] Fixed Milking machine cow path issue, added milking delay cow tracking.
+			[F] Slab / Slab Slice placement adapted to vanilla standard.
+			* v1.0.18-b3  [A] Added Treated Wood Crafting table tweaks (ctrl-shift moves all same stacks from the
+			inventory, mouse wheel over crafting slot increases/decreases crafting grid stacks).
+			[F] EN Lang file fixed (issue #76, thx Riverstar907).
+			[F] Fixed Tree Cutter not respecting power-required config (thx federsavo, issue #77).
+			[F] Fixed Small Solar Panel not exposing energy capability (thx MatthiasMann, issue #78).
+			* v1.0.18-b2  [F] Fixed JEI integration warning if nothing is opt'ed out (thx @SDUBZ for reporting).
+			[M] Lang ru_ru updated (Smollet777).
+			* v1.0.18-b1  [U] Updated to Forge 1.14.4-28.1.109/20190719-1.14.3.
+			[A] Added opt-out config for the Small Tree Cutter.
+			* v1.0.17-b3  [F] Double newline escapes in lang files fixed ("\n" in a tooltip).
+			[M] Updated zh_cn lang file (scikirbypoke).
+			* v1.0.17-b2  [A] Reverse recipes for slabs and slab slices added.
+			[M] Inset Floor Edge Light slightly thinner, looks better.
+			* v1.0.17-b1  [A] Added Milking Machine.
+			[A] Added Mineral Smelter gravity fluid transfer.
+			[M] Window placement improved.
+			[M] Made Pipe Valve textures slightly darker to fit IE pipes better when shaded.
+			[F] Levers can be directly attached to redstone controller Pipe Valves.
+			[F] Replaced Pipe Valve early load with lazy initialized data (issue #69, thx @Siriuo).
+			* v1.0.16-b7  [M] Forge blockstates ported from 1.12 transformed to vanilla.
+			* v1.0.16-b6  [A] Made slab slice left-click pickup optional (default enabled).
+			[A] Added config option for device drops in creative mode (addresses #67),
+			[F] Fixed Panzer Glass Block submerged display (issue #68, thx WenXin20).
+			* v1.0.16-b5  [F] Fixed recipe condition bug (issue #65, thx Nachtflame for the report,
+			and gigaherz & killjoy for the help).
+			* v1.0.16-b4  [U] Updated to Forge 1.14.4-28.1.90/20190719-1.14.3.
+			[M] Increased slag brick recipe yield to 8.
+			[M] Parent specs in model files adapted.
+			* v1.0.16-b3  [A] Config options (opt-outs and tweaks) added.
+			[M] Increased clinker brick recipe yield to 8 for the builders needs.
+			* v1.0.16-b2  [A] Added Gas Concrete (including wall, stairs, slab, and slab slice).
+			[F] Fixed Small Block Breaker active model.
+			[F] Fixed item-on-ground display glitch (issue #61, thx Federsavo for the hint).
+			[F] Added two missing recipes.
+			* v1.0.16-b1  [U] Updated to Forge 1.14.4-28.1.79/20190719-1.14.3.
+			[A] Added Fluid Collection Funnel.
+			* v1.0.15-b3  [A] Added Small Block Breaker.
+			[M] Mineral Smelter fluid handler/transfer added.
+			* v1.0.15-b2  [!] Forge version requirement set to 1.14.4-28.1.68 or higher.
+			[A] Added Factory Block Placer and Planter.
+			[A] Added Small Tree Cutter.
+			* v1.0.15-b1  [A] Added Floor Edge Light.
+			[U] Updated to Forge 1.14.4-28.1.68/20190719-1.14.3.
+			* v1.0.14-b1  [U] Updated to Forge 1.14.4-28.1.40/20190719-1.14.3.
+			[A] Factory Hopper added (configurable hopper and item collector).
+			[M] Switched to integrated loot table generation.
+			[M] Lang file zh_cn updated (scikirbypoke, PR#53).
+			* v1.0.13-b2  [A] Added Steel Mesh Fence.
+			[A] Added Broad Window Sill.
+			* v1.0.12-b3  [U] Updated to Forge 1.14.4-28.1.10/20190719-1.14.3.
+			[A] Crafting Table: Added recipe collision resolver,
+			also applies to crafting history refabrication.
+			[A] Crafting Table: Added rendering of placed items
+			on the top surface of the table.
+			[A] Waterlogging of non-full-blocks added.
+			* v1.0.12-b2  [U] Updated to Forge 1.14.4-28.0.105/20190719-1.14.3.
+			[A] Small Solar Panel added.
+			[M] Items fall through the Steel Floor Grating like in 1.12.2 version.
+			[M] Factory Dropper: Added pulse/continuous mode in GUI (issue #51,
+			thx Aristine for the CR).
+			* v1.0.12-b1  [U] Updated to Forge 1.14.4-28.0.93/20190719-1.14.3.
+			[M] Logo location fixed.
+			* v1.0.11-b3  [U] Updated to Forge 1.14.4-28.0.81/20190719-1.14.3.
+			[F] Adapted recipe condition to Forge version (issue #49).
+			* v1.0.11-b2  [U] JEI dependency update 1.14.4:6.0.0.10.
+			[F] Fixed creative ghost block issue (issue #48).
+			[M] Updated ru_ru lang file (Shellyoung, PR#47).
+			* v1.0.11-b1  [A] Added Steel Table
+			[A] Added Treated Wood Side Table
+			[A] Added Exit Sign
+			[A] Added Steel Floor Grating
+			[M] Sign orientation fixed, only blocked vertical placement.
+			* v1.0.9-b9   [U] Update to Forge 1.14.4-28.0.40/20190719-1.14.3 for Forge
+			testing.
+			* v1.0.9-b8   [U] UPDATE TO 1.14.4. Forge 1.14.4-28.0.11/20190719-1.14.3.
+			* v1.0.9-b7   [U] Updated to Forge 1.14.3-27.0.60/20190719-1.14.3.
+			[F] Disabled all early implemented fuild handling of valves
+			and the Fluid Accumulator to prevent world loading
+			hang-ups (issue #42, thx TheOhmegha for reporting).
+			Will be re-enabled after fluid handling released in Forge.
+			[F] Fixed blockstate model locations for signs and crafting
+			table (issue #43, thx ProsperCraft for the beta test).
+			* v1.0.9-b6   [U] Updated to Forge 1.14.3-27.0.50/20190621-1.14.2.
+			* v1.0.9-b5   [A] Added missing recipes for slabs, stained clinker, half-slabs, valves.
+			[M] Standalone recipes adapted.
+			[F] Lang files: Fixed double newline escape.
+			[A] Implicit opt-out of hard IE dependent blocks ported (e.g. Concrete Wall).
+			[M] Basic mod config features, opt-outs and tweaks ported.
+			* v1.0.9-b4   [E] Experimental: Config skel ported (!not all options have effect yet).
+			[E] Experimental: JEI integration for opt-outs and crafting table ported
+			(also addresses issue #38).
+			* v1.0.9-b3   [F] Additional item drop fixes when blocks are destroyed (issue #39).
+			* v1.0.9-b2   [U] Updated to Forge 1.14.3-27.0.25/20190621-1.14.2.
+			[F] Fixed recipe collision of Metal Rung Ladder (issue #37,
+			thx ProsperCraft for reporting).
+			[F] Fixed opening crafting table, furni, dropper server crash
+			issue #35 (thx ProsperCraft also here).
+			[F] Fixed missing pole/support item drops (issue #36, ProsperCraft).
+			* v1.0.9-b1   [U] Updated to MC1.14.3, Forge 1.14.3-27.0.17/20190621-1.14.2.
+			[A] Added Small Mineral Smelter.
+			* v1.0.8-b3   [A] Ported slabs and slab slices from 1.12.2.
+			[A] IE independent ("standalone") recipes ported.
+			* v1.0.8-b2   [U] Updated to Forge BETA 1.14.2-26.0.63/20190621-1.14.2,
+			code adapted to new mappings.
+			[M] Updated 1st/3rd person item model rotations/translations.
+			* v1.0.8-b1   [V] Feature set of 1.12 ported.
+			[A] CTRL-SHIFT tooltips ported.
+			[A] Ported stained clinker block/stairs.
+			[M] Updated textures.
+			[I] Issue: Scoped recipe constants still not working.
+			* v1.0.7-b5   [U] Updated to Forge BETA 1.14.2-26.0.35/20190608-1.14.2.
+			[A] Factory dropper functionality ported.
+			[A] Small lab furnace functionality ported.
+			[A] Small electrical lab furnace functionality ported.
+			[A] Small waste incinerator functionality ported.
+			[A] Fluid valves, Passive Fluid Accumulator ported.
+			[I] Issue: Scoped recipe constants still not working.
+			* v1.0.7-b4   [U] Updated to Forge BETA 1.14.2-26.0.32/20190608-1.14.2.
+			[A] Sitting on the stool ported.
+			[A] Ladder climbing speed boost ported.
+			[A] Crafting table functionality ported.
+			[I] Issue: Scoped recipe constants not working yet with
+			the current Forge version (or somehow changed).
+			* v1.0.7-b3   [A] Initial 1.14.2 port of decorative blocks.
+
+	Gauges and Switches (rsgauges-1.14.4-1.2.2-b1.jar --> rsgauges-1.14.4-1.2.2-b2.jar):
+		rsgauges-1.14.4-1.2.2-b2.jar:
+			* v1.2.2-b2  [A] Elevator Switch added.
+			* v1.2.2-b1  [A] Added Valve Switch (idea and model by Jack Mazz).
+			-------------------------------------------------------------------
+			* v1.2.1     [R] Release build v1.2.1. Release-to-release changes:
+			* Industrial Comparator Switch added.
+			-------------------------------------------------------------------
+			* v1.2.1-b1  [A] Added Industrial Comparator Switch.
+			-------------------------------------------------------------------
+			* v1.2.0     [R] Release build v1.2.0.
+			-------------------------------------------------------------------
+			* v1.2.0-b2  [F] Fixed JEI integration warning if nothing is opt'ed out (thx @SDUBZ).
+			[A] Added GIT version logging.
+			[M] Lang en_us: Sensitive Glass block names adapted (issue #15, thx Dimentive).
+			* v1.2.0-b1  [A] Added JEI integration.
+			[M] All Forge blockstates transformed to vanilla format.
+			[M] Model "vanillafication" rework, part 2.
+			[D] Removed obsolete switches (registry not affected).
+			[M] Recipes simplified, recipe conditions unified.
+			[M] Code updates for version compatibility.
+			[A] All block are waterloggable (including Sensitive glass).
+			* v1.1.10-b3  [M] Strong power output of levers and buttons also output weak power
+			to all sides (like vanilla levers).
+			[M] Touch config for automatic switches (small buttons on the devices)
+			are not restricted anymore to using the empty hand.
+			* v1.1.10-b2  [M] Global parent definition in model files updated.
+			[M] Language file updates.
+			* v1.1.10-b1  [F] Indicator-powered check modified to support accepting direct strong
+			power from blocks which normally cannot provide power.
+			[M] Made metallic switch textures slightly lighter.
+			* v1.1.9-b2   [F] Fixed switch link relay input bug (issue #14, thx wieselkatz!).
+			[F] Fixed optional-recipe condition for know switches.
+			* v1.1.9-b1   [U] Updated to Forge 1.14.4-28.1.69/20190719-1.14.3.
+			* v1.1.8-b4   [U] Updated to Forge 1.14.4-28.1.44/20190719-1.14.3.
+			* v1.1.8-b3   [U] Updated to Forge 1.14.4-28.1.10/20190719-1.14.3.
+			[A] Knock switches (seismic adjacent block click detectors) added.
+			* v1.1.8-b2   [U] Updated to Forge 1.14.4-28.0.81/20190719-1.14.3, recipe
+			condition processing adapted accordingly.
+			* v1.1.8-b1   [F] Fixed contact switch sound issue.
+			[A] Added right-click switch configuration with Redstone Dust,
+			Ender Pearl or Switch Link Pearl.
+			[M] Industrial door contact mat model changed.
+			[M] Industrial sensitive contact mat model changed.
+			[M] Industrial shock sensitive contact mat model changed.
+			[M] Industrial cased link receiver models changed.
+			[M] Industrial block detector model changed.
+			[M] Industrial trapdoor switch models changed.
+			[M] Industrial dimmer model changed.
+			* v1.1.7-b2   [A] Entity detectors have configurable pulse time.
+			[M] Industrial bistable switch model changes ported
+			from 1.12.
+			* v1.1.6-b1   [A] Color tint support of gauges, glass switches,
+			and sensitive glass ported.
+			[M] Block detector switch patterns support tags.
+			* v1.1.5-b1   [A] Initial 1.12.2 to 1.14.4 port of all
+			features except color tinting and
+			Forge ore dictionary dependent blocks.
+
+	Geolosys (Geolosys 1.14.4 4.0.11 --> Geolosys 1.14.4 4.0.14):
+		Geolosys 1.14.4 4.0.14:
+			Geolosys Changelog (1.14)
+			4.0.14
+			Fixed
+			* ConcurrentModificationException with mods like C.O.M.B.A.T.
+			4.0.13
+			Fixed
+			* Field Manual not drawing dark overlay in the background (this may also help with compatability with Blur)
+			* Fixed invalid translation in zh_cn translations
+			Changed
+			* Resolved client rendering warnings in code (doesn't affect you personally, it was just bothering me)
+			4.0.12
+			Added
+			* Translations for Chinese (zh_cn) - Thanks to [https://github.com/Aemande123]()!
+			* Translations for Brazilian Portugese (pt_br) - Thanks to [https://github.com/StalckGx]()!
+			4.0.11
+			Fixed
+			* Extra spaces in US translation of prospector's pick altitude when above sea level
+			Changed
+			*
+			Dikes:
+			* Dikes are now tall columnal platforms instead of boxy
+			* This fixes kimberlite literally never showing up when you dig for it
+			* Dikes are more based on their size attribute
+			* Here's how a smaller hematite dike of size 24 looks:
+			4.0.10
+			Changed
+			* Calculations on how many samples are generated, since this is now different due to how new deposit types work
+			* Made ProPick overlay text translatable
+			* ProPick overlay text is now in form of Depth: +<x>m, Depth: -<x>m, or Depth: 0m
+			4.0.9
+			Added
+			* Text in the field manual about each of the pluton types
+			* Text in each resource entry letting you know what type of pluton it forms in
+			Fixed
+			* The size setting of a DIKE pluton having no effect
+			4.0.8
+			Added
+			*
+			New Pluton Types!! They come in four variants:
+			* Dense (same as the old ones)
+			* Dike (A vertical column of ore)
+			* Sparse (Scattered within the chunk boundaries)
+			* Layer (A few circular-ish layers of ore)
+			Fixed
+			* Field Manual not respecting config option
+			* Field Manual being given multiple times
+			* Cassiterite not dropping anything
+			* Possibly being given the Field Manual multiple times
+			* Disabling Field Manual gifting not working
+			4.0.7
+			Fixed
+			* Sample bounding boxes being centered on the block, but the actual sample being off-centered
+			4.0.6
+			Added
+			* ProPick Extras (a config option to let you define other blocks the propick should pick up on)
+			* Sample Placement Blacklist config option
+			Changed
+			* The defaultReplacementMats option is now a list of strings, instead of a single large string
+			* Samples will now be generated even smarter than before, checking if the block they're placing on is in the samplePlacementBlacklist (a new config option) or is the top solid (a requirement for the sample block itself too)
+			Fixed
+			4.0.5
+			Fixed
+			* Nether Quartz generating in the Nether
+			4.0.4
+			Fixed
+			* Kimberlite samples not dropping anything
+			* Sample Item Models now render correctly (should look better in creative menu + TOP + HWYLA)
+			* ConcurrentModificationException with serializeNBT() in IGeolosysCapability
+			4.0.3
+			Fixed
+			* Typo and format errors in the field manual
+			* Disabling Vanilla Ore Gen removing all sand, gravel and clay
+			4.0.2
+			Added
+			* Field Manual is back! Everything's working! (I think)
+			* Field Manual is gifted to you once (can be configured not to)
+			Fixed
+			* Server crash due to weirdness with "ItemStackTileEntityRenderer"
+			4.0.1
+			Added
+			* Compatability drops (waiting on [this bug to be fixed](https://github.com/MinecraftForge/MinecraftForge/issues/5828)) - once the bug is fixed it should work without me updating
+			* Ability to gift players a (currently non-functioning 🤔) Field Manual the first time they join the game - there is a config for this.
+			Changed
+			* Internal API stuff to make sure pending blocks work consistently.
+			* ProPick Recipe (It's now three iron aross the top row, two sticks down the remaining empty right columns)
+			Fixed
+			* ProPick not having recipe
+			* Python scripts I wrote being packaged with the mod
+			4.0.0
+			What Works
+			* All ore gen and stone gen, just like how it used to work
+			* JSON customization, just like it was
+			* Most other major components except for what's listed below:
+			What Hasn't Been Implemented Yet
+			* Campatibility drops (waiting on [this bug to be fixed](https://github.com/MinecraftForge/MinecraftForge/issues/5828))
+			* Geolosys "RetroGen"
+			* Most user entries
+			* Most mod compat
+			What has been Permanently Removed
+			* Some compatibility - not much, but some of it was modifying drops (e.g. Nuclearcraft compat). This has been permanently removed because you can change this yourself using a datapack!.
+			Mod Changes
+			* Samples can break if you fall on them
+			* Samples can now be waterlogged (hence there isn't a "can place in water" config because they should always be able to).
+			* Samples now have random X/Z offsets (like flowers) for more realistism
+			* dimBlacklist is no longer a list of integers (e.g. [-1, 1]) - it's now a string of resource locations (e.g. ["the_end", "extrautils2:deep dark"], etc.)
+			* Propick recipe: no longer requires an iron block (that didn't make sense)
+			API Changes
+			* The API has been moved out of the common package and into the main geolosys package.
+			* IOre → IDeposit
+			*  The API is now much reduced - the API now only consists of:
+			*  GEOLOSYS_WORLD_CAPABILITY: The capability used for storing:
+			* What chunks have already had ore plutons checked for
+			* What chunks have already had stone plutons checked for
+			* What chunks have already been retrogenned (not yet used)
+			* Pending blocks per-chunk (blocks that need to be placed at a blockpos but haven't been because that would cause cascading lag)
+			* proPickExtras: Extra BlockState entries to look for when prospecting
+			* oreConverterBlacklist: Which ores not to convert as a part of "retrogenning" (not yet used)
+			* A PlutonRegistry instance, allowing access to add, get and remove all ore and stone IDeposits used by Geolosys
+			* New BlockPosDim class for dimension-defined BlockPoses (used for pending blocks)
+			* Move BlockPosDim/ChunkPosDim to their own classes for clarity
+
+		Geolosys 1.14.4 4.0.13:
+			Geolosys Changelog (1.14)
+			4.0.13
+			Fixed
+			* Field Manual not drawing dark overlay in the background (this may also help with compatability with Blur)
+			* Fixed invalid translation in zh_cn translations
+			Changed
+			* Resolved client rendering warnings in code (doesn't affect you personally, it was just bothering me)
+			4.0.12
+			Added
+			* Translations for Chinese (zh_cn) - Thanks to [https://github.com/Aemande123]()!
+			* Translations for Brazilian Portugese (pt_br) - Thanks to [https://github.com/StalckGx]()!
+			4.0.11
+			Fixed
+			* Extra spaces in US translation of prospector's pick altitude when above sea level
+			Changed
+			*
+			Dikes:
+			* Dikes are now tall columnal platforms instead of boxy
+			* This fixes kimberlite literally never showing up when you dig for it
+			* Dikes are more based on their size attribute
+			* Here's how a smaller hematite dike of size 24 looks:
+			4.0.10
+			Changed
+			* Calculations on how many samples are generated, since this is now different due to how new deposit types work
+			* Made ProPick overlay text translatable
+			* ProPick overlay text is now in form of Depth: +<x>m, Depth: -<x>m, or Depth: 0m
+			4.0.9
+			Added
+			* Text in the field manual about each of the pluton types
+			* Text in each resource entry letting you know what type of pluton it forms in
+			Fixed
+			* The size setting of a DIKE pluton having no effect
+			4.0.8
+			Added
+			*
+			New Pluton Types!! They come in four variants:
+			* Dense (same as the old ones)
+			* Dike (A vertical column of ore)
+			* Sparse (Scattered within the chunk boundaries)
+			* Layer (A few circular-ish layers of ore)
+			Fixed
+			* Field Manual not respecting config option
+			* Field Manual being given multiple times
+			* Cassiterite not dropping anything
+			* Possibly being given the Field Manual multiple times
+			* Disabling Field Manual gifting not working
+			4.0.7
+			Fixed
+			* Sample bounding boxes being centered on the block, but the actual sample being off-centered
+			4.0.6
+			Added
+			* ProPick Extras (a config option to let you define other blocks the propick should pick up on)
+			* Sample Placement Blacklist config option
+			Changed
+			* The defaultReplacementMats option is now a list of strings, instead of a single large string
+			* Samples will now be generated even smarter than before, checking if the block they're placing on is in the samplePlacementBlacklist (a new config option) or is the top solid (a requirement for the sample block itself too)
+			Fixed
+			4.0.5
+			Fixed
+			* Nether Quartz generating in the Nether
+			4.0.4
+			Fixed
+			* Kimberlite samples not dropping anything
+			* Sample Item Models now render correctly (should look better in creative menu + TOP + HWYLA)
+			* ConcurrentModificationException with serializeNBT() in IGeolosysCapability
+			4.0.3
+			Fixed
+			* Typo and format errors in the field manual
+			* Disabling Vanilla Ore Gen removing all sand, gravel and clay
+			4.0.2
+			Added
+			* Field Manual is back! Everything's working! (I think)
+			* Field Manual is gifted to you once (can be configured not to)
+			Fixed
+			* Server crash due to weirdness with "ItemStackTileEntityRenderer"
+			4.0.1
+			Added
+			* Compatability drops (waiting on [this bug to be fixed](https://github.com/MinecraftForge/MinecraftForge/issues/5828)) - once the bug is fixed it should work without me updating
+			* Ability to gift players a (currently non-functioning 🤔) Field Manual the first time they join the game - there is a config for this.
+			Changed
+			* Internal API stuff to make sure pending blocks work consistently.
+			* ProPick Recipe (It's now three iron aross the top row, two sticks down the remaining empty right columns)
+			Fixed
+			* ProPick not having recipe
+			* Python scripts I wrote being packaged with the mod
+			4.0.0
+			What Works
+			* All ore gen and stone gen, just like how it used to work
+			* JSON customization, just like it was
+			* Most other major components except for what's listed below:
+			What Hasn't Been Implemented Yet
+			* Campatibility drops (waiting on [this bug to be fixed](https://github.com/MinecraftForge/MinecraftForge/issues/5828))
+			* Geolosys "RetroGen"
+			* Most user entries
+			* Most mod compat
+			What has been Permanently Removed
+			* Some compatibility - not much, but some of it was modifying drops (e.g. Nuclearcraft compat). This has been permanently removed because you can change this yourself using a datapack!.
+			Mod Changes
+			* Samples can break if you fall on them
+			* Samples can now be waterlogged (hence there isn't a "can place in water" config because they should always be able to).
+			* Samples now have random X/Z offsets (like flowers) for more realistism
+			* dimBlacklist is no longer a list of integers (e.g. [-1, 1]) - it's now a string of resource locations (e.g. ["the_end", "extrautils2:deep dark"], etc.)
+			* Propick recipe: no longer requires an iron block (that didn't make sense)
+			API Changes
+			* The API has been moved out of the common package and into the main geolosys package.
+			* IOre → IDeposit
+			*  The API is now much reduced - the API now only consists of:
+			*  GEOLOSYS_WORLD_CAPABILITY: The capability used for storing:
+			* What chunks have already had ore plutons checked for
+			* What chunks have already had stone plutons checked for
+			* What chunks have already been retrogenned (not yet used)
+			* Pending blocks per-chunk (blocks that need to be placed at a blockpos but haven't been because that would cause cascading lag)
+			* proPickExtras: Extra BlockState entries to look for when prospecting
+			* oreConverterBlacklist: Which ores not to convert as a part of "retrogenning" (not yet used)
+			* A PlutonRegistry instance, allowing access to add, get and remove all ore and stone IDeposits used by Geolosys
+			* New BlockPosDim class for dimension-defined BlockPoses (used for pending blocks)
+			* Move BlockPosDim/ChunkPosDim to their own classes for clarity
+
+	Nether Portal Spread (Archived file --> netherpspr_1.14-3.0.jar):
+		netherpspr_1.14-3.0.jar:
+			Version 3.0
+			Adds a config file in ./config/netherportalspread/ named 'spreadsettings.txt' where can be specified which blocks convert into which and their weight. See the description for more details.
+
+	Simply Backpacks (simplybackpacks-1.14.4-1.4.0.jar --> simplybackpacks-1.14.4-1.4.3.jar):
+		simplybackpacks-1.14.4-1.4.3.jar:
+			Fixed item loss bug with shift clicking stacks.
+
+		simplybackpacks-1.14.4-1.4.2.jar:
+			More prevention of nesting items.
+			Fixed display names not showing when opening backpack via hotkey.
+
+		simplybackpacks-1.14.4-1.4.1.jar:
+			Fixed opening backpack from offhand.
+			Fixed renamed backpacks not displaying the custom name. (closes [#10](https://github.com/Flanks255/simplybackpacks/issues/10))
+
+	Steve's Factory Manager Reborn (StevesFactoryManager-1.14.4-3.0.0-alpha26.jar --> StevesFactoryManager-1.14.4-3.0.0-alpha26+hotfix.jar):
+		StevesFactoryManager-1.14.4-3.0.0-alpha26+hotfix.jar:
+			a27+hotfix
+			(no commit, temporary fix)
+			* Fixes dupe caused by item stack ownership leaking
+			* Temporary fix while waiting forge to merge PR #6580
+
+	Tetra (tetra-1.14.4-1.25.0.jar --> tetra-1.14.4-1.26.0.jar):
+		tetra-1.14.4-1.26.0.jar:
+			* added global magic cap multiplier to config
+
+		tetra-1.14.4-1.25.1.jar:
+			* changed data load order for repairs (fixes repairs not working in multiplayer)
+			* changed harvest speed to require at least tier 1 of the required capability
+
+	Xaero's Minimap (v20.5.1 for Minecraft 1.14.4 --> v20.5.2 for Minecraft 1.14.4):
+		v20.5.2 for Minecraft 1.14.4:
+			* Added support for Xaero's World Map 1.5.6. Not compatible with older versions.
+			* Fixed GL Error spam under certain conditions when you have key bindings set to nothing.
+
+	Xaero's World Map (v1.5.5 for Minecraft 1.14.4 --> v1.5.6 for Minecraft 1.14.4):
+		v1.5.6 for Minecraft 1.14.4:
+			* Fixed compatibility with the newest version of Better Portals or similar mods.
+			+ Added additional key bindings for those who can't or prefer not using the mouse wheel for zooming and scrolling waypoints.
+			* Fixed the map data folder following the symlink if the config folder is one even though it's not in the config folder.
+			* Fixed rare crash on dimension change.
+			* Fixed multiworld detection not working correctly in certain situations.
+			* Reworked multiworld detection to support dimension-specific spawnpoints better.
+			* Fixed GL Error spam under certain conditions when you have key bindings set to nothing.
+			+ Added an option to disable waypoints on the world map.
+
+Removed:
+- Auth Me
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).

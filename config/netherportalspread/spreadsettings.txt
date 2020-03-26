@@ -1,0 +1,6 @@
+stone; [netherrack>12 + magma_block>2],
+grass_block; [netherrack>1],
+dirt; [netherrack>1],
+sand; [soul_sand>1],
+gravel; [soul_sand>1],
+stone_bricks; [nether_bricks>5 + red_nether_bricks>5]

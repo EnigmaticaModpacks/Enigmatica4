@@ -6,5 +6,7 @@ The scripts have been modified by NillerMedDild to run on 1.14+, please report b
 
 ### Usage
 
+Copy all files from the `include-in-server-files` folder (this one) into the main Minecraft server folder, the same folder that contains mods, config and so on.
+
 Fill in either `settings.cfg` or `settings-linux`, depending on your system, and then run the appropriate `server-start` script - The `server-start.sh` script needs to be run with Bash.
 
