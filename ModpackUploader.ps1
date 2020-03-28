@@ -63,9 +63,8 @@ if ($ENABLE_CHANGELOG_GENERATOR_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host ""
 
     java -jar ChangelogGenerator-2.0.0-pre3.jar
-	Move-Item -Path changelog.txt -Destination changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt
-	
-	Remove-Item old.json, new.json, changelog.txt -ErrorAction SilentlyContinue
+	Move-Item -Path changelog.txt -Destination "changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt"
+	Remove-Item old.json, new.json -ErrorAction SilentlyContinue
 }
 
 if ($ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE) {
