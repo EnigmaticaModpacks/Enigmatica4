@@ -40,10 +40,10 @@ $CURSEFORGE_PROJECT_ID = 330372
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.5.0"
+$MODPACK_VERSION = "0.5.1"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.4.10"
+$LAST_MODPACK_VERSION = "0.5.0"
 
 $FORGE_VERSION=28.2.3
 
@@ -63,8 +63,8 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 # Must be a single string. Use Powershell escaping for new lines etc. New line is `n and indent is `t
 $CLIENT_CHANGELOG = "### Enigmatica 4 v$MODPACK_VERSION <br /><br />" +
 					"Using Forge-1.14.4-28.2.3 <br />" +
-					"#### [Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt) <br /> " +
-					"#### [Changelog](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG.md) "
+					"[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt) <br /> " +
+					"[Changelog](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG.md) "
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "beta"
