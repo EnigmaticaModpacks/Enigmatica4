@@ -61,7 +61,7 @@
 	#The chance that a given chunk will contain a mineral vein.
 	#Range: 0.001 ~ 1.0
 	excavator_chance = 0.2
-	#A base-modifier for all fluid fertilizers in the belljar
+	#A base-modifier for all fluid fertilizers in the cloche
 	#Range: 0.001 ~ 1000.0
 	garden_cloche_fluid_fertilizer_mod = 1.0
 	#The Flux the Assembler will consume to craft an item from a recipe
@@ -93,7 +93,7 @@
 	mixer_energyModifier = 1.0
 	#List of dimensions that can't contain minerals. Default: The End.
 	excavator_dimBlacklist = ["minecraft:the_end"]
-	#The Flux per tick the belljar consumes to grow plants
+	#The Flux per tick the cloche consumes to grow plants
 	#Range: > 1
 	garden_cloche_consumption = 8
 	#The Flux per tick consumed to double the speed of the furnace. Only happens if furnace is at maximum heat.
@@ -117,7 +117,7 @@
 	#How much Flux the powered lantern can hold (should be greater than the power draw)
 	#Range: > 1
 	lantern_max_storage = 10
-	#The amount of ticks one dose of fertilizer lasts in the belljar
+	#The amount of ticks one dose of fertilizer lasts in the cloche
 	#Range: > 1
 	garden_cloche_fertilizer = 6000
 	#A modifier to apply to the energy costs of every fermenter recipe
@@ -173,10 +173,10 @@
 	#The length in ticks it takes for the Core Sample Drill to figure out which mineral is found in a chunk
 	#Range: > 1
 	coredrill_time = 200
-	#A modifier to apply to the belljars total growing speed
+	#A modifier to apply to the cloches total growing speed
 	#Range: 0.001 ~ 1000.0
 	garden_cloche_growth_modifier = 1.0
-	#A base-modifier for all solid fertilizers in the belljar
+	#A base-modifier for all solid fertilizers in the cloche
 	#Range: 0.001 ~ 1000.0
 	garden_cloche_solid_fertilizer_mod = 1.0
 	#The maximum amount of damage Graphite Electrodes can take. While the furnace is working, electrodes sustain 1 damage per tick, so this is effectively the lifetime in ticks. The default value of 96000 makes them last for 8 consecutive ingame days
@@ -191,7 +191,7 @@
 	#A modifier to apply to the time of every mixer recipe
 	#Range: 0.001 ~ 1000.0
 	mixer_timeModifier = 1.0
-	#The amount of fluid the belljar uses per dose of fertilizer
+	#The amount of fluid the cloche uses per dose of fertilizer
 	#Range: > 1
 	garden_cloche_fluid = 250
 	#Set this to false to disable the ridiculous amounts of particles the Excavator spawns

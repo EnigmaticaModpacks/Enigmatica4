@@ -1,0 +1,157 @@
+=======================================
+Enigmatica4 0.5.0 --> Enigmatica4 0.5.1
+=======================================
+
+Added:
+- Save My Stronghold!
+
+Updated:
+	Botany Pots (BotanyPots-1.14.4-1.0.10.jar --> BotanyPots-1.14.4-1.0.11.jar):
+		BotanyPots-1.14.4-1.0.11.jar:
+			* Added Chinese localizations. Thanks to xhz313123 - xhz313123
+			Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?BotanyPots)
+			* Pongo Sapiens
+			* Darkosto
+
+	Bountiful (Bountiful-1.14.4-3.0.0.jar --> Bountiful-1.14.4-3.1.0.jar):
+		Bountiful-1.14.4-3.1.0.jar:
+			Bountiful v3.1.0 update
+			Requires [Kottle](https://www.curseforge.com/minecraft/mc-mods/kottle) to work.
+			Changelog can be [viewed here!](https://github.com/ejektaflex/Bountiful/blob/develop/CHANGELOG.md)
+
+	Create (create-mc1.14.4_v0.2.1.jar --> create-mc1.14.4_v0.2.2a.jar):
+		create-mc1.14.4_v0.2.2a.jar:
+			Create 0.2.2a for Minecraft 1.14.4
+			More bug-fixes. My apologies for all the windmills that disappeared during this development cycle.
+			* (0.2.2a) Hot-fixed Redstone Links
+			* Fixed windmill bearings stopping on chunk reload
+			* Fixed compat crash when tooltips are loaded early
+			* Added Zinc and Brass Block
+			* Added compat for mechanical Saw with BoP's logs
+			* Fixed Crafters and Mixers not handling container items properly
+			* Fixed Shafts not dropping when breaking a belt segment with pulley
+			* Added missing loot table for copper blocks and shingles
+			* Mechanical Crafter JEI no longer adds other mods' custom crafting recipe types
+			* Blacklisted a few entities from contraption collision
+			* Contraption Entities no longer spawn water particles
+			* Fixed floating point errors in RSC
+			* Added rendering safety check for belts
+			* Update Chinese translation
+			* Added Millstone
+			* Added Milling recipe type
+			* Crushing wheels can apply milling recipes
+			* Added a command for clearing the buffer cache
+			* Any cog-containing machine can now connect to large cogwheels
+			* Added French localization
+			* Sandpaper is now enchantable
+			* Sandpaper now repairs tools for 50% of the current damage
+			* Overstressed components now show a tooltip, unless disabled in config
+			* JEI compat for millstone recipes
+			* Crushing Wheels now require mechanical crafting in order to be assembled
+			* Millstones now drop contents when broken
+			* Gauges no longer require a block to sit on
+			* Fixed custom swords not having a sweeping effect
+			* Fixed invalid kinetic tileentity state when dimension is being unloaded
+			* Mechanical harvesters now interact with kelp blocks
+			* Extractors and Funnels are now portable and have special movement traits
+			* Fixed false positives on having reached the block movement limit for contraptions
+			* Fixed self-modification within a belt's update cycle
+			* Fixed belt processing not re-activating segment attachments
+			* Fixed reversing components (gearbox, gearshift) breaking when a new source overpowers the network
+			* Reduced attack damage of the Deforester
+			* Fixed redstone links not being powered by wires consistently
+			* New entries for attribute filters: Washable, Smeltable, Smokable and Smeltable in Blast furnace
+			* Fixed redstone links behaving inconsistently when unloaded and reloaded
+			* Bumped oldest supported forge version
+			* Moving Structures now support most modded chests as portable inventory space
+			* Made chassis range visualization a little less obnoxious
+			* Fixed copper and zinc spawning in increased amounts anywhere outside of the biomes they are supposed to do so
+			* Introduced a brass ingot mixing recipe
+			* Fixed redstone links getting power from unloaded links
+			* Gunpowder can now be multiplied in the mixer
+			* Metal blocks can now be crushed back into the crushed ores
+			Please submit any Issues you come across on the [Issue Tracker](https://github.com/simibubi/Create/issues).
+
+	Immersive Engineering (ImmersiveEngineering-0.14-93 --> ImmersiveEngineering-0.14-94):
+		ImmersiveEngineering-0.14-94:
+			* Add Minecarts!
+			* Wooden crates, reinforced crates, wooden barrels and metal barrels can be put in carts
+			* IE's conveyors can load and unload (extracting conveyor) Minecarts (including vanilla ones!)
+			* Re-Add Steel Armor
+			* Add vanilla recycling (1 nugget!) for steel tools, steel armor and the faraday suit
+			* Change minimum Forge version to 28.2.3
+			* Fix crash due to Minecart render
+			* Fix various rendering glitches
+			* Fix buckets not working
+			* Fix cloche and other dummy-constructed blocks replacing existing blocks
+			* Fix links in the manual's search function
+			* Fix extracting conveyors not being able to rotate their input points
+			* Fix missing vanilla materials in excavator minerals
+
+	Just Enough Resources (JER) (JustEnoughResources-1.14.4-0.10.1.74 --> JustEnoughResources-1.14.4-0.10.1.76):
+		JustEnoughResources-1.14.4-0.10.1.76:
+			[[4aa86ba](https://github.com/way2muchnoise/JustEnoughResources/commit/4aa86babe2449036c1088acc84ba17ac80e974af)] Most likely resolve #223: don't wipe out generic information for entities. (#224) (GitHub)
+			[[7a854fe](https://github.com/way2muchnoise/JustEnoughResources/commit/7a854fedf3e04c5388b41226a508e084e6a4c751)] Made plant entries more customizable and compatible, fixes main issue from #213 (#215) (GitHub)
+			[[d076cea](https://github.com/way2muchnoise/JustEnoughResources/commit/d076ceaace062e9e25884c732d132a6ff3b63dbd)] fixes bad location of lang file added in #205 (way2muchnoise)
+			[[6f265a3](https://github.com/way2muchnoise/JustEnoughResources/commit/6f265a3e5109dcc7ee8e72b60f11cc2779fe57bc)] Fixed a typo in DungeonRegistry and lang files, fixes a small bug (#216) (way2muchnoise)
+			[[5e2ac12](https://github.com/way2muchnoise/JustEnoughResources/commit/5e2ac12cad69afb8818b5f23444094fb7b2e7664)] Create zhtw (#205) (way2muchnoise)
+			[[27b6545](https://github.com/way2muchnoise/JustEnoughResources/commit/27b654561bdd0a845bd93b7e953a05561603d294)] Create FUNDING.yml (GitHub)
+			[[dd0a134](https://github.com/way2muchnoise/JustEnoughResources/commit/dd0a1346d64f4703ef23a903040caf9eb0f67c3f)] update travis build for 1.14 (way2muchnoise)
+			[[d04c9a4](https://github.com/way2muchnoise/JustEnoughResources/commit/d04c9a4a12dda05348a3397144cc885714ee89a4)] inital update to 1.14 (way2muchnoise)
+			[[e381bab](https://github.com/way2muchnoise/JustEnoughResources/commit/e381babd59258cdf24dba5362710be7b21021f4b)] porting to 1.13, time to move to 1.14 (way2muchnoise)
+			[[1ca8376](https://github.com/way2muchnoise/JustEnoughResources/commit/1ca83769a2ee4d439b8fdda422b98677ebd6c929)] fix villager trades, fixes #190 (way2muchnoise)
+			[[19cda79](https://github.com/way2muchnoise/JustEnoughResources/commit/19cda79bfc40b330f3e8e20084b43346c04bf4f5)] switch to openjdk for travis (way2muchnoise)
+			[[58039dd](https://github.com/way2muchnoise/JustEnoughResources/commit/58039dd33943a2fe0e03b2e4209730c7e736c3ee)] bump version (way2muchnoise)
+			[[f25ff2c](https://github.com/way2muchnoise/JustEnoughResources/commit/f25ff2caa877d62b192b1e85269d0a5014405fd0)] fix duplicate lang id, fixes #183 (way2muchnoise)
+			[[52718d9](https://github.com/way2muchnoise/JustEnoughResources/commit/52718d97d0f21150f8cae6debae8bd4254bfa665)] show correct trade level, #165 (way2muchnoise)
+			[[bd44a2a](https://github.com/way2muchnoise/JustEnoughResources/commit/bd44a2aea12a7d9224a06b9c008008b997493d9b)] add more info to exception with villagers, #185 (way2muchnoise)
+			[[4836b9c](https://github.com/way2muchnoise/JustEnoughResources/commit/4836b9c356ae14771c1c6156526d6b5bbe9836d4)] prevent recipecategory (un)hiding null pointers, #189 and #181 (way2muchnoise)
+			[[53bcd7c](https://github.com/way2muchnoise/JustEnoughResources/commit/53bcd7c66fb66b40a006009f6ca0b68af4aaa4f7)] Allow the plant registry to accept soils. (#187) (way2muchnoise)
+			[[75edca8](https://github.com/way2muchnoise/JustEnoughResources/commit/75edca80187d9a5ea6d71a6d292913d68026ec1d)] fixes #180 (way2muchnoise)
+			[[8a47ab7](https://github.com/way2muchnoise/JustEnoughResources/commit/8a47ab7b8b06d70012bd7e103412f87d6b649260)] update cursegradle (way2muchnoise)
+			[[6208021](https://github.com/way2muchnoise/JustEnoughResources/commit/62080210d1054496dad3c749b4b726da37d34ac8)] add hidding JER tabs, fixes #164 (way2muchnoise)
+			[[36eb3c1](https://github.com/way2muchnoise/JustEnoughResources/commit/36eb3c148c66484853bb757c9c161f9aae10741f)] fixes #170 (way2muchnoise)
+			[[e6a2d6b](https://github.com/way2muchnoise/JustEnoughResources/commit/e6a2d6bd63899eec460024e1aa407b3851107653)] fix reflection in LootTableHelper (way2muchnoise)
+			[[8b12edc](https://github.com/way2muchnoise/JustEnoughResources/commit/8b12edca46b31ce40654246ba0022c0cfe45d50e)] fixes #171 (way2muchnoise)
+			[[4c8786c](https://github.com/way2muchnoise/JustEnoughResources/commit/4c8786c7a85239d3260a2c5e462c6c15c252275a)] implement block blacklist mechanic for profiling (way2muchnoise)
+			[[3eb975f](https://github.com/way2muchnoise/JustEnoughResources/commit/3eb975ffb950de4189b7ecb834e804dd9c4ab9ae)] rename profile command to jerprofile (way2muchnoise)
+			[[73e4a1b](https://github.com/way2muchnoise/JustEnoughResources/commit/73e4a1bd4e83c2258547addbcdea86f2adee03fd)] update deprecated methods (way2muchnoise)
+			[[842d1d5](https://github.com/way2muchnoise/JustEnoughResources/commit/842d1d501d3f61bfd1ebb721e5fe8f34083330f0)] bump versions (way2muchnoise)
+			[[03334c7](https://github.com/way2muchnoise/JustEnoughResources/commit/03334c792379587edb1ec49be4d1f4db1de59366)] fixes #174 (way2muchnoise)
+			[[3593844](https://github.com/way2muchnoise/JustEnoughResources/commit/3593844d075a9d1a8d1b6c50d665c5367fd67ff1)] bump versions (way2muchnoise)
+			[[684d755](https://github.com/way2muchnoise/JustEnoughResources/commit/684d755de40fe579d80c25bf0fe0f1a776c68075)] apply current translation to scissor, fixes #155 (way2muchnoise)
+			[[5968b7a](https://github.com/way2muchnoise/JustEnoughResources/commit/5968b7ae83bca2c11c7afac68566519b2815c67e)] add mob id to pack dev data option, fixes #157 (way2muchnoise)
+			[[b61d9f1](https://github.com/way2muchnoise/JustEnoughResources/commit/b61d9f15e95ea172f9d7c1c15df8d54eaecef4cd)] better Capability handling during ore scan, fixes #152 (way2muchnoise)
+			[[b6b0389](https://github.com/way2muchnoise/JustEnoughResources/commit/b6b0389ac1655b1c85f4b227fd0dcf0b70083fa0)] Update zhcn.lang (#149) (way2muchnoise)
+			[[e7ba91e](https://github.com/way2muchnoise/JustEnoughResources/commit/e7ba91ef18607d52d569315e2639d5274c44abf6)] update mc, forge and JEI version (way2muchnoise)
+			[[46fda6f](https://github.com/way2muchnoise/JustEnoughResources/commit/46fda6f48cbc0622d4f11733bd340235ee2a05fd)] add tooltip with average blocks per chunk, fixes #140 (way2muchnoise)
+			[[c039d65](https://github.com/way2muchnoise/JustEnoughResources/commit/c039d6557a6d1c4b2f86e363d3948c0d14ddd3cb)] translate some extra words, fixes #127 and fixes #126 (way2muchnoise)
+			[[54bfadc](https://github.com/way2muchnoise/JustEnoughResources/commit/54bfadc0bb7cc00dfb0424632738dbe1983f0e2b)] change jei slug, damned @mezz (way2muchnoise)
+			[[be3c21e](https://github.com/way2muchnoise/JustEnoughResources/commit/be3c21e768a5327eade3fba3d811327349d18cd8)] fixes some more issues related to scanning of odd worlds (way2muchnoise)
+			[[b1ba167](https://github.com/way2muchnoise/JustEnoughResources/commit/b1ba167e15f446b959381c9e9664a05842a801fd)] update some strings and comments (way2muchnoise)
+			[[ef630e3](https://github.com/way2muchnoise/JustEnoughResources/commit/ef630e34b8eef816c5f7ff180942a5a4fd8a1c7e)] bump versions (way2muchnoise)
+			[[d327fa6](https://github.com/way2muchnoise/JustEnoughResources/commit/d327fa6dc1b403a8482dcb7d39d7211f9c9e1641)] Fixes issues with dimension ids that don't match the provider id. (#138) (way2muchnoise)
+			[[534878a](https://github.com/way2muchnoise/JustEnoughResources/commit/534878a3ff1b7679616537870281dcb16e87fbc8)] update to gradle 4.0 (way2muchnoise)
+			[[88fe929](https://github.com/way2muchnoise/JustEnoughResources/commit/88fe929f34badb94ba92e46941c9375207fe6c4a)] Update zhCN language file (#129) (way2muchnoise)
+			[[040aec0](https://github.com/way2muchnoise/JustEnoughResources/commit/040aec09056be40687ea518e2456d6129052de3a)] Updated Russian translation (#128) (way2muchnoise)
+			[[d57c53f](https://github.com/way2muchnoise/JustEnoughResources/commit/d57c53ff7d2caea6a4118450c7e85acb78f0f63c)] adds profiling blacklist, fixes #123 (way2muchnoise)
+			[[5a8c0e1](https://github.com/way2muchnoise/JustEnoughResources/commit/5a8c0e1cbcc7e5f442aed8d78c881ef9170ce6a9)] prevent crashes when villager professions don't exist, fixes #124 (way2muchnoise)
+			[[911f2fe](https://github.com/way2muchnoise/JustEnoughResources/commit/911f2fed8eb4b2b86811d0acce5042d279c902e4)] bump versions (way2muchnoise)
+			[[739d97f](https://github.com/way2muchnoise/JustEnoughResources/commit/739d97f3f41ca0ae5b360d159a2931e82297330f)] update to 1.12.2 (way2muchnoise)
+			[[f448a16](https://github.com/way2muchnoise/JustEnoughResources/commit/f448a163694f7aeb977e1bd70f85bc850036da9d)] clearify license, fixes #121 (way2muchnoise)
+			[[0e2e36e](https://github.com/way2muchnoise/JustEnoughResources/commit/0e2e36e8659d0908a2b7cdc33929b9a0b729b1f9)] update to 1.12.1 (way2muchnoise)
+
+		JustEnoughResources-1.14.4-0.10.1.75:
+			[[4aa86ba](https://github.com/way2muchnoise/JustEnoughResources/commit/4aa86babe2449036c1088acc84ba17ac80e974af)] Most likely resolve #223: don't wipe out generic information for entities. (#224) (GitHub)
+
+	Storage Drawers (StorageDrawers-1.14.4-6.0.6.jar --> StorageDrawers-1.14.4-6.0.7.jar):
+		StorageDrawers-1.14.4-6.0.7.jar:
+			* Fix empty locked drawer getting cleared on chunk reload
+			* Fix UI rendering / blanking items with 0 count
+			* Crash mitigation and logging in a broken mod environment
+
+Removed:
+- Geolosys
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
