@@ -1,10 +1,36 @@
+## Enigmatica 4 v0.5.1
+
+#### Make sure to backup your world before updating! 
+There is a chance that this new update does not work with your current world. At the very least blocks from Create will be removed when updating from 0.4.x or prior.
+
+*Forge-1.14.4-28.2.3*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_0.5.1.txt)*
+
+**Added Mods**
+
+- Save My Stronghold! [\#335](https://github.com/NillerMedDild/Enigmatica4/issues/335)
+
+**Removed Mods**
+
+* Geolosys
+
+**Changes**
+
+* Local config changes will no longer revert after a restart
+
+**Fixed bugs**
+
+- Client crash [\#330](https://github.com/NillerMedDild/Enigmatica4/issues/330)
+- Just Enough Resources \(JER\) not working  [\#293](https://github.com/NillerMedDild/Enigmatica4/issues/293)
+- Tool Tip issue RFTools Storage [\#177](https://github.com/NillerMedDild/Enigmatica4/issues/177)
+- RFTools GUI crash [\#176](https://github.com/NillerMedDild/Enigmatica4/issues/176)
 ## Enigmatica 4 v0.5.0
 
 ### This is a major update, make sure to backup your world before updating! 
-There is a chance that this new update does not work with your current world.
+There is a chance that this new update does not work with your current world. At the very least blocks from Create will be removed when updating from 0.4.x or prior.
 
 *Forge-1.14.4-28.2.3*
-*[Mod List](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG_MODS_0.5.0.txt)*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_0.5.0.txt)*
 
 **Added Mods**
 
