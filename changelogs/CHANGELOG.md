@@ -16,7 +16,7 @@ There is a chance that this new update does not work with your current world. At
 
 **Changes**
 
-* 
+* Fixes some Blast Furnace recipes taking the same time as their Furnace equivalents
 
 **Fixed bugs**
 
