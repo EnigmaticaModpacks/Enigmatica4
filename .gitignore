@@ -85,3 +85,5 @@ new.json
 old.json
 reauth.toml
 soundsMuffled.dat
+MakeModpackFiles.bat
+MakeModpackFilesPostToDiscord.bat
