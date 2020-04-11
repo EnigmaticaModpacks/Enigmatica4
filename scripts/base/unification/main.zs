@@ -521,6 +521,7 @@ var modPriorities as string[] = [
     "bluepower",
     "botania",
     "mysticalworld",
+	"create",
     "tmechworks",
     "industrialforegoing"
 ];
