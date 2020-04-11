@@ -85,7 +85,7 @@
 
 #Allows to change the chance to drop some items
 [loot]
-	#Chance to loot a Lost Tablet by fishing [0..100|default:10]
-	#Range: 0 ~ 100
+	#Chance to loot a Lost Tablet by fishing [0..1000|default:100]
+	#Range: 0 ~ 1000
 	chance_loot_lost_tablet = 10
 
