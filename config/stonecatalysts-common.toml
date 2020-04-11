@@ -1,0 +1,27 @@
+
+[base_config]
+	#Allow vanilla stone variants as stone generator catalysts (Flowing Lava into Water Source)
+	VANILLA_VARIANTS_AS_STONE = true
+	#Allow vanilla stone variants as cobble generator catalysts (Water into Flowing Lava)
+	VANILLA_VARIANTS_AS_COBBLE = true
+
+[compat_config]
+	#Adds quark stones (Basalt, Marble, Limestone, Slate, Jasper) as catalysts
+	ENABLE_QUARK_COMPAT = true
+	#Allow quark stone variants as cobble generator catalysts (Water into Flowing Lava)
+	QUARK_VARIANTS_AS_COBBLE = true
+	#Allow quark stone variants as stone generator catalysts (Flowing Lava into Water Source)
+	QUARK_VARIANTS_AS_STONE = true
+
+[custom_config]
+	#Add additional stone generator catalysts
+	#Usage: Add namespaced ids in "" seperated by commas
+	#Example: ["minecraft:netherrack", "quark:brimstone"]
+	CUSTOM_STONE_CATALYSTS = ["biomesoplenty:white_sandstone", "quark:marble", "quark:slate", "quark:jasper", "quark:basalt", "quark:limestone", "create:gabbro", "create:limestone", "create:weathered_limestone", "create:dolomite"]
+	#Prints debug messages to the log for each custom catalyst added
+	DEBUG_MESSAGES = true
+	#Add additional cobble generator catalysts
+	#Usage: Add namespaced ids in "" seperated by commas
+	#Example: ["minecraft:netherrack", "quark:brimstone"]
+	CUSTOM_COBBLE_CATALYSTS = ["quark:brimstone", "quark:permafrost", "quark:elder_prismarine", "quark:cobbedstone"]
+
