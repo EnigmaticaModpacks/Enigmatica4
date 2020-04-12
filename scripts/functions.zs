@@ -139,3 +139,49 @@ public function minecraft_smeltingAndBlasting_ingot_from_dust(material as string
     blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime / 2);
     furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
 }
+// public function create_crushing_crushed_from_ore(material as string) as void {
+//     var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
+//     var crushedMaterialItemTag = BracketHandlers.getTag("forge:crushed/" + material);
+//     var ore = oreItemTag.first();
+//     var crushedmaterial = crushedMaterialItemTag.first();
+
+//     if (ore.matches(<item:minecraft:air>)) {
+//         logger.info("create_crushing_dust_from_ore: No items exist in the ItemTag " + oreItemTag.commandString);
+//         return;
+//     }
+
+//     if (crushedmaterial.matches(<item:minecraft:air>)) {
+//         logger.info("create_crushing_dust_from_ore: No items exist in the ItemTag " + crushedMaterialItemTag.commandString);
+//         return;
+//     } 
+
+//     var outputCount = 2;
+//     <recipetype:crafting>.removeByName("create:crushing/" + material + "_ore");
+//     <recipetype:create:crushing>.addJSONRecipe("crushing/" + material + "_ore",
+//     {
+//         ingredients: [
+//     	{
+//     		item: ingot.registryName
+//     	}
+//     ], 
+// 	results: [
+// 		{
+// 			item: crushedmaterial.registryName,
+// 			count: 1
+// 		},
+// 		{
+// 			item: crushedmaterial.registryName,
+// 			count: 2,
+// 			chance: 0.3
+// 		},
+// 		{
+// 			item: minecraft:cobblestone,
+// 			count: 1,
+// 			chance: 0.125
+// 		}
+// 	],
+// 	processingTime: 400
+// });
+
+//     logger.info("create_crushing_dust_from_ore with " + material + " succesfully ran!");
+// }
