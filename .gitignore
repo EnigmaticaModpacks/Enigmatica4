@@ -87,3 +87,4 @@ reauth.toml
 soundsMuffled.dat
 MakeModpackFiles.bat
 MakeModpackFilesPostToDiscord.bat
+PostToDiscord.bat
