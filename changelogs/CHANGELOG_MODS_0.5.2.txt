@@ -1,0 +1,703 @@
+=======================================
+Enigmatica4 0.5.1 --> Enigmatica4 0.5.2
+=======================================
+
+Added:
+- StepUp
+- StoneCatalysts
+
+Updated:
+	Botania (Botania r1.11-378.jar --> Botania r1.11-379.jar):
+		Botania r1.11-379.jar:
+			See [https://botaniamod.net/changelog.php]()
+
+	Controlling (Controlling-5.0.6 --> Controlling-5.0.7):
+		Controlling-5.0.7:
+			Added a patreon button
+
+	Corail Tombstone (Corail Tombstone 4.3.1 for 1.14.4 --> Corail Tombstone 4.3.2 for 1.14.4):
+		Corail Tombstone 4.3.2 for 1.14.4:
+			This mod supports mc version from 1.8.9 to 1.15.2
+			Minecraft Version = [1.14.4] - Forge Version [28.1.58+]
+			Latest : 4.3.2 - Recommended : 4.3.1
+			Changes 4.3.2 :
+			* - compat for DruidCraft (tameable beetle, #105)
+			* command tbteleportbiome (based on 1.16)
+			* command tbrequestteleport (with a config for the cooldown, not enabled by default)
+			+ rename the existing command to tbacceptteleport
+			* config for the max duration of stolen effect with magic siphon
+			* config for the duration of applied effect by plague bringer
+			* improvements about the preserved effects on death
+			* config to enable to auto-equip on respawn after a death
+			* the config about lost tablet rarity is now on 1000
+			* adapt the loot condition about fishing (requires still water for any space at Y <= the bobber, accept lilypad)
+			Changes 4.3.1 :
+			* - "magic items" by fishing in the junk lootable requires an open water space for the entity hook (in prevision of 1.16, don't try to make a hole ;))
+			* client config to define the fog color (this doesn't influence what is seen by others players)
+			* client config to define when fog can appear (day, night, both, never)
+			* something
+			Changes 4.3.0 :
+			* - projectiles (by using the left hand) don't apply the tombstone weapon enchantments of the mainhand
+			* fix the translation of earn/lose knowledge (from the previous version changes)
+			* remove perk entries from the api (related to forge error handling)
+			* adapt skull reward from the advancement about the favorite grave (as only undead skulls/heads are useable for decorative grave)
+			* compat with minecolonies : killing citizens, pirates & barbarians affect player's alignment
+			* config to define the level required for familiar receptacle (10 by default)
+			* adjust contributor rewards to fit the latest contents
+			* config to define the duration of scrolls
+			* config to backup players just before their death (default is false)
+			* client config option to favor the tools on the hotbar when recovering a grave
+			* same sync on config file change for client config being shared on the server (the config gui already does it)
+			* re-add the original tombstone model (adapted)
+			* anvil recipes for white marble grave are now visible in JEI (engraved name)
+			Changes 4.2.4 :
+			* integration TheOneProbe
+			* display the Y on lost tablet tooltip before the first teleportation
+			* re-use the same casting particle texture as 1.12.2
+			* new enchantment Plague Bringer (can't combine with Magic Siphon)
+			* config to limit Plague Bringer to bad alignment player (or he will be affected with the same bad effect) - default true
+			* config for unhandled harmful effects with nausea in by default (also rename the config for beneficial effects)
+			* avoid a vanilla bug where onEntityDamaged is called twice for player for the mainhand
+			* limit plague bringer & magic siphon to be effective only on mainhand
+
+	Create (create-mc1.14.4_v0.2.2a.jar --> create-mc1.14.4_v0.2.2b.jar):
+		create-mc1.14.4_v0.2.2b.jar:
+			Create 0.2.2b for Minecraft 1.14.4
+			More bug-fixes. It doesn't end.
+			NOTICE: World gen config will be overwitten by this update. Make sure to re-adjust potential changes you've made to it.
+			* The wrench now rotates the target block around the axis of the face that the it was used on
+			* Added a japanese localization provided by MORIMORI0317
+			* Redstone Links can now be toggled with a wrench
+			* Redstone Links are now portable on contraptions
+			* Schematicannon no longer inserts held schematics automatically
+			* Saws no longer accept items when their speed is zero
+			* Fixed UV shifts not working consistently with high-res resource packs
+			* Fixed window panes not connecting their textures with windowlogged blocks
+			* Fixed buttons and pressure plates not resetting after being moved
+			* Fixed missing tooltips on custom swords
+			* Reverted the misplaced nerf on worldgen, applied due to a previous bug in feature placement
+			* Ore features no longer spawn in the "void" or "hell" biome
+			* Fixed Minecart contraptions killing their own mount using saws/drills
+			* Pistons, Bearings and Pulleys can now be moved unless they are moving something themselves
+			* Fixed cart assemblers blocking in the powered rail kickstart logic
+			* Piston poles can now be moved
+			* Crushing wheels no longer spawn missing texture particles when sprinting on the central block
+			* Deployers' hand items can now be directly inserted/extracted using hoppers, extractors, funnels, etc
+			* Fixed Deployers not dropping held items when destroyed
+			* Millstones now empty their input inventory when clicked on while their output buffer is empty
+			* Millstones no longer accept items they cannot process
+			* Fixed hoppers not being able to pull items from belts in certain cases
+			* Fixed adjustable crates corrupting chunks
+			* Kinetic blocks no longer cause chunks to lose all block light information
+			* Stockpile switch and sequencer no longer open the GUI to the wrong players
+			* Belt items no longer skip blocking attachments while loaded in
+			* Nozzle explosions no longer cause block damage
+			* PSIs no longer transfer an excess of items, deleting them in the process
+			Please submit any Issues you come across on the [Issue Tracker](https://github.com/simibubi/Create/issues).
+
+	Engineer's Decor (engineersdecor-1.14.4-1.0.20-b2.jar --> engineersdecor-1.14.4-1.0.20-b4.jar):
+		engineersdecor-1.14.4-1.0.20-b4.jar:
+			* v1.0.20-b4  [F] Fixed Mineral Smelter fluid voiding on external draining (issue #92, thx papaworld, pupnewfster).
+			* v1.0.20-b3  [M] Labeled Crate: GUI quick-move-all (ctrl-shift click) smart move tweaked, Manual page added.
+			[F] Fixed IE ingredients based default recipes for Factory Dropper and Small Electrical Furnace.
+			[M] Factory Hopper: GUI quick-move-all added.
+			[M] Code structure, simplifications, cap invalidation fixes.
+			[M] Valves: Removed performance caching for testing purposes.
+			* v1.0.20-b2  [U] Forge version requirement set to >= 28.2.3.
+			[A] Added Labeled Crate (storage crate with built-in item frame).
+			* v1.0.20-b1  [A] Electrical Furnace: Added four-position speed switch (off, 100%, 150%, 200%), power consumption
+			increases at higher rate (off, 100%, 200%, 400%).
+			[A] Added Steel Mesh Fence Gate (single or double height gate fitting to the Steel Mesh Fence).
+			[M] Waste Incinerator processing speed tweaked.
+			* v1.0.19-b5  [A] Added right-click display of power and progress information for Block Breaker, Solar Panel, and Tree Cutter.
+			[A] Solar Panel power curve tuned.
+			[A] Mod manual 1st edition release recipe added.
+			[A] Factory Hopper: Resetting NBT when breaking with empty inventory (for stacking), enabled item cap for all sides.
+			[M] Electrical Furnace model polished.
+			* v1.0.19-b4  [A] Ported primary Immersive Engineering dependent recipes (alternative recipes
+			will still work if IE is not installed).
+			[M] Furni comparator output overrides reflect input slots and empty fuel state/power-cutoff.
+			[M] Solar Panel config: Default value for internal battery capacity increased.
+			[F] Block Placer: Shifted GUI player slots 1px to the right.
+			[A] Added mod block tags for slabs, stairs, and walls (PR#89, thanks CrudeAustin for the data).
+			[A] Added experimental Patchouli manual (creative only).
+			[!] Skipped blacklisting Treated Wood Crafting Table slots for the inventorysorter mod due
+			to potential startup crashes for single player games (issue #88 fix deferred).
+			* v1.0.19-b3  [M] Config tweaks: Value limit ranges increased to facilitate modpacking.
+			[A] Factory Hopper: Added bottom item handler (CR#227).
+			[M] Block shapes refined.
+			[F] Fixed duping bug (issue #87, thx Nachtflame)
+			* v1.0.19-b2  [F] Fixed Floor Grating item pass-through jitters (thx Cid).
+			[M] Removed obsolete recipe collision testing recipes.
+			[F] Fixed missing Block Breaker dynamic block drops.
+			[F] Block Placer planting race condition issue fixed (issue #83, thx jcardii).
+			[F] Factory Hopper: Added second standard insertion after smart-insert to circumcent compat issues (issue #84, thx NillerMedDild).
+			* v1.0.19-b1  [F] Fixed Tree Cutter / Block Breaker not accepting small energy transfers (thx WindFox, issue #82).
+			* v1.0.18-b4  [M] Lang update ru_ru (PR#77, thanks Smollet777).
+			[F] Fixed Milking machine cow path issue, added milking delay cow tracking.
+			[F] Slab / Slab Slice placement adapted to vanilla standard.
+			* v1.0.18-b3  [A] Added Treated Wood Crafting table tweaks (ctrl-shift moves all same stacks from the
+			inventory, mouse wheel over crafting slot increases/decreases crafting grid stacks).
+			[F] EN Lang file fixed (issue #76, thx Riverstar907).
+			[F] Fixed Tree Cutter not respecting power-required config (thx federsavo, issue #77).
+			[F] Fixed Small Solar Panel not exposing energy capability (thx MatthiasMann, issue #78).
+			* v1.0.18-b2  [F] Fixed JEI integration warning if nothing is opt'ed out (thx @SDUBZ for reporting).
+			[M] Lang ru_ru updated (Smollet777).
+			* v1.0.18-b1  [U] Updated to Forge 1.14.4-28.1.109/20190719-1.14.3.
+			[A] Added opt-out config for the Small Tree Cutter.
+			* v1.0.17-b3  [F] Double newline escapes in lang files fixed ("\n" in a tooltip).
+			[M] Updated zh_cn lang file (scikirbypoke).
+			* v1.0.17-b2  [A] Reverse recipes for slabs and slab slices added.
+			[M] Inset Floor Edge Light slightly thinner, looks better.
+			* v1.0.17-b1  [A] Added Milking Machine.
+			[A] Added Mineral Smelter gravity fluid transfer.
+			[M] Window placement improved.
+			[M] Made Pipe Valve textures slightly darker to fit IE pipes better when shaded.
+			[F] Levers can be directly attached to redstone controller Pipe Valves.
+			[F] Replaced Pipe Valve early load with lazy initialized data (issue #69, thx @Siriuo).
+			* v1.0.16-b7  [M] Forge blockstates ported from 1.12 transformed to vanilla.
+			* v1.0.16-b6  [A] Made slab slice left-click pickup optional (default enabled).
+			[A] Added config option for device drops in creative mode (addresses #67),
+			[F] Fixed Panzer Glass Block submerged display (issue #68, thx WenXin20).
+			* v1.0.16-b5  [F] Fixed recipe condition bug (issue #65, thx Nachtflame for the report,
+			and gigaherz & killjoy for the help).
+			* v1.0.16-b4  [U] Updated to Forge 1.14.4-28.1.90/20190719-1.14.3.
+			[M] Increased slag brick recipe yield to 8.
+			[M] Parent specs in model files adapted.
+			* v1.0.16-b3  [A] Config options (opt-outs and tweaks) added.
+			[M] Increased clinker brick recipe yield to 8 for the builders needs.
+			* v1.0.16-b2  [A] Added Gas Concrete (including wall, stairs, slab, and slab slice).
+			[F] Fixed Small Block Breaker active model.
+			[F] Fixed item-on-ground display glitch (issue #61, thx Federsavo for the hint).
+			[F] Added two missing recipes.
+			* v1.0.16-b1  [U] Updated to Forge 1.14.4-28.1.79/20190719-1.14.3.
+			[A] Added Fluid Collection Funnel.
+			* v1.0.15-b3  [A] Added Small Block Breaker.
+			[M] Mineral Smelter fluid handler/transfer added.
+			* v1.0.15-b2  [!] Forge version requirement set to 1.14.4-28.1.68 or higher.
+			[A] Added Factory Block Placer and Planter.
+			[A] Added Small Tree Cutter.
+			* v1.0.15-b1  [A] Added Floor Edge Light.
+			[U] Updated to Forge 1.14.4-28.1.68/20190719-1.14.3.
+			* v1.0.14-b1  [U] Updated to Forge 1.14.4-28.1.40/20190719-1.14.3.
+			[A] Factory Hopper added (configurable hopper and item collector).
+			[M] Switched to integrated loot table generation.
+			[M] Lang file zh_cn updated (scikirbypoke, PR#53).
+			* v1.0.13-b2  [A] Added Steel Mesh Fence.
+			[A] Added Broad Window Sill.
+			* v1.0.12-b3  [U] Updated to Forge 1.14.4-28.1.10/20190719-1.14.3.
+			[A] Crafting Table: Added recipe collision resolver,
+			also applies to crafting history refabrication.
+			[A] Crafting Table: Added rendering of placed items
+			on the top surface of the table.
+			[A] Waterlogging of non-full-blocks added.
+			* v1.0.12-b2  [U] Updated to Forge 1.14.4-28.0.105/20190719-1.14.3.
+			[A] Small Solar Panel added.
+			[M] Items fall through the Steel Floor Grating like in 1.12.2 version.
+			[M] Factory Dropper: Added pulse/continuous mode in GUI (issue #51,
+			thx Aristine for the CR).
+			* v1.0.12-b1  [U] Updated to Forge 1.14.4-28.0.93/20190719-1.14.3.
+			[M] Logo location fixed.
+			* v1.0.11-b3  [U] Updated to Forge 1.14.4-28.0.81/20190719-1.14.3.
+			[F] Adapted recipe condition to Forge version (issue #49).
+			* v1.0.11-b2  [U] JEI dependency update 1.14.4:6.0.0.10.
+			[F] Fixed creative ghost block issue (issue #48).
+			[M] Updated ru_ru lang file (Shellyoung, PR#47).
+			* v1.0.11-b1  [A] Added Steel Table
+			[A] Added Treated Wood Side Table
+			[A] Added Exit Sign
+			[A] Added Steel Floor Grating
+			[M] Sign orientation fixed, only blocked vertical placement.
+			* v1.0.9-b9   [U] Update to Forge 1.14.4-28.0.40/20190719-1.14.3 for Forge
+			testing.
+			* v1.0.9-b8   [U] UPDATE TO 1.14.4. Forge 1.14.4-28.0.11/20190719-1.14.3.
+			* v1.0.9-b7   [U] Updated to Forge 1.14.3-27.0.60/20190719-1.14.3.
+			[F] Disabled all early implemented fuild handling of valves
+			and the Fluid Accumulator to prevent world loading
+			hang-ups (issue #42, thx TheOhmegha for reporting).
+			Will be re-enabled after fluid handling released in Forge.
+			[F] Fixed blockstate model locations for signs and crafting
+			table (issue #43, thx ProsperCraft for the beta test).
+			* v1.0.9-b6   [U] Updated to Forge 1.14.3-27.0.50/20190621-1.14.2.
+			* v1.0.9-b5   [A] Added missing recipes for slabs, stained clinker, half-slabs, valves.
+			[M] Standalone recipes adapted.
+			[F] Lang files: Fixed double newline escape.
+			[A] Implicit opt-out of hard IE dependent blocks ported (e.g. Concrete Wall).
+			[M] Basic mod config features, opt-outs and tweaks ported.
+			* v1.0.9-b4   [E] Experimental: Config skel ported (!not all options have effect yet).
+			[E] Experimental: JEI integration for opt-outs and crafting table ported
+			(also addresses issue #38).
+			* v1.0.9-b3   [F] Additional item drop fixes when blocks are destroyed (issue #39).
+			* v1.0.9-b2   [U] Updated to Forge 1.14.3-27.0.25/20190621-1.14.2.
+			[F] Fixed recipe collision of Metal Rung Ladder (issue #37,
+			thx ProsperCraft for reporting).
+			[F] Fixed opening crafting table, furni, dropper server crash
+			issue #35 (thx ProsperCraft also here).
+			[F] Fixed missing pole/support item drops (issue #36, ProsperCraft).
+			* v1.0.9-b1   [U] Updated to MC1.14.3, Forge 1.14.3-27.0.17/20190621-1.14.2.
+			[A] Added Small Mineral Smelter.
+			* v1.0.8-b3   [A] Ported slabs and slab slices from 1.12.2.
+			[A] IE independent ("standalone") recipes ported.
+			* v1.0.8-b2   [U] Updated to Forge BETA 1.14.2-26.0.63/20190621-1.14.2,
+			code adapted to new mappings.
+			[M] Updated 1st/3rd person item model rotations/translations.
+			* v1.0.8-b1   [V] Feature set of 1.12 ported.
+			[A] CTRL-SHIFT tooltips ported.
+			[A] Ported stained clinker block/stairs.
+			[M] Updated textures.
+			[I] Issue: Scoped recipe constants still not working.
+			* v1.0.7-b5   [U] Updated to Forge BETA 1.14.2-26.0.35/20190608-1.14.2.
+			[A] Factory dropper functionality ported.
+			[A] Small lab furnace functionality ported.
+			[A] Small electrical lab furnace functionality ported.
+			[A] Small waste incinerator functionality ported.
+			[A] Fluid valves, Passive Fluid Accumulator ported.
+			[I] Issue: Scoped recipe constants still not working.
+			* v1.0.7-b4   [U] Updated to Forge BETA 1.14.2-26.0.32/20190608-1.14.2.
+			[A] Sitting on the stool ported.
+			[A] Ladder climbing speed boost ported.
+			[A] Crafting table functionality ported.
+			[I] Issue: Scoped recipe constants not working yet with
+			the current Forge version (or somehow changed).
+			* v1.0.7-b3   [A] Initial 1.14.2 port of decorative blocks.
+
+		engineersdecor-1.14.4-1.0.20-b3.jar:
+			* v1.0.20-b3  [M] Labeled Crate: GUI quick-move-all (ctrl-shift click) smart move tweaked, Manual page added.
+			[F] Fixed IE ingredients based default recipes for Factory Dropper and Small Electrical Furnace.
+			[M] Factory Hopper: GUI quick-move-all added.
+			[M] Code structure, simplifications, cap invalidation fixes.
+			[M] Valves: Removed performance caching for testing purposes.
+			* v1.0.20-b2  [U] Forge version requirement set to >= 28.2.3.
+			[A] Added Labeled Crate (storage crate with built-in item frame).
+			* v1.0.20-b1  [A] Electrical Furnace: Added four-position speed switch (off, 100%, 150%, 200%), power consumption
+			increases at higher rate (off, 100%, 200%, 400%).
+			[A] Added Steel Mesh Fence Gate (single or double height gate fitting to the Steel Mesh Fence).
+			[M] Waste Incinerator processing speed tweaked.
+			* v1.0.19-b5  [A] Added right-click display of power and progress information for Block Breaker, Solar Panel, and Tree Cutter.
+			[A] Solar Panel power curve tuned.
+			[A] Mod manual 1st edition release recipe added.
+			[A] Factory Hopper: Resetting NBT when breaking with empty inventory (for stacking), enabled item cap for all sides.
+			[M] Electrical Furnace model polished.
+			* v1.0.19-b4  [A] Ported primary Immersive Engineering dependent recipes (alternative recipes
+			will still work if IE is not installed).
+			[M] Furni comparator output overrides reflect input slots and empty fuel state/power-cutoff.
+			[M] Solar Panel config: Default value for internal battery capacity increased.
+			[F] Block Placer: Shifted GUI player slots 1px to the right.
+			[A] Added mod block tags for slabs, stairs, and walls (PR#89, thanks CrudeAustin for the data).
+			[A] Added experimental Patchouli manual (creative only).
+			[!] Skipped blacklisting Treated Wood Crafting Table slots for the inventorysorter mod due
+			to potential startup crashes for single player games (issue #88 fix deferred).
+			* v1.0.19-b3  [M] Config tweaks: Value limit ranges increased to facilitate modpacking.
+			[A] Factory Hopper: Added bottom item handler (CR#227).
+			[M] Block shapes refined.
+			[F] Fixed duping bug (issue #87, thx Nachtflame)
+			* v1.0.19-b2  [F] Fixed Floor Grating item pass-through jitters (thx Cid).
+			[M] Removed obsolete recipe collision testing recipes.
+			[F] Fixed missing Block Breaker dynamic block drops.
+			[F] Block Placer planting race condition issue fixed (issue #83, thx jcardii).
+			[F] Factory Hopper: Added second standard insertion after smart-insert to circumcent compat issues (issue #84, thx NillerMedDild).
+			* v1.0.19-b1  [F] Fixed Tree Cutter / Block Breaker not accepting small energy transfers (thx WindFox, issue #82).
+			* v1.0.18-b4  [M] Lang update ru_ru (PR#77, thanks Smollet777).
+			[F] Fixed Milking machine cow path issue, added milking delay cow tracking.
+			[F] Slab / Slab Slice placement adapted to vanilla standard.
+			* v1.0.18-b3  [A] Added Treated Wood Crafting table tweaks (ctrl-shift moves all same stacks from the
+			inventory, mouse wheel over crafting slot increases/decreases crafting grid stacks).
+			[F] EN Lang file fixed (issue #76, thx Riverstar907).
+			[F] Fixed Tree Cutter not respecting power-required config (thx federsavo, issue #77).
+			[F] Fixed Small Solar Panel not exposing energy capability (thx MatthiasMann, issue #78).
+			* v1.0.18-b2  [F] Fixed JEI integration warning if nothing is opt'ed out (thx @SDUBZ for reporting).
+			[M] Lang ru_ru updated (Smollet777).
+			* v1.0.18-b1  [U] Updated to Forge 1.14.4-28.1.109/20190719-1.14.3.
+			[A] Added opt-out config for the Small Tree Cutter.
+			* v1.0.17-b3  [F] Double newline escapes in lang files fixed ("\n" in a tooltip).
+			[M] Updated zh_cn lang file (scikirbypoke).
+			* v1.0.17-b2  [A] Reverse recipes for slabs and slab slices added.
+			[M] Inset Floor Edge Light slightly thinner, looks better.
+			* v1.0.17-b1  [A] Added Milking Machine.
+			[A] Added Mineral Smelter gravity fluid transfer.
+			[M] Window placement improved.
+			[M] Made Pipe Valve textures slightly darker to fit IE pipes better when shaded.
+			[F] Levers can be directly attached to redstone controller Pipe Valves.
+			[F] Replaced Pipe Valve early load with lazy initialized data (issue #69, thx @Siriuo).
+			* v1.0.16-b7  [M] Forge blockstates ported from 1.12 transformed to vanilla.
+			* v1.0.16-b6  [A] Made slab slice left-click pickup optional (default enabled).
+			[A] Added config option for device drops in creative mode (addresses #67),
+			[F] Fixed Panzer Glass Block submerged display (issue #68, thx WenXin20).
+			* v1.0.16-b5  [F] Fixed recipe condition bug (issue #65, thx Nachtflame for the report,
+			and gigaherz & killjoy for the help).
+			* v1.0.16-b4  [U] Updated to Forge 1.14.4-28.1.90/20190719-1.14.3.
+			[M] Increased slag brick recipe yield to 8.
+			[M] Parent specs in model files adapted.
+			* v1.0.16-b3  [A] Config options (opt-outs and tweaks) added.
+			[M] Increased clinker brick recipe yield to 8 for the builders needs.
+			* v1.0.16-b2  [A] Added Gas Concrete (including wall, stairs, slab, and slab slice).
+			[F] Fixed Small Block Breaker active model.
+			[F] Fixed item-on-ground display glitch (issue #61, thx Federsavo for the hint).
+			[F] Added two missing recipes.
+			* v1.0.16-b1  [U] Updated to Forge 1.14.4-28.1.79/20190719-1.14.3.
+			[A] Added Fluid Collection Funnel.
+			* v1.0.15-b3  [A] Added Small Block Breaker.
+			[M] Mineral Smelter fluid handler/transfer added.
+			* v1.0.15-b2  [!] Forge version requirement set to 1.14.4-28.1.68 or higher.
+			[A] Added Factory Block Placer and Planter.
+			[A] Added Small Tree Cutter.
+			* v1.0.15-b1  [A] Added Floor Edge Light.
+			[U] Updated to Forge 1.14.4-28.1.68/20190719-1.14.3.
+			* v1.0.14-b1  [U] Updated to Forge 1.14.4-28.1.40/20190719-1.14.3.
+			[A] Factory Hopper added (configurable hopper and item collector).
+			[M] Switched to integrated loot table generation.
+			[M] Lang file zh_cn updated (scikirbypoke, PR#53).
+			* v1.0.13-b2  [A] Added Steel Mesh Fence.
+			[A] Added Broad Window Sill.
+			* v1.0.12-b3  [U] Updated to Forge 1.14.4-28.1.10/20190719-1.14.3.
+			[A] Crafting Table: Added recipe collision resolver,
+			also applies to crafting history refabrication.
+			[A] Crafting Table: Added rendering of placed items
+			on the top surface of the table.
+			[A] Waterlogging of non-full-blocks added.
+			* v1.0.12-b2  [U] Updated to Forge 1.14.4-28.0.105/20190719-1.14.3.
+			[A] Small Solar Panel added.
+			[M] Items fall through the Steel Floor Grating like in 1.12.2 version.
+			[M] Factory Dropper: Added pulse/continuous mode in GUI (issue #51,
+			thx Aristine for the CR).
+			* v1.0.12-b1  [U] Updated to Forge 1.14.4-28.0.93/20190719-1.14.3.
+			[M] Logo location fixed.
+			* v1.0.11-b3  [U] Updated to Forge 1.14.4-28.0.81/20190719-1.14.3.
+			[F] Adapted recipe condition to Forge version (issue #49).
+			* v1.0.11-b2  [U] JEI dependency update 1.14.4:6.0.0.10.
+			[F] Fixed creative ghost block issue (issue #48).
+			[M] Updated ru_ru lang file (Shellyoung, PR#47).
+			* v1.0.11-b1  [A] Added Steel Table
+			[A] Added Treated Wood Side Table
+			[A] Added Exit Sign
+			[A] Added Steel Floor Grating
+			[M] Sign orientation fixed, only blocked vertical placement.
+			* v1.0.9-b9   [U] Update to Forge 1.14.4-28.0.40/20190719-1.14.3 for Forge
+			testing.
+			* v1.0.9-b8   [U] UPDATE TO 1.14.4. Forge 1.14.4-28.0.11/20190719-1.14.3.
+			* v1.0.9-b7   [U] Updated to Forge 1.14.3-27.0.60/20190719-1.14.3.
+			[F] Disabled all early implemented fuild handling of valves
+			and the Fluid Accumulator to prevent world loading
+			hang-ups (issue #42, thx TheOhmegha for reporting).
+			Will be re-enabled after fluid handling released in Forge.
+			[F] Fixed blockstate model locations for signs and crafting
+			table (issue #43, thx ProsperCraft for the beta test).
+			* v1.0.9-b6   [U] Updated to Forge 1.14.3-27.0.50/20190621-1.14.2.
+			* v1.0.9-b5   [A] Added missing recipes for slabs, stained clinker, half-slabs, valves.
+			[M] Standalone recipes adapted.
+			[F] Lang files: Fixed double newline escape.
+			[A] Implicit opt-out of hard IE dependent blocks ported (e.g. Concrete Wall).
+			[M] Basic mod config features, opt-outs and tweaks ported.
+			* v1.0.9-b4   [E] Experimental: Config skel ported (!not all options have effect yet).
+			[E] Experimental: JEI integration for opt-outs and crafting table ported
+			(also addresses issue #38).
+			* v1.0.9-b3   [F] Additional item drop fixes when blocks are destroyed (issue #39).
+			* v1.0.9-b2   [U] Updated to Forge 1.14.3-27.0.25/20190621-1.14.2.
+			[F] Fixed recipe collision of Metal Rung Ladder (issue #37,
+			thx ProsperCraft for reporting).
+			[F] Fixed opening crafting table, furni, dropper server crash
+			issue #35 (thx ProsperCraft also here).
+			[F] Fixed missing pole/support item drops (issue #36, ProsperCraft).
+			* v1.0.9-b1   [U] Updated to MC1.14.3, Forge 1.14.3-27.0.17/20190621-1.14.2.
+			[A] Added Small Mineral Smelter.
+			* v1.0.8-b3   [A] Ported slabs and slab slices from 1.12.2.
+			[A] IE independent ("standalone") recipes ported.
+			* v1.0.8-b2   [U] Updated to Forge BETA 1.14.2-26.0.63/20190621-1.14.2,
+			code adapted to new mappings.
+			[M] Updated 1st/3rd person item model rotations/translations.
+			* v1.0.8-b1   [V] Feature set of 1.12 ported.
+			[A] CTRL-SHIFT tooltips ported.
+			[A] Ported stained clinker block/stairs.
+			[M] Updated textures.
+			[I] Issue: Scoped recipe constants still not working.
+			* v1.0.7-b5   [U] Updated to Forge BETA 1.14.2-26.0.35/20190608-1.14.2.
+			[A] Factory dropper functionality ported.
+			[A] Small lab furnace functionality ported.
+			[A] Small electrical lab furnace functionality ported.
+			[A] Small waste incinerator functionality ported.
+			[A] Fluid valves, Passive Fluid Accumulator ported.
+			[I] Issue: Scoped recipe constants still not working.
+			* v1.0.7-b4   [U] Updated to Forge BETA 1.14.2-26.0.32/20190608-1.14.2.
+			[A] Sitting on the stool ported.
+			[A] Ladder climbing speed boost ported.
+			[A] Crafting table functionality ported.
+			[I] Issue: Scoped recipe constants not working yet with
+			the current Forge version (or somehow changed).
+			* v1.0.7-b3   [A] Initial 1.14.2 port of decorative blocks.
+
+	Extreme sound muffler (Forge) (Extreme sound muffler Beta 1.1 --> extremeSoundMuffler-1.1_forge-1.14.4):
+		extremeSoundMuffler-1.1_forge-1.14.4:
+			Fixed server crash (The mod can now be loaded in the server but it wont do anything)
+			Added config to disable/enable the Muffle button in the player inventory.
+
+		extremeSoundMuffler-1.0_forge-1.14.4:
+			After a little thinking, i move this mod to Client Side.
+			The point of this mod is mute those unwanted sounds, and having blocks all over the world does add nothing to the gameplay nor the purpose of the mod.
+			*
+			* Mod is now client side
+			* added a button in the player inventory to open the GUI
+			* added keybinding (empty by default)
+			* added search bar
+			* added a button for turning muffled sounds on/off temporarily
+			* sound list in now saved in the profile folder
+			* added a config for blacklisting sounds
+
+	Gauges and Switches (rsgauges-1.14.4-1.2.2-b2.jar --> rsgauges-1.14.4-1.2.2.jar):
+		rsgauges-1.14.4-1.2.2.jar:
+			-------------------------------------------------------------------
+			* v1.2.2     [R] Release build v1.2.2. Release-to-release changes:
+			* Valve Switch added.
+			* Elevator Button added.
+			* Minor fixes.
+			-------------------------------------------------------------------
+			* v1.2.2-b2  [A] Elevator Switch added.
+			* v1.2.2-b1  [A] Added Valve Switch (idea and model by Jack Mazz).
+			-------------------------------------------------------------------
+			* v1.2.1     [R] Release build v1.2.1. Release-to-release changes:
+			* Industrial Comparator Switch added.
+			-------------------------------------------------------------------
+			* v1.2.1-b1  [A] Added Industrial Comparator Switch.
+			-------------------------------------------------------------------
+			* v1.2.0     [R] Release build v1.2.0.
+			-------------------------------------------------------------------
+			* v1.2.0-b2  [F] Fixed JEI integration warning if nothing is opt'ed out (thx @SDUBZ).
+			[A] Added GIT version logging.
+			[M] Lang en_us: Sensitive Glass block names adapted (issue #15, thx Dimentive).
+			* v1.2.0-b1  [A] Added JEI integration.
+			[M] All Forge blockstates transformed to vanilla format.
+			[M] Model "vanillafication" rework, part 2.
+			[D] Removed obsolete switches (registry not affected).
+			[M] Recipes simplified, recipe conditions unified.
+			[M] Code updates for version compatibility.
+			[A] All block are waterloggable (including Sensitive glass).
+			* v1.1.10-b3  [M] Strong power output of levers and buttons also output weak power
+			to all sides (like vanilla levers).
+			[M] Touch config for automatic switches (small buttons on the devices)
+			are not restricted anymore to using the empty hand.
+			* v1.1.10-b2  [M] Global parent definition in model files updated.
+			[M] Language file updates.
+			* v1.1.10-b1  [F] Indicator-powered check modified to support accepting direct strong
+			power from blocks which normally cannot provide power.
+			[M] Made metallic switch textures slightly lighter.
+			* v1.1.9-b2   [F] Fixed switch link relay input bug (issue #14, thx wieselkatz!).
+			[F] Fixed optional-recipe condition for know switches.
+			* v1.1.9-b1   [U] Updated to Forge 1.14.4-28.1.69/20190719-1.14.3.
+			* v1.1.8-b4   [U] Updated to Forge 1.14.4-28.1.44/20190719-1.14.3.
+			* v1.1.8-b3   [U] Updated to Forge 1.14.4-28.1.10/20190719-1.14.3.
+			[A] Knock switches (seismic adjacent block click detectors) added.
+			* v1.1.8-b2   [U] Updated to Forge 1.14.4-28.0.81/20190719-1.14.3, recipe
+			condition processing adapted accordingly.
+			* v1.1.8-b1   [F] Fixed contact switch sound issue.
+			[A] Added right-click switch configuration with Redstone Dust,
+			Ender Pearl or Switch Link Pearl.
+			[M] Industrial door contact mat model changed.
+			[M] Industrial sensitive contact mat model changed.
+			[M] Industrial shock sensitive contact mat model changed.
+			[M] Industrial cased link receiver models changed.
+			[M] Industrial block detector model changed.
+			[M] Industrial trapdoor switch models changed.
+			[M] Industrial dimmer model changed.
+			* v1.1.7-b2   [A] Entity detectors have configurable pulse time.
+			[M] Industrial bistable switch model changes ported
+			from 1.12.
+			* v1.1.6-b1   [A] Color tint support of gauges, glass switches,
+			and sensitive glass ported.
+			[M] Block detector switch patterns support tags.
+			* v1.1.5-b1   [A] Initial 1.12.2 to 1.14.4 port of all
+			features except color tinting and
+			Forge ore dictionary dependent blocks.
+
+	Mystical World (mysticalworld-1.14.4-1.7.2.jar --> mysticalworld-1.14.4-1.9.0.jar):
+		mysticalworld-1.14.4-1.9.0.jar:
+			* Cracked stone (texture work in progress) and blocks
+			* Soft stone and decorative blocks
+			* Soft obsidian
+			* Blackened stone
+			* Various heads (no way to obtain)
+			* Various cordials (all except dandelion give slow regen, dandelion resets your sleep/phantom counter)
+			* Various salads!
+			* Entirely convert to Registrate
+			* Spears no longer give reach (and will be reimplemented)
+			* More things can be composted.
+			* Thatch is now available in decorative forms
+			* Updated all recipes using damageable items
+			* When you have a beetle on your shoulder, parrots won't land on it
+			* Beetles properly sit
+			* New recipe for better rockets using blaze powder instead of gunpowder
+			* New texture for unripe pearl -> young pearl (thanks kat!)
+			* Iron bricks
+			* Smite/blessed effect only affects creatures if it would damage them
+			* Fix ore tags
+
+	MysticalLib (mysticallib-1.14.4-1.14.0.jar --> mysticallib-1.14.4-1.16.1.jar):
+		mysticallib-1.14.4-1.16.1.jar:
+			* Fix incompatibility with Firefly
+
+		mysticallib-1.14.4-1.16.0.jar:
+			* Upgrade to Registrate, dump a lot of library-related functions.
+
+	Powah! (Powah-1.14.4-0.2.7.jar --> Powah-1.14.4-0.2.8.jar):
+		Powah-1.14.4-0.2.8.jar:
+			0.2.8
+			* Fixed reactor generating the base value instead of what the GUI says.
+			0.2.7
+			* Added spanish localization thanks to ruchom4u.
+			* Fixed reactor tooltip showing in the configuration screen.
+			0.2.6
+			* Added comparator output support for the energizing orb.
+			* Tweaked passive generation a bit.
+			* fixed random bugs (mostly rendering bugs).
+			0.2.5
+			* Fixed some textures are missing Closes #28.
+			0.2.4
+			* Fixed server crash (forgot to set required lollipop version to v0.0.23) Closes #26.
+			* Clean up.
+			0.2.3
+			* Added Dry Ice Block (Generated under ground of cold biomes, used as solid coolant).
+			* Added world gen config options.
+			* Fixed Game crash on right click block with container Closes #24.
+			0.2.2
+			Added Solid coolant category to JEI.
+			Fixed Uraninite Ores has no hardness.
+			0.2.0
+			* Added Reactors (A multi-block (FE) generator).
+			* Added Uraninite Ore, Raw Uraninite and Uraninite.
+			* Added CraftTweaker support for the energizing recipes.
+			* Added a guide book (Mod Manual).
+			* Removed JEI info because now there is a guide book.
+			* Fixed a lots of bugs.
+			* Updated Lollipop to 0.0.23.
+			0.1.11
+			* Fixed Crash when adding binding card to player transmitter Closes #18.
+			* Updated Lollipop to 0.0.22.
+			0.1.10
+			* Fix Crash with Optifine closes #16.
+			0.1.9
+			* Added Ender Cell (A type of Energy Cell that can store energy to the owner ender network).
+			* Added Ender Gate (Transfer energy between the adjacent block and the ender network).
+			* Added Ender Core (like dielectric casing).
+			* Improved Cables rendering when attaching to a FE provider.
+			* Fixed some block name are invisible in the gui.
+			* Fixed Solar panels Day/Night time calculation.
+			* Updated Lollipop to 0.0.21.
+			0.1.7 & 0.1.8
+			* New Wrench "Link" mode.
+			* Now you can re-link Energizing Rod to any Energizing Orb in range.
+			* When holding a Wrench with "Link" mode will show you linked orbs and rods.
+			* Improved Energizing Rod beam so rendering better now.
+			* Clean up JEI info text a bit.
+			* Updated Lollipop to 0.0.20
+			0.1.6
+			* Fixed wrench in player's inventory causes server-side Exception Closes #15.
+			0.1.5
+			* Fixed energy transfer when one cable between two blocks in the same line
+			0.1.4
+			* Fixed Cables compatibility with some mods like rftools...
+			* Improved cables performance more.
+			* Fixed Energizing rod FE block recognition.
+			* Updated Lollipop to 0.0.19.
+			0.1.3
+			* Fixed Energizing Orb recipe not working when world/chunk load.
+			0.1.2
+			* Fixed coal generator it will only take one piece at a time closes #12.
+			0.1.1
+			* Fixed crash when you right click with an item on energizing orb closes #10
+			0.1.0
+			* Added Energizing Orb (Used to energize items, require at least one Energizing Rod in a configurable range to work).
+			* Added Energizing Rods (Used to energize items inside an Energizing Orb).
+			* Added Energised Steel, Blazing Crystal, Niotic Crystal and Spirited Crystal.
+			* Added Charged Snowball (When thrown will cause lightning).
+			* Added Hardened Capacitor.
+			* Changed some crafting recipes using the new materials.
+			* Updated Lollipop to 0.0.18
+			0.0.22
+			* Improved items/blocks textures a bit, re-balanced colors and contrast too.
+			0.0.21
+			* Added Energy Hopper (a block that Charge chargeable items in an adjacent inventory).
+			* Re-Fixed game crash when trying to rotate cables and Energy Cells with wrench.
+			* Updated Lollipop to 0.0.17
+			0.0.20
+			* Fixed game crash when trying to rotate cables with wrench.
+			* Updated Lollipop to 0.0.16
+			0.0.19
+			* Now Wrench has two modes (Wrench, Rotate)
+			* Updated Lollipop to 0.0.15
+			0.0.17
+			* Added JEI support for Magmatic generator fluids and Thermoelectric generator heat source blocks and coolant fluids.
+			* Added Magmatic Block to Thermoelectric generator heat source list with heat of 1200.
+			* Fixed Thermoelectric generator generation when is more than 100%.
+			0.0.16
+			* Added Thermoelectric Generator (Generates FE when placed on top of a high temp block/fluid like lava...,require a coolant fluid like water.)
+			* Updated Lollipop to 0.0.14
+			* IMPORTANT NOTE!!, Moved Magmatic fluid list config to Magmatic_Generator.toml
+			0.0.15
+			* Player Transmitter charge player inventory before Curios inventory now.
+			* Fix some blocks not dropping closes #8
+			0.0.14
+			* Added compatibility with "Curios" mod (Player transmitter charge items in "Curios" inventory)
+			* Fixed some water logging issues
+			* Updated Lollipop to 0.0.13
+			0.0.13
+			* Fixed Energy cables are transferring to the first block only.
+			now should transfer to all blocks correctly
+			0.0.12
+			* Most blocks are water logged now
+			* Now you can place Player Transmitter on cables.
+			0.0.11
+			* Fixed Energy cables energy leak
+			* Added config for energy per fuel tick in furnator.toml
+			* Fixed bugs.
+			0.0.10
+			* Added Energy Discharger (Used to drain energy from items and keep it, can hold up to 4 items).
+			* Added config for every block capacity, transfer, generation etc...
+			* Fixed generation consumption leak.
+			* Edited Furnator texture a bit.
+			* Fixed more bugs.
+			* Fixed Magmatic Generator fluid capacity.
+
+	Rats (rats-4.0.2-1.14.4 --> rats-4.1.0-1.14.4):
+		rats-4.1.0-1.14.4:
+			-Added Rattling Guns, a new powerful weapon that can be manned by a rat placed onto it.
+			-Added Ratlantean Ratbot, a new robotic mob that spawns in ratlantis
+			-Added Rat Upgrade: Undead, allowing a rat to blend in with hostile mobs
+			-Added Rat Upgrade: Basic Mount, a new crafting ingredient for many new rat upgrades
+			-Added Rat Upgrade: Chicken Mount, which summons a chicken mount for its user
+			-Added Rat Upgrade: Golem Mount, which summons a iron golem mount for its user
+			-Added Rat Upgrade: Beast Mount, which summons a feral ratlantean mount for its user
+			-Added Rat Upgrade: Automaton Mount, which summons a ratlantean automaton mount for its user
+			-Added Rat Skull
+			-Added Golden Rat Skull
+			-Added Party Hats
+			-Added new model and animation for Ratlantean Automaton Head
+			-Modified many recipes
+			-Fixed Rat Upgrade: Miner not functioning on dedicated servers
+			-Fixed crash with Rat crafting table
+			-Fixed crash with Curdling Station
+			-Fixed crash with nametags and rats
+			-Fixed crash with Rat Upgrade: Planter
+			-Fixed rats not spawning naturally asides from pied piper
+			-Fixed potion effects missing textures
+			-Fixed missing advancements
+
+	Simply Backpacks (simplybackpacks-1.14.4-1.4.3.jar --> simplybackpacks-1.14.4-1.4.5.jar):
+		simplybackpacks-1.14.4-1.4.5.jar:
+			Fixed auto pickup status not showing in tooltip if disabled.
+			Added auto pickup switch in the filter GUI.
+
+	Xaero's Minimap (v20.5.2 for Minecraft 1.14.4 --> v20.7.1 for Minecraft 1.14.4):
+		v20.7.1 for Minecraft 1.14.4:
+			+ Added a new mode for editing multiple waypoints at once that lets you go/scroll through the selected waypoints and making changes one-by-one instead of only being able to apply the same change to all selected waypoints at once. A new button for switching the mode is added to the waypoint edit screen.
+
+		v20.6.0 for Minecraft 1.14.4:
+			+ Added compatibility with the waypoints sharing format that will be used in the future (after enough people get at least this version of the mod). The format change is needed for compatibility with text formatting from FTB Utilities + similar mods.
+			+ Added a simple API for adding/removing custom waypoints with your own mod. This was requested for a specific use case but everyone will have access to it.
+			Use xaero.common.minimap.waypoints.WaypointsManager.getCustomWaypoints(String modName) to get your own waypoints table for your "modName".
+			Use constructor xaero.common.minimap.waypoints.Waypoint(int x, int y, int z, String name, String symbol, int colorId (0 - 15)) to create new waypoints that you can add to your table.
+			* Fixed waypoints sharing not working properly when the share message has text formatting. For example, when the waypoint name looks like a link, there is automatic formatting applied, which broke stuff.
+
+	Xaero's World Map (v1.5.6 for Minecraft 1.14.4 --> v1.5.7 for Minecraft 1.14.4):
+		v1.5.7 for Minecraft 1.14.4:
+			* Fixed compatibility with Optifine.
+			* Fixed compatibility with "fake" worlds (for example bspkrsCore title screen entities).
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
