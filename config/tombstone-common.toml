@@ -5,11 +5,19 @@
 	log_player_grave = true
 	#Prevents death outside of world borders [false/true|default:false]
 	prevent_death_outside_world = false
+	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
+	#Range: -1 ~ 1440
+	cooldown_teleport_bind = -1
 	#Allows player's graves to appear in water [false/true|default:true]
 	allow_grave_in_water = true
 	#The chance that creatures appear after the contents of a grave are retrieved [0..100|default:0]
 	#Range: 0 ~ 100
 	chance_mob_on_grave_recovery = 0
+	#Fishing treasures can only be found in open water [false/true|default:true]
+	fishing_treasure_in_open_water = true
+	#Cooldown in minutes to use the command tbteleportdeath [-1..1440|default:-1]
+	#Range: -1 ~ 1440
+	cooldown_teleport_death = -1
 	#The chance that some items are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	chance_loss_on_death = 0
@@ -51,7 +59,7 @@
 	unhandled_harmful_effects = ["minecraft:nausea"]
 	#Enables PvP mode, which allows players to open graves of players they kill [false/true|default:false]
 	pvp_mode = false
-	#Cooldown in minutes to use the command tbrequestteleport [-1..1440|default:15]
+	#Cooldown in minutes to use the command tbrequestteleport [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_request_teleport = -1
 	#Whether to handle player death [false/true|default:true]
@@ -126,7 +134,7 @@
 	#Enables to backup automatically dead familiars [false/true|default:true]
 	recovery_familiar_enable = true
 	#Time in minutes between players' backups [10..1000|default:40]
-	#Range: 10 ~ 1000
+	#Range: 5 ~ 1000
 	recovery_player_timer = 30
 	#Backup players on death [false/true|default:false]
 	backup_on_death = false
