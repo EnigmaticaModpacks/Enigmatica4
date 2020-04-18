@@ -514,8 +514,8 @@ var materials as MCTag[string][string] = {
     // }
 }; 
 
-for material, types in materials {
-    mysticalWorld_smeltingAndBlasting_nugget_from_equipment(material);
-    minecraft_smeltingAndBlasting_ingot_from_ore(material);
-    minecraft_smeltingAndBlasting_ingot_from_dust(material);
-}
+// for material, types in materials {
+//     mysticalWorld_smeltingAndBlasting_nugget_from_equipment(material);
+//     minecraft_smeltingAndBlasting_ingot_from_ore(material);
+//     minecraft_smeltingAndBlasting_ingot_from_dust(material);
+// }
