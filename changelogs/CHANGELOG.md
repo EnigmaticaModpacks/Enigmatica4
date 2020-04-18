@@ -1,6 +1,68 @@
+## Enigmatica 4 v0.5.3
+
+#### Make sure to backup your world before updating! 
+
+There is a chance that this new update does not work with your current world. At the very least blocks from Create will be removed when updating from 0.4.x or prior.
+
+*Forge-1.14.4-28.2.3*
+
+
+
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_0.5.3.txt)*
+
+
+
+**Added Mods**
+
+- 
+
+**Removed Mods**
+
+* 
+
+**Changes**
+
+* 
+
+**Fixed bugs**
+
+- 
+
+## Enigmatica 4 v0.5.2
+
+#### Make sure to backup your world before updating! 
+
+There is a chance that this new update does not work with your current world. At the very least blocks from Create will be removed when updating from 0.4.x or prior.
+
+*Forge-1.14.4-28.2.3*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_0.5.2.txt)*
+
+**Added Mods**
+
+- StepUp \(Off by default\) [\#361](https://github.com/NillerMedDild/Enigmatica4/issues/361)
+- Stone Catalysts [\#359](https://github.com/NillerMedDild/Enigmatica4/issues/359)
+
+**Removed Mods**
+
+* Inventory Tweaks: Reborn (It was removed from CurseForge, had to remove it from the pack)
+
+**Changes**
+
+* Fixes some Blast Furnace recipes taking the same time as their Furnace equivalents
+* Nerf Ore Excavation - Apply higher hunger toll [\#366](https://github.com/NillerMedDild/Enigmatica4/issues/366)
+* "Unlocked" OreExcavation - It can be used on all blocks [\#363](https://github.com/NillerMedDild/Enigmatica4/issues/363)
+* Tetra Tier4/5 without worldgen [\#343](https://github.com/NillerMedDild/Enigmatica4/issues/343)
+
+**Fixed bugs**
+
+- Copper Ore from Create spawning [\#354](https://github.com/NillerMedDild/Enigmatica4/issues/354)
+- Broken Linux Launch Script  [\#336](https://github.com/NillerMedDild/Enigmatica4/issues/336)
+- Minecolonies mod issue [\#325](https://github.com/NillerMedDild/Enigmatica4/issues/325)
+
 ## Enigmatica 4 v0.5.1
 
 #### Make sure to backup your world before updating! 
+
 There is a chance that this new update does not work with your current world. At the very least blocks from Create will be removed when updating from 0.4.x or prior.
 
 *Forge-1.14.4-28.2.3*
@@ -24,9 +86,11 @@ There is a chance that this new update does not work with your current world. At
 - Just Enough Resources \(JER\) not working  [\#293](https://github.com/NillerMedDild/Enigmatica4/issues/293)
 - Tool Tip issue RFTools Storage [\#177](https://github.com/NillerMedDild/Enigmatica4/issues/177)
 - RFTools GUI crash [\#176](https://github.com/NillerMedDild/Enigmatica4/issues/176)
+
 ## Enigmatica 4 v0.5.0
 
 ### This is a major update, make sure to backup your world before updating! 
+
 There is a chance that this new update does not work with your current world. At the very least blocks from Create will be removed when updating from 0.4.x or prior.
 
 *Forge-1.14.4-28.2.3*
@@ -110,6 +174,7 @@ There is a chance that this new update does not work with your current world. At
 **Failed, servers could not start**
 
 ## Enigmatica 4 v0.4.5
+
 *Forge-1.14.4-28.2.0*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
 
@@ -130,6 +195,7 @@ There is a chance that this new update does not work with your current world. At
 - Recipe confict: Amethyst swords [\#270](https://github.com/NillerMedDild/Enigmatica4/issues/270) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 
 ## Enigmatica 4 v0.4.4
+
 *Forge-1.14.4-28.1.109*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
 
@@ -147,6 +213,7 @@ There is a chance that this new update does not work with your current world. At
 - Bonsai Tree 2 not working on Server [\#261](https://github.com/NillerMedDild/Enigmatica4/issues/261)
 
 ## Enigmatica 4 v0.4.3
+
 *Forge-1.14.4-28.1.109*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
 
@@ -164,6 +231,7 @@ There is a chance that this new update does not work with your current world. At
 - Crafting Station crashing while not having adjacent chests/furnaces (tile entities) etc.
 
 ## [Enigmatica 4 v0.4.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.2)
+
 *Forge-1.14.4-28.1.109*
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/CHANGELOG-MODS.md)*
 
@@ -199,6 +267,7 @@ There is a chance that this new update does not work with your current world. At
 - Everlasting Abilities Flight non-functional, because of Angel Ring issue [\#242](https://github.com/NillerMedDild/Enigmatica4/issues/242)
 
 ## [Enigmatica 4 v0.4.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.1)
+
 *Forge-1.14.4-28.1.109*
 
 **Changes**
@@ -217,6 +286,7 @@ There is a chance that this new update does not work with your current world. At
 - Items with NBT act badly inside the vanilla crafting table [\#169](https://github.com/NillerMedDild/Enigmatica4/issues/169)
 
 ## [Enigmatica 4 v0.4.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.4.0)
+
 *Forge-1.14.4-28.1.109*
 
 **Changes**
@@ -225,6 +295,7 @@ There is a chance that this new update does not work with your current world. At
 - Add Toolkit [\#216](https://github.com/NillerMedDild/Enigmatica4/issues/216) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 
 ## [Enigmatica 4 v0.3.7](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.7)
+
 *Forge-1.14.4-28.1.109*
 
 **Changes**
@@ -239,6 +310,7 @@ There is a chance that this new update does not work with your current world. At
 - Watering Can doesn't water while looking at crops. [\#181](https://github.com/NillerMedDild/Enigmatica4/issues/181)
 
 ## [Enigmatica 4 v0.3.6](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.6)
+
 *Forge-1.14.4-28.1.103*
 
 **Changes**
@@ -253,6 +325,7 @@ There is a chance that this new update does not work with your current world. At
 - Fluidtanks issues [\#208](https://github.com/NillerMedDild/Enigmatica4/issues/208)
 
 ## [Enigmatica 4 v0.3.5](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.5)
+
 *Forge-1.14.4-28.1.103*
 
 **Changes**
@@ -291,6 +364,7 @@ There is a chance that this new update does not work with your current world. At
 - Crash KubeJS [\#190](https://github.com/NillerMedDild/Enigmatica4/issues/190)
 
 ## [Enigmatica 4 v0.3.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.4)
+
 *Forge-1.14.4-28.1.103*
 
 **Fixed bugs**
@@ -298,6 +372,7 @@ There is a chance that this new update does not work with your current world. At
 - Servers being unable to start. Had to remove EntitySpring to resolve the issue.
 
 ## [Enigmatica 4 v0.3.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.3)
+
 *Forge-1.14.4-28.1.103*
 
 **Changes**
@@ -313,6 +388,7 @@ There is a chance that this new update does not work with your current world. At
 - Ender Biotite from Quark can't be veinmined [\#187](https://github.com/NillerMedDild/Enigmatica4/issues/187) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 
 ## [Enigmatica 4 v0.3.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.3.2) 
+
 *Forge-1.14.4-28.1.103*
 
 **Changes**
@@ -409,6 +485,7 @@ There is a chance that this new update does not work with your current world. At
 - Swing through grass not working on servers (I removed it from the server files, d'oh)
 
 ## [Enigmatica 4 v0.2.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.1)
+
 *Forge-1.14.4-28.1.74*
 
 **Changes**
@@ -421,9 +498,11 @@ There is a chance that this new update does not work with your current world. At
 - Server crash caused by mobrenderer
 
 ## [Enigmatica 4 v0.2.0](https://github.com/NillerMedDild/Enigmatica4/tree/0.2.0) 
+
 *Forge-1.14.4-28.1.69*
 
 **Changes**
+
 - Add Corail Tombstone [\#92](https://github.com/NillerMedDild/Enigmatica4/issues/92) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Common Capabilities [\#98](https://github.com/NillerMedDild/Enigmatica4/issues/98) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
 - Add Flopper [\#97](https://github.com/NillerMedDild/Enigmatica4/issues/97) [[Mod](https://github.com/NillerMedDild/Enigmatica4/labels/Mod)]
@@ -436,6 +515,7 @@ There is a chance that this new update does not work with your current world. At
 - Game Crash - Squid & Armor issues [\#93](https://github.com/NillerMedDild/Enigmatica4/issues/93)
 
 ## [Enigmatica 4 v0.1.9](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.9) 
+
 *Forge-1.14.4-28.1.69*
 
 **Fixed bugs**
@@ -443,6 +523,7 @@ There is a chance that this new update does not work with your current world. At
 - Server files no longer have client mods in them.
 
 ## Enigmatica 4 v0.1.8
+
 *Forge-1.14.4-28.1.69*
 
 **Implemented enhancements**
@@ -531,8 +612,11 @@ There is a chance that this new update does not work with your current world. At
 - Server files are missing all top-level server-only files [\#29](https://github.com/NillerMedDild/Enigmatica4/issues/29)
 
 ## [0.1.4](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.4) 
+
 ## [0.1.3](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.3) 
+
 ## [0.1.2](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.2)
+
 ## [0.1.1](https://github.com/NillerMedDild/Enigmatica4/tree/0.1.1)
 
 **Implemented enhancements**

@@ -382,17 +382,17 @@ var materials as MCTag[string][string] = {
         "sheet": <tag:forge:sheets/diamond>
     },
 
-    "lapis_lazuli": {
-        "nugget": <tag:forge:nuggets/lapis_lazuli>,
-        "ingot": <tag:forge:ingots/lapis_lazuli>,
-        "block": <tag:forge:storage_blocks/lapis_lazuli>,
-        "ore": <tag:forge:ores/lapis_lazuli>,
-        "dust": <tag:forge:dusts/lapis_lazuli>,
-        //"fluid": <fluid:forge:fluids/lapis_lazuli>,
-        "gear": <tag:forge:gears/lapis_lazuli>,
-        "plate": <tag:forge:plates/lapis_lazuli>,
-        "rod": <tag:forge:rods/lapis_lazuli>,
-        "sheet": <tag:forge:sheets/lapis_lazuli>
+    "lapis": {
+        "nugget": <tag:forge:nuggets/lapis>,
+        "ingot": <tag:forge:ingots/lapis>,
+        "block": <tag:forge:storage_blocks/lapis>,
+        "ore": <tag:forge:ores/lapis>,
+        "dust": <tag:forge:dusts/lapis>,
+        //"fluid": <fluid:forge:fluids/lapis>,
+        "gear": <tag:forge:gears/lapis>,
+        "plate": <tag:forge:plates/lapis>,
+        "rod": <tag:forge:rods/lapis>,
+        "sheet": <tag:forge:sheets/lapis>
     },
 
     "emerald": {
@@ -521,6 +521,7 @@ var modPriorities as string[] = [
     "bluepower",
     "botania",
     "mysticalworld",
+	"create",
     "tmechworks",
     "industrialforegoing"
 ];

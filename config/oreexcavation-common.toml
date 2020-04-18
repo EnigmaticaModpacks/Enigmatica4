@@ -11,7 +11,7 @@
 	#Skips spawning drops in world adding them directly to your inventory
 	"Auto Pickup" = false
 	#Inverts the block blacklist to function as a whitelist
-	"Invert Block Blacklist" = true
+	"Invert Block Blacklist" = false
 	#Inverts the tool blacklist to function as a whitelist
 	"Invert Tool Blacklist" = false
 	#How far from the origin an excavation can travel
@@ -19,7 +19,7 @@
 	Range = 24
 	#Amount of exaustion per block excavated
 	#Range: 0.0 ~ 1.7976931348623157E308
-	Exaustion = 0.1
+	Exaustion = 0.25
 	#Temporarily reduces excavation speed if TPS begins to slow down
 	"TPS Guard" = true
 	#Experience cost per block excavated
@@ -34,10 +34,10 @@
 	#Tools blacklisted from excavating
 	"Tool Blacklist" = []
 	#Blocks blacklisted from being excavated
-	"Block Blacklist" = ["tag:forge:ores", "minecraft:clay", "tag:quark:crystal", "minecraft:bone_block", "minecraft:glowstone"]
+	"Block Blacklist" = []
 	#The maximum number of blocks that can be excavated at once
 	#Range: > 1
-	Limit = 512
+	Limit = 1024
 	#How many excavations should be kept in undo history (may lead to exploits or instability)
 	#Range: > 0
 	"Max Undos" = 3

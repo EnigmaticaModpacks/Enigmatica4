@@ -84,3 +84,9 @@ config/craftingtweaks-client.toml
 new.json
 old.json
 reauth.toml
+soundsMuffled.dat
+MakeModpackFiles.bat
+MakeModpackFilesPostToDiscord.bat
+PostToDiscord.bat
+patchouli_data.json
+patchouli_data.json

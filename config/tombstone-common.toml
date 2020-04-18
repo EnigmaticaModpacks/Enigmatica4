@@ -5,21 +5,24 @@
 	log_player_grave = true
 	#Prevents death outside of world borders [false/true|default:false]
 	prevent_death_outside_world = false
+	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
+	#Range: -1 ~ 1440
+	cooldown_teleport_bind = -1
 	#Allows player's graves to appear in water [false/true|default:true]
 	allow_grave_in_water = true
 	#The chance that creatures appear after the contents of a grave are retrieved [0..100|default:0]
 	#Range: 0 ~ 100
 	chance_mob_on_grave_recovery = 0
-	#Whether to restore beneficial effects after a player dies [false/true|default:true]
-	restore_effects_on_death = true
+	#Fishing treasures can only be found in open water [false/true|default:true]
+	fishing_treasure_in_open_water = true
+	#Cooldown in minutes to use the command tbteleportdeath [-1..1440|default:-1]
+	#Range: -1 ~ 1440
+	cooldown_teleport_death = -1
 	#The chance that some items are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	chance_loss_on_death = 0
 	#The Halloween features also happen outside the dates of the event [false/true|default:false]
 	persistant_halloween = false
-	#The radius in which items should be collected when a grave is spawned [1..10|default:5]
-	#Range: 1 ~ 10
-	sniffer_range = 5
 	#Whether to require a Grave's Key to access graves [false/true|default:true]
 	player_grave_access = true
 	#Whether to cancel the Ghostly Shape effect on breaking a block or opening a chest [false/true|default:false]
@@ -28,6 +31,15 @@
 	no_grave_location = ["0, 0, 0, -10000, 20"]
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
 	knowledge_reduce_phantom_spawn = false
+	#Allows teleportation to other dimensions [false/true|default:true]
+	teleport_dim = true
+	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
+	unhandled_beneficial_effects = ["tombstone:ghostly_shape", "tombstone:preservation", "tombstone:exorcism"]
+	#Whether to restore beneficial effects after a player dies [false/true|default:true]
+	restore_effects_on_death = true
+	#The radius in which items should be collected when a grave is spawned [1..10|default:5]
+	#Range: 1 ~ 10
+	sniffer_range = 5
 	#Knowledge of Death loss why dying [0..500|default:0]
 	#Range: 0 ~ 500
 	knowledge_loss = 0
@@ -36,19 +48,20 @@
 	time_for_phantom_spawn = 72000
 	#Allows players to be hurt by special damages related to some items [false/true|default:true]
 	allow_beyond_the_grave_damage = true
-	#Allows teleportation to other dimensions [false/true|default:true]
-	teleport_dim = true
+	#Automatically equips any equipable items when respawning after a death [false/true|default:true]
+	auto_equip_on_death_respawn = true
 	#The percentage of items that are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	percent_loss_on_death = 0
-	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
-	unhandled_beneficial_effects = ["tombstone:ghostly_shape", "tombstone:preservation", "tombstone:exorcism"]
 	#Whether graves should be allowed to bypass anti-griefing rules [false/true|default:true]
 	graves_bypass_griefing_rules = true
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
 	unhandled_harmful_effects = ["minecraft:nausea"]
 	#Enables PvP mode, which allows players to open graves of players they kill [false/true|default:false]
 	pvp_mode = false
+	#Cooldown in minutes to use the command tbrequestteleport [-1..1440|default:-1]
+	#Range: -1 ~ 1440
+	cooldown_request_teleport = -1
 	#Whether to handle player death [false/true|default:true]
 	handle_player_death = true
 	#Whether to always give players a Grave's Key on death [false/true|default:true]
@@ -103,8 +116,14 @@
 
 #Allows to customize or disable the enchantments
 [enchantments]
+	#Maximum duration of stolen effects in minutes [1..MAX|default:1440]
+	#Range: > 1
+	max_duration_magic_siphon = 1440
 	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
 	nerf_plague_bringer = true
+	#Duration of applied effects in seconds [1..MAX|default:5]
+	#Range: > 1
+	duration_plague_bringer = 5
 	#Restricts the effect of Shadow Step to players [false/true|default:true]
 	restrict_shadow_step_to_player = true
 
@@ -115,7 +134,7 @@
 	#Enables to backup automatically dead familiars [false/true|default:true]
 	recovery_familiar_enable = true
 	#Time in minutes between players' backups [10..1000|default:40]
-	#Range: 10 ~ 1000
+	#Range: 5 ~ 1000
 	recovery_player_timer = 30
 	#Backup players on death [false/true|default:false]
 	backup_on_death = false
