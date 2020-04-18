@@ -54,5 +54,25 @@ events.listen('server.datapack.recipes', function (event) {
         ], {
             W: wool
         })
+
+        var glass_pane = 'minecraft:glass_pane'
+        event.shaped({ item: 'minecraft:' + colors[i] + '_stained_glass_pane', count: 8}, [
+            'GGG',
+            'GDG',
+            'GGG'
+        ], {
+            G: glass_pane,
+            D: dyeTag
+        })
+
+        var glass = 'minecraft:glass'
+        event.shaped({ item: 'minecraft:' + colors[i] + '_stained_glass', count: 8}, [
+            'GGG',
+            'GDG',
+            'GGG'
+        ], {
+            G: glass,
+            D: dyeTag
+        })
     }
 })
