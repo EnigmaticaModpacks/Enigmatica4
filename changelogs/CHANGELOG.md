@@ -14,19 +14,20 @@ There is a chance that this new update does not work with your current world. At
 
 **Added Mods**
 
-- 
-
-**Removed Mods**
-
-* 
+- JAOPCA [\#376](https://github.com/NillerMedDild/Enigmatica4/issues/376)
+- JEI Tweaker [\#375](https://github.com/NillerMedDild/Enigmatica4/issues/375)
+- Immersive Posts [\#362](https://github.com/NillerMedDild/Enigmatica4/issues/362)
 
 **Changes**
 
-* 
+* Add Create Crusher recipes [\#368](https://github.com/NillerMedDild/Enigmatica4/issues/368)
 
 **Fixed bugs**
 
-- 
+- Immersive block of lead uncraftable. [\#374](https://github.com/NillerMedDild/Enigmatica4/issues/374)
+- Vanilla recipes should accept Botania dyes [\#371](https://github.com/NillerMedDild/Enigmatica4/issues/371)
+- Powah Energy Cell Recipe & Energy Capacity Buffs [\#370](https://github.com/NillerMedDild/Enigmatica4/issues/370)
+- Rats features missing or non functional [\#346](https://github.com/NillerMedDild/Enigmatica4/issues/346)
 
 ## Enigmatica 4 v0.5.2
 
