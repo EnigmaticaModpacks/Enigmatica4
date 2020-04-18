@@ -1,3 +1,29 @@
+## Enigmatica 4 v0.5.4
+
+#### Make sure to backup your world before updating! 
+
+There is a chance that this new update does not work with your current world. At the very least blocks from Create will be removed when updating from 0.4.x or prior.
+
+*Forge-1.14.4-28.2.3*
+
+
+
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_0.5.3.txt)*
+
+
+
+**Added Mods**
+
+* 
+
+**Changes**
+
+- 
+
+**Fixed bugs**
+
+* 
+
 ## Enigmatica 4 v0.5.3
 
 #### Make sure to backup your world before updating! 
