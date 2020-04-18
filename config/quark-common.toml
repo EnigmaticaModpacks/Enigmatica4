@@ -297,7 +297,7 @@
 		#Can Rotten Flesh and Poisonous Potatoes be composted?
 		"Compostable Toxins" = true
 		#Can any wool color be dyed?
-		"Dye Any Wool" = true
+		"Dye Any Wool" = false
 		#Can Coral be crafted into dye?
 		"Coral To Dye" = true
 		#Can torches can be used as fuel in furnaces?
