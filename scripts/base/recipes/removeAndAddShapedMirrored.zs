@@ -28,9 +28,15 @@ var recipes as IIngredient[][][IItemStack] = {
     ],
     <item:powah:energy_cell_hardened> : 
     [
-        [<item:powah:steel_energized>, <item:powah:capacitor_hardened>, <item:powah:steel_energized>], 
+        [<item:powah:energised_steel>, <item:powah:capacitor_hardened>, <item:powah:energised_steel>], 
         [<item:powah:energy_cell_basic>, <item:powah:dielectric_casing>, <item:powah:energy_cell_basic>],
-        [<item:powah:steel_energized>, <item:powah:capacitor_hardened>, <item:powah:steel_energized>]
+        [<item:powah:energised_steel>, <item:powah:capacitor_hardened>, <item:powah:energised_steel>]
+    ],
+    <item:immersiveengineering:capacitor_hv> : 
+    [
+        [<tag:forge:ingots/steel>, <tag:forge:ingots/steel>, <tag:forge:ingots/steel>], 
+        [<tag:forge:ingots/aluminum>, <tag:forge:storage_blocks/lead>, <tag:forge:ingots/aluminum>],
+        [<tag:forge:treated_wood>, <tag:forge:storage_blocks/redstone>, <tag:forge:treated_wood>]
     ]
 };
 
