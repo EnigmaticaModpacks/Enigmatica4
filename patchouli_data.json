@@ -13,6 +13,16 @@
         "mysticalworld:items/silk_thread"
       ],
       "completedManualQuests": []
+    },
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:generating_flowers/endoflame"
+      ],
+      "bookmarks": [],
+      "history": [
+        "botania:generating_flowers/endoflame"
+      ],
+      "completedManualQuests": []
     }
   }
 }
