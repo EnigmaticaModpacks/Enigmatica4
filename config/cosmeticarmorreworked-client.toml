@@ -12,8 +12,6 @@
 	#The horizontal pixel distance from the origin point of player inventory gui
 	#Range: > -2147483648
 	CosArmorToggleButton_Left = 59
-	#Whether or not to show the buttons for toggling visibilities for Baubles slots (currently not implemented)
-	CosArmorToggleButton_Baubles = true
 	#Whether or not to hide the button for opening CosmeticArmorInventory
 	CosArmorGuiButton_Hidden = false
 	#The vertical pixel distance from the origin point of player inventory gui

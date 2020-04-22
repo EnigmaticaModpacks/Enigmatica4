@@ -9,11 +9,13 @@
 	wireTransferRate = [2048, 8192, 32768, 0, 0, 0]
 	#"The maximum length wire can have. Copper and Electrum should be similar, Steel is meant for long range transport, Structural Rope & Cables are purely decorational"
 	wireLength = [16, 16, 32, 32, 32, 32]
-	#Drop connections with non-existing endpoints when loading the world. Use with care and backups and only when suspecting corrupted data.
-	#This option will check and load all connection endpoints and may slow down the world loading process.
-	validateConnections = false
+	#Enable detailed logging for the wire network. This can be useful for developers to track down issues related to wires.
+	enableWireLogger = false
 	#The RGB colourate of the wires.
 	wireColouration = [11758655, 15573061, 7303023, 9862765, 7303023, 16723759, 16445918, 10323322]
+	#Attempts to make the internal data structures used for wires consistent with the connectors in the world.Use with care and backups and only when suspecting corrupted data.
+	#This option will check and load all connection endpoints and may slow down the world loading process.
+	sanitizeConnections = false
 	#If this is enabled, wires connected to power sources will cause damage to entities touching them
 	#This shouldn't cause significant lag but possibly will. If it does, please report it at https://github.com/BluSunrize/ImmersiveEngineering/issues unless there is a report of it already.
 	enableWireDamage = true
@@ -31,6 +33,8 @@
 	#A list of preferred Mod IDs that results of IE processes should stem from, aka which mod you want the copper to come from.
 	#This affects the ores dug by the excavator, as well as those crushing recipes that don't have associated IE items. This list is in oreder of priority.
 	preferredOres = ["minecraft", "kubejs", "silents_mechanisms", "immersiveengineering", "bluepower", "botania", "mysticalworld", "tmechworks", "industrialforegoing"]
+	#Controls if item tooltips should contain the tags names of items. These tooltips are only visible in advanced tooltip mode (F3+H)
+	tagTooltips = false
 	#Set this to true if you suffer from bad eyesight. The Engineer's manual will be switched to a bold and darker text to improve readability.
 	#Note that this may lead to a break of formatting and have text go off the page in some instances. This is unavoidable.
 	badEyesight = false
@@ -40,8 +44,6 @@
 	stencilBufferEnabled = true
 	#Set this to false to stop the IE villager house from spawning
 	villagerHouse = true
-	#Controls if item tooltips should contain the OreDictionary names of items. These tooltips are only visible in advanced tooltip mod (F3+H)
-	oreTooltips = false
 	#Set this to false to disable the manual's forced change of GUI scale
 	adjustManualScale = false
 	#Increase the distance at which certain TileEntities (specifically windmills) are still visible. This is a modifier, so set it to 1 for default render distance, to 2 for doubled distance and so on.
@@ -52,8 +54,8 @@
 	disableFancyTESR = false
 	#Allows revolvers and other IE items to look properly held in 3rd person. This uses a coremod. Can be disabled in case of conflicts with other animation mods.
 	fancyItemHolding = true
-	#Support for colourblind people, gives a text-based output on capacitor sides
-	colourblindSupport = false
+	#Show the text overlay for various blocks, such as the configuration of capacitors or pumps
+	showTextOverlay = true
 
 [machines]
 	#Set this to false to disable the mob-spawn prevention of the Floodlight
@@ -288,12 +290,12 @@
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		max_y = 24
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 2
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 0
-		#The chance for a vein to spawn (relative to 1)
-		#Range: 0.0 ~ 1.0
-		veins_per_chunk = 1.0
 		#Set this to true to allow retro-generation of nickel Ore.
 		retrogen_enable = false
 		#The minimum Y coordinate this ore can spawn at
@@ -305,12 +307,12 @@
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		max_y = 72
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 8
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 0
-		#The chance for a vein to spawn (relative to 1)
-		#Range: 0.0 ~ 1.0
-		veins_per_chunk = 1.0
 		#Set this to true to allow retro-generation of copper Ore.
 		retrogen_enable = false
 		#The minimum Y coordinate this ore can spawn at
@@ -322,12 +324,12 @@
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		max_y = 85
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 8
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 0
-		#The chance for a vein to spawn (relative to 1)
-		#Range: 0.0 ~ 1.0
-		veins_per_chunk = 1.0
 		#Set this to true to allow retro-generation of bauxite Ore.
 		retrogen_enable = false
 		#The minimum Y coordinate this ore can spawn at
@@ -339,12 +341,12 @@
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		max_y = 40
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 4
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 0
-		#The chance for a vein to spawn (relative to 1)
-		#Range: 0.0 ~ 1.0
-		veins_per_chunk = 0.8
 		#Set this to true to allow retro-generation of silver Ore.
 		retrogen_enable = false
 		#The minimum Y coordinate this ore can spawn at
@@ -356,12 +358,12 @@
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		max_y = 24
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 2
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 0
-		#The chance for a vein to spawn (relative to 1)
-		#Range: 0.0 ~ 1.0
-		veins_per_chunk = 0.6
 		#Set this to true to allow retro-generation of uranium Ore.
 		retrogen_enable = false
 		#The minimum Y coordinate this ore can spawn at
@@ -373,12 +375,12 @@
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		max_y = 36
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 4
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 0
-		#The chance for a vein to spawn (relative to 1)
-		#Range: 0.0 ~ 1.0
-		veins_per_chunk = 1.0
 		#Set this to true to allow retro-generation of lead Ore.
 		retrogen_enable = false
 		#The minimum Y coordinate this ore can spawn at
