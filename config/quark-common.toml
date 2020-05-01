@@ -45,7 +45,7 @@
 	Gravisand = true
 	"Metal Buttons" = true
 	"Obsidian Plate" = true
-	"Pistons Move Tile Entities" = true
+	"Pistons Move Tile Entities" = false
 	"Feeding Trough" = true
 
 	[automation.dispensers_place_blocks]

@@ -1,3 +1,23 @@
+## Enigmatica 4 v0.5.5
+
+#### Make sure to backup your world before updating! 
+
+There is a chance that this new update does not work with your current world. At the very least blocks from Create will be removed when updating from 0.4.x or prior.
+
+*Forge-1.14.4-28.2.4*
+
+
+
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_0.5.5.txt)*
+
+
+
+**Changes**
+
+* Quark: Pistons can no longer push tile entities. It's a bit too risky to have enabled in a modpack.
+
+
+
 ## Enigmatica 4 v0.5.4
 
 #### Make sure to backup your world before updating! 
@@ -16,6 +36,7 @@ There is a chance that this new update does not work with your current world. At
 
 * Linux Server files being broken *again*.
 * Excavation enchant empties shulkers [\#369](https://github.com/NillerMedDild/Enigmatica4/issues/369)
+* Quark: Pistons can no longer push tile entities. It's a bit too risky to have enabled in a modpack.
 
 ## Enigmatica 4 v0.5.3
 
