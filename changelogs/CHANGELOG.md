@@ -2,21 +2,56 @@
 
 #### Make sure to backup your world before updating! 
 
-There is a chance that this new update does not work with your current world. At the very least blocks from Create will be removed when updating from 0.4.x or prior.
-
-*Forge-1.14.4-28.2.4*
+**Please remove the following folders before updating, to ensure files are updated correctly:**
 
 
 
-*[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_0.5.5.txt)*
+* Config
+* KubeJS
+* Mods
+* Openloader
+* Scripts
 
 
+
+There is a chance that this new update does not work with your  current world. At the very least blocks from Create will be removed when updating from 0.4.x or prior.
+
+*Forge-1.14.4-28.2.16* | *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_0.5.5.txt)*
+
+
+
+**Mod Additions**
+
+* StepUp [\#410](https://github.com/NillerMedDild/Enigmatica4/issues/410)
+* Ender Mail [\#389](https://github.com/NillerMedDild/Enigmatica4/issues/389)
+* Old Java Warning [\#344](https://github.com/NillerMedDild/Enigmatica4/issues/344)
 
 **Changes**
 
 * Quark: Pistons can no longer push tile entities. It's a bit too risky to have enabled in a modpack.
+* EverlastingAbilities: Disabled the Weakness ability 
+* Apotheosis enchantments for Tetra tools [\#345](https://github.com/NillerMedDild/Enigmatica4/issues/345)
 
+**Bug fixes**
 
+* Rats & Rat Pipers not spawning [\#421](https://github.com/NillerMedDild/Enigmatica4/issues/421)
+* Powah hardened power cell recipe doesn't display output item [\#418](https://github.com/NillerMedDild/Enigmatica4/issues/418)
+* Fixed old Fluid Pipe recipe not being removed [\#404](https://github.com/NillerMedDild/Enigmatica4/issues/404)
+* Almost no way to make the Immersive Engineering Steel Block [\#401](https://github.com/NillerMedDild/Enigmatica4/issues/401)
+* Traverse's Fir Logs cannot be stripped [\#400](https://github.com/NillerMedDild/Enigmatica4/issues/400)
+* IE Blueprints missing? [\#396](https://github.com/NillerMedDild/Enigmatica4/issues/396)
+* IE/JEI  [\#395](https://github.com/NillerMedDild/Enigmatica4/issues/395)
+* Cursed earth not working; nothing spawning in SP or MP [\#392](https://github.com/NillerMedDild/Enigmatica4/issues/392)
+* \[0.5.4\] Industrial Comparator Switch not crafteable. [\#382](https://github.com/NillerMedDild/Enigmatica4/issues/382)
+* Advanced Dimensional Dungeons Portal Crashes When Used [\#365](https://github.com/NillerMedDild/Enigmatica4/issues/365)
+* Disabled refined storage controller still consumes power [\#360](https://github.com/NillerMedDild/Enigmatica4/issues/360)
+* Recipe Conflict \(Raw Pork\) [\#275](https://github.com/NillerMedDild/Enigmatica4/issues/275)
+* Drinking wormhole potion crashes the game [\#234](https://github.com/NillerMedDild/Enigmatica4/issues/234)
+* Portable Grid loses its texture when you face south [\#215](https://github.com/NillerMedDild/Enigmatica4/issues/215)
+
+**Mod Removals**
+
+* Auto Sprint : key toggle
 
 ## Enigmatica 4 v0.5.4
 
