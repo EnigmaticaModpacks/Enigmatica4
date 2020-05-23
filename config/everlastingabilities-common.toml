@@ -169,15 +169,15 @@
 		#The maximum ability level.
 		maxLevel = 3
 		#If this can be obtained by combining totems in a crafting grid.
-		obtainableOnCraft = true
+		obtainableOnCraft = false
 		#If this can be obtained in loot chests.
-		obtainableOnLoot = true
+		obtainableOnLoot = false
 		#The xp required per level.
 		xpPerLevel = 80
 		#If this can be obtained by spawning mobs.
-		obtainableOnMobSpawn = true
+		obtainableOnMobSpawn = false
 		#If this can be obtained by initially spawning players.
-		obtainableOnPlayerSpawn = true
+		obtainableOnPlayerSpawn = false
 		#Rarity of this ability.
 		rarity = 2
 
