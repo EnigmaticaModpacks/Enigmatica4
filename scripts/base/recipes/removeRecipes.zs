@@ -8,7 +8,9 @@ var itemsToRemoveRecipesFrom as IItemStack[] = [
 	<item:mysticalworld:amethyst_knife>,
 	<item:mysticalworld:amethyst_pickaxe>,
 	<item:mysticalworld:amethyst_shovel>,
-	<item:mysticalworld:amethyst_sword>
+	<item:mysticalworld:amethyst_sword>,
+	
+	<item:fluidtank:pipe>
 ];
 
 for item in itemsToRemoveRecipesFrom {
