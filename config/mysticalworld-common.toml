@@ -92,6 +92,17 @@
 		#Range: 1 ~ 256
 		veinSize = 8
 
+#Feature Spawn Configuration
+[feature_spawns]
+
+	#dead_tree spawn config.
+	[feature_spawns.dead_tree_spawn]
+		#List of biome types to spawn.
+		biomes = "SAVANNA,DEAD,FOREST,SANDY,WASTELAND,"
+		#Percent chance to spawn (set to 0 to disable) per chunk.
+		#Range: 0.0 ~ 1.0
+		spawnChance = 0.04
+
 #Mob Spawn Configuration
 [mob_spawns]
 

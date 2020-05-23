@@ -56,8 +56,8 @@
 		without_environmental_switch_update = false
 		#Disable tile entity update() for detector switches(for performance testing only, don't do this at home).
 		without_detector_switch_update = false
-		#Defines how far you or a link source switch can be away from the target to activate it. The value 0 means 'no limitation'.
-		#Range: 4 ~ 64
+		#Defines how far you or a link source switch can be away from the target to activate it. The value 0 means 'no limitation',  as long as the target chunk is loaded.
+		#Range: 0 ~ 64
 		max_switch_linking_distance = 48
 
 	#Settings to tweak the performance, or use cases normally no change should be required here.

@@ -12,11 +12,11 @@
 	scroll_duration = 12000
 	#Whether to handle player experience [false/true|default:true]
 	handle_player_xp = true
-	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
-	#Range: -1 ~ 100
-	chance_enchanted_graveKey = 0
 	#Allows players with bad alignment and the perk tomb raider to steal items on abandoned graves [false/true|default:false]
 	allow_tomb_raiding = false
+	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
+	#Range: -1 ~ 100
+	chance_enchanted_grave_key = 0
 	#The time in minutes before a Grave's Key isn't required to open a grave (-1 = disabled) [-1..MAX|default:-1]
 	#Range: > -1
 	decay_time = -1

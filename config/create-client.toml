@@ -9,6 +9,9 @@
 	#Log a stack-trace when rendering issues happen within a moving contraption.
 	explainRenderErrors = false
 	#
+	#Show indications for hidden glue between blocks while holding the item.
+	showHiddenSuperGlue = false
+	#
 	#Show colourful debug information while the F3-Menu is open.
 	enableRainbowDebug = true
 	#

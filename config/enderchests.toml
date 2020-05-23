@@ -13,7 +13,7 @@ enable_in_world_coloring = true
 	small_capacity = ["minecraft:ender_pearl"]
 
 #
-#NOTE: Capacity numbers are in bags
+#NOTE: Capacity numbers are in slots
 [capacity_settings]
 	#Maximum capacity an EnderChest holds
 	#Range: 9 ~ 54

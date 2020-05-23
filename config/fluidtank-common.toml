@@ -7,7 +7,7 @@
 	showToolTipOnMods = true
 	#False to disable rainbow renderer for pipe.
 	enablePipeRainbowRenderer = true
-	#Color of pipe. Works only if 'enablePipeRainbowRenderer' is false.
+	#Default color of pipe. Works only if 'enablePipeRainbowRenderer' is false.
 	pipeColor = -1
 	#True to show invisible tank in creative tabs. Recipe and block aren't removed.
 	showInvisibleTankInTab = false

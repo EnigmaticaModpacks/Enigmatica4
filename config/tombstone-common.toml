@@ -35,6 +35,8 @@
 	teleport_dim = true
 	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["tombstone:ghostly_shape", "tombstone:preservation", "tombstone:exorcism"]
+	#Only stackable items can be lost on death [false/true|default:true]
+	loss_on_death_only_for_stackable_items = true
 	#Whether to restore beneficial effects after a player dies [false/true|default:true]
 	restore_effects_on_death = true
 	#The radius in which items should be collected when a grave is spawned [1..10|default:5]
@@ -66,6 +68,8 @@
 	handle_player_death = true
 	#Whether to always give players a Grave's Key on death [false/true|default:true]
 	grave_key_on_death = true
+	#Only abandoned graves can have losses of items (based on the decay_time) [false/true|default:true]
+	loss_on_death_only_for_abandoned_grave = true
 
 #Allows to define the conditions for a village siege to begin
 [village_siege]
@@ -102,17 +106,21 @@
 	cooldown_reset_perk = 20
 	#Allows the purification effect to clear neutral effects [false/true|default:true]
 	purification_affect_neutral_effects = true
+	#The structures that can't be discovered by lost tablets
+	lost_tablet_denied_structures = []
 	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
 	#Range: 0 ~ 100
 	chance_pray_reward = 40
-	#Allows lost tablets to find locations outside the current world [false/true|default:true]
-	allow_tablet_search_outside_world = true
 	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_soul = 0
 	#Time in minutes to check if a soul appears on a grave [10..10000|default:30]
 	#Range: 10 ~ 10000
 	time_soul = 30
+	#Allows lost tablets to find locations outside the current world [false/true|default:true]
+	lost_tablet_search_outside_world = true
+	#Allows lost tablets to find modded structures [false/true|default:true]
+	lost_tablet_modded_structure = true
 
 #Allows to customize or disable the enchantments
 [enchantments]
@@ -168,6 +176,8 @@
 [compatibility]
 	#Keeps the cosmetic armor when you die [false/true|default:true]
 	keep_cosmetic_armor = false
+	#Disables to disenchant items from tetra mod [false/true|default:false]
+	disable_disenchantment_for_tetra = false
 	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
 	allow_curio_auto_equip = true
 
