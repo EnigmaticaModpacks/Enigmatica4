@@ -35,7 +35,13 @@ var recipes as IIngredient[][IItemStack] = {
     [<tag:forge:grain>, <item:minecraft:dried_kelp>, <item:aquaculture:fish_fillet_raw>, <item:aquaculture:fish_fillet_raw>],
 
     <item:simplefarming:fish_fillet> :
-    [<tag:forge:grain>, <tag:forge:grain>, <item:aquaculture:fish_fillet_cooked>, <item:aquaculture:fish_fillet_cooked>]
+    [<tag:forge:grain>, <tag:forge:grain>, <item:aquaculture:fish_fillet_cooked>, <item:aquaculture:fish_fillet_cooked>],
+
+    <item:immersiveengineering:storage_steel> * 2 :
+    [<item:silents_mechanisms:steel_block>, <item:silents_mechanisms:steel_block>],
+
+    <item:silents_mechanisms:steel_block> * 2 :
+    [<item:immersiveengineering:storage_steel>, <item:immersiveengineering:storage_steel>]
 };
 
 for output, input in recipes {
