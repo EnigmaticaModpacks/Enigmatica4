@@ -11,6 +11,11 @@ for output, input in recipes {
     addShapeless(output, input, true);
 }
 
-/* for knife in <tag:forge:fillet_knife>.items {
-    addShapeless(<item:simplefarming:raw_bacon> * 2, [<item:minecraft:porkchop>, knife.transformDamage(1)], true);
-} */
+// Bacon from Raw Pork
+var output = <item:simplefarming:raw_bacon> * 2;
+craftingTable.removeRecipe(output);
+for knife in <tag:forge:fillet_knife>.items {
+    var recipeName = "enigmatica_" + output.translationKey + "_from_" + knife.translationKey;
+    var input = [<item:minecraft:porkchop>, knife.transformDamage(1)];
+	craftingTable.addShapeless(recipeName, output, input);
+} 
