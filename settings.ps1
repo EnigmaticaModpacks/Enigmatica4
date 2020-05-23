@@ -40,12 +40,12 @@ $CURSEFORGE_PROJECT_ID = 330372
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.5.4"
+$MODPACK_VERSION = "0.5.5"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.5.3"
+$LAST_MODPACK_VERSION = "0.5.4"
 
-$FORGE_VERSION=28.2.16
+$FORGE_VERSION = 28.2.16
 
 $CLIENT_FILENAME = "Enigmatica4"
 
@@ -62,12 +62,12 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Must be a single string. Use Powershell escaping for new lines etc. New line is `n and indent is `t
 $CLIENT_CHANGELOG = "### Enigmatica 4 v$MODPACK_VERSION <br /><br />" +
-					"Using Forge-1.14.4-28.2.16 <br />" +
-					"[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt) <br /> " +
-					"[Changelog](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG.md) "
+"Using Forge-1.14.4-28.2.16 <br />" +
+"[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt) <br /> " +
+"[Changelog](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG.md) "
 
 # Can be "alpha", "beta" or "release"
-$CLIENT_RELEASE_TYPE = "beta"
+$CLIENT_RELEASE_TYPE = "alpha"
 
 #=====================================================================//
 #  SERVER FILE SETTINGS
@@ -82,28 +82,28 @@ $SERVER_FILE_DISPLAY_NAME = "Enigmatica 4 Server - $MODPACK_VERSION"
 # A continuous line of the folders and files (with extensions) to zip into Server Files.
 # Default: @("mods", "config")
 $CONTENTS_TO_ZIP = @(
-"mods", 
-"config", 
-"defaultconfigs", 
-"openloader", 
-"scripts",
-"kubejs",
-"server-start-license.md", 
-"server-start-readme.md", 
-"server-start.bat", 
-"server-start.sh", 
-"settings.cfg",  
-"server.properties", 
-"server-guide.txt")
+	"mods", 
+	"config", 
+	"defaultconfigs", 
+	"openloader", 
+	"scripts",
+	"kubejs",
+	"server-start-license.md", 
+	"server-start-readme.md", 
+	"server-start.bat", 
+	"server-start.sh", 
+	"settings.cfg",  
+	"server.properties", 
+	"server-guide.txt")
 
 $CONTENTS_TO_MOVE = @(
-"server-start-license.md", 
-"server-start-readme.md", 
-"server-start.bat", 
-"server-start.sh", 
-"settings.cfg",  
-"server.properties", 
-"server-guide.txt")
+	"server-start-license.md", 
+	"server-start-readme.md", 
+	"server-start.bat", 
+	"server-start.sh", 
+	"settings.cfg",  
+	"server.properties", 
+	"server-guide.txt")
 
 # Can be "markdown", "text" or "html"
 # Default: $CLIENT_CHANGELOG_TYPE
