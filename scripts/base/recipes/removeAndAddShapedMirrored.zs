@@ -26,12 +26,6 @@ var recipes as IIngredient[][][IItemStack] = {
             [<tag:forge:glass>, <tag:forge:ingots/tin>, <tag:forge:glass>],
             [<tag:forge:glass>, <tag:forge:ingots/copper>, <tag:forge:glass>]
     ],
-    <item:powah:energy_cell_hardened> : 
-    [
-        [<item:powah:energised_steel>, <item:powah:capacitor_hardened>, <item:powah:energised_steel>], 
-        [<item:powah:energy_cell_basic>, <item:powah:dielectric_casing>, <item:powah:energy_cell_basic>],
-        [<item:powah:energised_steel>, <item:powah:capacitor_hardened>, <item:powah:energised_steel>]
-    ],
     <item:immersiveengineering:capacitor_hv> : 
     [
         [<tag:forge:ingots/steel>, <tag:forge:ingots/steel>, <tag:forge:ingots/steel>], 
