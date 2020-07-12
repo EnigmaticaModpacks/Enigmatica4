@@ -1,3 +1,41 @@
+## Enigmatica 4 v0.5.6
+
+#### Make sure to backup your world before updating! 
+
+**Please remove the following folders before updating, to ensure files are updated correctly:**
+
+
+
+* Config
+* KubeJS
+* Mods
+* Openloader
+* Scripts
+
+
+
+There is a chance that this new update does not work with your  current world. At the very least blocks from Create will be removed when updating from 0.4.x or prior.
+
+*Forge-1.14.4-28.2.16* | *[Mod Updates](https://github.com/NillerMedDild/Enigmatica4/blob/master/changelogs/CHANGELOG_MODS_0.5.6.txt)*
+
+
+
+**Mod Additions**
+
+* Whoops
+
+**Changes**
+
+* 
+
+**Bug fixes**
+
+* 
+
+**Mod Removals**
+
+* 
+
 ## Enigmatica 4 v0.5.5
 
 #### Make sure to backup your world before updating! 

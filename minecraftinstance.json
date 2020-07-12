@@ -136,21 +136,6 @@
       "fileSize": 11452
     },
     {
-      "folderName": "CraftTweaker-1.14.4-5.0.1.188.jar",
-      "fingerprint": 4075733084,
-      "fileDateHash": 3560713637,
-      "sectionID": 8,
-      "individualFingerprints": [
-        4075733084
-      ],
-      "status": 1,
-      "timestamp": "2020-05-23T19:38:40.3339148Z",
-      "lastWriteTimeUtc": "2020-05-22T17:07:54.7069702Z",
-      "queryTimestamp": "2020-05-23T19:38:49.834014Z",
-      "fileCount": 1,
-      "fileSize": 1842330
-    },
-    {
       "folderName": "rftoolsbuilder-1.14-1.2.12-alpha.jar",
       "fingerprint": 3624948799,
       "fileDateHash": 1725218911,
@@ -164,6 +149,21 @@
       "queryTimestamp": "2020-05-23T19:38:49.8350114Z",
       "fileCount": 1,
       "fileSize": 487737
+    },
+    {
+      "folderName": "CraftTweaker-1.14.4-5.0.1.188.jar",
+      "fingerprint": 4075733084,
+      "fileDateHash": 3560713637,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4075733084
+      ],
+      "status": 1,
+      "timestamp": "2020-05-23T19:38:40.3339148Z",
+      "lastWriteTimeUtc": "2020-05-22T17:07:54.7069702Z",
+      "queryTimestamp": "2020-05-23T19:38:49.834014Z",
+      "fileCount": 1,
+      "fileSize": 1842330
     },
     {
       "folderName": "OreExcavation-1.6.147.jar",
@@ -586,21 +586,6 @@
       "fileSize": 46864
     },
     {
-      "folderName": "bluepower-1.14.4-0.3.189-alpha-universal.jar",
-      "fingerprint": 591619124,
-      "fileDateHash": 21011781,
-      "sectionID": 8,
-      "individualFingerprints": [
-        591619124
-      ],
-      "status": 1,
-      "timestamp": "2020-05-23T19:38:40.3070234Z",
-      "lastWriteTimeUtc": "2020-05-02T10:08:37.7370442Z",
-      "queryTimestamp": "2020-05-23T19:38:49.843988Z",
-      "fileCount": 1,
-      "fileSize": 3232353
-    },
-    {
       "folderName": "Aquaculture-1.14.4-2.0.7.jar",
       "fingerprint": 3620202114,
       "fileDateHash": 2704282097,
@@ -614,6 +599,21 @@
       "queryTimestamp": "2020-05-23T19:38:49.843988Z",
       "fileCount": 1,
       "fileSize": 449085
+    },
+    {
+      "folderName": "bluepower-1.14.4-0.3.189-alpha-universal.jar",
+      "fingerprint": 591619124,
+      "fileDateHash": 21011781,
+      "sectionID": 8,
+      "individualFingerprints": [
+        591619124
+      ],
+      "status": 1,
+      "timestamp": "2020-05-23T19:38:40.3070234Z",
+      "lastWriteTimeUtc": "2020-05-02T10:08:37.7370442Z",
+      "queryTimestamp": "2020-05-23T19:38:49.843988Z",
+      "fileCount": 1,
+      "fileSize": 3232353
     },
     {
       "folderName": "mgui-1.14.4-1.2.0.jar",
@@ -9835,14 +9835,14 @@
       "addonID": 277616,
       "gameInstanceID": "9a093851-92fe-4a7d-903a-646461c266d0",
       "installedFile": {
-        "id": 2959863,
-        "displayName": "solcarrot-1.14.4-1.9.5.jar",
-        "fileName": "solcarrot-1.14.4-1.9.5.jar",
-        "fileDate": "2020-05-18T13:54:08.12Z",
-        "fileLength": 162907,
+        "id": 2964194,
+        "displayName": "solcarrot-1.14.4-1.9.6.jar",
+        "fileName": "solcarrot-1.14.4-1.9.6.jar",
+        "fileDate": "2020-05-23T21:24:19.563Z",
+        "fileLength": 162837,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2959/863/solcarrot-1.14.4-1.9.5.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2964/194/solcarrot-1.14.4-1.9.6.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -9850,12 +9850,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 133845672,
+            "fingerprint": 1870528172,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 429298252,
+            "fingerprint": 256313734,
             "type": 0
           },
           {
@@ -9884,7 +9884,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 526563000,
+        "packageFingerprint": 349286683,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -9898,11 +9898,11 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "solcarrot-1.14.4-1.9.5.jar"
+        "FileNameOnDisk": "solcarrot-1.14.4-1.9.6.jar"
       },
       "dateInstalled": "2020-02-06T18:38:06.3971549Z",
-      "dateUpdated": "2020-05-22T18:05:24.5141596Z",
-      "dateLastUpdateAttempted": "2020-05-22T18:05:24.5141596Z",
+      "dateUpdated": "2020-05-29T17:50:56.009391Z",
+      "dateLastUpdateAttempted": "2020-05-29T17:50:56.009391Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -10460,14 +10460,14 @@
       "addonID": 231951,
       "gameInstanceID": "9a093851-92fe-4a7d-903a-646461c266d0",
       "installedFile": {
-        "id": 2934724,
-        "displayName": "ImmersiveEngineering-0.14-95",
-        "fileName": "ImmersiveEngineering-0.14-95.jar",
-        "fileDate": "2020-04-19T15:48:18.937Z",
-        "fileLength": 7904641,
-        "releaseType": 3,
+        "id": 2964888,
+        "displayName": "ImmersiveEngineering-0.14-96",
+        "fileName": "ImmersiveEngineering-0.14-96.jar",
+        "fileDate": "2020-05-24T18:26:52.3Z",
+        "fileLength": 8180045,
+        "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2934/724/ImmersiveEngineering-0.14-95.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2964/888/ImmersiveEngineering-0.14-96.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -10475,32 +10475,32 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2145236483,
+            "fingerprint": 4064562687,
             "type": 0
           },
           {
             "foldername": ".cache",
-            "fingerprint": 2695551796,
+            "fingerprint": 186035084,
             "type": 0
           },
           {
             "foldername": "asm",
-            "fingerprint": 2789763817,
+            "fingerprint": 4259125277,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 666089365,
+            "fingerprint": 1818932120,
             "type": 0
           },
           {
             "foldername": "blusunrize",
-            "fingerprint": 602414620,
+            "fingerprint": 3757469087,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 1899572058,
+            "fingerprint": 1880685001,
             "type": 0
           },
           {
@@ -10519,7 +10519,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1755903274,
+        "packageFingerprint": 2505569112,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -10533,12 +10533,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "ImmersiveEngineering-0.14-95.jar"
+        "FileNameOnDisk": "ImmersiveEngineering-0.14-96.jar"
       },
       "dateInstalled": "2020-03-29T10:41:58.9011202Z",
-      "dateUpdated": "2020-04-20T19:34:30.1685266Z",
-      "dateLastUpdateAttempted": "2020-04-20T19:34:30.1685266Z",
-      "status": 5,
+      "dateUpdated": "2020-05-29T17:50:40.4847299Z",
+      "dateLastUpdateAttempted": "2020-05-29T17:50:40.4847299Z",
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10553,16 +10553,16 @@
       "addonID": 239197,
       "gameInstanceID": "9a093851-92fe-4a7d-903a-646461c266d0",
       "installedFile": {
-        "id": 2952977,
-        "displayName": "CraftTweaker-1.14.4-5.0.1.188.jar",
-        "fileName": "CraftTweaker-1.14.4-5.0.1.188.jar",
-        "fileDate": "2020-05-10T05:40:27.447Z",
-        "fileLength": 1842330,
+        "id": 2967039,
+        "displayName": "CraftTweaker-1.14.4-5.0.1.190.jar",
+        "fileName": "CraftTweaker-1.14.4-5.0.1.190.jar",
+        "fileDate": "2020-05-27T20:18:43.523Z",
+        "fileLength": 1846403,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2952/977/CraftTweaker-1.14.4-5.0.1.188.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2967/39/CraftTweaker-1.14.4-5.0.1.190.jar",
         "isAlternate": false,
-        "alternateFileId": 2952978,
+        "alternateFileId": 2967040,
         "dependencies": [
           {
             "id": 0,
@@ -10575,12 +10575,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 924962356,
+            "fingerprint": 599318817,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 48277203,
+            "fingerprint": 3647819794,
             "type": 0
           },
           {
@@ -10600,7 +10600,7 @@
           },
           {
             "foldername": "org",
-            "fingerprint": 1610328803,
+            "fingerprint": 2143648399,
             "type": 0
           },
           {
@@ -10629,7 +10629,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4075733084,
+        "packageFingerprint": 562271294,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -10643,11 +10643,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "CraftTweaker-1.14.4-5.0.1.188.jar"
+        "FileNameOnDisk": "CraftTweaker-1.14.4-5.0.1.190.jar"
       },
       "dateInstalled": "2020-04-13T10:26:06.3743739Z",
-      "dateUpdated": "2020-05-22T17:07:54.7179417Z",
-      "dateLastUpdateAttempted": "2020-05-22T17:07:54.7179417Z",
+      "dateUpdated": "2020-05-29T17:50:19.9841642Z",
+      "dateLastUpdateAttempted": "2020-05-29T17:50:19.9841642Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -11010,16 +11010,16 @@
       "addonID": 291006,
       "gameInstanceID": "9a093851-92fe-4a7d-903a-646461c266d0",
       "installedFile": {
-        "id": 2951530,
-        "displayName": "LargeFluidTank-14.9.7.jar",
-        "fileName": "LargeFluidTank-14.9.7.jar",
-        "fileDate": "2020-05-08T14:47:34.873Z",
-        "fileLength": 490556,
+        "id": 2965332,
+        "displayName": "LargeFluidTank-14.9.8.jar",
+        "fileName": "LargeFluidTank-14.9.8.jar",
+        "fileDate": "2020-05-25T10:30:22.247Z",
+        "fileLength": 486394,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2951/530/LargeFluidTank-14.9.7.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2965/332/LargeFluidTank-14.9.8.jar",
         "isAlternate": false,
-        "alternateFileId": 2951531,
+        "alternateFileId": 2965333,
         "dependencies": [
           {
             "id": 0,
@@ -11032,12 +11032,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3933238403,
+            "fingerprint": 2156830035,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2657987594,
+            "fingerprint": 677100414,
             "type": 0
           },
           {
@@ -11056,7 +11056,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2827416081,
+        "packageFingerprint": 3402113564,
         "gameVersion": [
           "1.14.4"
         ],
@@ -11069,11 +11069,11 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "LargeFluidTank-14.9.7.jar"
+        "FileNameOnDisk": "LargeFluidTank-14.9.8.jar"
       },
       "dateInstalled": "2020-02-06T18:38:06.3961547Z",
-      "dateUpdated": "2020-05-22T18:04:01.8406395Z",
-      "dateLastUpdateAttempted": "2020-05-22T18:04:01.8406395Z",
+      "dateUpdated": "2020-05-29T17:50:46.3043817Z",
+      "dateLastUpdateAttempted": "2020-05-29T17:50:46.3043817Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -11889,26 +11889,26 @@
       "addonID": 313866,
       "gameInstanceID": "9a093851-92fe-4a7d-903a-646461c266d0",
       "installedFile": {
-        "id": 2952338,
-        "displayName": "engineersdecor-1.14.4-1.0.20-b7.jar",
-        "fileName": "engineersdecor-1.14.4-1.0.20-b7.jar",
-        "fileDate": "2020-05-09T13:29:28.933Z",
-        "fileLength": 1243700,
+        "id": 2968299,
+        "displayName": "engineersdecor-1.14.4-1.1.0-b1.jar",
+        "fileName": "engineersdecor-1.14.4-1.1.0-b1.jar",
+        "fileDate": "2020-05-29T18:12:49.713Z",
+        "fileLength": 1247081,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2952/338/engineersdecor-1.14.4-1.0.20-b7.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2968/299/engineersdecor-1.14.4-1.1.0-b1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 231951,
+            "addonId": 306770,
             "type": 2,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 306770,
+            "addonId": 231951,
             "type": 2,
             "fileId": 0
           }
@@ -11917,22 +11917,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 523654992,
+            "fingerprint": 285653315,
             "type": 0
           },
           {
             "foldername": "wile",
-            "fingerprint": 3899979670,
+            "fingerprint": 3693879711,
             "type": 0
           },
           {
             "foldername": ".gitversion-engineersdecor",
-            "fingerprint": 1002672995,
+            "fingerprint": 3769910188,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 118292438,
+            "fingerprint": 1677088219,
             "type": 0
           },
           {
@@ -11951,7 +11951,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1783488071,
+        "packageFingerprint": 179261238,
         "gameVersion": [
           "1.14.4"
         ],
@@ -11964,11 +11964,11 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "engineersdecor-1.14.4-1.0.20-b7.jar"
+        "FileNameOnDisk": "engineersdecor-1.14.4-1.1.0-b1.jar"
       },
       "dateInstalled": "2020-03-13T19:27:04.4890348Z",
-      "dateUpdated": "2020-05-09T17:57:06.9416304Z",
-      "dateLastUpdateAttempted": "2020-05-09T17:57:06.9416304Z",
+      "dateUpdated": "2020-05-31T09:15:43.9086559Z",
+      "dateLastUpdateAttempted": "2020-05-31T09:15:43.9086559Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -12379,14 +12379,14 @@
       "addonID": 239236,
       "gameInstanceID": "9a093851-92fe-4a7d-903a-646461c266d0",
       "installedFile": {
-        "id": 2952431,
-        "displayName": "StepUp-1.14.4-0.2.1.jar",
-        "fileName": "StepUp-1.14.4-0.2.1.jar",
-        "fileDate": "2020-05-09T15:43:52.4Z",
-        "fileLength": 61851,
+        "id": 2967284,
+        "displayName": "StepUp-1.14.4-0.2.2.jar",
+        "fileName": "StepUp-1.14.4-0.2.2.jar",
+        "fileDate": "2020-05-28T05:40:51.193Z",
+        "fileLength": 63784,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2952/431/StepUp-1.14.4-0.2.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2967/284/StepUp-1.14.4-0.2.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -12394,12 +12394,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3455521436,
+            "fingerprint": 2981776858,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 4083595343,
+            "fingerprint": 2385882659,
             "type": 0
           },
           {
@@ -12418,7 +12418,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1664024360,
+        "packageFingerprint": 4253440093,
         "gameVersion": [
           "1.14.4"
         ],
@@ -12431,11 +12431,11 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "StepUp-1.14.4-0.2.1.jar"
+        "FileNameOnDisk": "StepUp-1.14.4-0.2.2.jar"
       },
       "dateInstalled": "2020-04-09T18:02:57.8176305Z",
-      "dateUpdated": "2020-05-22T18:05:27.8137213Z",
-      "dateLastUpdateAttempted": "2020-05-22T18:05:27.8137213Z",
+      "dateUpdated": "2020-05-29T17:50:59.3672657Z",
+      "dateLastUpdateAttempted": "2020-05-29T17:50:59.3672657Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -12524,14 +12524,14 @@
       "addonID": 317780,
       "gameInstanceID": "9a093851-92fe-4a7d-903a-646461c266d0",
       "installedFile": {
-        "id": 2924386,
-        "displayName": "v1.5.7 for Minecraft 1.14.4",
-        "fileName": "XaerosWorldMap_1.5.7_Forge_1.14.4.jar",
-        "fileDate": "2020-04-08T15:31:59.357Z",
-        "fileLength": 255566,
+        "id": 2966730,
+        "displayName": "v1.6.1 for Minecraft 1.14.4",
+        "fileName": "XaerosWorldMap_1.6.1_Forge_1.14.4.jar",
+        "fileDate": "2020-05-27T12:49:18.243Z",
+        "fileLength": 283420,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2924/386/XaerosWorldMap_1.5.7_Forge_1.14.4.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2966/730/XaerosWorldMap_1.6.1_Forge_1.14.4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -12539,17 +12539,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 854086006,
+            "fingerprint": 1525492184,
             "type": 0
           },
           {
             "foldername": "xaero",
-            "fingerprint": 4157683646,
+            "fingerprint": 3635187775,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2920616082,
+            "fingerprint": 4027289622,
             "type": 0
           },
           {
@@ -12558,7 +12558,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3133903876,
+        "packageFingerprint": 2985501116,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -12572,12 +12572,12 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "XaerosWorldMap_1.5.7_Forge_1.14.4.jar"
+        "FileNameOnDisk": "XaerosWorldMap_1.6.1_Forge_1.14.4.jar"
       },
       "dateInstalled": "2020-02-06T18:38:06.3761544Z",
-      "dateUpdated": "2020-04-10T17:16:20.8248852Z",
-      "dateLastUpdateAttempted": "2020-04-10T17:16:20.8248852Z",
-      "status": 5,
+      "dateUpdated": "2020-05-29T17:51:06.6119535Z",
+      "dateLastUpdateAttempted": "2020-05-29T17:51:06.6119535Z",
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18717,6 +18717,86 @@
       "installedTargets": null
     },
     {
+      "addonID": 314093,
+      "gameInstanceID": "9a093851-92fe-4a7d-903a-646461c266d0",
+      "installedFile": {
+        "id": 2969306,
+        "displayName": "whoops-1.14.4-0.0.0.2.jar",
+        "fileName": "whoops-1.14.4-0.0.0.2.jar",
+        "fileDate": "2020-05-31T04:18:06.287Z",
+        "fileLength": 33612,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2969/306/whoops-1.14.4-0.0.0.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 225643,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3908901533,
+            "type": 0
+          },
+          {
+            "foldername": "noobanidus",
+            "fingerprint": 1844091784,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3500852102,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2621966847,
+            "type": 0
+          },
+          {
+            "foldername": "noobanids",
+            "fingerprint": 3858203059,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2055551277,
+        "gameVersion": [
+          "1.14.4",
+          "Forge"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-07-19T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "whoops-1.14.4-0.0.0.2.jar"
+      },
+      "dateInstalled": "2020-05-31T09:16:04.4645425Z",
+      "dateUpdated": "2020-05-31T09:16:04.5632769Z",
+      "dateLastUpdateAttempted": "2020-05-31T09:16:04.5632769Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 313536,
       "gameInstanceID": "9a093851-92fe-4a7d-903a-646461c266d0",
       "installedFile": {
@@ -19116,7 +19196,7 @@
       "dateInstalled": "2020-05-23T19:39:30.2844246Z",
       "dateUpdated": "2020-05-23T19:39:30.2909291Z",
       "dateLastUpdateAttempted": "2020-05-23T19:39:30.2909291Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19125,20 +19205,20 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 263420,
       "gameInstanceID": "9a093851-92fe-4a7d-903a-646461c266d0",
       "installedFile": {
-        "id": 2959688,
-        "displayName": "v20.11.0 for Minecraft 1.14.4",
-        "fileName": "Xaeros_Minimap_20.11.0_Forge_1.14.4.jar",
-        "fileDate": "2020-05-18T08:46:52.08Z",
-        "fileLength": 521876,
+        "id": 2966725,
+        "displayName": "v20.12.1 for Minecraft 1.14.4",
+        "fileName": "Xaeros_Minimap_20.12.1_Forge_1.14.4.jar",
+        "fileDate": "2020-05-27T12:46:11.503Z",
+        "fileLength": 522593,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2959/688/Xaeros_Minimap_20.11.0_Forge_1.14.4.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2966/725/Xaeros_Minimap_20.12.1_Forge_1.14.4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -19146,12 +19226,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1847003806,
+            "fingerprint": 1892803895,
             "type": 0
           },
           {
             "foldername": "xaero",
-            "fingerprint": 3510043628,
+            "fingerprint": 3808955575,
             "type": 0
           },
           {
@@ -19165,7 +19245,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2949890307,
+        "packageFingerprint": 2615652536,
         "gameVersion": [
           "1.14.4",
           "Forge"
@@ -19179,12 +19259,12 @@
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Xaeros_Minimap_20.11.0_Forge_1.14.4.jar"
+        "FileNameOnDisk": "Xaeros_Minimap_20.12.1_Forge_1.14.4.jar"
       },
       "dateInstalled": "2020-03-13T19:27:04.4930238Z",
-      "dateUpdated": "2020-05-22T18:06:44.6805318Z",
-      "dateLastUpdateAttempted": "2020-05-22T18:06:44.6805318Z",
-      "status": 5,
+      "dateUpdated": "2020-05-29T17:51:03.7413175Z",
+      "dateLastUpdateAttempted": "2020-05-29T17:51:03.7413175Z",
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
